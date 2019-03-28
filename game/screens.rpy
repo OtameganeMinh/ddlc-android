@@ -10,7 +10,7 @@ init -1 style default_monika is normal:
     slow_cps 30
 
 init -1 style edited is default:
-    font "gui/font/VerilySerifMono.otf"
+    font "gui/font/UVNThanhPho_R.ttf"
     kerning 8
     outlines [(10, "#000", 0, 0)]
     xpos gui.text_xpos
@@ -147,7 +147,7 @@ init -1 style frame:
 
 
 
-init -501 screen say(who, what):  # TO!DONE: screen_say!
+init -501 screen say(who, what):
     style_prefix "say"
 
     window:
@@ -163,8 +163,8 @@ init -501 screen say(who, what):  # TO!DONE: screen_say!
 
 
 
-    #if not renpy.variant("small"):
-    #    add SideImage() xalign 0.0 yalign 1.0
+    if not renpy.variant("small"):
+        add SideImage() xalign 0.0 yalign 1.0
 
     use quick_menu
 
@@ -178,7 +178,7 @@ init -1 style namebox is default
 init -1 style namebox_label is say_label
 
 
-init -1 style window:  # TO!DONE: или же здесь?
+init -1 style window:
     xalign 0.5
     xfill True
     yalign gui.textbox_yalign
@@ -207,7 +207,7 @@ init -1 style say_label:
     yalign 0.5
     outlines [(3, "#b59", 0, 0), (1, "#b59", 1, 1)]
 
-init -1 style say_dialogue:  # TO!DONE: фикс положения должен быть здесь?
+init -1 style say_dialogue:
     xpos gui.text_xpos
     xanchor gui.text_xalign
     xsize gui.text_width
@@ -375,16 +375,14 @@ init -501 screen quick_menu():
             yalign 0.995
 
 
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Load") action ShowMenu('load')
+            textbutton _("Lược sử") action ShowMenu('history')
+            textbutton _("Tua nhanh") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("Tự động") action Preference("auto-forward", "toggle")
+            textbutton _("Lưu lại") action ShowMenu('save')
+            textbutton _("Tiếp tục") action ShowMenu('load')
 
 
-            textbutton _("Settings") action ShowMenu('preferences')
-            if config.developer:
-                textbutton "Devtools" action ShowMenu('_developer')
+            textbutton _("Tùy chỉnh") action ShowMenu('preferences')
 
 
 
@@ -439,40 +437,40 @@ init -501 screen navigation():
                 if persistent.playthrough == 1:
                     textbutton _("ŔŗñĮ¼»ŧþŀÂŻŕěōì«") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
                 else:
-                    textbutton _("New Game") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Please enter your name", ok_action=Function(FinishEnterName)))
+                    textbutton _("Chơi mới") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Tên bạn là", ok_action=Function(FinishEnterName)))
 
             else:
 
-                textbutton _("History") action [ShowMenu("history"), SensitiveIf(renpy.get_screen("history") == None)]
+                textbutton _("Lược sử") action [ShowMenu("history"), SensitiveIf(renpy.get_screen("history") == None)]
 
-                textbutton _("Save Game") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
+                textbutton _("Lưu lại") action [ShowMenu("save"), SensitiveIf(renpy.get_screen("save") == None)]
 
-            textbutton _("Load Game") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
+            textbutton _("Tiếp tục") action [ShowMenu("load"), SensitiveIf(renpy.get_screen("load") == None)]
 
             if _in_replay:
 
-                textbutton _("End Replay") action EndReplay(confirm=True)
+                textbutton _("Thoát ra") action EndReplay(confirm=True)
 
             elif not main_menu:
                 if persistent.playthrough != 3:
-                    textbutton _("Main Menu") action MainMenu()
+                    textbutton _("Menu chính") action MainMenu()
                 else:
-                    textbutton _("Main Menu") action NullAction()
+                    textbutton _("Menu chinh") action NullAction()
 
-            textbutton _("Settings") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
+            textbutton _("Tùy chỉnh") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
 
-            #Added by AlexAzumi
+            #Added by Megane
             if persistent.playthrough > 0:
-                textbutton _("Characters") action [ShowMenu("characters"), SensitiveIf(renpy.get_screen("characters") == None)]
+                textbutton _("Nhân vật") action [ShowMenu("characters"), SensitiveIf(renpy.get_screen("characters") == None)]
 
 
             if renpy.variant("pc"):
 
 
-                textbutton _("Help") action [Help("README.html"), Show(screen="dialog", message="The help file has been opened in your browser.", ok_action=Hide("dialog"))]
+                textbutton _("Trợ giúp") action [Help("README.html"), Show(screen="dialog", message="Trợ giúp đã được mở trên trình duyệt của bạn.", ok_action=Hide("dialog"))]
 
 
-            textbutton _("Quit") action Quit(confirm=not main_menu)  # TO!DONE: now u can exit even on Android!
+                textbutton _("Thoát") action Quit(confirm=not main_menu)
         else:
             timer 1.75 action Start("autoload_yurikill")
 
@@ -658,7 +656,7 @@ init -501 screen game_menu(title, scroll=None):
     if not main_menu and persistent.playthrough == 2 and not persistent.menu_bg_m and renpy.random.randint(0, 49) == 0:
         on "show" action Show("game_menu_m")
 
-    textbutton _("Return"):
+    textbutton _("Quay lại"):
         style "return_button"
 
         action Return()
@@ -778,22 +776,22 @@ init -501 screen save() tag menu:
 
 
 
-    use file_slots(_("Save"))
+    use file_slots(_("Lưu lại"))
 
 
 init -501 screen load() tag menu:
 
 
 
-    use file_slots(_("Load"))
+    use file_slots(_("Tiếp tục"))
 
 init -1 python:
     def FileActionMod(name, page=None, **kwargs):
         if persistent.playthrough == 1 and not persistent.deleted_saves and renpy.current_screen().screen_name[0] == "load" and FileLoadable(name):
-            return Show(screen="dialog", message="File error: \"characters/sayori.chr\"\n\nThe file is missing or corrupt.",
-                ok_action=Show(screen="dialog", message="The save file is corrupt. Starting a new game.", ok_action=Function(renpy.full_restart, label="start")))
+            return Show(screen="dialog", message="Lỗi tập tin nhân vật: \"characters/sayori.chr\"n\nTập tin đã bị xóa hoặc hỏng.",
+                ok_action=Show(screen="dialog", message="Tiến trình được lưu đã bị hỏng. Game sẽ bắt đầu lại từ đầu.", ok_action=Function(renpy.full_restart, label="start")))
         elif persistent.playthrough == 3 and renpy.current_screen().screen_name[0] == "save":
-            return Show(screen="dialog", message="There's no point in saving anymore.\nDon't worry, I'm not going anywhere.", ok_action=Hide("dialog"))
+            return Show(screen="dialog", message="Lưu lại làm gì nữa.\nĐừng lo, em không đi đâu đâu mà.", ok_action=Hide("dialog"))
         else:
             return FileAction(name)
 
@@ -909,7 +907,7 @@ init -1 style slot_button_text:
     color "#666"
     outlines []
 
-#Added by AlexAzumi
+#Added by Megane
 init -501 screen characters() tag menu:
     use game_menu(_("Files"), scroll ="viewport"):
         vbox:
@@ -921,7 +919,7 @@ init -501 screen characters() tag menu:
                 xalign 1
                 yalign 1
                 vbox:
-                    label "Characters":
+                    label "Nhân vật":
                         xalign 0.5
                         text_size 50
                     null height 10
@@ -933,24 +931,24 @@ init -501 screen characters() tag menu:
                         yuri_flag = check_if_exist("yuri")
 
                     #Buttons cannot be pressed if the character does not exist
-                    textbutton "Restore all characters":
-                        action [Function(restore_all_characters), Show(screen="dialog", message="All characters have been restored", ok_action=Hide("dialog"))]
+                    textbutton "Khôi phục tất cả nhân vật":
+                        action [Function(restore_all_characters), Show(screen="dialog", message="Tất cả các nhân vật đã được khôi phục", ok_action=Hide("dialog"))]
                     null height 5
 
-                    textbutton "Delete Monika":
-                        action [Function(delete_character, "monika"), Show(screen="dialog", message="Monika has been deleted", ok_action=Hide("dialog")), SensitiveIf(monika_flag)]
+                    textbutton "Xóa Monika":
+                        action [Function(delete_character, "monika"), Show(screen="dialog", message="Đã xóa Monika", ok_action=Hide("dialog")), SensitiveIf(monika_flag)]
                     null height 5
 
-                    textbutton "Delete Natsuki":
-                        action [Function(delete_character, "natsuki"), Show(screen="dialog", message="Natsuki has been deleted", ok_action=Hide("dialog")), SensitiveIf(natsuki_flag)]
+                    textbutton "Xóa Natsuki":
+                        action [Function(delete_character, "natsuki"), Show(screen="dialog", message="Đã xóa Natsuki", ok_action=Hide("dialog")), SensitiveIf(natsuki_flag)]
                     null height 5
 
                     textbutton "Delete Sayori":
-                        action [Function(delete_character, "sayori"), Show(screen="dialog", message="Sayori has been deleted", ok_action=Hide("dialog")), SensitiveIf(sayori_flag)]
+                        action [Function(delete_character, "sayori"), Show(screen="dialog", message="Đã xóa Sayori", ok_action=Hide("dialog")), SensitiveIf(sayori_flag)]
                     null height 5
 
                     textbutton "Delete Yuri":
-                        action [Function(delete_character, "yuri"), Show(screen="dialog", message="Yuri has been deleted", ok_action=Hide("dialog")), SensitiveIf(yuri_flag)]
+                        action [Function(delete_character, "yuri"), Show(screen="dialog", message="Đã xóa Yuri", ok_action=Hide("dialog")), SensitiveIf(yuri_flag)]
 
 
 init -501 screen preferences() tag menu:
@@ -962,7 +960,7 @@ init -501 screen preferences() tag menu:
     else:
         $ cols = 4
 
-    use game_menu(_("Settings"), scroll="viewport"):
+    use game_menu(_("Tùy chỉnh"), scroll="viewport"):
 
         vbox:
             xoffset 50
@@ -974,26 +972,15 @@ init -501 screen preferences() tag menu:
 
                     vbox:
                         style_prefix "radio"
-                        label _("Display")
-                        textbutton _("Window") action Preference("display", "window")
-                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
-                if config.developer:
-                    vbox:
-                        style_prefix "radio"
-                        label _("Rollback Side")
-                        textbutton _("Disable") action Preference("rollback side", "disable")
-                        textbutton _("Left") action Preference("rollback side", "left")
-                        textbutton _("Right") action Preference("rollback side", "right")
+                        label _("Hiển thị")
+                        textbutton _("Cửa số") action Preference("display", "window")
+                        textbutton _("Toàn màn hình") action Preference("display", "fullscreen")
 
                 vbox:
                     style_prefix "check"
-                    label _("Skip")
-                    textbutton _("Unseen Text") action Preference("skip", "toggle")
-                    textbutton _("After Choices") action Preference("after choices", "toggle")
-
-
-
-
+                    label _("Tua")
+                    textbutton _("Dòng chưa đọc") action Preference("skip", "toggle")
+                    textbutton _("Sau mỗi lựa chọn") action Preference("after choices", "toggle")
 
             null height (4 * gui.pref_spacing)
 
@@ -1003,32 +990,32 @@ init -501 screen preferences() tag menu:
 
                 vbox:
 
-                    label _("Text Speed")
+                    label _("Tốc độ văn bản")
 
 
                     bar value FieldValue(_preferences, "text_cps", range=180, max_is_zero=False, style="slider", offset=20)
 
-                    label _("Auto-Forward Time")
+                    label _("Tốc độ tự động đọc")
 
                     bar value Preference("auto-forward time")
 
                 vbox:
 
                     if config.has_music:
-                        label _("Music Volume")
+                        label _("Âm lượng nhạc nền")
 
                         hbox:
                             bar value Preference("music volume")
 
                     if config.has_sound:
 
-                        label _("Sound Volume")
+                        label _("Âm lượng hiệu ứng")
 
                         hbox:
                             bar value Preference("sound volume")
 
                             if config.sample_sound:
-                                textbutton _("Test") action Play("sound", config.sample_sound)
+                                textbutton _("Thử") action Play("sound", config.sample_sound)
 
 
                     if config.has_voice:
@@ -1038,12 +1025,12 @@ init -501 screen preferences() tag menu:
                             bar value Preference("voice volume")
 
                             if config.sample_voice:
-                                textbutton _("Test") action Play("voice", config.sample_voice)
+                                textbutton _("Thử") action Play("voice", config.sample_voice)
 
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing
 
-                        textbutton _("Mute All"):
+                        textbutton _("Tắt tiếng"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
     text "v[config.version]":
@@ -1145,7 +1132,7 @@ init -501 screen history() tag menu:
 
     predict False
 
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport")):
+    use game_menu(_("Lược sử"), scroll=("vpgrid" if gui.history_height else "viewport")):
 
         style_prefix "history"
 
@@ -1170,7 +1157,7 @@ init -501 screen history() tag menu:
                 text h.what
 
         if not _history_list:
-            label _("The dialogue history is empty.")
+            label _("Lược sử hiện đang trống rỗng.")
 
 
 init -1 style history_window is empty

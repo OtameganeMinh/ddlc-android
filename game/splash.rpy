@@ -1,19 +1,29 @@
 init python:
     menu_trans_time = 1
-    splash_message_default = "This game is not suitable for children\nor those who are easily disturbed."
+    splash_message_default = "Trò chơi không phù hợp cho trẻ em hoặc người dễ bị sang chấn tâm lý."
     splash_messages = [
-    "You are my sunshine,\nMy only sunshine",
-    "I missed you.",
-    "Play with me",
-    "It's just a game, mostly.",
-    "This game is not suitable for children\nor those who are easily disturbed?",
+    
+    "Anh là tia nắng, tia nắng hi vọng cuộc đời em.",
+    
+    "Em nhớ anh.",
+    
+    "Hãy đến chơi cùng em",
+    
+    "Chỉ là một trò chơi RẤT BÌNH THƯỜNG THÔI.",
+    
+    "Trò chơi không phù hợp cho trẻ em hoặc người có tiền sử bệnh tâm lý ư?",
     "sdfasdklfgsdfgsgoinrfoenlvbd",
     "null",
-    "I have granted kids to hell",
-    "PM died for this.",
-    "It was only partially your fault.",
-    "This game is not suitable for children\nor those who are easily dismembered.",
-    "Don't forget to backup Monika's character file."
+    
+    "Em đã ban phước cho những đứa trẻ xuống địa ngục",
+    
+    "PM đã chết vì nó.",
+    
+    "Tất cả là lỗi của anh.",
+    
+    "Trò chơi không phù hợp cho trẻ em hoặc người dễ bị phân li thể xác.",
+    
+    "Đừng quên backup file nhân vật Monika nhé."
     ]
 
 image splash_warning = ParameterizedText(style="splash_text", xalign=0.5, yalign=0.5)
@@ -229,15 +239,18 @@ label splashscreen:
             $ quick_menu = False
             scene black
             menu:
-                "A previous save file has been found. Would you like to delete your save data and start over?"
-                "Yes, delete my existing data.":
-                    "Deleting save data...{nw}"
+                "Tìm thấy một file save cũ. Bạn có muốn xóa save và chơi lại từ đầu?"
+                "Có, xóa save hiện có.":
+
+
+
+                    "Đang xóa...{nw}"
                     python:
                         delete_all_saves()
                         renpy.loadsave.location.unlink_persistent()
                         renpy.persistent.should_save_persistent = False
                         renpy.utter_restart()
-                "No, continue where I left off.":
+                "Không, tiếp tục chơi.":
                     pass
 
         python:
@@ -258,11 +271,13 @@ label splashscreen:
         scene tos
         with Dissolve(1.0)
         pause 1.0
-        "This game is not suitable for children or those who are easily disturbed."
-        "Individuals suffering from anxiety or depression may not have a safe experience playing this game. For content warnings, please visit: http://ddlc.moe/warning.html"
+        "Trò chơi không phù hợp cho trẻ em hoặc người có tiền sử bệnh tâm lý."
+
+        "Những cá nhân bị ảnh hưởng bởi sự lo lắng, suy nhược tinh thần sẽ không có được trải nghiệm an toàn khi chơi. Thông tin chi tiết vui lòng truy cập: http://ddlc.moe/warning.html"
+        "Bản dịch Việt Hóa được thực hiện bởi Hoshi Visual Novel. Mọi thắc mắc hay thông tin đóng góp, các bạn vui lòng truy cập vào website: http://hoshivsub.blogspot.com/ hoặc fanpage: https://www.facebook.com/HoshiFansub/"
         menu:
-            "By playing Doki Doki Literature Club, you agree that you are at least 13 years of age, and you consent to your exposure of highly disturbing content."
-            "I agree.":
+            "Khi chơi Doki Doki Literature Club, bạn đồng ý rằng mình đã ít nhất đủ 13 tuổi trở lên, và bạn đồng ý với việc tiếp xúc với những nội dung có tính gây rối cao."
+            "Tôi đồng ý.":
                 pass
         $ persistent.first_run = True
         scene tos2
@@ -365,7 +380,7 @@ label splashscreen:
         show noise:
             alpha 0.1
         with Dissolve(1.0)
-        show expression Text("Now everyone can be happy.", style="sayori_text"):
+        show expression Text("Giờ mọi người có thể vui vẻ với nhau rồi.", style="sayori_text"):
             xalign 0.8
             yalign 0.5
             alpha 0.0
@@ -430,19 +445,19 @@ label after_load:
     elif anticheat != persistent.anticheat:
         stop music
         scene black
-        "The save file could not be loaded."
-        "Are you trying to cheat?"
+        "Không thể vào file save này."
+        "Định ăn gian hử?"
         $ m_name = "Monika"
         show monika 1 at t11
         if persistent.playername == "":
-            m "You're so funny."
+            m "Cậu vui tính thật đấy."
         else:
-            m "You're so funny, [persistent.playername]."
+            m "Cậu vui tính thật đấy, [persistent.playername]."
         $ renpy.utter_restart()
     else:
         if persistent.playthrough == 0 and not persistent.first_load and not config.developer:
             $ persistent.first_load = True
-            call screen dialog("Hint: You can use the \"Skip\" button to\nfast-forward through text you've already read.", ok_action=Return())
+            call screen dialog("Gợi ý: Bạn có thể sử dụng nút \"Skip\" để bỏ qua những đoạn mà mình đã đọc.", ok_action=Return())
     return
 
 
@@ -510,8 +525,8 @@ label quit:
 
 label readonly:  # TO!DONE: find usages!
     scene black
-    "Fuck, please contact saber-nyan!"
-    "https://github.com/saber-nyan"
+    "Không thể chạy trò chơi vì thư mục chứa game hiện đang để thuộc tính chỉ đọc."
+    "Sao chép DDLC ra desktop hoặc vị trí thích hợp khác và thử lại."
     $ renpy.quit()
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

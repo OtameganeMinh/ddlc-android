@@ -30,7 +30,7 @@ init 9000 python:
 
 
 
-define config.name = "Doki Doki Literature Club!"
+define config.name = "Câu lạc bộ văn học vui nhộn! - Việt Hóa bởi Hoshi"
 
 
 
@@ -41,7 +41,7 @@ define gui.show_name = False
 
 
 
-define config.version = "1.1.0"
+define config.version = "1.1.1"
 
 
 
@@ -58,7 +58,7 @@ define build.name = "DDLC"
 
 
 
-
+define config.language = "vietnamese"
 
 
 define config.has_sound = True
@@ -170,7 +170,7 @@ define config.window_icon = "gui/window_icon.png"
 
 define config.allow_skipping = True
 
-define config.autosave_slots = 8
+define config.autosave_slots = 0
 define config.layers = [ 'master', 'transient', 'screens', 'overlay', 'front' ]
 define config.image_cache_size = 64
 define config.predict_statements = 50
