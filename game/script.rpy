@@ -14,9 +14,9 @@ label start:
 
 
     $ s_name = "???"
-    $ m_name = "Girl 3"
-    $ n_name = "Girl 2"
-    $ y_name = "Girl 1"
+    $ m_name = "Bạn nữ 3"
+    $ n_name = "Bạn nữ 2"
+    $ y_name = "Bạn nữ 1"
 
     $ quick_menu = True
     $ style.say_dialogue = style.normal
