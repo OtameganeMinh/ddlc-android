@@ -5,6 +5,13 @@ label ch0_main:
     play music t2
 
     python:
+        if persistent.playthrough == 0:
+            if persistent.sayori is not None and persistent.sayori == "deleted":
+                renpy.jump("char_kill")
+            if persistent.yuri is not None and persistent.yuri == "deleted":
+                renpy.jump("char_kill")
+            if persistent.yuri is not None and persistent.yuri == "deleted":
+                renpy.jump("char_kill")
         if persistent.monika is None or persistent.monika == "restored":
             pass
         else:
@@ -926,6 +933,68 @@ label ch0_main:
     "Tất cả sẽ bắt đầu bằng bài thơ tối nay..."
 
     return
+
+label char_kill:
+        show black
+        play music "bgm/s_kill_early.ogg"
+        pause 1.0
+        show end with dissolve_cg
+        pause 3.0
+        scene white
+        show expression "images/cg/s_kill_early.png":
+            yalign -0.05
+            xalign 0.25
+            dizzy(1.0, 4.0, subpixel=False)
+        show white as w2:
+            choice:
+                ease 0.25 alpha 0.1
+            choice:
+                ease 0.25 alpha 0.125
+            choice:
+                ease 0.25 alpha 0.15
+            choice:
+                ease 0.25 alpha 0.175
+            choice:
+                ease 0.25 alpha 0.2
+            choice:
+                ease 0.25 alpha 0.225
+            choice:
+                ease 0.25 alpha 0.25
+            choice:
+                ease 0.25 alpha 0.275
+            choice:
+                ease 0.25 alpha 0.3
+            pass
+            choice:
+                pass
+            choice:
+                0.25
+            choice:
+                0.5
+            choice:
+                0.75
+            repeat
+        show noise:
+            alpha 0.1
+        with Dissolve(1.0)
+        show expression Text("Giờ mọi người có thể vui vẻ với nhau rồi.", style="sayori_text"):
+            xalign 0.8
+            yalign 0.5
+            alpha 0.0
+            600
+            linear 60 alpha 0.5
+        menu:
+            "Khôi phục lại toàn bộ nhân vật chứ?"
+            "Tất nhiên":
+                python:
+                    for char in ("monika", "natsuki", "yuri", "sayori"):
+                        restore_character(char)
+                    renpy.save_persistent()
+                "Khôi phục nhân vật thành công. Hãy khởi động lại game."
+                $ renpy.quit()
+            "Bỏ qua":
+                $ renpy.quit()
+return
 
 label ch0_kill:
     $ s_name = "Sayori"

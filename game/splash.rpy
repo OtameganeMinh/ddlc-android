@@ -336,7 +336,6 @@ label splashscreen:
         $ config.allow_skipping = True
         return
 
-
     if s_kill_early:
         show black
         play music "bgm/s_kill_early.ogg"
@@ -386,8 +385,17 @@ label splashscreen:
             alpha 0.0
             600
             linear 60 alpha 0.5
-        pause
-        $ renpy.quit()
+        menu:
+            "Khôi phục lại toàn bộ nhân vật chứ?"
+            "Tất nhiên":
+                python:
+                    for char in ("monika", "natsuki", "yuri", "sayori"):
+                        restore_character(char)
+                    renpy.save_persistent()
+                "Khôi phục nhân vật thành công. Hãy khởi động lại game."
+                $ renpy.quit()
+            "Bỏ qua":
+                $ renpy.quit()
 
 
     show white
