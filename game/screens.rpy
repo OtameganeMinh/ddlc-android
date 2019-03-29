@@ -460,7 +460,7 @@ init -501 screen navigation():
             textbutton _("Tùy chỉnh") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
 
             #Added by Megane
-            if persistent.playthrough > 0:
+            if persistent.playthrough >= 0:
                 textbutton _("Nhân vật") action [ShowMenu("characters"), SensitiveIf(renpy.get_screen("characters") == None)]
 
 
@@ -943,11 +943,11 @@ init -501 screen characters() tag menu:
                         action [Function(delete_character, "natsuki"), Show(screen="dialog", message="Đã xóa Natsuki", ok_action=Hide("dialog")), SensitiveIf(natsuki_flag)]
                     null height 5
 
-                    textbutton "Delete Sayori":
+                    textbutton "Xóa Sayori":
                         action [Function(delete_character, "sayori"), Show(screen="dialog", message="Đã xóa Sayori", ok_action=Hide("dialog")), SensitiveIf(sayori_flag)]
                     null height 5
 
-                    textbutton "Delete Yuri":
+                    textbutton "Xóa Yuri":
                         action [Function(delete_character, "yuri"), Show(screen="dialog", message="Đã xóa Yuri", ok_action=Hide("dialog")), SensitiveIf(yuri_flag)]
 
 
