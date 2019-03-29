@@ -10,7 +10,7 @@ label ch0_main:
                 renpy.jump("char_kill")
             if persistent.yuri is not None and persistent.yuri == "deleted":
                 renpy.jump("char_kill")
-            if persistent.yuri is not None and persistent.yuri == "deleted":
+            if persistent.natsuki is not None and persistent.natsuki == "deleted":
                 renpy.jump("char_kill")
         if persistent.monika is None or persistent.monika == "restored":
             pass
