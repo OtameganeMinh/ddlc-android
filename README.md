@@ -1,22 +1,5 @@
-# <p align="center">Doki Doki Literature Club! for Android</p>
+# <p align="center">Doki Doki Literature Club! Việt Hóa Android</p>
 
-### [EN | [RU](README_RU.md)]
-[![Latest release](https://github-release-version.herokuapp.com/github/saber-nyan/ddlc-android/release.svg?style=flat)](https://github.com/saber-nyan/ddlc-android/releases/latest) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-desu~-1EAEDB.svg)](https://saythanks.io/to/saber-nyan)<br/>
-![Screenshot](https://i.imgur.com/yxQ2oNV.jpg)
-**ATTENTION: This repo can contain spoilers! Even in file names!**
-
-You can download .APK [here](https://github.com/saber-nyan/ddlc-android/releases/latest).
-
-**Before creating Issue, read the [FAQ](https://github.com/saber-nyan/ddlc-android/wiki/FAQ-EN)!**
-
-My attempts to port "[Doki Doki Literature Club!](https://vndb.org/v21905)" to Android.
-
-**[Ветка](https://github.com/saber-nyan/ddlc-android/tree/ru-translation) готовящегося порта русификатора от [SUN-TEAM](https://vk.com/wall-101862768_5388)!**
-
-The license of the original game is not specified, but developer [is against](http://teamsalvato.com/ip-guidelines/)
-(see 'Fan Games' section) porting the game to other platforms.
-
-*Thanks, [Ren`Py](https://github.com/renpy/renpy), [unrpa](https://github.com/Lattyware/unrpa), [unrpyc](https://github.com/CensoredUsername/unrpyc)!*
 ## TODO
 - [x] Extract, decompile
 - [x] Fix poem game
