@@ -85,136 +85,246 @@ label ch5_main:
     scene bg residential_day
     with dissolve_scene_full
 
-    "It's the day of the festival."
-    "Of all days, I expected this to be the one where I'd be walking to school with Sayori."
-    "But Sayori isn't answering her phone."
-    "I considered going to her house to wake her up, but decided that's a little too much."
-    "Meanwhile, the preparations for the event should be nearly complete."
+
+    "Cuối cùng cũng đã đến ngày tổ chức lễ hội."
+
+    "Tôi đã định đi bộ đến trường cùng Sayori như mọi ngày."
+
+    "Nhưng Sayori không trả lời cuộc gọi của tôi."
+
+    "Tôi tính là qua để đánh thức cậu ấy dậy, nhưng sau lại nghĩ rằng làm thế hơi quá đáng."
+
+    "Hơn nữa tôi còn bận việc chuẩn bị cho lễ hội."
     if ch4_scene == "natsuki":
-        "I managed to carry all the cupcakes myself by carefully stacking two trays."
-        "Natsuki is already texting up a storm, but I can't respond, thanks to my hands being full."
+
+        "Tôi đã cẩn thận xếp chồng hai khay bánh lên nhau để mang được tất cả đi cùng lúc."
+
+        "Natsuki liên tục nhắn tin cho tôi rồi, nhưng tôi đâu còn cánh tay nào để mà nhắn tin trả lời."
     else:
-        "The banner Yuri and I painted is dry, and I gently rolled it up to take with me."
-        "She sent me a pleasant text reminding me not to forget anything, and I reassured her."
-    "Funnily enough, I probably feel the same way as Natsuki about the event."
-    "I'm more excited for it to be over so I can spend time with Sayori and [ch4_name] at the festival."
-    "But knowing Monika, I'm sure the event will be great, too."
+
+        "Tấm biểu ngữ Yuri và tôi vẽ đã khô, tôi nhẹ nhàng cuốn nó lại để đem theo bên mình."
+
+        "Cậu ấy chỉ nhắn cho tôi một tin nhẹ nhàng nhắc nhở tôi đừng quên, tôi cũng nhắn lại để cậu ấy yên tâm."
+
+    "Thật buồn cười là bây giờ tôi lại có cảm giác giống như Natsuki."
+
+    "Tôi mong sự kiện kết thúc thật nhanh để tôi có thể dành thời gian với Sayori và [ch4_name] tại lễ hội."
+
+    "Nhưng tôi cũng hiểu năng lực của Monika như nào, chắc chắn sự kiện ngâm thơ cũng sẽ rất tuyệt vời."
 
     scene bg club_day with wipeleft_scene
     show monika 5 zorder 2 at t11
+
     m "[player]!"
-    m "You're the first one here."
-    m "Thanks for being early!"
-    mc "That's funny, I thought at least Yuri would be here by now."
-    "Monika is placing little booklets on each of the desks in the classroom."
-    "They must be the ones she prepared that has all the poems we're performing."
-    "In the end, I found a random poem online that I thought Monika would like, and submitted it."
-    "So, that's the one I'll be performing."
-    m 1d "I'm surprised you didn't bring Sayori with you."
-    mc "Yeah, she overslept again..."
-    mc "That dummy."
-    mc "You'd think that on days this important, she'd try a little harder..."
-    "I say that, but I suddenly remember what Sayori told me yesterday..."
-    "And I suddenly feel awful, knowing it's not nearly that simple for her."
-    "I only said it because it's the way I'm used to thinking."
-    "But..."
-    "Maybe I should have gone to wake her up after all?"
+
+    m "Cậu là người đầu tiên đến đó."
+
+    m "Cậu hăng hái thế thì tốt thật!"
+
+    mc "Lạ nhỉ, mình cứ nghĩ Yuri mới là người đầu tiên đến cơ."
+
+    "Monika đang xếp mấy cuốn sách nhỏ trên mỗi bàn trong phòng học."
+
+    "Chúng chắc hẳn là những tập thơ mà cậu ấy đã chuẩn bị cho bọn tôi."
+
+    "Bài thơ mà tôi nộp cho Monika để cậu ấy cho vào tập thực ra chỉ là bài tôi lấy bừa trên mạng."
+
+    "Hôm nay tôi sẽ phải đọc bài thơ đó."
+
+    m 1d "Mình hơi bất ngờ vì cậu không đi cùng Sayori đấy."
+
+    mc "Ừ, chắc cậu ta lại ngủ nướng nữa rồi..."
+
+    mc "Nhỏ ngốc đó."
+
+    mc "Hôm nay là ngày quan trọng cơ mà, cậu ấy phải cố gắng hơn chứ..."
+
+    "Mồm nói thế, nhưng tôi lại chợt nhớ ra những gì Sayori đã nói hôm qua..."
+
+    "Tự dưng tôi cảm thấy bản thân thật tệ khi nhớ ra rằng việc đến trường không hề đơn giản đối với Sayori."
+
+    "Tôi lỡ mồm nói thế vì đó là kiểu suy nghĩ của tôi về Sayori từ suốt bao lâu nay."
+
+    "Nhưng mà..."
+
+    "Có lẽ tôi vẫn nên qua đánh thức cậu ấy dậy mới phải?"
+
     m 1k "Ahaha."
-    m 4b "You should take a little responsibility for her, [player]!"
-    m "I mean, especially after your exchange with her yesterday..."
-    m "You kind of left her hanging this morning, you know?"
+
+    m 4b "Cậu phải có tí trách nhiệm với cậu ta đi chứ, [player]!"
+
+    m "Nhất là sau cái vụ hai cậu làm hôm qua..."
+
+    m "Tinh thần cậu ấy đang bất ổn lắm, như đang treo lơ lửng không biết tựa vào đâu vậy."
     show monika 4a
-    mc "Exchange...?"
-    mc "Monika-- You know about that??"
-    m 2a "Of course I do."
-    m "I'm the club president, after all."
-    mc "But--!"
-    "I stammer, embarrassed."
-    "Did Sayori really tell her about it that quickly?"
+
+    mc "Vụ hôm qua....?"
+
+    mc "Monika-- Cậu biết chuyện đó à??"
+
+    m 2a "Tất nhiên rồi."
+
+    m "Dù gì thì mình cũng là hội trưởng mà."
+
+    mc "Nhưng--!"
+
+    "Tôi nói lắp bắp, tỏ vẻ ngượng ngùng."
+
+    "Sayori đã kể lại cho cậu ấy nghe về chuyện đó nhanh thế à?"
     if sayori_confess:
-        "That we're...a couple now?"
-        "I didn't really plan on bringing it up with anyone yet..."
+
+        "Về chuyện...chúng tôi đã trở thành một cặp."
+
+        "Tôi thì vẫn chưa hề có ý định kể cho ai biết hết..."
     else:
-        "About how I basically turned down her confession?"
-        "That makes me really seem like the bad guy here..."
-        "But I'm the one who knows what's best for her, right?"
-    mc "Jeez..."
-    mc "You don't know the full story at all, so..."
-    m 2j "Don't worry."
-    m "I probably know a lot more than you think."
-    mc "Eh...?"
-    "Monika is being as friendly as usual, but for some reason I felt a chill down my spine after hearing that."
-    m 5 "Hey, do you want to check out the pamphlets?"
-    m "They came out really nice!"
-    mc "Yeah, sure."
-    "I grab one of the pamphlets laid out on the desks."
-    mc "Oh yeah, they really did."
-    mc "Something like this will definitely help people take the club more seriously."
-    m "Yeah, I thought so too!"
+
+        "Về chuyện...tôi đã từ chối lời tỏ tình của cậu ấy."
+
+        "Chuyện này...Monika nói nghe như thể tôi là kẻ xấu vậy..."
+
+        "Nhưng chắc tôi vẫn là người bạn thân nhất của Sayori nhỉ?"
+
+    mc "Trời ạ..."
+
+    mc "Cậu không biết rõ được đầu đuôi câu chuyện đâu, thế nên là..."
+
+    m 2j "Cậu khỏi phải lo chuyện đó."
+
+    m "Những gì mình biết còn nhiều hơn cậu nghĩ đấy."
+
+    mc "Hả...?"
+
+    "Monika vẫn tỏ ra thân thiện như mọi khi, nhưng không hiểu sao tôi lại cảm thấy lạnh sống lưng sau khi nghe cậu ấy nói."
+
+    m 5 "À này, cậu có muốn xem qua đống tờ rời không?"
+
+    m "Mình nghĩ là chúng khá ổn!"
+
+    mc "Ừ, chuyện đấy thì hiển nhiên rồi."
+
+    "Tôi nhặt lấy một tờ nằm trên bàn."
+
+    mc "À ờ thì, đúng là thế thật."
+
+    mc "Nó nhất định sẽ giúp câu lạc bộ của chúng ta được đánh giá nghiêm túc hơn."
+
+    m "Ừ, mình cũng nghĩ giống cậu!"
     show monika zorder 1 at thide
     hide monika
-    "I flip through the pages."
-    "Each member's poem is neatly printed on its own page, giving it an almost professional feel."
-    "I recognize Natsuki's and Yuri's poems from the ones they performed during our practice."
-    mc "What's this...?"
-    "I flip to Sayori's poem."
-    "It's different from the one she practiced."
-    "It's one that I haven't read before..."
+
+    "Tôi lật sang trang khác."
+
+    "Bài thơ của mỗi thành viên được in một cách cẩn thận trên từng trang giấy nhìn chung trông khá chuyên nghiệp."
+
+    "Tôi nhận ra bài thơ của Natsuki và Yuri vì tôi đã được nghe họ tập đọc."
+
+    mc "Cái gì đây...?"
+
+    "Tôi nhìn chỗ in bài thơ của Sayori."
+
+    "Bài này khác hẳn với bài lúc cậu ấy tập đọc."
+
+    "Tôi chưa hề đọc bài thơ này bao giờ..."
     call showpoem (poem_s3, music=False)
+
     mc "Ah--"
-    "What is this...?"
-    "Reading the poem, I get a pit in my stomach."
+
+    "Cái quái gì thế này...?"
+
+    "Khi đọc bài thơ, tôi cảm thấy chột dạ."
     show monika 1d zorder 2 at t11
+
     m "[player]?"
-    m "What's wrong?"
-    mc "Ah, nothing..."
-    "This poem feels completely different from everything else Sayori's written."
-    "But more than that..."
-    mc "I-I changed my mind!"
-    mc "I'm going to go get Sayori, so..."
+
+    m "Có chuyện gì à?"
+
+    mc "À, không gì đâu..."
+
+    "Bài thơ này trái ngược hoàn toàn với những gì Sayori từng viết."
+
+    "Nhưng mà việc quan trọng bây giờ là..."
+
+    mc "M-Mình đổi ý rồi!"
+
+    mc "Mình sẽ đi đón Sayori, thế nhé..."
+
     m "Ah--"
-    m 1b "Well, alright!"
-    m "Try not to take too long, okay?"
+
+    m 1b "Ừ thì, được thôi!"
+
+    m "Đừng có đi lâu quá đấy nhé."
     scene bg corridor with wipeleft
-    "I quickly leave the classroom."
-    m "Don't strain yourself~"
-    "Monika calls that out after me."
-    "I quicken my pace."
+
+    "Tôi nhanh chóng rời khỏi phòng học."
+
+    m "Cậu cứ đi cẩn thận, không cần phải vội thế đâu~"
+
+    "Monika gọi với theo tôi."
+
+    "Tôi vẫn tiếp tục tăng tốc."
 
     scene bg residential_day with wipeleft_scene
-    "What was I thinking?"
-    "I should have tried a little bit harder for Sayori."
-    "It's not a big deal to at least wait for her, or help her wake up."
-    "Even the simple gesture of walking her to school makes her really happy."
-    "Besides..."
-    "I told her yesterday that things will be the same as they always have been."
-    "That's all she needs, and what I want to give her."
+
+    "Tôi đã nghĩ cái gì vậy?"
+
+    "Lẽ ra tôi phải cố gắng hơn vì Sayori."
+
+    "Gọi cậu ấy dậy hay là đợi cậu ấy để cùng đi đến trường có phải việc gì to tát đâu kia chứ."
+
+    "Một việc đơn giản như thế có thể sẽ làm cậu ấy hạnh phúc mà."
+
+    "Hơn nữa..."
+
+    "Rõ ràng hôm qua tôi đã đảm bảo với cậu ấy rằng mọi chuyện vẫn sẽ như mọi ngày."
+
+    "Lẽ ra tôi phải giữ lời hứa, cho cậu ấy thứ cậu ấy cần."
 
     scene bg house with wipeleft
-    "I reach Sayori's house and knock on the door."
-    "I don't expect an answer, since she's not picking up her phone, either."
-    "Like yesterday, I open the door and let myself in."
-    scene black with wipeleft
-    mc "Sayori?"
-    "She really is a heavy sleeper..."
-    "I swallow."
-    "I can't believe I ended up doing this after all."
-    "Waking her up in her own house..."
-    if sayori_confess:
-        "That really is something that a boyfriend would do, isn't it?"
-    else:
-        "Isn't that more like something a boyfriend would do?"
-    "In any case..."
-    "It just feels right."
 
-    "Outside Sayori's room, I knock on her door."
+    "Tôi đến trước nhà Sayori và gõ cửa."
+
+    "Chẳng có tiếng trả lời, điện thoại cũng không bắt máy."
+
+    "Như hôm qua, tôi lại tự mở cửa và đi vào nhà."
+    scene black with wipeleft
+
     mc "Sayori?"
-    mc "Wake up, dummy..."
-    "There's no response."
-    "I really didn't want to have to enter her room like this..."
-    "Isn't it kind of a breach of privacy?"
-    "But she really leaves me no choice."
-    "I gently open the door."
+
+    "Ngủ nướng đến tận giờ được à..."
+
+    "Tôi nuốt nước bọt."
+
+    "Không thể tin được là cuối cùng mình lại phải làm thế này.."
+
+    "Vào hẳn nhà Sayori để đánh thức cậu ấy..."
+    if sayori_confess:
+
+        "Chắc đây là việc mà một người bạn trai phải làm nhỉ?"
+    else:
+
+        "Tôi đâu phải bạn trai cậu ấy đâu mà phải làm việc này chứ?"
+
+    "Dù sao đi nữa thì..."
+
+    "Chắc chẳng có vấn đề gì đâu."
+
+
+    "Tôi gõ cửa phòng Sayori.."
+
+    mc "Sayori?"
+
+    mc "Dậy đi chứ, cái đồ ngốc này..."
+
+    "Vẫn không có phản hồi nào."
+
+    "Tôi không thích tự ý vào phòng cậu ấy..."
+
+    "Như thế là xâm phạm quyền riêng tư rồi còn gì?"
+
+    "Nhưng tôi không còn lựa chọn nào khác cả."
+
+    "Tôi mở cánh cửa phòng thật khẽ."
+
     mc "{cps=30}.......Sayo--{/cps}{nw}"
     $ persistent.playthrough = 1
     $ persistent.anticheat = renpy.random.randint(100000, 999999)
@@ -294,68 +404,122 @@ label ch5_main:
     pause 6.0
 
 
+
     "..."
     hide fake_exception
     hide fake_exception2
     hide exception_bg
-    "What the hell...?"
-    "{i}What the hell??{/i}"
-    "Is this a nightmare?"
-    "It...has to be."
-    "This isn't real."
-    "There's no way this can be real."
-    "Sayori wouldn't do this."
-    "Everything was normal up until a few days ago."
-    "That's why I can't believe what my eyes are showing me...!"
+
+    "Cái quái gì...?"
+
+    "{i}Cái quái gì thế này hả trời??{/i}"
+
+    "Đây là một cơn ác mộng có phải không?"
+
+    "Chắc chắn...là thế rồi."
+
+    "Đây không thể nào là sự thật được."
+
+    "Không đời nào chuyện này là sự thật được."
+
+    "Sayori thật sẽ không bao giờ làm vậy."
+
+    "Vài ngày trước mọi thứ vẫn bình thường cơ mà."
+
+    "Cảnh tượng trước mắt tôi thực sự quá phi lý, tôi không thể tin được...!"
     scene black with dissolve_cg
-    "I suppress the urge to vomit."
-    "Just yesterday..."
-    "I told Sayori I would be there for her."
-    "I told her I know what's best, and that everything will be okay."
-    "Then why...?"
-    "Why would she do this...?"
-    "How could I be so helpless?"
-    "What did I do wrong?"
+
+    "Tôi cố kìm nén để không nôn ra."
+
+    "Chỉ mới hôm qua..."
+
+    "Tôi đã bảo Sayori rằng tôi sẽ luôn ở bên cạnh cậu ấy."
+
+    "Tôi đã bảo rằng tôi biết điều gì là tốt nhất cho Sayori, và rằng mọi chuyện sẽ ổn thôi."
+
+    "Thế thì tại sao...?"
+
+    "Lý do gì mà cậu ấy phải làm thế này...?"
+
+    "Sao tôi lại cảm thấy bất lực thế này?"
+
+    "Tôi đã làm cái gì sai?"
     if sayori_confess:
-        "Confessing to her..."
-        "I shouldn't have confessed to her."
-        "That's not what Sayori needed at all."
-        "She even told me how painful it is for others to care about her."
-        "Then why did I confess to her, and make her feel even worse?"
+
+        "Tỏ tình với cậu ấy...."
+
+        "Lẽ ra tôi không được phép tỏ tình với cậu ấy."
+
+        "Tôi cứ tưởng làm thế sẽ giúp được Sayori."
+
+        "Nhưng rõ ràng là Sayori đã bảo rằng cậu ấy cảm thấy đau đớn khi có người quan tâm tới."
+
+        "Vậy thì tại sao tôi lại vẫn đi tỏ tình với cậu ấy, khiến cho mọi việc càng tệ thêm?"
     else:
-        "Turning down her confession..."
-        "That has to have been what pushed her over the edge."
-        "Her agonized scream still echoes in my ears."
-        "Why did I do that to her when she needed me the most?"
-    "Why was I so selfish?"
-    "This is my fault--!"
-    "My swarming thoughts keep telling me everything I could have done to prevent this."
-    "If I just spent more time with her."
-    "Walked her to school."
+
+        "Từ chối lời tỏ tình của cậu ấy..."
+
+        "Chắc hẳn đó là giọt nước tràn ly."
+
+        "Tiếng la chất chứa đầy nỗi thống khổ của cậu ấy vẫn còn vang vọng bên tai tôi."
+
+        "Tại sao tôi lại từ chối cậu ấy trong thời khắc cậu ấy cần tôi nhất?"
+
+    "Sao tôi lại ích kỷ đến thế?"
+
+    "Đây tất cả là lỗi tại tôi--!"
+
+    "Những ân hận liên tục chạy qua đầu tôi để tôi tiếp tục dằn vặt, hành hạ bản thân mình hơn nữa."
+
+    "Nếu tôi dành thêm thời gian với cậu ấy."
+
+    "Đi cùng cậu ấy đến trường."
     if sayori_confess:
-        "And remained friends with her, like it always has been..."
+
+        "Và vẫn làm bạn với cậu ấy, giữ nguyên mọi thứ như trước đây..."
     else:
-        "And gave her what I know she wanted out of our relationship..."
-    "...Then I could have prevented this."
-    "I know I could have prevented this!"
-    "Screw the Literature Club."
-    "Screw the festival."
-    "I just...lost my best friend."
-    "Someone I grew up with."
-    "She's gone forever now."
-    "Nothing I do can bring her back."
-    "This isn't some game where I can reset and try something different."
-    "I had only one chance, and I wasn't careful enough."
-    "And now I'll carry this guilt with me until I die."
-    "Nothing in my life is worth more than hers..."
-    "But I still couldn't do what she needed from me."
-    "And now..."
-    "I can never take it back."
-    "Never."
-    "Never."
-    "Never."
-    "Never."
-    "Never..."
+
+        "Và dành cho cậu ấy tình cảm nhiều hơn nữa, hơn cả tình bạn..."
+
+    "...Thì chuyện này đã không xảy ra."
+
+    "Rõ ràng tôi có thể ngăn được chuyện này mà!"
+
+    "Quỷ tha ma bắt cái Câu lạc bộ Văn Học."
+
+    "Đéo có hội hè gì hết."
+
+    "Tôi vừa...mất đi người bạn thân nhất."
+
+    "Chúng tôi đã lớn lên cạnh nhau."
+
+    "Giờ cậu ấy đã đã vĩnh viễn ra đi rồi."
+
+    "Tôi chẳng thể làm gì để mang cậu ấy trở về được cả."
+
+    "Đây có phải trò chơi điện tử đâu để mà tôi có thể chơi lại từ đầu."
+
+    "Tôi chỉ có duy nhất một cơ hội mà tôi lại làm hỏng rồi."
+
+    "Và những ân hận đắng cay này sẽ đeo bám tôi cho tới tận lúc chết đi."
+
+    "Không gì trong cái cuộc đời thảm hại của tôi có thể sánh với cậu ấy..."
+
+    "Ấy thế mà tôi lại để cho cậu ấy chết trong đơn độc."
+
+    "Kết thúc rồi..."
+
+    "Tôi không bao giờ còn có thể nhìn thấy nụ cười ấy nữa."
+
+    "Không bao giờ."
+
+    "Không bao giờ."
+
+    "Không bao giờ."
+
+    "Không bao giờ."
+
+    "Không bao giờ..."
     $ in_sayori_kill = False
 
 

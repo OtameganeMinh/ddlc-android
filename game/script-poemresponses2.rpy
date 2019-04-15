@@ -3,35 +3,35 @@ label ch21_y_end:
 
 label ch22_y_end:
     stop music fadeout 2.0
-    call showpoem (poem_y22, music=False, paper="images/bg/poem_y1.jpg", img="yuri 2s")
+    call showpoem (poem_y22, music=False, paper="images/bg/poem_y1.jpg", img="yuri 2s") from _call_showpoem_1
     y 2q "Ahaha..."
-    y "It doesn't really matter what it's about."
-    y "My mind has been a little hyperactive lately, so I had to take it out on your pen."
-    y 2o "Ah--"
-    y 2q "That is...a-a pen fell out of your backpack yesterday, so I took it home for safekeeping and..."
-    y "I, um..."
-    y 2y6 "I just...really like...the way...that it writes."
-    y "So I wrote this...poem...with it."
-    y "And now you're touching it..."
+    y "Ý nghĩa của bài thơ này là gì thì cũng đâu có quan trọng."
+    y "Nó khó hiểu thế này là do gần đây đầu óc mình có hơi bị tăng động ấy mà, thậm chí mình còn phải dùng đến bút của cậu để 'giải toả'."
+    y 2o "Ấy chết--"
+    y 2q "Cây bút...là-là cậu làm rơi hôm qua, mình tính sẽ đem trả cậu nhưng, ư..."
+    y "Mình, ờm..."
+    y 2y6 "Mình chỉ là...do rất thích...nét viết...của nó."
+    y "Thế nên mình đã viết...bài thơ này...bằng cây bút mà mình đã dùng để..."
+    y "Và bây giờ thì cậu đang chạm vào nó..."
     y 2y5 "Ahaha."
-    y 3p "I-I'm okay!!"
-    y 3o "What did I just..."
+    y 3p "K-Không phải mình có vấn đề gì đâu!!"
+    y 3o "Mình vừa mới nói ra..."
     y "..."
-    y 4c "...Can we pretend this conversation never happened?"
-    y "You can keep the poem, though..."
+    y 4c "...Hãy coi như từ nãy đến giờ chúng ta chưa có nói gì với nhau hết nhé?"
+    y "Bài thơ thì cậu cứ giữ..."
     return
 label ch23_y_end:
     show darkred zorder 5:
         alpha 0
         linear 2.0 alpha 1.0
-    call showpoem (poem_y23, track="bgm/5_yuri2.ogg", revert_music=False, paper="images/bg/poem_y2.jpg", img="yuri eyes", where=truecenter)
-    y "Do you like it??"
-    y "I wrote it for you!"
+    call showpoem (poem_y23, track="bgm/5_yuri2.ogg", revert_music=False, paper="images/bg/poem_y2.jpg", img="yuri eyes", where=truecenter) from _call_showpoem_2
+    y "Cậu có thích nó không??"
+    y "Bài thơ này là dành tặng cho cậu đấy!"
     $ gtext = glitchtext(80)
     show yuri 1b at i11
-    y "In case you couldn't tell, the poem is about [gtext]"
-    y 1y6 "More importantly, I've endowed it with my scent."
-    y "See, aren't I the most thoughtful person in the club?"
+    y "Nếu cậu còn chưa nhận ra thì mình xin phép nói luôn, bài thơ này viết về [gtext]"
+    y 1y6 "Và điều đặc biết nhất là nó đã được thấm đẫm mùi hương của mình."
+    y "Cậu thấy mình có chu đáo không nào?"
     play sound "sfx/glitch2.ogg"
     show yuri glitch
     pause 0.2
@@ -43,8 +43,8 @@ label ch23_y_end:
     $ renpy.music.stop(channel="music_poem")
     $ renpy.music.play(audio.t5c)
     y "..."
-    y 4d "I..."
-    y "I think I'm...going to vomit."
+    y 4d "Mình..."
+    y "Cảm thấy...buồn nôn."
     show yuri at lhide
     hide yuri
     pause 1.0
@@ -55,43 +55,43 @@ label ch22_n_end:
     if n_appeal >= 2:
         jump ch22_n_end2
     else:
-        call showpoem (poem_n2)
-        n 2a "Not bad, right?"
-        mc "It's quite a bit longer than yesterday's."
-        n 2w "Yesterday's was way too short..."
-        n "I was just warming up!"
-        n 2c "I hope you didn't think that was the best I could do."
-        mc "No, of course not..."
-        n 2a "Anyway, the message is pretty straightforward in this poem."
-        n "I doubt I have to explain it."
-        n 2g "Like, anyone would agree that the subject of this poem is an ignorant jerk..."
-        n "Everyone has some kind of weird hobby, or a guilty pleasure."
-        n 5q "Something that you're afraid if people find out, they'd make fun of you or think less of you."
-        n 1e "...But that just makes people stupid!"
-        n "Who cares what someone likes, as long as they're not hurting anyone, and it makes them happy?"
-        n 1q "I think people really need to learn to respect others for liking weird things..."
-        n 1x "...Such as two of the girls in this very club, whom I respectfully won't name."
-        n 1s "Kind of ironic that even in my one place of comfort, I can't even have people respect me..."
-        n 1u "...Jeez, now you're making me complain too much!"
-        "{i}(...What did I do?){/i}"
-        mc "For what it's worth, I respect you..."
-        n 1h "Well--"
-        n "I guess thanks..."
-        n 1s "...But it's kind of obvious that you 'respect' Yuri more, so..."
-        n 42c "Whatever... We're done sharing, so you can leave now."
+        call showpoem (poem_n2) from _call_showpoem_3
+        n 2a "Không đến nỗi nào, phải không?"
+        mc "Lần này mình viết dài hơn rồi đấy."
+        n 2w "Bài thơ hôm qua quá ngắn..."
+        n "Nhưng mà bài đó chỉ là để khởi động thôi nhé!"
+        n 2c "Chứ đừng có cậu tưởng là bài đó tôi bí nên mới ngắn thế."
+        mc "Không, không có chuyện đó đâu..."
+        n 2a "À mà thông điệp trong bài thơ này quá là rõ ràng rồi đấy nhé."
+        n "Tôi chả cần phải giải thích nữa đâu nhỉ."
+        n 2g "Ai cũng có thể hiểu được chủ đề bài này viết về những kẻ khốn nạn..."
+        n "Đã là con người thì làm gì có ai không có một sở thích kì cục nào đấy."
+        n 5q "Nếu để lộ cho mọi người biết thì thể nào cũng có kẻ đem chuyện đó ra để chọc ghẹo."
+        n 1e "...Đó, thấy mấy cái đứa chỉ giỏi hóng hớt như thế có ngu xuẩn không!"
+        n "Người ta thích gì mà chả được, miễn sao không gây ảnh hưởng tới ai thì việc gì bọn nó phải chõ mũi vào?"
+        n 1q "Bất cứ ai cũng đều phải học cách tôn trọng người khác, dù cho sở thích của họ có ra sao..."
+        n 1x "...Chẳng hạn như hai đứa con gái trong câu lạc bộ này mà hiện giờ do tôn trọng họ nên tôi không muốn nêu tên."
+        n 1s "Mỉa mai thay khi nơi duy nhất mình có thể thấy thoải mái thì lại có những kẻ như vậy..."
+        n 1u "...Trời ạ, vì phải giải thích cho cậu hiểu nên tự dưng tôi lại cằn nhằn như này!"
+        "{i}(...Mình có làm gì đâu?){/i}"
+        mc "Mình vẫn luôn tôn trọng cậu mà..."
+        n 1h "Ừm--"
+        n "Cảm ơn..."
+        n 1s "...Nhưng rõ ràng là cậu 'tôn trọng' Yuri hơn, nên..."
+        n 42c "Mà thôi kệ, sao cũng được... Chia sẻ thơ xong rồi đấy, cậu muốn đi đâu thì đi đi."
     return
 label ch22_n_end2:
-    call showpoem (poem_n2b, revert_music=False)
+    call showpoem (poem_n2b, revert_music=False) from _call_showpoem_4
     $ style.say_dialogue = style.edited
     n 1g "[player]..."
-    n "Why didn't you come read with me today?"
-    n 1m "I was waiting for you."
-    n "I was waiting for a long time."
-    n "It was the only thing I had to look forward to today."
-    n "Why did you ruin it?"
-    n "Do you like Yuri more?"
-    n 1k "I think you're better off not associating with her."
-    n "Are you listening to me?"
+    n "Sao hôm nay không lại đọc truyện với tôi nữa vậy?"
+    n 1m "Khiến tôi phải đợi cậu."
+    n "Đợi dài cả cổ ra luôn."
+    n "Tôi cất công tới đây chỉ để đọc truyện với cậu thôi đấy."
+    n "Vậy mà cậu nỡ phản bội lại sự tin tưởng của tôi vậy á?"
+    n "Cậu thích Yuri đúng không?"
+    n 1k "Tốt nhất là đừng có dây dưa với con đấy."
+    n "Cậu có nghe không hả?"
     show darkred zorder 5:
         alpha 0.0
         easein 4.0 alpha 1.0
@@ -102,25 +102,25 @@ label ch22_n_end2:
     show n_rects_ghost1 zorder 4
     show n_rects_ghost2 zorder 4
     show n_rects_ghost3 zorder 4
-    n ghost1 "Yuri is a sick freak."
-    n "That should be obvious by now."
-    n "So just play with me instead."
-    n "Okay?"
-    n "You don't hate me, [player], do you?"
-    n "Do you hate me?"
+    n ghost1 "Yuri là một đứa bệnh hoạn."
+    n "Lẽ ra tới giờ cậu phải biết rõ điều đó rồi chứ?"
+    n "Từ nay hãy chơi với tôi đây này."
+    n "Nhé?"
+    n "Cậu không có ghét tôi đấy chứ [player]?"
+    n "Cậu có ghét tôi không?"
     show natsuki_ghost_blood zorder 3
-    n "Do you want to make me go home crying?"
-    n "The club is the only place I feel safe."
-    n "Don't ruin that for me."
-    n "Don't ruin it."
-    n "Please."
-    n "Just stop talking to Yuri."
-    n "Play with me instead."
-    n "It's all I have..."
-    n "Play with me."
+    n "Cậu muốn tôi ức phát khóc đấy à?"
+    n "Câu lạc bộ này là chốn duy nhất tôi tìm được sự yên bình."
+    n "Đừng phá hỏng nó mà."
+    n "Đừng phá hỏng nó."
+    n "Tôi xin cậu."
+    n "Tránh xa Yuri ra đi."
+    n "Chơi với tôi đây này."
+    n "Tôi không muốn mất tất cả..."
+    n "Chơi với tôi đi mà."
     stop music
     hide n_rects_ghost3
-    n ghost2 "PLAY WITH ME!!!"
+    n ghost2 "CHƠI VỚI TÔI MAU!!!"
     $ style.say_dialogue = style.normal
     $ quick_menu = False
     pause 1
@@ -156,7 +156,7 @@ label ch22_n_end2:
 label ch23_n_end:
     $ natsuki_23 = True
     $ style.say_dialogue = style.normal
-    call showpoem (poem_n23, revert_music=False)
+    call showpoem (poem_n23, revert_music=False) from _call_showpoem_5
     $ renpy.music.stop(channel="music_poem", fadeout=2.0)
     $ style.say_dialogue = style.edited
     show screen tear(8, offtimeMult=1, ontimeMult=10)
@@ -164,15 +164,15 @@ label ch23_n_end:
     stop music
     hide screen tear
     show natsuki ghost_base
-    n "I changed my mind."
-    n "Ignore everything you just read."
-    n "There's no point in trying to do anything."
-    n "It's Yuri's own fault that she's so unlikable."
-    n "Can you hear me, [player]?"
-    n "If you would just spend more time with Monika, all these problems would go away."
-    n "Yuri and I are too messed up for someone as wonderful as you."
-    n "Just think of Monika from now on."
-    n "Just Monika."
+    n "Tôi đổi ý rồi."
+    n "Quên hết những gì cậu vừa đọc đi."
+    n "Có làm gì nữa thì kết quả vẫn vậy mà thôi."
+    n "Yuri khó ưa tới vậy là lỗi của chính cậu ta."
+    n "Cậu nghe rõ chưa hả, [player]?"
+    n "Hãy dành thời gian cho Monika là các vấn đề hiện nay sẽ tan biến hết."
+    n "Yuri và tôi đều không hề xứng với cậu."
+    n "Từ giờ hãy để tâm tới Monika đi."
+    n "Chỉ Monika mà thôi."
     hide natsuki
     $ style.say_dialogue = style.edited
     "Just Monika."
@@ -187,7 +187,7 @@ label ch23_n_end:
     show intro with Dissolve(0.5, alpha=True)
     pause 2.5
     hide intro with Dissolve(0.5, alpha=True)
-    show splash_warning "Just Monika." with Dissolve(0.5, alpha=True)
+    show splash_warning "Chỉ Monika mà thôi." with Dissolve(0.5, alpha=True)
     pause 1.0
     play music t5
     $ skip_transition = True
@@ -195,10 +195,10 @@ label ch23_n_end:
     return
 
 label ch21_m_end:
-    call showpoem (poem_m21)
+    call showpoem (poem_m21) from _call_showpoem_6
     jump ch1_m_end2
 label ch22_m_end:
-    call showpoem (poem_m22, revert_music=False)
+    call showpoem (poem_m22, revert_music=False) from _call_showpoem_7
     $ currentpos = get_pos(channel="music_poem")
     $ audio.t5c = "<from " + str(currentpos) + " loop 4.444>bgm/5.ogg"
     stop music_poem fadeout 2.0
@@ -207,22 +207,22 @@ label ch22_m_end:
     pause 0.5
     hide screen tear
     play music t5c
-    m 5 "Sorry, I know it's kind of abstract."
-    m "I'm just trying to...um..."
-    m 1r "Well, never mind."
-    m "There's no point in explaining."
-    m 1i "Anyway..."
-    m 3b "Here's Monika's Writing Tip of the Day!"
-    m "Sometimes you'll find yourself facing a difficult decision..."
-    m "When that happens, don't forget to save your game!"
-    m 3k "You never know when...um..."
-    m 3i "...Who am I talking to?"
-    m "Can you hear me?"
-    m 3g "Tell me you can hear me."
-    m "Anything."
-    $ renpy.call_screen("dialog", "Please help me.", ok_action=Return())
-    m 3k "...That's my advice for today!"
-    m "Thanks for listening~"
+    m 5 "Xin lỗi nhé, nó hơi bị trừu tượng quá phải không?"
+    m "Mình đang muốn nhắn nhủ...um..."
+    m 1r "Mà, thôi kệ."
+    m "Giải thích cũng chả ích gì."
+    m 1i "Dù sao thì..."
+    m 3b "Nghe Mẹo viết thơ hôm nay của Monika này!"
+    m "Đôi lúc cậu sẽ gặp vài quyết định khó khăn..."
+    m "Khi đó, nhớ lưu trò chơi lại!"
+    m 3k "Cậu không bao giờ biết được...um..."
+    m 3i "...Xin hỏi là mình đang nói chuyện với ai vậy?"
+    m "Cậu có nghe mình nói gì không?"
+    m 3g "Nói gì đó báo cho mình biết là cậu đang lắng nghe đi."
+    m "Nói gì cũng được."
+    $ renpy.call_screen("dialog", "Làm ơn hãy giúp mình.", ok_action=Return())
+    m 3k "...Đó là Mẹo viết thơ của ngày hôm nay!"
+    m "Cảm ơn vì đã lắng nghe nhé~"
     return
 label ch23_m_end:
     $ quick_menu = False
@@ -241,13 +241,13 @@ label ch23_m_end:
     show monika 1d zorder 11 at i11
     $ quick_menu = True
     $ mouse_visible = True
-    m "Jeez! That really startled me!{fast}"
+    m "Ý trời! Giật cả mình!{fast}"
     window auto
     m "Um..."
-    m 1m "Well, I guess I kinda messed up at, uh... 'writing' this poem."
-    m "I was just trying to..."
-    m 1i "...Never mind."
-    m "Let's just move on..."
+    m 1m "À thì, bài thơ mình làm có vài, uh... lỗi."
+    m "Mình muốn nói rằng..."
+    m 1i "...Thôi không có gì đâu."
+    m "Cứ tiếp tục đi nào..."
     stop music
     return
 
@@ -265,88 +265,88 @@ label ch22_n_bad:
 
     if n_poemappeal[0] < 0:
         n 1r "..."
-        n "Yeah, just as I thought..."
+        n "Ừm, đúng như tôi nghĩ..."
         mc "...?"
-        n 2w "[player], come on."
-        n "I'm not stupid."
-        n 2h "I know how much time you've been spending with Yuri..."
-        n "It's obvious that you care more about impressing her than trying to improve your writing."
-        n 2w "To put it bluntly, it's kind of pathetic."
-        n 4h "Why are you even in this club, [player]?"
-        n "Honestly..."
-        n "I thought getting a new member would help everyone get more involved together."
-        n 4s "Not exclude each other even more."
-        n 1u "This is such a stupid activity anyway..."
-        n 12c "...Look, I'm not in a good mood today, and I just really don't feel like talking right now."
-        n "Please go away."
+        n 2w "[player], quá đủ rồi đấy."
+        n "Cậu tưởng tôi ngu lắm à."
+        n 2h "Rõ ràng gần đây cậu luôn dành thời gian bên cạnh Yuri..."
+        n "Có mù cũng biết được rằng cậu đang cố tạo ấn tượng với cậu ta hơn là cải thiện trình độ làm thơ của bản thân."
+        n 2w "Nói thẳng ra thì, thật là đáng thương hại."
+        n 4h "Cậu gia nhập cậu lạc bộ này để làm cái quái gì cơ chứ hả, [player]?"
+        n "Thiệt tình luôn..."
+        n "Tôi cứ nghĩ là có thêm thành viên sẽ giúp mọi người gắn kết hơn."
+        n 4s "Chứ không phải ngày một xa cách hơn như thế này."
+        n 1u "Ý tưởng chia sẻ thơ này ngay từ đầu nghe đã ngu xuẩn rồi..."
+        n 12c "...Thấy rồi đấy, hiện giờ tôi không có vui vẻ để mà tiếp chuyện cậu đâu."
+        n "Xin cậu biến ra chỗ khác giùm."
         $ skip_poem = True
         return
     else:
 
 
         n 1k "...Hm."
-        n "I liked your last one better."
-        mc "Eh? Really?"
-        n 2c "Well yeah. I can tell you were a little more daring with this one."
-        n "But you're really not good enough for that yet. It fell flat."
-        mc "That may be true, but I just wanted to try something different."
-        mc "I'm still figuring this all out."
+        n "Tôi thích bài thơ trước của cậu hơn."
+        mc "Eh? Thật sao?"
+        n 2c "Có vẻ ở bài này cậu hơi mạo hiểm quá."
+        n "Cậu chưa đạt đến trình độ có thể dùng được lối viết thơ như này đâu, đọc thật là thiếu chiều sâu."
+        mc "Có vẻ là thế thật, nhưng tự dưng mình có hứng muốn thử."
+        mc "Mình sẽ cố gắng cải thiện."
         jump ch22_n_med_shared2
 
 label ch22_n_med:
 
     if n_poemappeal[0] < 0:
         n "...Hm."
-        n 2k "Well, I can admit that it's better than the last one."
-        n "It's nice to see that you're putting in some effort."
-        mc "That's good..."
+        n 2k "Ừ thì, phải công nhận là cậu đã tiến bộ hơn lần trước."
+        n "Cũng mừng khi thấy cậu đã có chút nỗ lực."
+        mc "Ngon rồi..."
         label ch22_n_med_shared:
-            n 2c "Just make sure you find a little bit of influence from everyone."
-            n "I think you're at least being influenced by Yuri a little bit, aren't you?"
-            n 5q "I mean, I know you've been, like..."
-            n "Spending some time with her, or whatever..."
-            n 1w "But you know, Monika and I are just as good as her!"
-            n 1q "A-At poems, I mean!"
-            n 1h "So you should really try to learn something, or you'll never get better!"
-            n "Here's the one I wrote..."
-            n "I'll make sure you learn something from it."
+            n 2c "Hãy cố tìm lấy cảm hứng từ mọi người trong câu lạc bộ."
+            n "Có vẻ trong thơ cậu đã có chút đụng chạm tới trường phái của Yuri, đúng không?"
+            n 5q "Rõ ràng tôi biết là..."
+            n "Dạo này cậu dành nhiều thời gian bên cạnh cậu ta..."
+            n 1w "Nhưng nói cậu nghe này, Monika và tôi cũng không hề kém cạnh đâu nhé!"
+            n 1q "Ở-ở khoản làm thơ ấy!"
+            n 1h "Thế nên cậu vẫn còn phải cố gắng hơn, nếu không sẽ chẳng khá lên được!"
+            n "Đây, bài thơ tôi viết..."
+            n "Chắc chắn đọc xong cậu sẽ ngộ ra được nhiều thứ."
             return
 
 
     elif n_poemappeal[0] == 0:
         n "...Hm."
-        n 2k "Well, it's not really any worse than your last one."
-        n "But I can't really say it's any better, either."
+        n 2k "Có vẻ cũng chỉ xêm xêm như bài trước."
+        n "Không hay mà cũng không bị dở lắm."
         mc "Phew..."
-        n 2c "Huh? 'Phew' what?"
-        mc "Ah... Well anything that isn't a trainwreck, I'll take as a win."
-        mc "And I get the feeling you're probably the most critical."
-        n 1p "H-Hey! What makes you--"
-        n 1q "{i}(Wait, maybe that was a compliment...?){/i}"
-        n 4y "A-Ahah! Glad to see someone recognizes my experience!"
-        n "Well then, keep practicing and maybe you'll be as good as me someday!"
-        mc "That's...uh..."
-        "Something tells me Natsuki completely missed the point."
+        n 2c "Hả? Gì mà như trút bỏ được gánh nặng thế hả?"
+        mc "Ah... Thì chỉ cần không bị cậu mắng vì viết dở là quá thành công rồi."
+        mc "Nhận xét của cậu đúng là có ích quá đi mất thôi."
+        n 1p "N-này! Sao lại--"
+        n 1q "{i}(Khoan đã, hình như hắn vừa khen mình à...?){/i}"
+        n 4y "A-Ahaha! Có kẻ nhận ra được sự vĩ đại của bổn cô nương rồi đấy!"
+        n "Thôi, cứ chăm chỉ đi, biết đâu được có ngày cậu sẽ giỏi như tôi đây!"
+        mc "À...ừ..."
+        "Natsuki hiểu sai bét ý cái lời khen đểu của tôi rồi."
         jump ch22_n_med_shared
     else:
 
 
         n "...Hm."
-        n 2c "Well, it's not terrible."
-        n "But it's pretty disappointing after your last one."
-        n 2s "Then again, if this one was as good as your last one, I would be completely pissed."
-        mc "Well, I guess I wanted to try something a little different this time."
+        n 2c "Thì cũng không đến nỗi nào."
+        n "Nhưng khá là thất vọng nếu so sánh với bài thơ lần trước."
+        n 2s "Nói vậy thôi chứ nếu bài nào cậu cũng viết hay như thế thì chắc tôi phát điên lên mất."
+        mc "Ừ thì lần này mình muốn đổi mới phong cách một chút cho biết thôi mà."
         label ch22_n_med_shared2:
-            n 2c "Fair enough. You're still new to this, so I wouldn't expect you to find your style right away."
-            n "I mean, everyone in the club writes really differently from each other..."
-            n "Maybe you'll find a little influence from all of us."
-            n 2q "For instance..."
-            n 5q "I noticed that you were spending some time with Yuri today..."
-            n "Not that I care who you spend your time with."
-            n 5w "After all, I was taught never to expect anything from anybody."
-            n 5s "So it's not like I was waiting for you, or anything."
-            n 5h "Still, you should at least look over my poem..."
-            n "You'll probably be able to learn something from it."
+            n 2c "Cũng hợp lý thôi. Cậu mới viết lách lần đầu thì làm sao đã tìm ra phong cách riêng nhanh thế được."
+            n "Nhìn mà xem, mỗi người trong câu lạc bộ đều có cách viết khác nhau..."
+            n "Chắc cậu sẽ lấy được cảm hứng từ ai đó ở đây."
+            n 2q "Chẳng hạn như..."
+            n 5q "Hôm nay, tôi thấy cậu dành thời gian ở bên Yuri ..."
+            n "Nói thế không có nghĩa là tôi thèm để tâm tới việc cậu làm gì đâu nhé."
+            n 5w "Chỉ muốn nhắc nhở là cậu đừng có mong chờ sự giúp đỡ của bất kỳ ai."
+            n 5s "Tôi cũng chả muốn đâu nhé."
+            n 5h "Nhưng mà, hãy đọc thơ của tôi đi..."
+            n "Chắc chắn cậu sẽ học được nhiều điều từ bài này."
             return
 
 label ch23_n_bad:
@@ -354,41 +354,41 @@ label ch23_n_bad:
         jump ch23_n_ygave
 
     if n_poemappeal[0] < 0 and n_poemappeal[1] < 0:
-        n 5x "I'm not going to read another one of your Yuri suck-up poems."
-        n 5s "But I'm still going to make you read mine."
-        n "There's a reason."
-        n 5x "I really wish I didn't have to do this..."
-        n "But unfortunately I don't have much of a choice."
-        n 5h "Just...read it carefully, okay?"
-        n "Then you can go away."
+        n 5x "Tôi không muốn đọc bài thơ cậu dùng để tán Yuri đâu."
+        n 5s "Nhưng thơ của tôi thì cậu vẫn phải đọc."
+        n "Có lý do đấy."
+        n 5x "Chứ thật ra thì tôi còn chả muốn nói chuyện với cậu..."
+        n "Tại vì không còn lựa chọn nào khác nên mới phải vậy thôi."
+        n 5h "Nhớ... đọc cho kĩ đó, nghe chưa?"
+        n "Xong rồi cậu thích đi đâu thì đi."
         return
 
     elif n_poemappeal[0] < 0 or n_poemappeal[1] < 0:
         n "..."
         n 2c "...Meh."
-        n "I guess you really haven't learned anything after all."
-        n "Honestly, I don't know why I got my hopes up in the first place."
+        n "Lần này cậu vẫn chả khá hơn được tẹo nào."
+        n "Thế mà tôi lại trông đợi sự tiến bộ của cậu cơ đấy."
         label ch23_n_bad_shared:
-            n 42c "This is clearly Yuri's influence..."
-            n "I didn't realize you were so impressionable."
-            n "Spending all this time with her in the club..."
-            n "Now trying to write like her..."
-            n 1s "This is stupid."
-            n "At least Monika appreciates my writing..."
+            n 42c "Cái thứ này rõ ràng là bị chi phối bởi phong cách của Yuri..."
+            n "Tại sao cậu lại dễ bị lôi kéo thế nhỉ."
+            n "Suốt ngày cứ cặp kè bên cậu ta..."
+            n "Bây giờ thì cố viết thơ y hệt cậu ta..."
+            n 1s "Thật là ngu xuẩn."
+            n "Ít ra vẫn có Monika tôn trọng cách viết thơ của tôi..."
             n 1r "...Ugh."
-            n 1q "Okay...I guess I'm going to share my poem with you now."
-            n "I really hate that I have to do this."
-            n "But unfortunately I don't have much of a choice."
-            n 1h "Just...read it carefully, okay?"
-            n "Then you can go away."
+            n 1q "Thôi kệ đi...tuy cậu chả chịu học hỏi gì nhưng cứ đọc thơ của tôi đây."
+            n "Thật chả muốn làm chuyện này một tí nào."
+            n "Nhưng chả còn lựa chọn nào khác nên đành vậy thôi."
+            n 1h "Nhớ... đọc cho kĩ đó, nghe chưa?"
+            n "Xong rồi cậu thích đi đâu thì đi."
             return
     else:
 
         n "..."
-        n 2r "Oh, man."
-        n "This is seriously a step backwards."
-        mc "Eh?"
-        n 2c "I liked your last two way better than this one."
+        n 2r "Ôi trời."
+        n "Sao tự dưng lại thụt lùi như này."
+        mc "Ể?"
+        n 2c "Hai bài trước rõ ràng khá hơn thế này nhiều."
         jump ch23_n_bad_shared
 
 label ch23_n_med:
@@ -399,44 +399,44 @@ label ch23_n_med:
         jump ch23_n_bad
     elif n_poemappeal[1] < 0:
         n "..."
-        n 2k "...This one's alright."
-        mc "Alright?"
-        n "Yeah, it's at least better than yesterday's."
+        n 2k "...Chỉ tạm được thôi."
+        mc "Tạm được?"
+        n "Ừ, ít ra cũng khá hơn hôm qua."
         label ch23_n_shared:
-            n 2c "I still can't really tell how much you actually care about writing, but either way, you're doing alright."
-            n 4r "Even though you're not really spending time with anyone but Yuri..."
-            n 4h "I still think it's nice to have activities that we all participate in."
-            n 4w "So you better keep working hard!"
-            n "I mean..."
-            n 1h "I know I'm not President or Vice President or anything..."
-            n "But that doesn't mean you can let me down, okay?"
-            n 1q "So, at least read mine too for now."
-            n "But just to be clear..."
-            n 1h "This poem...means a lot to me."
-            n "So read it carefully, okay?"
+            n 2c "Cậu đang thể hiện khá tốt, nhưng tôi vẫn chưa thấy rõ được sự đam mê văn học ở cậu."
+            n 4r "Cậu suốt ngày kè kè bên Yuri..."
+            n 4h "Nhưng ít ra thì ở cái hoạt động chia sẻ thơ này có cả câu lạc bộ cùng tham gia."
+            n 4w "Hãy cố gắng nỗ lực hơn nữa vì mọi người!"
+            n "À mà..."
+            n 1h "Tuy chắc là tôi không thể sánh được với hội trưởng hay là hội phó..."
+            n "Nhưng thơ của tôi không tệ lắm đâu nhé, nghe chưa?"
+            n 1q "Thế nên là cứ đọc đi."
+            n "Chỉ nói cho cậu biết..."
+            n 1h "Bài thơ này... rất quan trọng với tối."
+            n "Thế nên cậu phải đọc chăm chú vào nhé?"
             return
     else:
         n "..."
-        n 2k "...This one's alright."
-        mc "Alright?"
-        n "Well, yeah."
-        n "About as good as yesterday's, anyway."
+        n 2k "...Bài này tạm được."
+        mc "Tạm được?"
+        n "Thì vậy đó."
+        n "Cũng chỉ tàm tạm như bài hôm qua."
         jump ch23_n_shared
 
 label ch23_n_ygave:
-    n 1h "What?"
-    n "You gave your poem to Yuri?"
-    n 4x "Gross!"
-    n "What is with you two?"
+    n 1h "Cái gì cơ?"
+    n "Cậu tặng Yuri bài thơ của cậu mất rồi á?"
+    n 4x "Gớm quá đi mất!"
+    n "Hai người có bình thường không đấy?"
     n 1s "Hmph..."
-    n "It's not like I wanted to read it anyway."
-    n 1r "It's just pissing me off a little bit that you didn't even think to show me at all."
+    n "Dù sao thì tôi cũng chả thèm đọc nó đâu."
+    n 1r "Chỉ thấy bực mình vì đây là hoạt động chia sẻ thơ mà cậu lại coi thường tôi đến vậy, không cho tôi đọc bài cậu viết."
     n 1x "...Ugh."
-    n 1q "Okay...I guess I'm going to share my poem with you anyway."
-    n "I really hate that I have to do this."
-    n "But unfortunately I don't have much of a choice."
-    n 1h "Just...read it carefully, okay?"
-    n "Then you can go away."
+    n 1q "Thôi kệ đi...Cứ đọc thơ của tôi này."
+    n "Dù chả muốn tí nào."
+    n "Nhưng tôi chẳng còn lựa chọn nào khác."
+    n 1h "Nhớ... đọc cho kĩ đó, nghe chưa?"
+    n "Xong rồi thì thích đi đâu cứ đi."
     return
 
 label ch23_n_good:
@@ -455,70 +455,70 @@ label ch22_y_bad:
     jump ch22_y_med
 
 label ch22_y_med:
-    y 2b "I've been waiting for this..."
-    y "Let's see what you've written for today."
+    y 2b "Mãi mới được đọc thơ cậu..."
+    y "Thật nóng lòng muốn biết bài thơ hôm nay như thế nào."
     y 3m "..."
-    "Yuri smiles and takes a deep breath."
-    y "I like just holding it."
+    "Yuri mỉm cười và hít một hơi thật sâu."
+    y "Mình muốn để nó ngấm."
     mc "...?"
-    y 3p "Ah, I mean--"
-    y "The poem turned out good!"
-    y 3o "It's, ah..."
-    y 2q "...Well, there are some things that you could work on..."
-    y "But that doesn't really matter."
-    y 2s "It feels like anything written by you is a treasure."
+    y 3p "À, ý mình là--"
+    y "Bài thơ cũng khá đó chứ!"
+    y 3o "Nó, ừm..."
+    y 2q "...Thì, vẫn còn nhiều chỗ cậu có thể cải thiện..."
+    y "Nhưng cũng chả nghiêm trọng lắm đâu."
+    y 2s "Mình có cảm giác như bất cứ thứ gì được viết bởi cậu đều có thể xem như tuyệt phẩm."
     y 2d "Ahaha..."
-    y 2o "That came out a little awkward..."
-    y "L-Let's move on..."
-    y 2t "Here's the poem I wrote."
-    y "You don't have to like it or anything..."
+    y 2o "Nghe có vẻ hơi kì cục nhỉ..."
+    y "T-thôi tiếp nào..."
+    y 2t "Đây là bài thơ của mình."
+    y "Cậu cứ nhận xét thẳng thắn..."
     return
 
 
 label ch22_y_good:
 
     if y_poemappeal[0] < 1:
-        y 2b "I've been waiting for this..."
-        y "Let's see what you've written for today."
+        y 2b "Mãi mới được đọc thơ cậu..."
+        y "Thật nóng lòng muốn biết bài thơ hôm nay như thế nào."
         y 2e "..."
         y "......"
-        "Yuri stares at the poem with a surprised expression on her face."
-        mc "Do you...like it?"
+        "Yuri nhìn chằm chằm bài thơ với vẻ mặt hết sức ngạc nhiên."
+        mc "Cậu có... thích nó không?"
         y "[player]..."
-        y "...How did you pick up on this so quickly?"
+        y "...Sao cậu lĩnh hội được nhanh đến vậy?"
         label ch22_y_good_shared:
-            y 2v "Just yesterday, I was telling you the kind of techniques worth practicing..."
-            mc "Maybe that's why..."
-            mc "You did a good job explaining."
-            mc "I really wanted to try giving it more imagery."
+            y 2v "Mình chỉ mới giới thiệu với cậu lối viết thơ này vào hôm qua thôi mà..."
+            mc "Thì đấy là lí do đấy..."
+            mc "Những lời khuyên của cậu đã tiếp cho mình niềm cảm hứng."
+            mc "Vậy nên mình đã thử lồng ghép những hình ảnh trừu tượng vào trong thơ."
             show yuri 4b zorder 2 at t11
-            "Yuri visibly swallows."
-            "Even her hands appear sweaty."
+            "Yuri sốc không nói nên lời."
+            "Tay thì ướt đẫm mồ hôi rồi kìa."
             y 4e "A-Ah..."
-            y "That makes me so happy..."
-            y 3y5 "It's so amazing to feel like I'm valued, [player]!"
-            y "Everything that you write is a treasure to me."
-            y 3m "My heart pounds just holding it..."
+            y "N-nghe thế mình vui lắm..."
+            y 3y5 "Biết được rằng lời nói của mình truyền cảm hứng nhiều tới thế cho cậu thật là tốt quá đi thôi!"
+            y "Những gì cậu viết đối với mình đều là tuyệt phẩm."
+            y 3m "Chỉ cầm tờ giấy này thôi mà tim mình đã đập thình thịch rồi..."
             y 3q "Ahaha..."
-            y "I want to write a poem about this feeling..."
-            y 3y6 "Is that bad, [player]?"
-            y "I'm not being weird, right?"
-            y 3s "I-I'm having a harder time than usual at concealing my emotions..."
-            y 3m "I'm kind of embarrassed."
-            y 3y6 "But right now, I just want you to read my poem, too."
-            y 3y5 "Okay?"
+            y "Mình muốn viết ngay một bài thơ về cảm xúc này..."
+            y 3y6 "Như vậy có kì dị lắm không hả, [player]?"
+            y "Trông mình lúc này vẫn bình thường chứ?"
+            y 3s "C-Càng ngày việc kiểm soát cảm xúc càng trở nên khó khăn..."
+            y 3m "Ôi, xấu hổ quá đi mất!"
+            y 3y6 "À mà đọc bài thơ mà mình đã viết bằng cả tấm lòng đi này."
+            y 3y5 "Cậu cầm lấy."
             return
     else:
 
-        y 2b "I've been waiting for this..."
-        y "Let's see what you've written for today."
+        y 2b "Mãi mới được đọc thơ cậu..."
+        y "Thật nóng lòng muốn biết bài thơ hôm nay như thế nào."
         y 2e "..."
         y "......"
-        "Yuri stares at the poem with a surprised expression on her face."
-        mc "Do you...like it?"
+        "Yuri nhìn chằm chằm bài thơ với vẻ mặt hết sức ngạc nhiên."
+        mc "Cậu có... thích nó không?"
         y "[player]..."
-        y 2t "This one might even be better than yesterday's..."
-        y "...How did you even pick up on this so quickly?"
+        y 2t "Bài này còn hay hơn cả bài thơ hôm qua nữa..."
+        y "...Sao cậu lĩnh hội được nhanh đến vậy?"
         jump ch22_y_good_shared
 
 label ch23_y_bad:
@@ -528,225 +528,225 @@ label ch23_y_med:
     jump ch23_y_good
 
 label ch23_y_good:
-    y 1d "Finally..."
+    y 1d "Mãi mới tới..."
     y 3y5 "Ahaha..."
     show yuri 3m
-    "Yuri holds my poem to her face and takes a deep breath."
-    y 3y6 "I love it."
-    y "I love everything about it."
-    y 3y5 "[player], I want to take this home."
-    y "Will you let me keep it?"
-    y "Please?"
-    mc "Sure, I don't care..."
+    "Yuri cầm bài thơ của tôi đưa lên mặt và hít một hơi thật sâu."
+    y 3y6 "Yêu quá đi thôi."
+    y "Mình yêu mọi thứ trong thơ của cậu."
+    y 3y5 "[player], cho phép mình mang nó về nhà nhé."
+    y "Hãy cho mình giữ nó đi mà."
+    y "Làm ơn đấy."
+    mc "Được thôi, mình thấy không vấn đề gì..."
     y 2y5 "Ahaha."
-    y "You're too nice to me, [player]..."
-    y "I've never met anyone as nice as you."
-    y 2y6 "I could die..."
-    y 3y5 "N-Not really, but--!"
-    y "I just don't know how to describe it."
-    y "It's okay to be feeling this way, right?"
+    y "Cậu tốt bụng quá, [player]..."
+    y "Mình chưa bao giờ gặp được ai tốt với mình như cậu cả."
+    y 2y6 "Mình thấy sung sướng tới mức chết luôn được mất..."
+    y 3y5 "K-không hẳn đến thế, nhưng--!"
+    y "Không biết phải dùng từ gì mới mô tả được cảm xúc của mình lúc này."
+    y "Cứ chìm đắm vào nó như thế liệu có sao không nhỉ?"
     show yuri:
         "yuri 3y4"
         0.4
         "yuri 3y6"
-    y "It's not bad, right?"
-    "Yuri holds my poem to her chest."
-    y 3m "I'm going to take this home with me and keep it in my room."
-    y "I hope that it makes you feel good when you think about me having it."
+    y "Chắc là không có sao đâu, phải không?"
+    "Yuri ghì chặt bài thơ vào ngực."
+    y 3m "Nhất định khi về nhà nó sẽ phải theo mình vào tận phòng."
+    y "Cậu thấy vui khi cho mình giữ nó phải không?"
     $ style.say_dialogue = style.normal
-    y 3y5 "I'll take good care of it!"
+    y 3y5 "Đừng lo, mình sẽ giữ gìn nó cẩn thận!"
     $ style.say_dialogue = style.edited
-    y 3y6 "I'll even touch myself while reading it over and over."
+    y 3y6 "Không thể để bài thơ này bám bụi được, mình sẽ đọc đi đọc lại nó mỗi lần thủ dâm."
     $ _history_list.pop()
-    y "I'll give myself paper cuts so your skin oil enters my bloodstream."
+    y "Mình sẽ dùng nó để tự cứa vào da thịt, để cho mùi của cậu trên trang giấy thấm vào từng giọt máu chảy trong huyết quản!"
     $ _history_list.pop()
     y 3y1 "Ahahahahaha."
     $ _history_list.pop()
     $ style.say_dialogue = style.normal
-    y 2s "You can have my poem too."
-    y "Besides, after you read it, I know you're really going to want to keep it."
-    y 2y6 "Here, take it. I can't wait any longer."
-    y 2y5 "Hurry! Read it!"
+    y 2s "Cậu cũng được nhận bài thơ của mình luôn nè."
+    y "Đằng nào thì sau khi đọc xong cậu cũng nhất định sẽ muốn giữ nó luôn."
+    y 2y6 "Đây, cầm lấy ngay đi. Mình không thể kiên nhẫn hơn được nữa."
+    y 2y5 "Mau lên! Mau đọc nó đi nào!"
     $ y_gave = True
     return
 
 
 label ch21_m_start:
-    m 1b "Hi, [player]!"
-    m "Having a good time so far?"
-    mc "Ah...yeah."
-    m 1k "Good! Glad to hear it!"
-    m 4a "By the way, since you're new and everything..."
-    m "If you ever have any suggestions for the club, like new activities, or things we can do better..."
-    m 4b "I'm always listening!"
-    m "Don't be afraid to bring things up, okay?"
+    m 1b "Chào cậu, [player]!"
+    m "Hôm nay sao rồi, có vui không?"
+    mc "Ah...cũng vui."
+    m 1k "Vậy thì tốt quá! Đây đúng là tin mừng!"
+    m 4a "Tiện thể đây, do cậu là thành viên mới của câu lạc bộ..."
+    m "Nếu cậu có gợi ý gì để giúp bọn mình cải thiện hơn, ví dụ như là tổ chức hoạt động mới..."
+    m 4b "Hãy nhớ là mình luôn sẵn sàng lắng nghe."
+    m "Đừng ngại nói ra, nhé?"
     show monika 4a
-    mc "Alright...I'll keep that in mind."
-    "Of course I'll be afraid to bring things up."
-    "I'm much better off just going with the flow until I'm more settled in."
-    m 1a "Anyway..."
-    m "Want to share your poem with me?"
-    mc "It's kind of embarrassing, but I guess I have to."
+    mc "Được thôi... mình sẽ nói với cậu nếu có ý tưởng nào đó."
+    "Đương nhiên là tôi ngại phải đóng góp ý kiến rồi."
+    "Tôi thích cứ đồng ý theo ý kiến của mọi người cho tới khi đã thân quen hơn."
+    m 1a "Mà..."
+    m "Cậu muốn chia sẻ thơ với mình chứ?"
+    mc "Tuy có hơi xấu hổ chút nhưng chắc cũng không trốn đi đâu được."
     m 5a "Ahahaha!"
-    m "Don't worry, [player]!"
-    m "We're all a little embarrassed today, you know?"
-    m "But it's that sort of barrier that we'll all learn to get past soon."
-    mc "Yeah, that's true."
-    "I hand Monika my poem."
+    m "Cậu đừng lo quá, [player]!"
+    m "Tất cả chúng ta đều hơi ngại về việc này mà?"
+    m "Nhưng nó là một rào cản không sớm thì muộn chúng ta phải vượt qua."
+    mc "À, đúng là vậy nhỉ."
+    "Tôi đưa tờ giấy cho Monika."
     m 2a "...Mhm!"
     $ nextscene = "m2_" + poemwinner[0] + "_" + str(eval(poemwinner[0][0] + "_appeal"))
-    call expression nextscene
+    call expression nextscene from _call_expression_1
 
-    m 1a "Anyway, do you want to read my poem now?"
-    m 1e "Don't worry, I'm not very good..."
-    mc "You sound pretty confident for someone who claims to not be very good."
-    m 1j "Well...that's 'cause I have to sound confident."
-    m 1b "That doesn't mean I always feel that way, you know?"
-    mc "I see..."
-    mc "Well, let's read it, then."
+    m 1a "Tới lượt cậu, cậu muốn đọc thơ của mình chứ?"
+    m 1e "Đừng lo, cũng không khá lắm đâu..."
+    mc "Chỉ riêng thần thái tự tin của cậu mà bảo không giỏi thì chả ai tin đâu."
+    m 1j "Ừm...đó là vì mình bắt buộc lúc nào cũng phải giữ phong thái như thế."
+    m 1b "Nhưng đâu có nghĩa là lúc nào cũng phải tự tin đâu?"
+    mc "Vậy à..."
+    mc "Để mình đọc thử xem nào."
     return
 
 label ch22_m_start:
     if y_appeal < 2:
-        m 1b "Hi again, [player]!"
-        m "How's the writing going?"
-        mc "Alright, I guess..."
-        m 2k "I'll take that."
-        m 2b "As long as it's not going bad!"
-        m 2a "I'm happy that you're applying yourself."
-        m "Maybe soon you'll come up with a masterpiece!"
-        mc "Ahaha, I wouldn't count on that..."
-        m 2a "You never know!"
-        m "Want to share what you wrote for today?"
-        mc "Sure... Here you go."
-        "I give my poem to Monika."
+        m 1b "À, chào cậu, [player]!"
+        m "Vụ viết thơ ra sao rồi?"
+        mc "Mình nghĩ chắc cũng tạm..."
+        m 2k "Thế là chấp nhận được rồi."
+        m 2b "Miễn sao cậu không thụt lùi là tốt!"
+        m 2a "Mình cũng thấy mừng khi cậu có tinh thần tự giác cao đến thế."
+        m "Có lẽ nay mai cậu lại viết nên tuyệt tác thì sao!"
+        mc "Ahaha, đừng trông chờ vào mình quá..."
+        m 2a "Biết đâu được!"
+        m "Thế cậu có muốn cho mình đọc bài thơ hôm nay của cậu không?"
+        mc "À... Đây này."
+        "Tôi đưa tờ giấy cho Monika."
         m "..."
-        m "...Alright!"
+        m "...Hmm!"
     $ nextscene = "m2_yuri_" + str(eval("y_appeal"))
-    call expression nextscene
+    call expression nextscene from _call_expression_2
 
-    m 1a "But anyway..."
-    m "You want to read my poem now?"
-    m "I like the way this one turned out, so I hope you do too~"
+    m 1a "À thì..."
+    m "Cậu muốn đọc thơ của mình chứ?"
+    m "Mình khá hài lòng với nó, hy vọng cậu cũng thế~"
     return
 
 label ch23_m_start:
     $ nextscene = "m2_yuri_" + str(eval("y_appeal"))
-    call expression nextscene
+    call expression nextscene from _call_expression_3
     if y_appeal < 3:
-        m 1a "Anyway..."
+        m 1a "Mà..."
         if y_gave:
-            m 1m "I guess we won't worry about your poem..."
-            m "Yuri should have at least had the courtesy of letting you finish sharing it before taking it."
-            m 1r "...Well, whatever."
-            m "If it makes her happy, I won't stop her."
-            m 1a "As for mine..."
-        m 1e "I worked really...really hard on this poem, so..."
-        m "I hope that it's, uh, effective."
-        m 1r "Here goes..."
+            m 1m "Chắc bài thơ của cậu thành dĩ vãng rồi..."
+            m "Đáng lẽ ra Yuri cũng phải để cậu đem cho mọi người đọc trước rồi hẵng độc chiếm nó chứ."
+            m 1r "...Thôi, sao cũng được."
+            m "Nếu cậu ta thấy vui thì mình cũng không muốn cản."
+            m 1a "Còn về phần mình thì..."
+        m 1e "Mình đã dành rất... rất nhiều tâm huyết vào bài thơ này, nên..."
+        m "Mình hy vọng nó sẽ, ừm, hiệu nghiệm."
+        m 1r "Cậu đọc đi này..."
         $ persistent.seen_colors_poem = True
     return
 
 
 
 label m2_natsuki_1:
-    m 2b "I like it, [player]!"
-    mc "Really...?"
-    m 2e "It's a lot cuter than I expected."
+    m 2b "Mình thích nó đấy, [player]!"
+    mc "Thật hả...?"
+    m 2e "Mình không hề nghĩ là cậu lại thích kiểu thơ dễ thương đến nhường này."
     m 2k "Ahahaha!"
-    mc "Oh jeez..."
-    m 1b "No, no!"
-    m "It kind of makes me think of something Natsuki would write."
-    m "And she's a good writer, too."
-    m 5a "So take that as a compliment!"
+    mc "Ối trời..."
+    m 1b "Ây dà!"
+    m "Nó làm mình liên tưởng đến kiểu thơ mà Natsuki hay viết."
+    m "Mà cậu ta cũng là một nhà thơ khá đấy."
+    m 5a "Thế nên cậu hãy coi đây như là một lời khen đi!"
     mc "Ahaha..."
-    mc "If you say so."
-    m "Yep!"
-    m 3b "If you're interested in Natsuki, then always keep a snack on you."
-    m "She'll cling to you like a puppy."
+    mc "Nếu cậu đã bảo thế."
+    m "À phải rồi!"
+    m 3b "Nếu cậu có hứng thú với Natsuki thì hãy nhớ luôn mang đồ ăn vặt bên mình."
+    m "Cậu ấy sẽ bám lấy cậu như một chú cún con."
     m 3k "Ahaha!"
-    m 1a "Natsuki's dad doesn't give her lunch money or leave her any food in the house, so she's in a fussy mood pretty often..."
-    m "But sometimes she just loses all of her strength and shuts down."
-    m "Like earlier."
-    m 2d "This is just a guess, but I think she's so small because her malnutrition is interfering with her adolescent growth..."
-    m 2b "...But hey, some guys are into petite girls too, you know?"
-    m 5a "Sorry...just trying to look at the bright side!"
+    m 1a "Bố của Natsuki thường không cho cậu ấy tiền ăn trưa hay là cho phép trữ đồ ăn trong nhà, nên tâm trạng cậu ấy lúc nào cũng dễ nóng nảy..."
+    m "Đôi khi còn tới mức cậu ta kiệt sức và hoàn toàn ngưng hoạt động."
+    m "Như hồi nãy chẳng hạn."
+    m 2d "Chỉ là đoán mò thôi nhưng hình như cậu ấy bé tẹo như thế chắc do thiếu dinh dưỡng trong giai đoạn dậy thì..."
+    m 2b "...Nhưng, cũng có nhiều chàng trai có hứng thú với mấy cô bé nhỏ nhắn xinh xinh thế mà, phải không?"
+    m 5a "Xin lỗi... mình chỉ muốn đùa chút cho không khí vui vẻ hơn thôi!"
 
     return
 
 label m2_yuri_1:
-    m 1a "Great job, [player]!"
-    m "I was going 'Ooh' in my head while reading it."
-    m 1j "It's really metaphorical!"
-    m 1a "I'm not sure why, but I didn't expect you to go for something so deep."
-    m 3b "I guess I underestimated you!"
-    mc "It's easiest for me to keep everyone's expectations low."
-    mc "That way, it always counts when I put in some effort."
-    m 5a "Ahaha! That's not very fair!"
-    m "Well, I guess it worked, anyway."
-    m 2a "You know that Yuri likes this kind of writing, right?"
-    m "Writing that's full of imagery and symbolism."
-    m 2d "Sometimes I feel like Yuri's mind is just totally detached from reality."
-    m "I don't mean that like it's a bad thing, though."
-    m 2a "But sometimes I get the impression that she's just totally given up on people."
-    m "She spends so much time in her own head that it's probably a much more interesting place for her..."
-    m 2b "But that's why she gets so happy when you treat her with a lot of kindness."
-    m "I don't think she's used to being indulged like that."
-    m 2j "She must be really starved for social interaction, so don't blame her for coming on a little strongly."
-    m 2d "Like earlier..."
-    m "I think if she gets too stimulated, she ends up withdrawing and looking for alone time."
-    "Suddenly, the door opens."
+    m 1a "Tuyệt vời quá, [player]!"
+    m "Mình vừa đọc vừa phải thán phục trong đầu đấy."
+    m 1j "Sử dụng rất thành thạo những biện pháp nghệ thuật như là ẩn dụ!"
+    m 1a "Mình không ngờ là người mới bắt đầu lại có thể viết được bài thơ sâu sắc như này đâu."
+    m 3b "Chắc mình đã đánh giá thấp cậu rồi!"
+    mc "Nếu mọi người kì vọng thấp thì sẽ ít áp lực đặt lên mình hơn."
+    mc "Nhờ thế nên dù nỗ lực mình bỏ ra có là bao nhiêu thì mọi người cũng trân trọng."
+    m 5a "Ahaha! Ăn gian ghê!"
+    m "Dù sao thì cậu cũng đã thành công rồi đấy."
+    m 2a "Cậu biết là Yuri rất thích phong cách này chứ?"
+    m "Kiểu viết chứa đầy ẩn dụ và tượng trưng ấy."
+    m 2d "Nhiều lúc mình có cảm tưởng như đầu óc Yuri không hề ở đây mà hoàn toàn tách biệt ra khỏi thực tại."
+    m "Cũng không biết như thế là tốt hay xấu nữa."
+    m 2a "Thậm chí còn có vẻ như cậu ấy muốn xa lánh mọi người."
+    m "Lúc nào cũng lạc trôi trong khoảng trời của riêng bản thân trong trí tưởng tượng..."
+    m 2b "Nhưng đó cũng là lí do Yuri vui tới thế khi cậu đối tốt với cậu ta."
+    m "Mình không nghĩ cậu ấy quen với cảm giác được người khác lấy làm khuôn mẫu phấn đấu chút nào."
+    m 2j "Đói khát giao tiếp xã hội đã lâu, nên mình cũng không ngạc nhiên nếu cậu ta phản ứng hơi thái quá."
+    m 2d "Như lúc nãy..."
+    m "Theo mình quan sát, nếu Yuri trở nên quá khích, cậu ấy sẽ thu mình lại và dành thời gian một mình suy ngẫm."
+    "Đột nhiên, cánh cửa bật tung ra."
     m 2b "Yuri!"
     show monika 2a
     show yuri 1s zorder 3 at f31
-    y "I'm back..."
-    y "Did I miss anything?"
+    y "Tớ về rồi đây..."
+    y "Tớ có lỡ mất chuyện gì không?"
     show yuri zorder 2 at t31
     show monika zorder 3 at f32
-    m 2a "Not really..."
-    m "Well, we all started sharing our poems with each other."
+    m 2a "Cũng không hẳn..."
+    m "Vậy là tất cả nọi người đã chia sẻ thơ cho nhau rồi."
     show monika zorder 2 at t32
     show yuri zorder 3 at f31
-    y 2t "Eh?"
-    y "Already?"
-    y 2v "I-I'm sorry for being late..."
+    y 2t "Ủa?"
+    y "Xong hết rồi sao?"
+    y 2v "T-tớ xin lỗi vì tới muộn..."
     show yuri zorder 2 at t31
     show monika zorder 3 at f32
-    m 2j "No need to apologize!"
-    m 2a "We still have plenty of time, so I'm more glad that you took all the time you needed."
+    m 2j "Không cần phải xin lỗi đâu!"
+    m 2a "Chúng ta vẫn còn nhiều thời gian mà, nên cậu đừng bận tâm về khoảng thời gian cậu đi làm việc riêng."
     show monika zorder 2 at t32
     show yuri zorder 3 at f31
-    y 1s "Alright..."
-    y "Thanks, Monika."
-    y "I suppose I should go get my poem now."
+    y 1s "Được rồi..."
+    y "Cảm ơn cậu, Monika."
+    y "Để tớ đi lấy bài thơ của mình."
     show yuri zorder 1 at thide
     hide yuri
     $ y_ranaway = False
     return
 
 label m2_yuri_2:
-    m 1i "[player], I think you saw something earlier that you weren't supposed to see."
-    m "I didn't want to have to tell you this, but I don't think I have a choice."
-    m 1r "It's getting kind of dangerous for you to spend so much time with Yuri."
-    m 1i "I don't know why, but she seems pretty easily excitable when she's around you..."
-    m 3d "Which shouldn't be a problem in itself."
-    m "But when Yuri gets too excited, she finds a place to hide and starts cutting herself with a pocket knife."
-    m 2e "Isn't that kind of messed up?"
-    m "She even brings a different one to school every day, like she has a collection or something..."
-    m 2d "I mean, it's definitely not because she's depressed or anything like that!"
-    m "I think she just gets some kind of high from it."
-    m 2m "It might even be, like, a sexual thing..."
-    m 1i "But the point is, you've kind of been enabling her."
-    m 1d "I'm not saying it's your fault, though!"
-    m 1a "But I guess that's why I had to explain it all to you..."
-    m "So I think if you keep your distance, that would probably be best for her."
-    m 5 "While you're at it, don't be shy to spend a little more time with me..."
-    m "To put it lightly, I at least have it together in the head...and I know how to treat my club members."
+    m 1i "[player], mình nghĩ cậu vừa thấy cái gì đó mà cậu không nên thấy."
+    m "Mình không muốn phải nói cho cậu biết nhưng đến nước này rồi thì đành vậy."
+    m 1r "Cậu đang càng ngày tiến gần tới nguy hiểm hơn khi cậu dành nhiều thời gian ở bên Yuri."
+    m 1i "Mình không biết tại sao nhưng Yuri có vẻ rất dễ kích động khi ở bên cậu..."
+    m 3d "Đáng lẽ chuyện đó không thành vấn đề đâu...."
+    m "Nhưng mỗi khi Yuri quá khích, cậu ấy lại trốn vào một góc nào đấy và tự dùng dao cứa vào bản thân."
+    m 2e "Nghe thật bệnh hoạn đúng không?"
+    m "Thậm chí mỗi ngày cậu ấy còn mang một cái khác nhau tới trường, như thể có cả một bộ sưu tập dao hay sao ấy..."
+    m 2d "Mình nghĩ, cậu ta làm vậy không phải do buồn bã hay gì đâu!"
+    m "Có vẻ như việc đó đem lại cho cậu ta sự khoái cảm."
+    m 2m "Cứ như thể là kiểu...khổ dâm..."
+    m 1i "Nhưng điểm mấu chốt ở đây là, cậu như kiểu chất xúc tác cho cậu ta làm vậy."
+    m 1d "Mình không đổ lỗi cho cậu đâu nhé."
+    m 1a "Lý do mình nói cho cậu biết là để cậu hiểu rằng..."
+    m "Cậu phải giữ khoảng cách với Yuri, đấy cũng giúp đỡ cậu ta ngưng việc tự làm hại bản thân."
+    m 5 "Và... đừng ngần ngại dành thời gian ở bên mình nhiều hơn."
+    m "Ít ra đầu óc mình cũng bình thường... và mình biết phải đối xử với các thành viên câu lạc bộ ra sao cho đúng mực."
     return
 
 label m2_yuri_3:
     stop music
-    m 1i "Don't say I didn't warn you, [player]."
+    m 1i "Đừng có nói là mình chưa cảnh báo cậu nhé, [player]."
     $ skip_poem = True
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

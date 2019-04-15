@@ -427,7 +427,7 @@ label poem(transition=True):
     $ config.allow_skipping = False
     $ allow_skipping = False
     if persistent.playthrough == 0 and chapter == 0:
-        call screen dialog("It's time to write a poem!\n\nPick words you think your favorite club member\nwill like. Something good might happen with\nwhoever likes your poem the most!", ok_action=Return())
+        call screen dialog("Đã đến lúc làm thơ rồi!\n\nChọn từ mà bạn nghĩ rằng thành viên clb sẽ thích.\nVài thứ hay ho có thể xảy đến với người thích\nbài thơ của bạn nhất!", ok_action=Return())
     python:
         poemgame_glitch = False
         played_baa = False

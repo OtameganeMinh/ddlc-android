@@ -6,127 +6,198 @@ label ch1_main:
     play music t2
     show monika 5 zorder 2 at t11
 
-    m "Hi again, [player]!"
-    m "Glad to see you didn't run away on us. Hahaha!"
-    mc "Nah, don't worry."
-    mc "This might be a little strange for me, but I at least keep my word."
+
+    m "Rất hân hạnh được gặp lại cậu, [player]!"
+
+    m "Thật mừng khi thấy cậu không chạy trốn tụi này. Hahaha!"
+
+    mc "Nah, đừng lo về chuyện đó."
+
+    mc "Tuy việc này có hơi kì cục nhưng ít nhất mình vẫn phải giữ lời hứa."
     show monika zorder 1 at thide
     hide monika
-    "Well, I'm back at the Literature Club."
-    "I was the last to come in, so everyone else is already hanging out."
+
+    "Thế là tôi đã quay trở lại với Câu lạc bộ Văn Học."
+
+    "Tôi là người đến sau cùng, mọi người đã yên vị trong phòng từ lúc nào rồi."
     show yuri 1a zorder 2 at t32
-    y "Thanks for keeping your promise, [player]."
-    y "I hope this isn't too overwhelming of a commitment for you."
-    y 1u "Making you dive headfirst into literature when you're not accustomed to it..."
+
+    y "Cảm ơn cậu vì đã giữ lời hứa, [player]."
+
+    y "Mình mong rằng cậu không có cảm giác bị ép buộc phải tham gia."
+
+    y 1u "Cậu không có hứng thú với văn học mà vẫn cố tham gia như thế này..."
     show natsuki 4e zorder 2 at t33
-    n "Oh, come on! Like he deserves any slack."
-    n "Sayori told me you didn't even want to join any clubs this year."
-    n "And last year, too!"
-    n 4c "I don't know if you plan to just come here and hang out, or what..."
-    n "But if you don't take us seriously, then you won't see the end of it."
+
+    n "Ôi thôi nào, tên này không xứng đáng nhận mấy lời an ủi đó đâu!"
+
+    n "Sayori đã nói với tớ là tên này thực ra chả muốn tham gia một câu lạc bộ nào trong năm nay."
+
+    n "Và năm ngoái cô ấy cũng nói vậy!"
+
+    n 4c "Tôi không biết là cậu có dự định vào đây chỉ để chơi hay gì..."
+
+    n "Nhưng nếu cậu không nghiêm túc với bọn này thì cậu sẽ có một cái kết không hay ho đâu."
     show monika 2b at l41
-    m "Natsuki, you certainly have a big mouth for someone who keeps her manga collection in the clubroom."
+
+    m "Xem cái người trữ hẳn một bộ sưu tập Manga ở trong phòng câu lạc bộ nói ghê chưa kìa."
     n 4o "M-M-M...!!"
     show monika at lhide
     hide monika
-    "Natsuki finds herself stuck between saying \"Monika\" and \"Manga\"."
+
+    "Natsuki có vẻ đang đắn đo giữa hai từ \"Monika\" và \"Manga\"."
     show natsuki at h33
-    n 1v "Manga is literature!!"
+
+    n 1v "Manga cũng thuộc văn học mà!!"
     show natsuki zorder 1 at thide
     hide natsuki
-    "Swiftly defeated, Natsuki plops back into her seat."
+
+    "Cảm thấy thất bại toàn tập, Natsuki xấu hổ rút về chỗ ngồi của cô ấy."
     show yuri zorder 2 at t22
     show sayori 2x zorder 3 at f21
-    s "Don't worry, guys~"
-    s "[player] always gives it his best as long as he's having fun."
-    s "He helps me with busywork without me even asking."
-    s "Like cooking, cleaning my room..."
+
+    s "Mọi người đừng quá lo lắng mà~"
+
+    s "[player] lúc nào cũng cố gắng hết mình miễn là cậu ấy vui vẻ."
+
+
+    s "Cậu ấy luôn giúp tớ làm những việc nặng dù cho tớ không hề nhờ."
+
+    s "Như là nấu cho tớ ăn này, dọn phòng cho tớ này..."
     show sayori 2a zorder 2 at t21
     show yuri zorder 3 at f22
-    y 2m "How dependable..."
+
+    y 2m "Đáng tin cậy ghê~~"
     show yuri zorder 2 at t22
-    mc "Sayori, that's because your room is so messy it's distracting."
-    mc "And you almost set your house on fire once."
+
+    mc "Đó là bởi vì phòng của cậu bừa bộn đến mức không ai có thể chấp nhận nổi."
+
+    mc "Còn về nấu ăn, có lần suýt nữa cậu tự đốt nhà mình."
     show sayori at s21
-    s 5 "Is that so... Ehehe..."
+
+    s 5 "Có cả chuyện đấy sao... Ehehehe..."
     show yuri zorder 3 at f22
-    y 1s "You two are really good friends, aren't you?"
-    y "I might be a little jealous..."
+
+    y 1s "Hai người có vẻ thân nhau quá nhỉ?"
+
+    y "Hai người làm cho tớ phải ghen tị đấy..."
     show yuri zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1 "How come? You and [player] can become good friends too!"
+
+    s 1 "Sao lại phải thế? Cậu và [player] cũng trở thành bạn thân được mà!"
     show sayori zorder 2 at t21
     show yuri zorder 3 at f22
-    y 4b "U-Um..."
+
+    y 4b "Ư-Ưm..."
     show yuri zorder 2 at t22
     mc "S-Sayori--"
     show sayori zorder 3 at f21
-    s "Hmm?"
+    s "Hử?"
     show sayori zorder 2 at t21
-    mc "..."
-    "As usual, Sayori seems oblivious to the weird situation she just put me into."
+    mc "....."
+
+    "Như thường lệ, Sayori chả bao giờ nhận ra là cô ấy đã khiến tôi rơi vào những tình huống khó xử."
     show sayori zorder 3 at f21
-    s 4x "Oh, oh! Yuri even brought you something today, you know~"
-    show sayori zorder 2 at t21
-    show yuri zorder 3 at f22
-    y 3n "W-Wait! Sayori..."
-    show yuri zorder 2 at t22
-    mc "Eh? Me?"
-    show yuri zorder 3 at f22
-    y 3o "Um... Not really..."
-    show yuri zorder 2 at t22
-    show sayori zorder 3 at f21
-    s 4r "Don't be shy~"
+
+    s 4x "Oh, oh! Hôm nay Yuri còn mang theo một thứ dành cho cậu đấy~"
     show sayori zorder 2 at t21
     show yuri zorder 3 at f22
-    y "It's really nothing..."
+
+    y 3n "K-Khoan đã! Sayori..."
     show yuri zorder 2 at t22
-    mc "What is it?"
+
+    mc "Eh? Cho mình á?"
     show yuri zorder 3 at f22
-    y 4c "N-Never mind!"
-    y "Sayori made it sound like a big deal when it's really not..."
-    y "Uuuuh, what do I do..."
+
+    y 3o "Ưm...k-không có gì đâu mà..."
     show yuri zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1g "Eh? I'm sorry, Yuri, I wasn't thinking..."
+
+    s 4r "Có gì phải ngại đâu~"
+    show sayori zorder 2 at t21
+    show yuri zorder 3 at f22
+
+    y "Thật sự là không có gì đâu..."
+    show yuri zorder 2 at t22
+
+    mc "Đó là gì vậy?"
+    show yuri zorder 3 at f22
+
+    y 4c "C-Cậu đừng để ý!"
+
+    y "Sayori cứ làm lớn chuyện lên trong khi nó thực sự không hề..."
+
+    y "Uuuuh, mình phải làm sao đây?~~"
+    show yuri zorder 2 at t22
+    show sayori zorder 3 at f21
+
+    s 1g "Ể? Tớ xin lỗi nhé Yuri, tớ đã không nghĩ đến..."
     show sayori zorder 1 at thide
     hide sayori
     show yuri zorder 2 at t11
-    "I guess that means it's up to me to rescue this situation..."
-    mc "Hey, don't worry about it."
-    mc "First of all, I wasn't expecting anything in the first place."
-    mc "So any nice gesture from you is a pleasant surprise."
-    mc "It'll make me happy no matter what."
-    y 3v "I-Is that so..."
-    mc "Yeah. I won't make it a big deal if you don't want it to be."
-    y "Alright..."
-    y 1a "Well, here."
-    "Yuri reaches into her bag and pulls out a book."
-    y "I didn't want you to feel left out..."
-    y "So I picked out a book that I thought you might enjoy."
-    y "It's a short read, so it should keep your attention, even if you don't usually read."
-    y "And we could, you know..."
+
+    "Có vẻ tôi là người phải tìm cách để cứu vãn tình huống này..."
+
+    mc "Thôi nào, đừng lo lắng quá về chuyện đó."
+
+    mc "Mình đâu có mong đợi sẽ nhận được thứ gì to tát."
+
+    mc "Được nhận quà từ cậu đã là một bất ngờ dễ thương rồi."
+
+    mc "Mình cảm thấy rất vui dù cho món quà có là gì đi nữa."
+
+    y 3v "T-Thật vậy sao..."
+
+    mc "Ừ, mình nhất định sẽ không làm to chuyện lên đâu."
+
+    y "Vậy được rồi..."
+
+    y 1a "Đây, tặng cậu."
+
+    "Yuri lấy ra một cuốn sách ở trong cặp."
+
+    y "Mình không muốn cậu cảm thấy như là người ngoài cuộc..."
+
+    y "Vì vậy nên mình đã chọn sẵn một cuốn sách với thể loại mà mình nghĩ cậu sẽ thích."
+
+    y "Đây chỉ là một cuốn truyện ngắn thôi, vậy nên cậu sẽ không bị mất quá nhiều thời gian vào nó."
+
+    y "Và khi cậu đọc, chúng ta có thể..."
     show yuri at sink
-    y 4b "Discuss it...if you wanted..."
-    "Th-This is..."
-    "How is this girl accidentally being so cute?"
-    "She even picked out a book she thinks I'll like, despite me not reading much..."
-    mc "Yuri, thank you! I'll definitely read this!"
-    "I enthusiastically take the book."
+
+    y 4b "Thảo luận về nó...nếu như cậu muốn..."
+    "T-Trời đất ơi..."
+
+    "Sao tự nhiên cô gái này dễ thương quá vậy~~!"
+
+    "Cô ấy bỏ công sức suy nghĩ chọn sách cho tôi đọc mặc dù biết rằng tôi chả thèm đọc sách mấy..."
+
+    mc "Cảm ơn cậu nhé, Yuri. Mình nhất định sẽ đọc nó."
+
+    "Tôi vui mừng nhận lấy quyển sách."
     show yuri 2m zorder 2 at t11
     y "Phew..."
-    y 2a "Well, you can read it at your own pace."
-    y "I look forward to hearing what you think."
+
+    y 2a "Umm, cậu có thể đọc nó vào bất cứ lúc nào cậu muốn."
+
+    y "Mình rất mong chờ được nghe ý kiến của cậu về cuốn sách."
     show yuri zorder 1 at thide
     hide yuri
 
 
-    "Now that everyone's settled in, I expected Monika to kick off some scheduled activities for the club."
-    "But that doesn't seem to be the case."
-    "Sayori and Monika are having a cheery conversation in the corner."
-    "Yuri's face is already buried in a book."
-    "I can't help but notice her intense expression, like she was waiting for this chance."
-    "Meanwhile, Natsuki is rummaging around in the closet."
+
+    "Bây giờ thì mọi người đã ổn định chỗ ngồi, tôi chờ Monika triển khai các hoạt động của nhóm."
+
+    "Nhưng có vẻ câu lạc bộ này không quá nghiêm túc như Natsuki cảnh báo."
+
+    "Sayori và Monika đang nói chuyện vui vẻ trong góc phòng câu lạc bộ."
+
+    "Yuri đã ngay lập tức đọc sách chăm chú."
+
+    "Ánh mắt tập trung cực độ không rời khỏi trang sách của cô ấy như thể người đói đang ngấu nghiến thức ăn vậy."
+
+    "Trong khi đó, Natsuki thì đang lục lọi tủ để đồ."
+
 
 
     $ nextscene = poemwinner[0] + "_exclusive_" + str(eval(poemwinner[0][0] + "_appeal"))
@@ -137,24 +208,37 @@ label ch1_main:
     hide sayori
     hide natsuki
     hide yuri
-    m "By the way, did you remember to write a poem last night?"
-    mc "Y-Yeah..."
-    "My relaxation ends."
-    "I can't believe I agreed to do something so embarrassing."
-    "I couldn't really find much inspiration, since I've never really done this before."
-    m "Well, now that everyone's ready, why don't you find someone to share with?"
+
+    m "À này, tối hôm qua cậu có nhớ làm thơ không đấy?"
+
+    mc "À..ừ..có..."
+
+    "Quãng thời gian thư giãn đến đây là kết thúc."
+
+    "Không thể tin nổi là tôi lại đồng ý làm cái việc đáng xấu hổ đến vậy."
+
+    "Trước tới nay tôi có viết lách bao giờ đâu thế nên lúc viết tôi chả tìm ra tí cảm hứng nào."
+
+    m "Mọi người đều chuẩn bị xong hết rồi đấy, cậu cũng nhanh lên và chia sẻ cùng đi."
     show sayori 4q zorder 2 at t22
-    s "I can't wait~!"
+
+    s "Tớ không thể đợi được nữa rồi~!"
     show sayori zorder 1 at thide
     show monika zorder 1 at thide
     hide sayori
     hide monika
-    "Sayori and Monika enthusiastically pull out their poems."
-    "Sayori's is on a wrinkled sheet of loose leaf torn from a spiral notebook."
-    "On the other hand, Monika wrote hers in a composition notebook."
-    "I can already see Monika's pristine handwriting from where I sit."
-    "Natsuki and Yuri reluctantly comply as well, reaching into their bags."
-    "I do the same, myself."
+
+    "Sayori và Monika hăng hái lấy ra những bài thơ của họ."
+
+    "Bài thơ của Sayori viết trên một tờ giấy nhàu rách, được xé ra từ quyển sổ gáy xoắn."
+
+    "Trong khi đó, Monika thì cẩn thận viết bài thơ của cô ấy vào hẳn một cuốn sổ tay riêng."
+
+    "Từ chỗ tôi ngồi mà vẫn có thể đọc được những dòng chữ ngay ngắn của Monika."
+
+    "Natsuki và Yuri lấy bài thơ của mình trong cặp sách ra một cách miễn cưỡng."
+
+    "Và tôi cũng giống hai người đó."
 
     return
 
@@ -164,107 +248,170 @@ label ch1_end:
     scene bg club_day
     with wipeleft_scene
     play music t3
-    mc "Phew..."
-    "I guess that's everyone."
-    "I glance around the room."
-    "That was a little more stressful than I anticipated."
-    "It's as if everyone is judging me for my mediocre writing abilities..."
-    "Even if they're just being nice, there's no way my poems can stand up to theirs."
-    "This is a literature club, after all."
-    "I sigh."
-    "I guess that's what I ended up getting myself into."
-    "Across the room, Sayori and Monika are happily chatting."
-    "My eyes land on Yuri and Natsuki."
+
+    mc "Phù..."
+
+    "Vậy là chia sẻ xong hết với tất cả mọi người rồi."
+
+    "Tôi liếc một vòng quanh căn phòng."
+
+    "Có vẻ áp lực hơn tôi nghĩ."
+
+    "Cái cảm giác tất cả mọi người đang dồn sự tập trung vào đánh giá khả năng viết lách của mình..."
+
+    "Không thể có chuyện thơ của thằng này lại so sánh được với mọi người ở đây, lời khen của họ chỉ để tỏ ra thân thiện thôi."
+
+    "Ừ thì dù sao thì đây cũng là câu lạc bộ Văn Học cơ mà."
+
+    "Tôi thở dài."
+
+    "Đã vào đây thì không còn đường rút lui nữa rồi."
+
+    "Ở cuối phòng, tôi vẫn thấy Sayori và Monika trò chuyện vui vẻ."
+
+    "Ánh mắt của tôi hạ cánh nơi Yuri và Natsuki đang ngồi."
     show yuri 2g zorder 2 at t21
     show natsuki 1g zorder 2 at t22
-    "They gingerly exchange sheets of paper, sharing their respective poems."
+
+    "Họ vẫn đang tiếp tục trao đổi những tờ giấy ở trên có bài thơ họ tự hào."
     show yuri 2i at t21
-    "As they read in tandem, I watch each of their expressions change."
-    "Natsuki's eyebrows furrow in frustration."
-    "Meanwhile, Yuri smiles sadly."
+
+    "Trong lúc họ đọc thơ, tôi quan sát thấy sự thay đổi trên khuôn mặt của cả hai."
+
+    "Đôi lông mày của Natsuki hơi nhăn lại."
+
+    "Trong khi đó, Yuri thì cười nhạt."
+
     show natsuki zorder 3 at f22
-    n 1q "{i}(What's with this language...?){/i}"
+
+    n 1q "{i}(Thứ ngôn ngữ quái quỷ gì thế này...?){/i}"
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
     y 2f "Eh?"
-    y "Um...did you say something?"
+    y 2f "Hả?"
+
+    y "Ưm...cậu vừa có nhận xét gì à?"
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
-    n 2c "Oh, it's nothing."
-    "Natsuki dismissively returns the poem to the desk with one hand."
-    n "I guess you could say it's fancy."
+
+    n 2c "Không, không có gì đâu."
+
+    "Natsuki dùng một tay quẳng luôn bài thơ vào ngăn bàn."
+
+    n "Có thể nói bài thơ của cậu khá là hư ảo."
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
-    y 2i "Ah-- Thanks..."
-    y "Yours is...cute..."
+
+    y 2i "Ah-- Cảm ơn..."
+
+    y "Của cậu thì...dễ thương..."
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
-    n 2h "Cute?"
-    n 1h "Did you completely miss the symbolism or something?"
-    n "It's clearly about the feeling of giving up."
-    n "How can that be cute?"
+
+    n 2h "Dễ thương á?"
+
+    n 1h "Cậu hoàn toàn không hiểu những gì mà bài thơ của tớ truyền đạt phải không?"
+
+    n "Rõ ràng là tớ viết về cảm giác bất lực cơ mà."
+
+    n "Làm thế nào mà nó lại là dễ thương kia chứ?"
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
-    y 3f "I-I know that!"
-    y "I just meant..."
-    y 3h "The language, I guess..."
-    y "I was trying to say something nice..."
+
+    y 3f "T-Tớ biết điều đó mà!"
+
+    y "Ý tớ là..."
+
+    y 3h "Cách diễn đạt, chắc vậy..."
+
+    y "Tớ chỉ đang cố để đưa ra lời nhận xét tốt đẹp..."
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
     n "Eh?"
-    n 4w "You mean you have to try that hard to come up with something nice to say?"
-    n "Thanks, but it really didn't come out nice at all!"
+
+    n 4w "Ý cậu là bài thơ của tớ dở đến mức khiến cậu phải cố gắng lắm mới tìm ra một lời nhận xét tốt đẹp á?"
+
+    n "Cảm ơn nhiều lắm, nhưng nó thật sự chả có tí gì tốt đẹp cả!"
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
-    y 1i "Um..."
-    y "Well, I do have a couple suggestions..."
+
+    y 1i "Ưm..."
+
+    y "Này, tớ có một vài gợi ý để cải thiện..."
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
-    n 5x "Hmph."
-    n "If I was looking for suggestions, I would have asked someone who actually liked it."
-    n "Which people {i}did{/i}, by the way."
-    n 5e "Sayori liked it."
-    n "And [player] did, too!"
-    n "So based on that, I'll gladly give you some suggestions of my own."
-    n "First of all--"
+
+    n 5x "Hứ."
+
+    n "Nếu mà tớ cần gợi ý, thì tớ sẽ đi hỏi những độc giả thực sự thích bài thơ này."
+
+    n "Cơ mà có những ai {i}thích{/i} nó ấy nhỉ."
+
+    n 5e "Sayori thích nó."
+
+    n "Cả [player] cũng thích nó!"
+
+    n "Vậy thì tớ mới là người viết hay hơn, tớ không ngại cho cậu một vài lời khuyên đâu."
+
+    n "Trước tiên là--"
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
-    y 2l "Excuse me..."
-    y "I appreciate the offer, but I've spent a long time establishing my writing style."
-    y 2h "I don't expect it to change anytime soon, unless of course I come across something particularly inspiring."
-    y "Which I haven't yet."
+
+    y 2l "Khoan đã..."
+
+    y "Tuy tớ rất cảm kích vì thấy cậu muốn giúp nhưng tớ đã bỏ ra rất nhiều công sức để sáng tạo cách hành văn này."
+
+    y 2h "Tớ chưa muốn thay đổi nó, trừ khi tớ đọc được bài thơ nào đó hay hơn làm nguồn cảm hứng thì mới suy nghĩ lại."
+
+    y "Và hiện tại thì điều ấy chưa hề xảy ra."
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
     n 1o "Nn...!"
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
-    y 1k "And [player] liked my poem too, you know."
-    y "He even told me he was impressed by it."
+
+    y 1k "Và cậu biết không, [player] cũng thích bài thơ của tớ đấy."
+
+    y "Cậu ấy còn nói rằng nó rất là ấn tượng."
     stop music fadeout 1.0
-    "Natsuki suddenly stands up."
+
+    "Natsuki đột ngột đứng bật dậy."
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
     n 4y "Oh?"
-    n "I didn't realize you were so invested in trying to impress our new member, Yuri."
+    n 4y "Ồ ra vậy?"
+
+    n "Có vẻ cậu rất cố gắng để gây ấn tượng với thành viên mới của chúng ta đấy nhỉ Yuri."
     play music t7
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
     y 1n "E-Eh?!"
-    y "That's not what I...!"
+    y 1n "H-Hả?!"
+
+    y "Tớ không hề có ý...!"
     y 1o "Uu..."
-    y "You...You're just..."
-    "Yuri stands up as well."
-    y 2r "Maybe you're just jealous that [player] appreciates my advice more than he appreciated yours!"
+
+    y "Cậu...Cậu thật là..."
+
+    "Yuri cũng đứng dậy."
+
+    y 2r "Chắc là cậu chỉ đang ghen tị với việc [player] đánh giá những lời khuyên của tớ cao hơn cậu mà thôi!"
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
-    n 1e "Huh! And how do you know he didn't appreciate {i}my{/i} advice more?"
-    n "Are you that full of yourself?"
+
+    n 1e "Hả! Làm thế quái nào cậu biết được cậu ta không đánh giá lời khuyên {i}của tớ{/i} cao hơn cậu?"
+
+    n "Cậu có hơi bị tự tin thái quá không đấy?"
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
-    y 3h "I...!"
-    y "No..."
-    y "If I was full of myself..."
-    y 1r "...I would deliberately go out of my way to make everything I do overly cutesy!"
+
+    y 3h "Tớ...!"
+
+    y "Không..."
+
+    y "Nếu tớ mà tự tin thái quá ấy..."
+
+    y 1r "...Thì tớ đã cố tình giả vờ sao cho mọi việc tớ làm đều dễ thương!"
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
     n 1o "Uuuuuu...!"
@@ -272,421 +419,649 @@ label ch1_end:
     show yuri zorder 2 at t32
     show natsuki zorder 2 at t33
     s "U-Um!!"
-    s "Is everyone okay...?"
+    s "N-Này!!"
+
+    s "Mọi người có chuyện gì thế...?"
     show sayori 2 at lhide
     hide sayori
     show natsuki zorder 3 at f33
-    n 1f "Well, you know what?!"
-    n "I wasn't the one whose boobs magically grew a size bigger as soon as [player] started showing up!!"
+
+    n 1f "Hứ, cậu thì biết cái gì?!"
+
+    n "Ít nhất thì tớ không phải là người sở hữu bộ ngực tự nhiên to lên một cách thần kì từ lúc [player] đến đây!!"
     show yuri 3p at h32
     show natsuki zorder 2 at t33
     y "N-Natsuki!!"
     show monika 3l behind yuri, natsuki at l41
-    m "Um, Natsuki, that's a little--"
+
+    m "Này Natsuki, nói như vậy hơi bị quá--"
     show monika at h41
     show yuri 3p zorder 3 at f32
     show natsuki 1e zorder 3 at f33
-    ny "This doesn't involve you!"
+
+    ny "Không liên quan tới cậu!!!"
     show monika at lhide
     hide monika
     show yuri zorder 2 at t32
     show natsuki zorder 2 at t33
     show sayori 4p behind yuri, natsuki at l41
-    s "I-I don't like fighting, guys...!"
+
+    s "M-Mọi người thôi nào, t-tớ không thích các cậu cãi nhau đâu~~...!"
     show sayori at lhide
     hide sayori
     show yuri zorder 2 at t21
     show natsuki 1g zorder 2 at t22
-    "Suddenly, both girls turn towards me, as if they just noticed I was standing there."
+
+    "Đột nhiên, cả hai cô gái quay ngoắt về phía tôi, như thể họ vừa mới chợt nhận ra là tôi đứng ở đấy từ đầu đến giờ."
     show yuri zorder 3 at f21
     y 2n "[player]...!"
-    y "She-- She's just trying to make me look bad...!"
+
+    y "Cậu-cậu ấy đặt điều nói xấu mình...!"
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
-    n 4w "That's not true!"
-    n "She started it!"
-    n 4e "If she could get over herself and learn to appreciate that {i}simple{/i} writing is more effective..."
-    n "Then this wouldn't have happened in the first place!"
-    n "What's the point in making your poems all convoluted for no reason?"
-    n "The meaning should jump out at the reader, not force them to have to figure it out."
-    n 1f "Help me explain that to her, [player]!"
+
+    n 4w "Này nhé, có thật vậy không!"
+
+    n "Cậu ta là người gây sự trước!"
+
+    n 4e "Nếu cậu ấy bớt tự cao đi và chịu học theo cách viết {i}đơn giản{/i}..."
+
+    n "Thì ngay từ đầu đã không xảy ra vụ này!"
+
+    n "Tại sao cứ phải viết thơ phức tạp mà chả để giải quyết việc gì thế?"
+
+    n "Phải làm cho người đọc hiểu được ý nghĩa luôn chứ đừng có ép họ phải vắt óc mới nghĩ ra được chứ."
+
+    n 1f "Giúp tôi giải thích cho cậu ấy hiểu đi, [player]!"
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
-    y 3o "W-Wait!"
-    y "There's a reason we have so many deep and expressive words in our language!"
-    y 3w "It's the only way to convey complex feelings and meaning the most effectively."
-    y "Avoiding them is not only unnecessarily limiting yourself...it's also a waste!"
-    y 1t "You understand that, right, [player]?"
+
+    y 3o "K-Khoan đã!"
+
+    y "Trong ngôn ngữ của chúng ta có rất nhiều từ ngữ phức tạp và sâu sắc là có lí do của nó đấy nhé."
+
+    y 3w "Dùng những từ ngữ như thế sẽ là cách hiệu quả nhất để truyền đạt những cảm xúc tới người đọc."
+
+    y "Nếu không dùng là cậu tự giới hạn khả năng của bản thân mình lại...rõ lãng phí!"
+
+    y 1t "Cậu cũng hiểu như thế đúng không [player]?"
     show yuri zorder 2 at t21
-    mc "Um...!"
+    mc "Ờ thì...!"
     show yuri 1t zorder 3 at f21
     show natsuki 1e zorder 3 at f22
-    ny "Well??"
+
+    ny "Sao, ý cậu thế nào??"
     mc "..."
     show yuri zorder 2 at t21
     show natsuki 1g zorder 2 at t22
-    "How did I get dragged into this in the first place?!"
-    "It's not like I know anything about writing..."
-    "But whomever I agree with, they'll probably think more highly of me!"
+
+    "Thế quái nào mà hai người họ định lôi cả mình vào chuyện này nhể?!"
+
+    "Mình thì có biết cái quái gì về viết lách đâu..."
+
+    "Nhưng lúc này nếu theo phe bạn gái nào thì nhất định sẽ chiếm được cảm tình của bạn ấy!"
     menu:
-        "So, of course that's going to be...!"
+        "Được rồi, cứ làm tới đi, mình sẽ theo...!"
         "Natsuki.":
+
             call ch1_end_natsuki
         "Yuri.":
             call ch1_end_yuri
-        "Help me, Sayori!!":
+        "Giúp với, Sayori!!":
+
             call ch1_end_sayori
 
     scene bg club_day
     show monika 4b zorder 2 at t11
     with wipeleft_scene
-    m "Okay, everyone!"
-    m "It's just about time for us to leave."
-    m "How did you all feel about sharing poems?"
+
+    m "Được rồi mọi người!"
+
+    m "Buổi hoạt động câu lạc bộ phải dừng ở đây thôi."
+
+    m "Mọi người cảm thấy thế nào về phần chia sẻ thơ?"
     show monika 4a
     show sayori 4x zorder 2 at t31
-    s "It was a lot of fun!"
+
+    s "Nó rất là vui!"
     show sayori behind yuri at thide
     show yuri 1i zorder 2 at t31
     hide sayori
-    y "Well, I'd say it was worth it."
+
+    y "Tớ thấy nó rất có ích."
     show yuri behind natsuki at thide
     show natsuki 4q zorder 2 at t31
     hide yuri
-    n "It was alright. Well, mostly."
+
+    n "Tớ cũng hài lòng về phần đó."
     show natsuki zorder 1 at thide
     hide natsuki
-    m 1a "[player], how about you?"
-    mc "...Yeah, I'd say the same."
-    mc "It was a neat thing to talk about with everyone."
-    m 1j "Awesome!"
-    m 1a "In that case, we'll do the same thing tomorrow."
-    m "And maybe you learned something from your friends, too."
-    m 3b "So your poems will turn out even better!"
+
+    m 1a "[player], còn cậu thì sao?"
+
+    mc "...Uhm, tớ cũng như mọi người thôi."
+
+    mc "Tớ thấy rất vui khi được nói chuyện cùng với mọi người."
+
+    m 1j "Vậy thì tốt quá rồi!"
+
+    m 1a "Chúng ta sẽ tiếp tục vào ngày mai nhé!"
+
+    m "Cậu phải cố gắng học từ các bạn khác nữa."
+
+    m 3b "Rồi thơ cậu sẽ ngày một hay hơn!"
     mc "..."
     show monika zorder 1 at thide
     hide monika
-    "I think to myself."
-    "I did learn a little more about the kinds of poems everyone likes."
-    "With any luck, that means I can at least do a better job impressing those I want to impress."
-    "I nod to myself with newfound determination."
+
+    "Tôi tự vấn bản thân mình."
+
+    "Hôm nay tôi đã biết được về thể loại thơ mà mỗi người thích."
+
+    "Ít nhất từ sau tôi sẽ biết cách để gây ấn tượng với cô gái mà tôi quan tâm."
+
+    "Tôi tự cảm thấy hài lòng với bản thân vì phát kiến này."
     show sayori 1x zorder 2 at t11
     s "[player]!"
-    s "Ready to walk home?"
-    mc "Sure, let's go."
+
+    s "Chúng ta về nhà thôi?"
+
+    mc "Ừm, đi thôi."
     s 4q "Ehehe~"
-    "Sayori beams at me."
-    "It truly has been a while since Sayori and I have spent this much time together."
-    "I can't really say I'm not enjoying it, either."
+
+    "Sayori trông rạng rỡ hơn hẳn."
+
+    "Đã lâu lắm rồi tôi và Sayori mới dành được nhiều thời gian bên nhau."
+
+    "Và thực sự là tôi cũng cảm thấy thích nó."
     scene bg residential_day
     show sayori 1a zorder 2 at t11
     with wipeleft_scene
     mc "Sayori..."
-    mc "About what happened earlier..."
-    s 1b "Eh? What do you mean?"
-    mc "You know, between Yuri and Natsuki."
-    mc "Does that kind of thing happen often?"
-    s 4j "No, no, no!"
-    s "That's really the first time I've seen them fight like that..."
-    s "I promise they're both wonderful people."
+
+    mc "Về chuyện đã xảy ra ở câu lạc bộ khi nãy..."
+
+    s 1b "Hả? Chuyện gì cơ?"
+
+    mc "Thì chuyện giữa Yuri và Natsuki ấy."
+
+    mc "Nó có hay xảy ra thường xuyên không?"
+
+    s 4j "Không, không!"
+
+    s "Đó thực sự là lần đầu tiên tớ thấy họ cãi nhau như thế..."
+
+    s "Nhưng tớ chắc chắn rằng cả hai người họ đều tuyệt vời cả!"
     show sayori at s11
-    s 1g "You don't... You don't hate them, do you??"
-    mc "No, I don't hate them!"
-    mc "I just wanted your opinion, that's all."
-    mc "I can see why they'd make good friends with you."
+
+    s 1g "C-Cậu không ghét họ đúng không?"
+
+    mc "Không, tớ không ghét họ!"
+
+    mc "Tớ chỉ muốn nghe ý kiến của cậu về chuyện đó thôi."
+
+    mc "Tớ thấy hai người đều là bạn tốt của cậu."
     show sayori zorder 2 at t11
     s 1d "Phew..."
-    s "You know, [player]..."
-    s "It's nice that I get to spend time with you in the club."
-    s "But I think seeing you get along with everyone is what makes me the happiest."
-    s 1x "And I think everyone really likes you, too!"
-    mc "That's--!"
+
+    s "Cậu có biết không, [player]..."
+
+    s "Thật vui khi tớ có thể dành thời gian cùng cậu trong câu lạc bộ."
+
+    s "Nhưng tớ nghĩ rằng được nhìn thấy cậu hoà đồng cùng mọi người mới là điều làm tớ vui nhất."
+
+    s 1x "Và tớ cũng nghĩ mọi người trong câu lạc bộ thực sự rất thích cậu đấy!"
+
+    mc "Đó là--!"
     s 4q "Ehehe~"
-    s "Every day is going to be so much fun~"
-    mc "Sigh..."
-    "It looks like Sayori still hasn't caught onto the kind of situation I'm in."
-    "Sure, being friends with everyone is nice, but..."
-    "...Does it really need to stop there?"
-    mc "We'll just have to see what the future holds, Sayori."
-    "I pat Sayori on the shoulder."
-    "I said that more to myself than to her, but it's easy to use Sayori as an internal monologue sometimes."
+
+    s "Những ngày tiếp theo chắc chắn sẽ vui lắm đây~"
+
+    mc "Thở dài..."
+
+    "Có vẻ như Sayori ngây thơ vẫn chẳng mảy may nhận ra thứ tôi thực sự muốn."
+
+    "Chắc chắn làm bạn với mọi người là tốt, nhưng..."
+
+    "...chỉ dừng lại tại đó đâu có hay?"
+
+    mc "Để rồi xem tương lai sẽ như thế nào, Sayori à."
+
+    "Tôi vỗ vai Sayori."
+
+    "Tôi nói điều đó với chính bản thân tôi, nhưng thi thoảng nói với Sayori hay hơn tự độc thoại nội tâm."
     show sayori at h11
     s 1x "Okay~!"
-    "Yeah..."
-    "Let's do this!"
+
+    "Ừm..."
+
+    "Hãy cùng cố gắng nhé!"
     return
 
 label ch1_end_natsuki:
     $ ch1_choice = "natsuki"
     stop music fadeout 1.0
-    mc "Um..."
+    mc "Này..."
     mc "Yuri!"
-    mc "You're really talented."
+
+    mc "Cậu thực sự rất tài năng đó!"
     show yuri 4a at s21
-    y "Eh? W-Well..."
+
+    y "Hả? À-Ừ thì..."
     play music t8
-    mc "But Natsuki has a point!"
-    mc "I think that..."
+
+    mc "Nhưng cách viết của Natsuki cũng có điểm hay!"
+
+    mc "Đó là những gì tớ nghĩ..."
     show yuri zorder 2 at t21
-    "I wrack my brain in an attempt to back myself up."
-    mc "I think that conveying feelings with few words..."
-    mc "Can be just as impressive as well!"
-    mc "It lets the reader's imagination take over."
-    mc "And Natsuki's poem did a really good job at that!"
+
+    "Tôi cố gắng tập trung tư tưởng."
+
+    mc "Mình nghĩ việc truyền tải cảm xúc chỉ với từ ngữ đơn giản..."
+
+    mc "Có thể tạo ra những ấn tượng mạnh!"
+
+    mc "Nó khơi gợi trí tưởng tượng của người đọc nhiều hơn."
+
+    mc "Đó là điểm hay ở trong bài thơ của Natsuki!"
     show natsuki zorder 3 at f22
     n 5y "...Yeah!!"
-    n "It did, didn't it?!"
-    n "Ahah!"
-    n "Shows how much {i}you{/i} know!"
+
+
+    n "Đúng là bài thơ của tôi hay như vậy đấy!"
+
+    n "Ahahaha!"
+
+    n "{i}Cậu{/i} không hiểu được đúng như thế gì cả!"
     show natsuki zorder 2 at t22
     show yuri zorder 3 at f21
-    y 4b "T-That's not..."
+
+    y 4b "N-Nhưng mà..."
     show yuri zorder 2 at t21
     mc "Natsuki..."
-    mc "I think that's enough."
+
+    mc "Như thế là đủ rồi đấy."
     show natsuki zorder 3 at f22
-    n 1m "Huh?"
-    n "Me?"
-    n "But she was so mean to me...!"
-    "Natsuki's voice whines."
+    n 1m "Hả?"
+
+    n "Cậu bảo tôi á?"
+
+    n "Nhưng mà tại cậu ấy cũng quá đáng với tôi mà...!"
+
+    "Natsuki rên rỉ."
     show natsuki zorder 2 at t22
-    mc "Look..."
-    mc "What we talked about yesterday was right."
-    mc "Writing is a really personal thing."
-    mc "And sharing it can definitely be hard."
-    mc "It looks like we learned that today."
-    mc "Even small criticism can lead to something pretty heated."
-    "I glance over my shoulder."
-    "Sayori is nodding vigorously."
-    mc "Yeah, so..."
-    mc "You don't need to feel threatened."
-    mc "You're a great writer, Natsuki."
+
+    mc "Nhớ lại đi..."
+
+    mc "Những gì chúng ta đã nói hôm qua."
+
+    mc "Viết lách là một việc cực kì mang tính cá nhân."
+
+    mc "Làm sao để truyền tải ý hiểu của mình với người khác thông qua câu chữ đương nhiên rất là khó."
+
+    mc "Ngày hôm nay chúng ta đã được trải nghiệm điều đó rồi đấy."
+
+    mc "Chỉ trích người khác về việc ấy sẽ dẫn đến những cuộc cãi vã không đâu."
+
+    "Tôi ngoảnh lại phía sau."
+
+    "Sayori đang gật đầu tán thành."
+
+    mc "Ừm, vậy..."
+
+    mc "Cậu không cần phải tỏ ra quá quắt như vậy."
+
+    mc "Cậu là một nhà văn tuyệt vời cơ mà, Natsuki."
     show natsuki zorder 3 at f22
     n 1h "Ah--"
-    "Natsuki's voice gets caught in surprise."
-    n 1q "...Thanks for noticing."
-    "She finally mutters that, barely audible."
+
+    "Giọng của Natsuki có chút bất ngờ."
+
+    n 1q "...Cảm ơn vì đã nhắc nhở tôi."
+
+    "Rồi cô ấy lầm bầm một cái gì đó, tôi không thể nghe rõ."
     show natsuki zorder 2 at t22
     mc "Yuri..."
     show yuri zorder 3 at f21
     y 4a "...?"
-    "Yuri looks at me dejectedly."
-    "With a face like that, I can't help but feel bad for her as well."
+
+    "Yuri nhìn tôi một cách chán nản."
+
+    "Nhìn khuôn mặt cô ấy như vậy khiến tôi cảm thấy hơi đáng thương."
     show yuri zorder 2 at t21
-    mc "I'm sure that Natsuki didn't mean everything she said."
-    mc "So you don't need to feel threatened, either."
+
+    mc "Mình chắc chắn Natsuki không có ý như vậy đâu."
+
+    mc "Vì vậy cậu cũng không cần phải làm quá chuyện này lên."
     show yuri zorder 3 at f21
-    y 2v "Well..."
-    y "If you say so..."
+
+    y 2v "U-Ừm..."
+
+    y "Nếu cậu đã nói như vậy..."
     show yuri zorder 2 at t21
     show natsuki zorder 3 at f22
-    n 1g "Hey...!"
-    n "It's not like you need to apologize {i}for{/i} me, [player]."
+
+    n 1g "Này...!"
+
+    n "Đâu khiến cậu phải xin lỗi {i}thay cho{/i} tôi, [player]."
     n 1w "Sheesh."
-    "Natsuki takes a breath."
-    n 1q "I..."
-    n "The thing about..."
-    n "Uu..."
-    "Natsuki glances around the room."
+
+    "Natsuki hít một hơi dài."
+
+    n 1a "Tôi..."
+
+    n "Về điều đó..."
+    n "Ư..."
+
+    "Natsuki nhìn quanh căn phòng."
     show natsuki zorder 3 at hf22
-    n 1x "{i}Would everyone stop staring at me??{/i}"
-    "Unsurprisingly, Natsuki has a harder time with it than she boasted."
-    "Sayori and Monika look away."
+
+    n 1x "{i}Mọi người đừng có nhìn chằm chằm tôi nữa được không?{/i}"
+
+    "Cũng không ngạc nhiên lắm về việc này, lòng kiêu hãnh của Natsuki khiến cô ấy chưa chịu chấp nhận xin lỗi."
+
+    "Sayori và Monika mỗi người ngoảnh mặt về một hướng."
     show natsuki zorder 3 at f22
     n 1i "Hmph."
-    n "Anyway...!"
-    n 1q "The thing about your boobs. I didn't mean it, okay?"
-    n "That's all."
-    "Natsuki looks away, avoiding eye contact with anyone."
+
+    n "Dù sao thì...!"
+
+    n 1q "Chuyện về ngực của cậu. Tớ không có ý đó, được chưa?"
+
+    n "Chỉ có thế thôi."
+
+    "Natsuki vẫn nhìn đi chỗ khác, cố gắng tránh những ánh mắt của mọi người."
     show natsuki zorder 2 at t22
     show sayori 4x behind yuri at l41
-    s "Yeah! You're naturally beautiful, Yuri!!"
+
+    s "Đúng đó! Ngực cậu đẹp tự nhiên mà, Yuri!!"
+
     mc "Sayori?!"
     show yuri 4c zorder 3 at f21
     y "..."
-    y "I-I'll go make some tea..."
+
+    y "T-Tớ sẽ đi pha chút trà..."
     show yuri at lhide
     hide yuri
     show sayori zorder 3 at f41
-    s 4h "Ehh?"
-    s "I was just trying to help!"
+    s 4h "Ể?"
+
+    s "Tớ chỉ muốn giúp thôi mà!."
     show sayori zorder 2 at t41
-    mc "I'm sure she appreciated it, Sayori."
-    "I pat Sayori on the shoulder."
+
+    mc "Tớ chắc Yuri hiểu thành ý của cậu mà, Sayori."
+
+    "Tôi vỗ vai Sayori."
     show sayori zorder 1 at thide
     show natsuki zorder 1 at thide
     show monika 4m zorder 2 at t11
     hide sayori
     hide natsuki
-    m "Well, now that we're past that..."
-    m 4b "Everyone's read each other's poems, right?"
-    m "I hope that it was worthwhile for everyone!"
-    m 5 "Especially you, [player]!"
-    m "And to be honest..."
-    m "It's a nice change of pace from the lazing around we got a little too used to."
+
+    m "Có vẻ như vấn đề đã được xử lí rồi nhỉ..."
+
+    m 4b "Mọi người đều đã đọc thơ của nhau rồi đúng không?"
+
+    m "Tớ hi vọng rằng lần hoạt động câu lạc bộ này có ích cho mọi người!"
+
+    m 5 "Đặc biệt là cậu đấy, [player]!"
+
+    m "Và thành thực mà nói..."
+
+    m "Từ cái sự lười biếng thường ngày mà câu lạc bộ chúng ta thay đổi được như này là đã rất tốt rồi."
     m "Ahahaha!"
-    mc "Ah, so my joining the club was responsible for ruining the atmosphere..."
-    m 1d "No, not at all, not at all!"
-    m "There's still time before we go home."
-    m 1a "So we'll all relax for a bit."
-    m "Of course, besides chatting, we do literature-related things in the clubroom..."
-    m "So maybe you can take the chance to pick up a book, or do some writing."
-    m 1b "After all, that's what the club is for!"
+
+    mc "Hả, vậy việc tớ gia nhập đúng là đã làm hỏng bầu không khí ở đây à..."
+
+    m 1d "Không, không hề, không phải thế đâu mà!"
+
+    m "Vẫn còn một lúc nữa mới đến giờ về."
+
+    m 1a "Sao mọi người không thư giãn một chút nhỉ?!"
+
+    m "Tất nhiên, ngoài việc thảo luận thì chúng ta vẫn còn nhiều việc liên quan đến văn học có thể làm tại đây..."
+
+    m "Các cậu có thể đọc sách hoặc viết một cái gì đó."
+
+    m 1b "Dù sao thì văn học cũng là mục đích mà câu lạc bộ này được lập ra mà!"
     show sayori 2j zorder 3 at f31
-    s "I disagree, Monika!"
+
+    s "Tớ không đồng ý với cậu đâu, Monika!"
     show sayori zorder 2 at t31
     show monika zorder 3 at f32
-    m 1d "Eh? About what?"
+
+    m 1d "Hả? Về việc gì thế?"
     show monika zorder 2 at t32
     show sayori zorder 3 at f31
-    s 2i "That's not the most important thing about the literature club!"
-    s "The most important thing..."
+
+    s 2i "Mục đích quan trọng nhất của câu lạc bộ văn học không phải là làm những thứ liên quan đến văn học!"
+
+    s "Mục đích quan trọng nhất..."
     show sayori 4r zorder 3 at hf31
-    s "Is having fun!"
+
+    s "Là phải vui vẻ!"
     show sayori zorder 2 at t31
     show monika zorder 3 at f32
-    m 2l "Ahaha, of course..."
-    m 2a "Well, I guess that's why you're the Vice President, Sayori."
+
+    m 2l "Ahaha, tất nhiên rồi..."
+
+    m 2a "Tớ đoán đó là lý do vì sao cậu là phó chủ nhiệm của câu lạc bộ đấy, Sayori."
     show monika zorder 2 at t32
     show sayori zorder 3 at f31
+    s 4q "Ehehe..."
     s 4q "Ehehe..."
     hide sayori
     hide monika
     with wipeleft
-    "In the end, though, Monika's right."
-    "Being in the Literature Club probably means I can't spend all my time doing nothing."
-    "But in the end..."
-    "...I guess it's been worth it so far."
+
+    "Suy cho cùng thì tôi nghĩ Monika nói đúng."
+
+    "Là một phần trong câu lạc bộ Văn học thì tôi không thể nào ngồi chơi không làm gì."
+
+    "Nhưng mà..."
+
+    "...Tôi đoán là nó cũng rất đáng."
     return
 
 label ch1_end_yuri:
     $ ch1_choice = "yuri"
     stop music fadeout 1.0
     mc "Natsuki."
-    mc "You're right that I liked your poem."
+
+    mc "Đúng là tôi thích thơ của cậu."
     show natsuki zorder 3 at f22
-    n 1e "See??"
+
+    n 1e "Đấy, thấy chưa?"
     show natsuki 1g zorder 2 at t22
     play music t8
-    mc "Wait!"
-    mc "That's not an excuse for you to be so mean!"
-    mc "You shouldn't pick a fight just because someone's opinion is different."
+
+    mc "Nhưng mà khoan đã!"
+
+    mc "Đấy không phải là cái cớ để cậu xử tệ với người khác!"
+
+    mc "Tại sao lại cãi nhau chỉ vì người khác có ý kiến không giống mình chứ."
     show natsuki zorder 3 at f22
-    n 1m "That's not what happened at all!"
-    n "Yuri wouldn't even take my poem seriously!"
+
+    n 1m "Đâu phải như vậy!"
+
+    n "Tại Yuri chả thèm hiểu bài thơ của tôi!"
     show natsuki zorder 2 at t22
     mc "Mm..."
-    mc "I understand."
+
+    mc "Tớ hiểu rồi."
     mc "Yuri."
     show yuri zorder 3 at f21
     y 2t "Eh?"
     show yuri zorder 2 at t21
-    mc "You're a seriously talented writer."
-    mc "It's no secret that I was impressed."
+
+    mc "Cậu thật sự là một tác giả tài năng đó."
+
+    mc "Không giấu gì, mình thực sự đã rất ấn tượng về bài thơ của cậu."
     show yuri zorder 3 at f21
-    y 2u "W-Well, that's..."
+
+    y 2u "U-Ừm, chuyện đó..."
     show yuri zorder 2 at t21
-    mc "But here's the thing."
-    mc "No matter how simple or refined someone's writing style is..."
-    mc "They're still putting feelings into it, and it becomes something really personal."
-    mc "That's why Natsuki felt threatened when you said her poem was cute."
+
+    mc "Nhưng có điều."
+
+    mc "Cho dù phong cách viết của một ai đó có đơn giản hay tinh tế..."
+
+    mc "Họ vẫn đang đặt hết cảm xúc của mình vào nó, và nó trở thành cái gì thực sự cá nhân."
+
+    mc "Đó là lý do tại sao Natsuki cảm thấy bị xỉ nhục khi cậu nói rằng bài thơ của cô ấy dễ thương."
     show yuri zorder 3 at f21
-    y 2v "I...see..."
-    y "I didn't notice that I..."
+
+    y 2v "Tớ...hiểu rồi..."
+
+    y "Tớ đã không nhận ra..."
     show yuri zorder 2 at t21
-    y 2w "I-I'm sorry..."
+
+    y 2w "T-Tớ xin lỗi..."
     show yuri at s21
     y "Uuu..."
     show natsuki zorder 2 at t11
     show yuri zorder 1 at thide
     hide yuri
-    mc "But Natsuki, you took it way too far!"
-    mc "Yuri means well, and if you just told her how you felt..."
-    mc "Then this wouldn't have happened in the first place."
-    n 1e "Are you kidding?"
-    n "That's exactly what I did!"
-    n "It was {i}her{/i} that--"
+
+    mc "Nhưng Natsuki, cậu hơi quá đáng quá!"
+
+    mc "Yuri chỉ có ý tốt thôi, cậu chỉ cần nói với cô ấy rằng cậu cảm thấy như thế nào..."
+
+    mc "Thì ngay từ đầu đã không xảy ra chuyện gì cả."
+
+    n 1e "Cậu đang trêu tôi đúng không?"
+
+    n "Đó chính xác là những gì tôi đã làm!"
+
+    n "{i}Cậu ấy{/i} mới là người đã--"
     show natsuki zorder 2 at t22
     show monika 2i zorder 3 at f21
-    m "Natsuki, I think that's enough."
-    m "You both said some things that you didn't mean."
-    m "Yuri apologized. Don't you think you should, too?"
+
+    m "Natsuki, thế là đủ rồi đấy."
+
+    m "Cả hai người đều không hề cố ý nói ra những lời xấu xa ấy."
+
+    m "Yuri đã xin lỗi rồi. Cậu không nghĩ là cậu cũng nên làm thế à?"
     show monika zorder 2 at t21
     show natsuki zorder 3 at f22
     n 1x "Nnn...!"
     show natsuki zorder 2 at t22
-    "Natsuki clenches her fists."
-    "In the end, nobody has taken her side."
-    "She's trapped, at this point being defiant only because she can't handle the pressure."
-    "I end up even feeling bad for her."
+
+    "Natsuki nắm chặt tay lại."
+
+    "Đến cuối cùng không ai đứng về phe cô ấy."
+
+    "Cô ấy đứng đó, trở nên bướng bỉnh bởi vì không chịu được áp lực."
+
+    "Cuối cùng thì tôi lại cảm thấy hơi thương hại cô ấy."
     show monika zorder 2 at t32
     show natsuki zorder 2 at t33
     show sayori 2h at l41
     s "U-Um!"
-    s "Sometimes when I'm hurt..."
-    s "It helps to take a walk and clear my head!"
+
+    s "Mỗi khi tớ cảm thấy buồn..."
+
+    s "Tớ sẽ đi dạo để rũ bỏ sự ức chế trong đầu."
     show sayori zorder 2 at t41
-    mc "Sayori, she doesn't need to--"
+
+    mc "Sayori, cậu ấy không cần--"
     show natsuki zorder 3 at f33
-    n 2q "You know what?"
-    n "I'm going to do that."
-    n 2w "It'll spare me from having to look at all your faces right now."
+
+    n 2q "Cậu biết gì không?"
+
+    n "Tôi sẽ làm điều đó."
+
+    n 2w "Nó sẽ giúp tôi khỏi phải nhìn mặt mấy người vào lúc này."
     show natsuki zorder 1 at thide
     hide natsuki
-    "Without warning, Natsuki snatches her own poem up from the desk and storms out."
-    "On her way out, she crumples up the poem with her hands and throws it in the trash."
+
+    "Ngay lập tức, Natsuki giật lấy bài thơ của cô ấy ở trên bàn và chạy nhanh ra ngoài."
+
+    "Trên đường ra, cô ấy vò nát bài thơ bằng hai bàn tay của mình và vất vào thùng rác."
     show sayori zorder 3 at f41
     s 1k "Natsuki..."
     show sayori zorder 2 at t41
     show monika zorder 3 at f32
-    m 1r "She really didn't need to do that..."
+
+    m 1r "Cậu ta đâu cần phải làm như vậy..."
     show sayori zorder 1 at thide
     show monika zorder 1 at thide
     hide sayori
     hide monika
-    "I look across the room."
-    "Yuri has her chin buried in her hands while she stares down at her desk."
-    "I gingerly approach her and sit in an adjacent chair."
+
+    "Tôi nhìn lướt qua căn phòng."
+
+    "Yuri đang khoanh hai tay trên bàn của cô ấy và gục đầu xuống nó."
+
+    "Tôi nhẹ nhàng đến bên cô ấy và ngồi vào một chiếc ghế gần đó."
     show yuri 4b zorder 2 at t11
-    y "Sigh..."
-    mc "Everything alright?"
-    y "I'm so embarrassed..."
-    y "I can't believe I acted like that."
-    y "You probably hate me now..."
-    mc "No--Yuri!"
-    mc "How could anyone not have gotten frustrated after being treated like that?"
-    mc "You handled it as well as anyone could."
-    mc "I don't think any less of you."
-    y 2v "Well..."
-    y "...Alright, I believe you."
-    y 2s "Thanks, [player]. You're too kind."
-    y "I'm thankful to have you a part of this club now."
-    mc "Er-- It's nothing."
-    y 2v "One more thing..."
-    y "Um, that one thing that Natsuki said..."
-    y 4c "About...you know..."
-    y "I would never do anything...so shameful..."
-    y "So..."
+
+    y "Phù..."
+
+    mc "Mọi thứ đều ổn cả chứ?"
+
+    y "Mình cảm thật xấu hổ..."
+
+    y "Mình không thể tin được là mình lại có thể hành động như thế."
+
+    y "Hẳn là bây giờ cậu rất ghét mình đúng không?"
+
+    mc "Không--Yuri!"
+
+    mc "Ai mà chả bực tức khi bị người khác nói quá quắt như vậy chứ?"
+
+    mc "Hành động của cậu cũng chỉ như bao người khác trong tình huống giống vậy thôi."
+
+    mc "Mình không đánh giá gì về việc đó đâu."
+
+    y 2v "Ừm..."
+
+    y "...Được rồi, mình tin cậu."
+
+    y 2s "Cảm ơn nhé, [player]. Cậu tốt bụng quá đấy."
+
+    y "Mình rất vui khi có cậu là một phần trong câu lạc bộ này."
+
+    mc "Ể-- Không có gì đâu."
+
+    y 2v "Còn một điều nữa..."
+
+    y "Ưm, về điều mà Natsuki đã nói..."
+
+    y 4c "Về cái...cậu biết đấy..."
+
+    y "Tớ không hề làm vậy...thật đáng xấu hổ..."
+
+    y "Vì vậy..."
     mc "...Eh?"
-    mc "What thing did Natsuki say?"
+
+    mc "Natsuki đã nói gì cơ?"
     y 3n "--!"
     y "U-Um!"
-    y 3q "Well, never mind that..."
-    y "I-I'm going to go make some tea..."
-    mc "Ah, good idea."
-    mc "Make enough for more than one person, okay?"
-    y "Y-Yeah."
+
+    y 3q "À, đừng bận tâm..."
+
+    y "M-Mình sẽ đi pha ít trà..."
+
+    mc "Ah, ý hay đấy."
+
+    mc "Pha đủ cho tất cả mọi người nhé?"
+
+    y "U-Ừm."
     return
 
 label ch1_end_sayori:
     $ ch1_choice = "sayori"
     mc "N-Natsuki..."
     show natsuki 5f
-    "Natsuki glares at me, drying up any words I had in my mouth."
-    "So instead, I turn to Yuri."
+
+    "Natsuki nhìn chằm chằm vào tôi, lời tôi đang định nói ra nghẹt luôn trong cổ họng."
+
+    "Vì vậy, tôi liền quay sang Yuri."
     mc "Yuri..."
     y 4a "..."
-    "But Yuri's expression is so defenseless that I can't bring myself to say anything to her."
+
+    "Nhưng biểu cảm của Yuri trông có vẻ rất dễ bị tổn thương nên tôi không dám nói ra nhận xét của mình về bài thơ của cô ấy."
     stop music fadeout 1.0
     mc "..."
     mc "...Sayori!"
@@ -694,36 +1069,50 @@ label ch1_end_sayori:
     show yuri zorder 2 at t32
     show natsuki zorder 2 at t33
     s "Eh?!"
-    mc "...Yeah!"
-    mc "Everyone's fighting is making Sayori uncomfortable."
-    mc "How can the two of you keep fighting when you know you're making your friend feel like this?"
+
+    mc "...À-Ừm!"
+
+    mc "Cuộc tranh cãi của mọi người đang làm cho Sayori buồn đấy!"
+
+    mc "Làm sao hai người có thể tiếp tục cãi vã khi nhìn thấy bạn mình buồn như này?"
     show sayori zorder 3 at f31
     s 4d "[player]..."
     show sayori zorder 2 at t31
     show natsuki 4w zorder 3 at f33
-    n "Well... That's her problem! This isn't about her."
+
+    n "Này... Đấy là vấn đề của cậu ấy! Chuyện này đâu có liên quan đến Sayori."
     show natsuki zorder 2 at t33
     show yuri 2g zorder 3 at f32
-    y "I-I agree..."
-    y "It's unfair for others to interject their own feelings into our conflict."
+
+    y "T-Tớ đồng ý..."
+
+    y "Thật là không công bằng khi mâu thuẫn của chúng ta bị cảm xúc của ai đó xen vào."
     show yuri zorder 2 at t32
     show natsuki zorder 3 at f33
-    n 4c "Yeah, unless Sayori wants to tell Yuri what a stuck-up jerk she's being."
+
+    n 4c "Đúng vậy đấy, trừ khi Sayori đang muốn nói rằng Yuri là một đứa tồi tệ cứng đầu."
     show natsuki zorder 2 at t33
     show yuri 3r zorder 3 at f32
     play music t7
-    y "She would never...!"
-    y "It's your immaturity that's made her upset in the first place!"
+
+    y "Cậu ấy sẽ không bao giờ...!"
+
+    y "Cái tính trẻ con của cậu mới là thứ làm cho cậu ấy khó chịu!"
     show yuri zorder 2 at t32
     show natsuki 1e zorder 3 at f33
-    n "{i}Excuse{/i} me?"
-    n "Are you listening to yourself?"
-    n 1x "This is exactly why..."
-    n 1w "Exactly why nobody likes--"
+
+    n "{i}Gì cơ{/i}?"
+
+    n "Cậu đang tự nói chính mình đấy à?"
+
+    n 1x "Đó chính xác là lý do tại sao..."
+
+    n 1w "Chả có ai lại đi thích--"
     show natsuki zorder 2 at t33
     show sayori 4p at h31
     stop music
-    s "{i}Stop!!{/i}"
+
+    s "{i}Dừng lại đi!!{/i}"
     show yuri 3f zorder 3 at f32
     show natsuki 1o zorder 3 at f33
     ny "--"
@@ -732,28 +1121,43 @@ label ch1_end_sayori:
     show sayori zorder 3 at f31
     play music t8
     s 1h "Natsuki! Yuri!"
-    s "You guys are my friends!"
-    s 1v "I-I just want everyone to get along and be happy!"
-    s "My friends are wonderful people..."
-    s "And I love them because of their differences!"
-    s 1g "Natsuki's poems..."
-    s "They're amazing because they give you so many feelings with just a few words!"
-    s "And Yuri's poems are amazing because they paint beautiful pictures in your head!"
-    s 4k "Everyone's so talented..."
-    s "...So why are we fighting...?"
+
+    s "Cả hai đều là bạn tớ!"
+
+    s 1v "T-Tớ chỉ muốn mọi người đều hòa thuận và vui vẻ bên nhau thôi!"
+
+    s "Bạn của tớ đều là những con người tuyệt vời mà..."
+
+    s "Và tớ quý các cậu vì sự khác biệt của mỗi người!"
+
+    s 1g "Thơ của Natsuki..."
+
+    s "Tuy từ ngữ đơn giản nhưng đem lại cho người đọc rất nhiều cảm xúc!"
+
+    s "Thơ của Yuri cũng rất tuyệt vì khi đọc như thể đang vẽ nên bức tranh tuyệt đẹp trong đầu độc giả!"
+
+    s 4k "Mọi người đều rất tài năng..."
+
+    s "...Vậy tại sao chúng ta lại cãi nhau chứ...?"
     show sayori zorder 2 at t31
     show natsuki zorder 3 at f33
-    n 1r "Be-Because..."
+
+    n 1r "B-Bởi vì..."
     show natsuki zorder 2 at t33
     show yuri 3v zorder 3 at f32
-    y "Well..."
+
+    y "Ừm..."
     show yuri zorder 2 at t32
     show sayori zorder 3 at f31
-    s 1j "Also!"
-    s "Natsuki's cute and there's nothing wrong with that!"
-    s 1i "And Yuri's boobs are the same as they always were!"
+
+    s 1j "Đúng vậy!"
+
+    s "Natsuki rất dễ thương và nó chẳng có gì là sai trái cả!"
+
+    s 1i "Và ngực của Yuri lâu nay vẫn y như thế!"
     show sayori at hf31
-    s 1j "Big and beautiful!!"
+
+    s 1j "To và rất đẹp!!"
     show sayori 1i zorder 2 at t31
     show natsuki zorder 3 at f33
     n 1o "..."
@@ -762,42 +1166,69 @@ label ch1_end_sayori:
     y 3n "..."
     show yuri zorder 2 at t32
     mc "Sayori..."
-    "Sayori stands triumphantly."
-    "Monika stands behind her with a bewildered expression."
+
+    "Sayori vui vẻ đứng dậy."
+
+    "Monika đứng sau cô ấy với vẻ mặt ngơ ngác."
     show yuri at s32
-    y 3q "I'll...make some tea..."
+
+    y 3q "Tớ sẽ...đi pha chút trà..."
     show yuri behind sayori at lhide
     hide yuri
-    "Yuri rushes off."
+
+    "Yuri vội chạy đi pha trà."
     show natsuki zorder 1 at thide
     hide natsuki
-    "Natsuki sits down with a blank expression on her face, staring at nothing."
+
+    "Natsuki ngồi xuống với vẻ mặt vô cảm và nhìn chằm chằm vào khoảng không."
     show sayori zorder 1 at thide
     show monika 1i zorder 2 at t11
     hide sayori
-    mc "So, this is why Sayori is Vice President..."
-    "I whisper to Monika."
-    "She nods in return."
-    m 1d "To be honest..."
-    m "I might come off as a good leader, and I can organize things..."
-    m 3e "But I'm not very good with people..."
-    m "I couldn't even bring myself to interject."
-    m 1m "As President, that's kind of embarrassing of me."
+
+    mc "Vậy ra, đây là lí do vì sao Sayori lại làm hội phó của câu lạc bộ này..."
+
+    "Tôi thì thầm với Monika."
+
+    "Cô ấy chỉ khẽ gật đầu đáp lại."
+
+    m 1d "Thành thật mà nói..."
+
+    m "Tớ có thể trở thành một lãnh đạo giỏi và điều hành tốt mọi thứ..."
+
+    m 3e "Nhưng lại không giỏi đối nhân xử thế..."
+
+    m "Tớ thậm chí còn không thể can bọn họ."
+
+    m 1m "Là hội trưởng, điều này thật là đáng xấu hổ."
     m 1l "Ahaha..."
     mc "Nah..."
-    mc "It's not like I can blame you."
-    mc "I wasn't able to say anything, either."
-    m "Well..."
-    m 2a "I guess that just means Sayori is amazing in her own ways, isn't she?"
-    mc "You could say that."
-    mc "She might be an airhead, but sometimes it's weirdly suspicious that she knows exactly what she's doing."
-    m 5 "I see~"
-    m "Take good care of her, okay?"
-    m "I would hate to see her get herself hurt."
-    mc "That makes two of us..."
-    mc "You can count on me."
-    "Monika smiles sweetly at me, causing my stomach to knot."
-    "Such a genuine person really does make a good President, regardless of what she says."
-    "If only I could get the chance to talk to her a little more..."
+
+    mc "Làm sao mà đổ lỗi cho cậu được."
+
+    mc "Tớ cũng đâu có làm được gì."
+
+    m "Ừm..."
+
+    m 2a "Có vẻ Sayori tuyệt vời theo phong cách riêng của cậu ấy, phải không?"
+
+    mc "Đúng là như vậy."
+
+    mc "Cậu ấy có thể là một kẻ ngốc, nhưng đôi khi thật lạ là cậu ấy luôn biết chính xác những việc mình cần làm."
+
+    m 5 "Tớ hiểu mà~"
+
+    m "Hãy chăm sóc tốt cho cậu ấy nhé?"
+
+    m "Tớ không muốn nhìn thấy cậu ấy tự làm mình tổn thương đâu."
+
+    mc "Tớ cũng nghĩ vậy..."
+
+    mc "Cậu có thể tin tưởng ở tớ."
+
+    "Monika nở một nụ cười ngọt ngào với tôi, làm bụng tôi như thắt lại."
+
+    "Một người chân thành như vậy chắc chắn sẽ là một hội trưởng tốt, kể cả khi cô ấy có nói sao đi nữa."
+
+    "Giá mà tôi có cơ hội để nói chuyện với cô ấy nhiều hơn..."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

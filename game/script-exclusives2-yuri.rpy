@@ -1,260 +1,469 @@
 label yuri_exclusive2_1:
     scene bg club_day
     with wipeleft_scene
-    "I'm really curious to talk to Yuri a little bit more..."
-    "But at the same time, I would feel bad for distracting her from reading."
-    "I catch a glimpse of the cover of her book."
-    "It looks like the same book that she lent to me..."
-    "More than that, she seems to be on the first few pages."
+
+    "Thực sự là tôi vẫn muốn được chuyện trò với Yuri thêm một lúc nữa..."
+
+    "Nhưng nhìn cậu ấy chăm chú đọc sách như vậy nên tôi lại không muốn làm phiền."
+
+    "Tôi liếc qua bìa của cuốn sách."
+
+    "Hình như nó giống y xì cuốn cậu ấy cho tôi thì phải..."
+
+    "Và có vẻ như cậu ấy chỉ mới đọc được có vài trang đầu."
     play music t6 fadeout 1.0
     show yuri 4a zorder 2 at t11
-    y "Ah..."
-    "Crap--"
-    "I think she noticed me looking at her..."
-    "She sneaks another glance at me, and our eyes meet for a split second."
+
+    y "Á..."
+
+    "Thôi chết--"
+
+    "Cậu ấy nhận ra là tôi đang nhìn rồi thì phải..."
+
+    "Cậu ấy cũng lén liếc về phía tôi, và thế là ánh mắt cả hai lỡ chạm nhau trong khoảnh khắc."
+
     y 4b "..."
-    "But that only makes her hide her face deeper in her book."
-    mc "Sorry..."
-    mc "I was just spacing out..."
-    "I mutter this, sensing I made her uncomfortable."
-    y oneeye "Oh..."
-    y "It's fine..."
-    y "If I was focused, then I probably wouldn't have noticed in the first place."
-    y "But I'm just re-reading a bit of this, so..."
-    mc "That's the book that you gave me, right?"
-    y "Mhm."
-    y "I wanted to re-read some of it."
-    y 2q "Not for any particular reason...!"
-    mc "Just curious, how come you have two copies of the same book?"
-    y "Ah..."
-    y "Well, when I stopped at the bookstore yesterday--"
-    y 3o "Ah, that's not what I meant..."
-    y "I mean--"
-    y 1w "I...just happened to buy two of them."
-    mc "Ah, I see."
-    "There's something fairly obvious here that Yuri isn't telling me, but I decide to let it go."
-    mc "I'll definitely start reading it soon!"
-    y 2u "I'm glad to hear..."
-    y "Once it starts to pick up, you might have a hard time putting it down."
-    y 2c "It's a very engaging and relatable story."
-    mc "Is that so...?"
+
+    "Thế rồi cậu ấy cố gắng dùng quyển sách để che mặt mình.."
+
+    mc "Xin lỗi nhé..."
+
+    mc "Mình đang suy nghĩ vẩn vơ chứ không phải cố ý nhìn cậu..."
+
+    "Biết vì mình mà cậu ấy thấy không thoải mái, tôi lí nhí xin lỗi."
+
+    y 1i "Oh..."
+
+    y "Có gì đâu mà..."
+
+    y 1a "Là tại do mình không tập trung đọc sách nên mới nhìn cậu trước."
+
+    y "Với cả mình chỉ đang đọc lại thôi nên không cậu không có làm phiền..."
+
+    mc "Cuốn này giống cuốn cậu cho mình đúng không?"
+
+    y "Ừm."
+
+    y "Tự nhiên mình lại muốn đọc lại mấy trang."
+
+    y 2q "Chỉ vậy thôi chứ không phải có vấn đề gì đâu...!"
+
+    mc "Mà sao cậu lại có hai cuốn sách giống nhau thế?"
+
+    y "À..."
+
+    y "Thì, hôm qua mình có ghé nhà sách nên--"
+
+    y 3o "Ah, không phải..."
+
+    y "Là là--"
+
+    y 1w "Chỉ... chỉ là do mình vô tình mua nhầm hai cuốn thôi"
+
+    mc "Ah, ra thế."
+
+    "Điều mà Yuri đang cố giấu tôi cũng đã rõ rành rành ra rồi, nên thôi không hỏi thêm nữa."
+
+    mc "Mình sẽ đọc ngay khi có thời gian rảnh, cảm ơn cậu nhiều nhé!"
+
+    y 2u "Cuốn sách hay lắm đấy..."
+
+    y "Khi cậu đã bắt đầu cầm nó lên đọc rồi thì khó mà dứt ra được."
+
+    y 2c "Câu chuyện thực sự rất lôi cuốn và dễ đồng cảm."
+
+    mc "Vậy sao...?"
 label yuri_exclusive2_1_ch22:
-    mc "What's the story about, anyway?"
-    y 1f "Well..."
-    y "Mmm..."
-    "I look at the cover of the book."
-    "The book is titled \"Portrait of Markov\"."
-    "There's an ominous-looking eye symbol on the front cover."
-    y 1a "Basically, it's about this religious camp that was turned into a human experiment prison..."
-    y "And the people trapped there have this trait that turns them into killing machines that lust for blood."
-    y 1m "But the facility gets even worse, and they start selectively breeding people by cutting off their limbs and affixing them to--"
-    y 1q "O-Oh, that might be a little bit of a spoiler..."
-    y 3q "But anyway, I-I'm really into it!"
-    y 3n "...The book, I mean!"
-    y 3q "N-Not the thing about the limbs..."
-    mc "That's kind of--!"
-    "That's kind of dark, isn't it?"
-    "Yuri made it sound like it was going to be a nice story, so that dark turn came from nowhere."
-    y 1s "Ah..."
-    y "Are you not a fan of that sort of thing, [player]?"
-    mc "No, it's not that..."
-    mc "I mean, I can definitely enjoy those kinds of stories, so don't worry."
-    y 2u "I hope so..."
-    "Yeah... I totally forgot that Yuri is into those things."
-    "She's so shy and reclusive on the outside, but her mind seems to be completely different."
-    y "It's just that this kind of story..."
-    y 1a "It's the kind that challenges you to look at life from a strange new perspective."
+
+    mc "Thế nó kể về cái gì vậy?"
+
+    y 1f "À..."
+
+    y "Hừmmm..."
+
+    "Tôi liếc qua bìa cuốn sách."
+
+    "Cuốn sách mang tựa đề \"Chân dung Markov\"."
+
+    "Trên bìa còn có hình một con mắt khá là quái gở."
+
+    y "Chuyện kể về một tổ chức tôn giáo bị biến chất thành một trại thí nghiệm trên con người..."
+
+    y "Những người bị nhốt ở đó đều mang một căn bệnh kì lạ, khiến họ trở thành những con quái vật khát máu chỉ biết có giết chóc."
+
+    y "Độc ác hơn, những kẻ làm thí nghiệm còn bắt đầu lai tạo chọn lọc những vật thí nghiệm ấy bằng cách chặt hết tứ chi họ rồi trói--"
+
+    y "Thôi chết, lỡ nói ra mất phần hay của truyện rồi..."
+
+    y "Nhưng mà, t-tại mình rất là thích nó!"
+
+    y "...Thích quyển sách này, quyển sách ấy!"
+
+    y "Chứ k-không phải cái đoạn chặt tứ chi đâu..."
+
+    mc "Ừm, thế thì có hơi--!"
+
+    y "Hơi bị u ám quá phải không?"
+
+    "Nghe Yuri nói đoạn đầu tôi cứ tưởng là truyện kiểu vui vẻ nhẹ nhàng thế nên khi nghe tới phần kinh dị kia khiến tôi hơi bị bất ngờ."
+
+    y 1c "Ahaha."
+
+    "Yuri chợt cười khúc khích."
+
+    y "Có vẻ [player] không ưa thể loại này lắm nhỉ?"
+
+    mc "Không, không có sao đâu..."
+
+    mc "Mình cũng thích kiểu truyện này mà, cậu chớ lo."
+
+    y 2u "Mong là vậy..."
+
+    "Chà... Nhiều lúc tôi lại quên xừ mất là Yuri thích thể loại ghê rợn như này."
+
+    "Có vẻ nội tâm cậu ấy trái ngược hoàn toàn cái vẻ ngoài khép nép thu mình kia."
+
+    y "Những truyện kiểu này..."
+
+    y 1a "Nó thử thách chúng ta có cách nhìn đời rất mới lạ."
     $ style.say_dialogue = style.normal
-    y "When horrible things happen not just because someone wants to be evil..."
+
+    y "Đôi khi, ai đó làm việc xấu không phải vì họ ác độc gì..."
     $ style.say_dialogue = style.edited
-    y "But because the world is full of horrible people, and we're all worthless anyway."
-    y "Then, suddenlyyyyyyyyyyyyyyyyyyyyyy yyyyyyyyyyyyyyyyyyyy{nw}"
+
+    y "Mà chỉ vì thế giới này đầy rẫy những kẻ tàn tệ, và tất cả con người đều chỉ là rác rưởi thôi."
+
+    y "Và rồi đột nhiênnnnnnnnnnnnnnnnnnnnnn nnnnnnnnnnnnnnnnnnnnn{nw}"
     $ style.say_dialogue = style.normal
-    y 3v "I'm...I'm rambling, aren't I...?"
-    y "Not again..."
-    y 4b "I'm sorry..."
-    mc "Hey, don't apologize...!"
-    mc "I haven't lost interest or anything."
-    y "Well..."
-    y "I guess it's alright, then..."
-    y 4a "But I feel like I should let you know that I have this problem..."
+    y 3v "Mình...mình hơi bị lảm nhảm quá rồi nhỉ...?"
+
+    y "Lại nữa rồi..."
+
+    y 4b "Mình xin lỗi..."
+
+    mc "Gì vậy, sao cậu lại xin lỗi chứ...!"
+
+    mc "Mình vẫn đang nghe chăm chú mà."
+
+    y "À..."
+
+    y "Vậy à..."
+
+    y 4a "Nhưng có chuyện này mình muốn cậu biết..."
     $ style.say_dialogue = style.normal
-    y "When I let things like books and writing fill my thoughts..."
+
+    y "Cứ khi nào mải nghĩ về văn chương hay viết lách..."
     $ gtext = glitchtext(24)
     $ style.say_dialogue = style.edited
-    y "my whole body gets incredibly [gtext]{nw}"
-    $ style.say_dialogue = style.normal
-    $ _history_list.pop()
-    y "I kind of forget to pay attention to other people..."
-    y 3t "So I'm sorry if I end up saying something strange!"
-    y "And please stop me if I start talking too much!"
-    mc "That's--"
-    mc "I really don't think you need to worry..."
-    mc "That just means you're passionate about reading."
-    mc "The least I can do is listen."
-    mc "It's a literature club, after all..."
-    y 4a "Ah--"
-    y "That's..."
-    y "Well, that's true..."
-    mc "In fact..."
-    mc "I might as well get started reading it, right?"
-    play sound "sfx/glitch3.ogg"
-    y dragon "Y-Yes!"
-    y 3n "I-I mean, you don't have to, but...!"
-    mc "Ahaha, what are you saying?"
-    y 3o "..."
-    mc "Let me just get the book..."
-    "I quickly retrieve the book that I had put into my bag."
-    mc "Alright...it's fine if I sit here, right?"
-    "I slip into the seat next to Yuri's."
-    y 3n "Ah...!"
-    y "Yeah..."
-    mc "Are you sure?"
-    mc "You seem a little apprehensive..."
-    y "That's..."
-    y 4b "I'm sorry..."
-    y "It's not that I don't want you to!"
-    y "It's just something I'm not very used to..."
-    y "That is, reading in company with someone."
-    mc "I see..."
-    mc "Well, just tell me if I end up distracting you or anything."
-    y "A-Alright..."
-    show yuri zorder 1 at thide
-    hide yuri
-    "I open the book and start the prologue."
-    "I soon understand what Yuri means about reading in company."
-    "It's as if I can feel her presence over my shoulder as I read."
-    "It's not a particularly bad thing."
-    "Maybe a little distracting, but the feeling is somewhat comforting."
-    "Yuri is in the corner of my eye."
-    "I realize that she's not actually looking at her own book."
-    "I glance over."
-    "It looks like she's reading from my book instead--"
-    show yuri 3n zorder 2 at t11
-    y "S-Sorry!"
-    $ style.say_dialogue = style.normal
-    y "I was just--!{nw}"
-    $ style.say_dialogue = style.edited
-    y "I was just{fast} bathing in the feeling of your body heat tttttttttttttheat eattttttt{nw}"
+
+    y "là khắp cả người mình lại thấy cực kì [gtext]{nw}"
     $ style.say_dialogue = style.normal
     $ _history_list.pop()
 
-    mc "Yuri, you really apologize a lot, don't you?"
-    y "I...I do?"
-    y 4a "I don't really mean to..."
-    y "Sorry..."
-    y 4c "I mean--!"
+    y "Là mình quên hết cả mọi người xung quanh luôn..."
+
+    y 3t "Nên nếu mình lỡ nói điều gì kì lạ thì xin cậu làm ơn bỏ quá cho!"
+
+    y "Thấy mình lải nhải nhiều quá thì xin cậu hãy cản mình lại nhé!"
+
+    mc "Về việc đó thì--"
+
+    mc "Mình thấy cậu không nên lo lắng quá vậy đâu..."
+
+    mc "Cậu hẳn phải đam mê văn học lắm mới có thể nói về nó một cách vui vẻ đến vậy"
+
+    mc "Nên chắc chắn là mình phải nghe chứ."
+
+    mc "Dù gì nơi đây cũng là Câu Lạc Bộ Văn học mà..."
+
+    y 4a "Ah--"
+
+    y "Cậu..."
+
+    y "Cậu nói đúng lắm..."
+
+    mc "Cơ mà..."
+
+    mc "Thay vì nói về nó thì mình cứ đọc luôn cuốn đó được không?"
+    play sound "sfx/glitch3.ogg"
+
+    y dragon "Ngay và luôn đi!"
+
+    y 3n "À k-không, ý mình là cậu không cần miễn cưỡng làm vậy đâu, nhưng mà...!"
+
+    mc "Ahaha, gì vậy?"
+    y 3o "..."
+
+    "Tôi nhanh chóng rút cuốn sách trong cặp mình ra."
+
+    mc "Được rồi...Mình ngồi đây không phiền cậu chứ?"
+
+    "Tôi ngồi xuống ghế ngay bên cạnh Yuri."
+
+    y 3n "Ah...!"
+
+    y "Mời cậu..."
+
+    mc "Cậu chắc chứ?"
+
+    mc "Trông cậu có vẻ hơi căng thẳng..."
+
+    y "Mình..."
+
+    y 4b "Mình xin lỗi..."
+
+    y "Không phải mình không thích để cậu ngồi đây hay gì đâu!"
+
+    y "Chỉ là mình có chút không quen..."
+
+    y "Không quen đọc sách chung với người khác thôi."
+
+    mc "Ra là thế..."
+
+    mc "Vậy nếu mình làm cậu không tập trung được hay gì thì cứ nói thẳng nhé, đừng ngại."
+
+    y "Ư-Ừ..."
+    show yuri zorder 1 at thide
+    hide yuri
+
+    "Tôi lật những trang đầu tiên và bắt đầu đọc phần mở đầu."
+
+    "Dần dần, tôi cũng hiểu cái vụ 'đọc sách chung với người khác' mà Yuri vừa nói là thế nào."
+
+    "Dù chăm chú đọc, tôi vẫn cảm nhận được cậu ấy đang ngồi cạnh mình."
+
+    "Cũng không phải là chuyện gì tệ."
+
+    "Tuy có hơi gây phân tâm đôi chút nhưng tôi lại cảm thấy có chút ấm áp."
+
+    "Chỉ cần hơi liếc mắt sang là thấy được Yuri ngay."
+
+    "Và tôi chợt nhận ra rằng Yuri chẳng hề nhìn vào cuốn sách trước mặt cậu ấy."
+
+    "Tôi quay đầu sang."
+
+    "Và thấy cậu ấy đang đọc sách của tôi--"
+    show yuri 3n zorder 2 at t11
+
+    y "X-Xin lỗi!"
+    $ style.say_dialogue = style.normal
+
+    y "Chỉ là mình--!{nw}"
+    $ style.say_dialogue = style.edited
+
+    y "Chỉ là mình đang{fast} đắm chìm vào hơi ấm cơ thể cậu thôi iiiiiiiiiiiiiiiiiiiiiiiiiiithôi ôiiiiiiiiiiiiiiiiiiii{nw}"
+    $ style.say_dialogue = style.normal
+    $ _history_list.pop()
+
+
+    mc "Yuri, cậu có vẻ thích xin lỗi nhỉ?"
+
+    y "Vậy...vậy á?"
+
+    y 4a "Mình không cố ý đâu..."
+
+    y "Xin lỗi..."
+
+    y 4c "Ý mình là--!"
+
     mc "Ahaha."
-    mc "Here, this should work, right?"
-    "I slide my desk until it's up against Yuri's, then hold my book more between the two of them."
+
+    mc "Đây, thế này được chưa?"
+
+    "Tôi ghép bàn mình đang ngồi vào bàn của Yuri, rồi để cuốn sách vào chính giữa."
+
     y 2v "Ah..."
-    y "I-I suppose so..."
-    "Yuri timidly closes her own copy."
-    "Once we each lean in a little bit, our shoulders are almost touching."
-    "It feels like my left arm is in the way, so instead I use my right hand to hold the book open."
-    mc "Ah, I guess that makes it kind of difficult to turn the page..."
-    y "Here..."
+
+    y "Có lẽ vậy..."
+
+    "Yuri khép nép khẽ đóng cuốn sách của cậu ấy lại."
+
+    "Cả hai đứa chúng tôi cứ phải nghiêng nghiêng người để đọc, suýt chạm vai nhau."
+
+    "Tay trái vướng víu quá, tôi đành phải đưa tay phải để giữ cho sách mở."
+
+    mc "Nhưng mà trái tay thế này có hơi khó lật trang..."
+
+    y "Để mình..."
     $ persistent.clear[2] = True
     scene y_cg1_base with dissolve_cg
-    "Yuri takes her left arm and holds the left side of the book between her thumb and forefinger."
+
+    "Yuri đưa ngón cái và ngón trỏ tay trái ra giữ một bên cuốn sách."
+
     mc "Ah..."
-    "I do the same with my right arm, on the right side of the book."
-    "That way, I turn a page, and Yuri slides it under her thumb after it flips to her side."
-    "But in holding it like this..."
-    "We're huddled even closer together than before."
-    "It's actually kind of distracting me...!"
-    "It's as if I can feel the warmth of Yuri's face, and she's in the corner of my vision..."
+
+    "Tôi cũng làm theo, đưa tay phải ra giữ bên còn lại."
+
+    "Cứ thế, tôi lật trang sang bên Yuri để cậu ấy đưa ngón cái gập hẳn nó xuống."
+
+    "Nhưng kiểu này thì..."
+
+    "Còn phải ngồi sát vào nhau hơn lúc nãy nhiều."
+
+    "Thế này thì tập trung sao nổi đây...!"
+
+    "Dù không quay sang thì tôi vẫn thấy được Yuri và còn cảm nhận được hơi ấm của cậu ấy..."
     show y_cg1_exp1 at cgfade
-    y "...Are you ready?"
-    mc "Eh?"
-    y "To turn the page..."
-    mc "Ah...sorry!"
-    mc "I think I got a bit distracted for a second..."
-    "I glance over at Yuri's face again, and our eyes meet."
-    "I don't know how I'll be able to keep up with her..."
+
+    y "...Cậu đọc xong chưa?"
+
+    mc "Hả?"
+
+    y "Để còn sang trang sau..."
+
+    mc "Ah...mình xin lỗi!"
+
+    mc "Mình hơi thiếu tập trung..."
+
+    "Tôi liếc nhìn Yuri một lần nữa, và hai ánh mắt lại chạm nhau."
+
+    "Không biết phải làm sao để bắt kịp tốc độ đọc của cậu ấy nữa..."
+
     y "Ah..."
     show y_cg1_exp2 at cgfade
-    y "That's okay."
-    y "You're not as used to reading, right?"
-    y "I don't mind being patient if it takes you a bit longer..."
-    y "It's probably the least I can do..."
-    y "Since you've been so patient with me..."
-    mc "Y-Yeah..."
-    mc "Thanks."
+
+    y "Không sao đâu mà."
+
+    y "Cậu hẳn là chưa quen đọc sách như mình nhỉ?"
+
+    y "Nên cậu đọc chậm một chút cũng không vấn đề gì, mình sẽ thong thả chờ..."
+
+    y "Ít nhất thì mình cũng phải làm được vậy..."
+
+    y "Vì cậu còn kiên nhẫn với mình hơn nhiều mà..."
+
+    mc "Ư-Ừm..."
+
+    mc "Cảm ơn cậu."
     hide y_cg1_exp1
     hide y_cg1_exp2
-    "We continue reading."
-    "Yuri no longer asks me if I'm ready to turn the page."
-    "Instead, I just assume that she finishes the page before me, so I turn it by my own volition."
-    "We continue the first chapter in silence."
-    "Even so, turning each page almost feels like an intimate exchange..."
-    "My thumb gently letting go of the page, letting it flutter over to her side as she catches it under her own thumb."
-    mc "Hey, Yuri..."
-    mc "This might be a silly thought, but..."
-    mc "The main character kind of reminds me of you a little bit."
+
+    "Chúng tôi tiếp tục đọc."
+
+    "Yuri không còn hỏi tôi đọc xong chưa để lật trang nữa."
+
+    "Vì tôi chắc chắn cậu ấy đọc nhanh hơn mình nhiều nên cứ lúc nào tôi đọc xong là tự biết sang trang thôi."
+
+    "Cứ thế, chúng tôi tiếp tục đọc chương đầu trong im lặng."
+
+    "Dù vậy, mỗi lần lật trang sách gần như chẳng khác gì mấy một cử chỉ thân mật giữa hai người chúng tôi..."
+
+    "Ngón cái của tôi nhẹ nhàng lật trang giấy, đẩy nó bay sang phía Yuri để rồi cậu ấy cũng đưa ngón cái ra mà gập nó xuống hẳn."
+
+    mc "Nè, Yuri..."
+
+    mc "Nghe có lẽ hơi ngớ ngẩn, cơ mà..."
+
+    mc "Mình thấy cô gái nhân vật chính trong truyện hơi hơi giống cậu đấy."
     show y_cg1_exp3 at cgfade
-    y "E-Eh??"
-    y "N-No, I don't relate to this character at all!"
-    y "Definitely not!"
-    mc "Really...?"
-    mc "I was just thinking the way she second-guesses things she says, and all that..."
+
+    y "H-Hả??"
+
+    y "K-Không, mình có giống nhân vật này chút nào đâu!"
+
+    y "Không giống chút nào cả!"
+
+    mc "Vậy sao...?"
+
+    mc "Chỉ là mình thấy cô ta cũng hay phân vân suy xét trước về mọi lời nói và hành động nên..."
     show y_cg1_exp1 at cgfade
-    y "A-Ah..."
-    y "That's what you were talking about..."
+    y "À-À..."
+
+    y "Ra là cậu nói về chuyện đó..."
     hide y_cg1_exp3
     hide y_cg1_exp1
     show y_cg1_exp2 at cgfade
-    y "Sorry..."
-    y "I thought you meant...something else about her."
-    mc "Something else...?"
+
+    y "Xin lỗi cậu..."
+
+    y "Mình lầm tưởng cậu bảo...mình giống cô ta ở điểm khác."
+
+    mc "Điểm khác nào cơ...?"
     hide y_cg1_exp2
     show y_cg1_exp3 at cgfade
-    y "N-Never mind!"
-    y "We didn't even get that far yet..."
-    y "So I don't know why that came into my head..."
+
+    y "Đ-Đừng để ý nhé!"
+
+    y "Chúng ta còn chưa đọc đến đoạn đó mà nhỉ..."
+
+    y "Mình cũng chẳng hiểu sao tự nhiên lại nhớ đến nó..."
     y "Ahaha!"
-    mc "Yuri, are you feeling alright?"
+
+    mc "Cậu không được khỏe à Yuri?"
     hide y_cg1_exp3
     show y_cg1_exp1 at cgfade
-    y "Eh--?"
-    "Yuri's been a little fidgety ever since we started reading..."
-    mc "You can rest if you're feeling sick or something."
-    mc "Your breathing is a little..."
-    y "My breathing...?"
+
+    y "Hả--?"
+
+    "Từ lúc chúng tôi bắt đầu ngồi xuống đọc sách, Yuri cứ lạ lạ kiểu đang sốt ruột..."
+
+    mc "Nếu cậu thấy ốm hay mệt gì thì đi nghỉ đi chứ."
+
+    mc "Nhịp thở của cậu có hơi..."
+
+    y "Nhịp thở của mình làm sao...?"
     hide y_cg1_exp1
-    "Yuri puts her hands on her chest, as if to feel her heartbeat."
-    y "I-I didn't...even notice..."
+
+    y "Yuri đặt tay lên ngực để tự mình cảm nhận."
+
+    y "M-Mình còn...chẳng hề để ý thấy..."
     show y_cg1_exp3 at cgfade
-    y "...Anyway, I'm fine!"
-    y "I just need some water...!"
-    mc "Alright...don't push yourself."
+
+    y "...Có gì đâu, mình ổn mà!"
+
+    y "Chỉ là mình hơi khát nước thôi...!"
+
+    mc "Được rồi...đừng tự ép mình cố quá."
     scene bg club_day
     with dissolve_cg
-    "Yuri stands up and practically rushes out of the classroom."
-    mc "What on Earth was that about...?"
+
+    "Yuri nhanh chóng đứng đạy rồi chạy biến ra ngoài."
+
+    mc "Không hiểu cậu ta bị làm sao...?"
     show monika 1d zorder 2 at t11
     m "[player]?"
-    m "Did something happen just now?"
-    mc "Eh?"
-    mc "I have no idea..."
-    mc "Yuri was acting a little strange, I guess..."
-    m 1r "So you don't know anything..."
-    mc "Sorry, I can't say I do."
-    mc "Are you worried about her?"
-    m 1a "Oh...no, not really."
-    m "I was just making sure that you didn't do anything to her."
-    mc "N-No, nothing!"
-    m 5 "Ahaha, don't worry...I believe you, silly."
-    m "Yuri just does this sometimes, so it's nothing alarming."
-    mc "Alright...if you say so."
-    m 2b "Anyway, why don't we start with sharing our poems with each other?"
-    mc "Eh?"
-    mc "Shouldn't we wait for Yuri?"
-    m 2a "Well, she might be a while, so I just figured we'd get started without her."
-    m "Is that okay?"
-    mc "Yeah, I was just asking..."
-    "I stand up."
-    "I make a mental note of where I left off in the book, then slip it back into my bag."
+
+    m "Vừa có chuyện gì vậy?"
+
+    mc "Hả?"
+
+    mc "Chịu thôi..."
+
+    mc "Mình có cảm giác Yuri cư xử kì quặc lắm..."
+
+    m 1r "Cậu không biết lý do à..."
+
+    mc "Xin lỗi, mình thực sự không biết thật mà."
+
+    mc "Cậu lo cho cậu ấy à?"
+
+    m "À...không, không hẳn."
+
+    m "Mình chỉ muốn chắc chắn rằng cậu không làm gì quá đáng với Yuri."
+
+    mc "K-Không, làm gì có!"
+
+    m 5 "Ahaha, đừng lo.. Ai lại đi nghi ngờ cậu hả, đồ ngốc này."
+
+    m "Yuri đôi khi hơi giở chứng chút ấy mà, không cần phải lo đâu."
+
+    mc "Vậy à...thế thì thôi."
+
+    m 2b "Mà có vẻ cũng đến giờ chia sẻ thơ rồi đấy?"
+
+    mc "Hả?"
+
+    mc "Ta không cần đợi Yuri à?"
+
+    m 2a "Chắc là còn lâu cậu ấy mới về, thôi ta cứ bắt đầu trước đi."
+
+    m "Như thế có vấn đề gì không?"
+
+    mc "Ừ, mình hỏi chơi thôi mà..."
+
+    "Tôi đứng dậy."
+
+    "Nhớ số trang mình đang đọc dở xong, tôi cất cuốn sách vào cặp."
     $ y_ranaway = True
     return
 
@@ -263,84 +472,131 @@ label yuri_exclusive2_2:
     play music t6 fadeout 1.0
     scene bg club_day
     with wipeleft_scene
-    mc "Hey, Yuri."
+
+    mc "Yuri ơi."
     show yuri 2f zorder 2 at t11
-    y "Eh?"
+
+    y "Ơi?"
+
     mc "Ah..."
-    "I suddenly notice that Yuri is reading a different book from the one we've been reading together."
-    mc "Sorry! I didn't mean to interrupt..."
-    y 2m "Ah, no..."
-    y "I was kind of just waiting for you..."
+
+    "Tôi chợt nhận ra rằng Yuri đang đọc một cuốn sách khác cuốn chúng tôi đọc chung hôm qua."
+
+    mc "Xin lỗi! Mình không cố ý làm phiền cậu..."
+
+    y 2m "Ah, không..."
+
+    y "Mình đang đợi cậu mà..."
     show yuri 2a
-    mc "Ah, if that's the case..."
-    mc "Why don't we go ahead and get started?"
-    y 2c "Yes, let's!"
+
+    mc "Ah, nếu vậy thì..."
 label yuri_exclusive2_2_ch22:
-    y 3a "Actually, I have a request..."
-    y "...Do you mind if I make some tea first?"
-    mc "Not at all."
-    y 1c "Thanks very much."
-    y 1a "If there's one thing that can make my reading time here any better, it's a nice cup of tea."
-    y "Not to mention for yourself, as well."
+
+    y 3a "Thực ra thì, mình có chuyện cần hỏi cậu..."
+
+    y "...Cậu chịu khó đợi một chút để mình đi pha ấm trà được chứ?"
+
+    mc "Tất nhiên là được."
+
+    y 1c "Cảm ơn cậu."
+
+    y 1a "Mình rất muốn được nhâm nhi một tách trà ngon khi mỗi khi thưởng thức văn chương."
+
+    y "Và mình cũng sẽ pha một tách cho cậu luôn."
     show yuri zorder 1 at thide
     hide yuri
-    "Yuri stands up and makes her way to the closet."
-    "I follow and watch as she retrieves a small water pitcher from the shelf - the kind with a filter inside."
+
+    "Yuri đứng dậy rồi tiến về phía tủ đồ."
+
+    "Tôi cũng đi theo xem. Cậu ấy lấy từ trên kệ xuống một bình nước nhỏ có kèm bộ lọc."
     show yuri 1f zorder 2 at t11
-    y "Can you hold this for a second?"
-    mc "Sure..."
-    "Yuri hands me the water pitcher and also fetches an electric kettle."
-    y "I'm going to plug this in at the teacher's desk, and then I'll go get some water."
+
+    y "Làm phiền cậu giữ nó một chút nhé?"
+
+    mc "Được thôi..."
+
+    "Yuri chuyền cho tôi cái bình nước rồi lấy thêm một cái ấm điện."
+
+    y "Để mình mang cái này ra bàn giáo viên cắm điện xong sẽ đi lấy nước."
     show yuri zorder 1 at thide
     hide yuri
-    "She walks past me and sets the kettle down on the teacher's desk."
-    "I simply watch her movements."
-    "To my surprise, the way she moves really contrasts her speaking mannerisms."
-    "Especially because of her long legs, Yuri appears elegant and methodical."
+
+    "Cậu ấy đi ngang qua tôi và đặt cái ấm xuống mặt bàn giáo viên."
+
+    "Tôi thì chỉ đứng đấy và ngắm cậu ấy."
+
+    "Bất ngờ thật, trông phong thái của cậu ấy đi đứng khác hẳn cách ăn nói."
+
+    "Đặc biệt là bởi đôi chân dài kia khiến Yuri trông thật sang trọng và quý phái."
     show yuri 1f zorder 2 at t11
-    y "Okay, may I have the water pitcher?"
-    y 1a "Thanks. I'll be right back."
-    mc "Ah, I might as well walk with you..."
-    y 1q "T-That's okay!"
-    y "You stay here..."
-    y "It won't take long."
+
+    y "Cho mình xin bình nước được không?"
+
+    y 1a "Cảm ơn nhé. Mình sẽ về nhanh thôi."
+
+    mc "Ah, cho mình đi chung được chứ..."
+
+    y 1q "K-Không cần đâu!"
+
+    y "Cậu cứ ở đây chờ nhé..."
+
+    y "Chỉ phải đi có một tẹo thôi mà."
     show yuri zorder 1 at thide
     hide yuri
-    "Pitcher in hand, Yuri hurries out of the classroom."
+
+    "Yuri nhanh chóng ra khỏi phòng với bình nước trong tay."
     show monika 2i zorder 2 at t11
     m "Ah..."
-    m "Did Yuri leave you again?"
-    mc "No, it's not like that this time."
-    mc "She's just filling up the water pitcher to make tea."
-    m 5 "Oh, okay!"
-    m "Sorry for misunderstanding~"
+
+    m "Yuri lại dở chứng à?"
+
+    mc "À, không phải đâu."
+
+    mc "Cậu ấy đi lấy nước về pha trà."
+
+    m 5 "Oh, vậy thì ổn!"
+
+    m "Xin lỗi nhé, hiểu lầm chút thôi~"
 
     scene bg club_day
     with wipeleft_scene
 
     "..."
-    "Ten minutes pass."
-    "Yuri said it wouldn't take long..."
-    "Is something holding her up?"
-    "I'm bored just waiting here, so I decide to go look for her."
+
+    "Đã qua mười phút rồi."
+
+    "Tưởng Yuri bảo là chỉ một tẹo thôi mà nhỉ..."
+
+    "Gặp vấn đề gì chăng?"
+
+    "Cứ ngồi đợi mãi ở đây chán chết, đi tìm cậu ấy thôi."
     scene bg corridor
     with wipeleft_scene
     $ currentpos = get_pos()
     play music "<from " + str(currentpos) + " loop 10.893>bgm/6o.ogg"
-    mc "Let's see..."
-    "The most logical place for Yuri to be would be the nearest water fountain..."
+
+    "Xem nào..."
+
+    "Hẳn là Yuri đang ở chỗ bồn nước gần nhất..."
     $ y_name = "Yuri"
-    "I start heading down the hallway."
+
+    "Tôi bắt đầu bước dọc hành lang."
     $ y_name = "???"
     y "Haah.....haah...."
     y "....Haah.....haah...."
-    "...What's that noise?"
-    "It's coming from around the corner..."
-    "It sounds like breathing."
+
+    "...Tiếng gì thế?"
+
+    "Có vẻ là từ góc kia..."
+
+    "Hình như là tiếng thở."
     y "Khhhhh--"
-    "A sharp inhale, like someone is sucking the air through their teeth."
-    "Are they in pain...?"
-    "I reach the corner and peer around it."
+
+    "Có tiếng rít lên, hình như ai đó đang vừa kêu vừa nghiến chặt răng."
+
+    "Bị thương sao...?"
+
+    "Đến gần chỗ đó, tôi nhìn sang."
     mc "Yuri...?"
     $ y_name = "Yuri"
     show yuri cuts zorder 2 at t11
@@ -356,31 +612,43 @@ label yuri_exclusive2_2_ch22:
     show layer master at rewind
     $ y_name = "???"
     mc "{cps=*3}Yuri...?{/cps}{nw}"
-    "{cps=*3}I reach the corner and peer around it.{/cps}{nw}"
-    "{cps=*3}Are they in pain...?{/cps}{nw}"
-    "{cps=*3}A sharp inhale, like someone is sucking the air through their teeth.{/cps}{nw}"
+
+    "{cps=*3}Đến gần chỗ đó, tôi nhìn sang.{/cps}{nw}"
+
+    "{cps=*3}Bị thương sao...?{/cps}{nw}"
+
+    "{cps=*3}Có tiếng rít lên, hình như ai đó đang vừa kêu vừa nghiến chặt răng.{/cps}{nw}"
     y "{cps=*3}Khhhhh--{/cps}{nw}"
-    "{cps=*3}It sounds like breathing.{/cps}{nw}"
-    "{cps=*3}It's coming from around the corner...{/cps}{nw}"
-    "{cps=*3}...What's that noise?{/cps}{nw}"
+
+    "{cps=*3}Hình như là tiếng thở.{/cps}{nw}"
+
+    "{cps=*3}Có vẻ là từ góc kia...{/cps}{nw}"
+
+    "{cps=*3}...Tiếng gì thế?{/cps}{nw}"
     y "{cps=*3}....Haah.....haah....{/cps}{nw}"
     y "{cps=*3}Haah.....haah....{/cps}{nw}"
     $ y_name = "Yuri"
-    "{cps=*3}I start heading down the hallway.{/cps}{nw}"
-    "{cps=*3}The most logical place for Yuri to be would be the nearest water fountain...{/cps}{nw}"
-    mc "{cps=*3}Let's see...{/cps}{nw}"
+
+    "{cps=*3}Tôi bắt đầu bước dọc hành lang.{/cps}{nw}"
+
+    "{cps=*3}Hẳn là Yuri đang ở chỗ bồn nước gần nhất...{/cps}{nw}"
+
+    "{cps=*3}Xem nào...{/cps}{nw}"
     window hide(None)
     window auto
     scene bg club_day
     show noise zorder 100 at noise_alpha
     show vignette zorder 100 at vignetteflicker(-2.030)
     show layer master at rewind
-    "{cps=*3}I'm bored just waiting here, so I decide to go look for her.{/cps}{nw}"
-    "{cps=*3}Is something holding her up?{/cps}{nw}"
-    "{cps=*3}Yuri said it wouldn't take long...{/cps}{nw}"
-    "{cps=*3}Ten minutes pass.{/cps}{nw}"
-    "{cps=*3}...{/cps}{nw}"
 
+    "{cps=*3}Cứ ngồi đợi mãi ở đây chán chết, đi tìm cậu ấy thôi.{/cps}{nw}"
+
+    "{cps=*3}Gặp vấn đề gì chăng?{/cps}{nw}"
+
+    "{cps=*3}Tưởng Yuri bảo là chỉ một tẹo thôi mà nhỉ...{/cps}{nw}"
+
+    "{cps=*3}Đã qua mười phút rồi.{/cps}{nw}"
+    "{cps=*3}...{/cps}{nw}"
     $ del _history_list[-37:]
     if poemwinner[0] == "yuri" and chapter == 3:
         jump yuri_exclusive2_2_ch23
@@ -391,107 +659,199 @@ label yuri_exclusive2_2_ch22:
     hide vignette
     show layer master
     show yuri 1a zorder 2 at t11
-    y "I'm back."
-    y "Thanks for waiting patiently."
-    y "[player], do you like oolong tea?"
-    mc "Ah, yeah."
-    mc "Anything is fine."
-    y "Very well."
-    "Yuri sets the temperature on the kettle to 200 degrees."
-    y 1f "Now it's time to get the teapot."
-    mc "You really do this properly, don't you?"
-    y 1u "Of course..."
-    y "I shouldn't do any less when I'm making tea for others."
-    mc "Even if I'm not an expert on tea or anything...?"
-    y 2m "Huhu."
-    y 2a "In that case, you'll only be even more impressed."
-    mc "Ah...perhaps I will!"
+
+    y "Mình về rồi đây."
+
+    y "Cảm ơn cậu đã kiên nhẫn đợi."
+
+    y "[player], cậu thích trà Ô long không?"
+
+    mc "Ah, có chứ."
+
+    mc "Mình thì uống gì cũng thấy ngon hết á."
+
+    y "Được thôi."
+
+    "Yuri chỉnh nhiệt độ đun của ấm lên 200 độ."
+
+    y 1 "Để mình đi lấy bộ ấm chén."
+
+    mc "Cậu tỉ mỉ thật đấy nhỉ?"
+
+    y 1u "Đương nhiên rồi..."
+
+    y "Pha cho người khác thưởng thức thì tất nhiên phải cẩn thận chứ."
+
+    mc "Nhưng mình đâu có hiểu biết lắm về trà...?"
+
+    y 2m "Hehe."
+
+    y 2a "Vậy mình sẽ làm cậu phải bất ngờ lắm đấy."
+
+    mc "Ah...Có thể lắm!"
     show yuri zorder 1 at thide
     hide yuri
-    "Yuri fetches the teapot and begins measuring the tea leaves."
-    "To my surprise, she even starts humming a little to herself."
+
+    "Lấy được ấm rồi, Yuri bắt đầu đo đạc lượng lá trà sao cho phù hợp."
+
+    "Ngạc nhiên làm sao, cậu ấy vừa làm vừa lẩm nhẩm hát."
     show yuri 1c zorder 2 at t11
-    mc "You must be in a good mood now..."
-    y 1a "Is that so?"
-    y "I was letting it show..."
-    y "And you noticed."
-    y 2u "I was doing a bit of thinking..."
-    y "And I decided that I would try expressing myself a little bit more."
-    y "It turns out it's not very hard for me to do..."
-    y 1c "When it's you who's around, anyway."
-    show yuri 1a
+
+    mc "Hình như cậu đang thấy vui nhỉ..."
+
+    y 1a "Ồ vậy sao?"
+
+    y "Mình cứ để vậy thôi..."
+
+    y "Chắc cậu cũng nhận ra rồi."
+
+    y 2u "Nhưng mình cũng đã suy nghĩ về vấn đề này..."
+
+    y "Và mình đã quyết tâm sẽ cố tự tin thể hiện bản thân hơn."
+
+    y "Hóa ra không khó như mình từng tưởng..."
+
+    y 1c "Ít nhất là trước mặt cậu."
+
     mc "Ah..."
-    mc "That's great, Yuri!"
-    mc "Just don't push yourself too much."
-    y 3u "You're always worrying about me, [player]..."
-    y "It's very endearing."
-    mc "That's..."
-    "Yuri wasn't kidding..."
-    "I don't even know if I can keep up with this...!"
-    "I watch Yuri pour a cup of tea for each of us."
-    y 1a "[player], I have another request."
-    y "Do you mind if we sit on the floor today?"
-    mc "Eh? Why's that?"
-    y 1h "It's a little bit easier on my back..."
-    y "I can read with my back against the wall rather than bending over at my desk."
-    mc "Ah, sorry, I didn't realize."
-    y 1a "No worries."
-    y "I just have back pain fairly regularly, so I do my best to manage it."
-    mc "Is that so?"
-    mc "I wonder why that is..."
-    y 1f "It's most likely because my--"
+
+    mc "Vậy thì tốt quá!"
+
+    mc "Mà cậu đừng gượng ép bản thân quá nhé."
+
+    y 3u "[player] lúc nào cũng quan tâm đến mình như vậy..."
+
+    y "Mình thấy ấm lòng lắm."
+
+    mc "Ơ kìa..."
+
+    "Tôi biết là Yuri không đùa..."
+
+    "Cứ thế tôi biết phải làm sao...!"
+
+    "Yuri rót trà ra hai tách nhỏ."
+
+    y 1a "[player] này, mình có một mong muốn nhỏ."
+
+    y "Liệu hôm nay chúng ta ngồi dưới sàn có được không?"
+
+    mc "Eh? Sao lại vậy?"
+
+    y 1h "Để đỡ mỏi lưng thôi mà..."
+
+    y "Mình thích ngồi dựa tường hơn phải cúi mặt xuống bàn."
+
+    mc "Ra vậy. Xin lỗi vì không để ý chuyện đó."
+
+    y 1a "Không sao đâu."
+
+    y "Mình hay bị đau lưng lắm."
+
+    mc "Vậy sao?"
+
+    mc "Mà sao lại thế nhỉ..."
+
+    y 1f "Chắc là tại--"
+
     y 1n "Ah--"
-    y 1o "M-My..."
-    mc "Your posture, right?"
-    mc "Always hunched over like that while reading..."
-    y 2p "Yes!"
-    y 2q "I have terrible reading posture!"
-    y "So that's why we should sit on the floor."
-    mc "Fair enough."
-    mc "I'll go ahead and get the book."
+
+    y 1o "T-Tại..."
+
+    mc "Tại tư thế ngồi của cậu hả?"
+
+    mc "Lúc đọc sách cậu hay gù lưng xuống lắm..."
+
+    y 2p "Đúng thế!"
+
+    y 2q "Tại mình ngồi đọc sách không ngay ngắn đấy!"
+
+    y "Vậy phiền cậu ngồi dưới sàn cùng mình nhé."
+
+    mc "Không vấn đề gì."
+
+    mc "Để mình đi lấy sách đã."
     show yuri zorder 1 at thide
     hide yuri
-    "I retrieve the book from my bag."
-    mc "Ah, I have some chocolate as well..."
-    "It's a bag of small chocolate candies."
-    "I take it, since it'll go well with the tea."
-    "Yuri and I then sit against the wall, teacups at our sides."
-    "As if in sync, we assume the same reading position as last time, each holding one half of the book."
-    "Except this time..."
-    "Our bodies are even closer to each other."
+
+    "Tôi mở cặp rồi lấy cuốn sách ra."
+
+    mc "Ah, còn mấy viên chocolate này..."
+
+    "Tôi bất ngờ tìm ra một túi kẹo chocolate nhỏ mà mình giấu vào cặp để Sayori không đánh hơi được."
+
+    "Ăn kèm với trà có vẻ ổn nên tôi cầm nó theo luôn."
+
+    "Yuri và tôi cùng ngồi dựa vào tường với hai tách trà ở cạnh bên."
+
+    "Đã quen từ lần trước nên chúng tôi chia nhau mỗi người cầm một nửa cuốn sách luôn."
+
+    "Nhưng lần này..."
+
+    "Chúng tôi còn ngồi sát bên nhau hơn cả lần trước nữa."
     show yuri 2h zorder 2 at t11
-    y "I can't see too well..."
+
+    y "Đọc không rõ lắm nhỉ..."
+
     mc "--!"
     show yuri 2e at d11
-    "Yuri slides closer until our shoulders are touching."
-    "How am I supposed to focus on reading like this...?!"
-    "Yuri was always kind of cute, but..."
-    "When she's being less apprehensive, it's almost more than I can handle!"
-    y 2f "Your teacup..."
-    "Yuri hands me my teacup."
-    "Holding it with my hand that's not holding the book, I end up in a position that makes it even harder to focus."
-    "Because now I need to worry about making sure I don't accidentally touch her chest...!"
-    "Meanwhile, Yuri hasn't noticed a single thing."
-    "She wears her intense reading expression, and I can only presume the world around her has faded away."
-    "I use all of my willpower to focus on reading."
+
+    "Yuri dịch về phía tôi gần đến mức vai hai đứa chạm nhau."
+
+    "Thế này thì tập trung đọc bằng răng à...?!"
+
+    "Vốn Yuri cũng đã khá xinh rồi..."
+
+    "Bây giờ lại còn tự nhiên thoải mái thế này nữa chứ, sao tôi đỡ nổi đây!"
+
+    y 2f "Mời cậu..."
+
+    "Yuri đưa tôi tách trà."
+
+    "Giờ phải cầm nó bằng tay còn lại khiến tôi càng mất tập trung hơn."
+
+    "Cái tư thế ngồi hiện giờ khiến tay tôi rất có khả năng vô tình đụng trúng ngực cậu ấy, khiến tôi luôn phải lo mà tránh...!"
+
+    "Còn Yuri vẫn có vẻ chưa để ý gì đến chuyện đó hết."
+
+    "Cậu ấy mang vẻ mặt tập trung tuyệt đối đọc sách, tựa hồ thế giới xung quanh đã tan vào hư không."
+
+    "Tôi cũng cố vận hết tâm lực để tập trung vào cuốn sách."
+
     "..."
-    "After a few minutes, I finally manage to relax a little."
-    "I put the teacup between my legs and fumble with the chocolate wrapper."
-    mc "Ah, sorry..."
-    "I briefly let go of the book to finish opening the wrapper."
-    mc "You can have as much as you want."
-    y 2s "Ah, that's..."
-    y "That's okay, I won't take any..."
-    mc "Eh? Are you sure?"
-    y 2v "Well..."
-    y "If I touch it, then it might get smudges on the pages..."
-    mc "Ah, you're right..."
-    mc "I didn't even think about that."
-    mc "My bad..."
-    y 2a "No need to apologize."
-    y "I'll hold the book, okay?"
-    mc "Are you sure...?"
-    y "Of course."
+
+    "Vài phút sau, cuối cùng thì tôi cũng thoải mái được hơn một chút."
+
+    "Tạm đặt tách trà xuống, tôi bắt đầu loay hoay với mấy viên kẹo."
+
+    mc "Ah, nhờ cậu chút..."
+
+    "Tôi tạm ngưng giữ cuốn sách một chút để mở giấy gói."
+
+    mc "Cậu cứ ăn tự nhiên nhé."
+
+    y 2s "Ah, nó..."
+
+    y "Cảm ơn nhé, nhưng thôi mình không ăn đâu..."
+
+    mc "Eh? Sao vậy?"
+
+    y 2v "Ừ thì..."
+
+    y "Tay bốc chocolate rồi chạm vào sách dễ dây bẩn ra lắm..."
+
+    mc "Ờ, cũng đúng..."
+
+    mc "Mình còn chẳng hề để ý đến vụ ấy luôn."
+
+    mc "Xin lỗi cậu..."
+
+    y 2a "Thôi mà, xin lỗi gì chứ."
+
+    y "Để mình cầm sách hộ cậu nhé?"
+
+    mc "Cậu không phiền chứ...?"
+
+    y "Tất nhiên là không."
     $ persistent.clear[3] = True
     scene y_cg2_bg
     show y_cg2_base
@@ -502,65 +862,105 @@ label yuri_exclusive2_2_ch22:
     show y_cg2_dust3
     show y_cg2_dust4
     with dissolve_cg
-    "Yuri opens the book with both hands."
-    "She holds it so that I don't have any harder of a time reading from it."
-    "But as a result, her left arm is practically resting on top of my leg."
-    mc "Well, in that case..."
-    "Yuri is already totally focused on reading again."
-    "I take a chocolate candy and pop it into my mouth."
-    "Then, I take another chocolate..."
-    "And I hold it up to Yuri."
-    "She doesn't even look away from the book."
-    "She simply parts her lips, as if this situation was completely natural."
-    "But that means I can't stop here!"
+
+    "Yuri cầm lấy cuốn sách bằng hai tay rồi mở lại trang chúng tôi đang đọc."
+
+    "Để tôi đọc được thoải mái, cậu ấy nghiêng sách về phía tôi một chút."
+
+    "Cũng vì thế mà giờ đây tay trái cậu ấy đang chạm đùi tôi."
+
+    mc "Thế này thì..."
+
+    "Yuri lại bị cuốn sách hớp mất hồn rồi."
+
+    "Tôi ném một miếng chocolate vào miệng mình."
+
+    "Rồi, tôi lấy thêm một miếng nữa..."
+
+    " Và giơ nó ra trước mặt Yuri."
+
+    "Mắt cậu ấy vẫn không hề rời trang sách."
+
+    "Nhưng đôi môi kia vẫn tự hé mở chờ tôi đút cho."
+
+    "Nó càng cổ vũ cho cánh tay tôi đưa lên!"
     hide y_cg2_nochoc
-    "I apprehensively place the chocolate in her mouth."
-    "Just like that, Yuri closes her lips over it."
-    y "Eh...?"
+
+    "Tuy vẫn còn hơi run nhưng cuối cùng tôi cũng đưa được miếng chocolate vào miệng Yuri."
+
+    "Và rồi cứ thế, đôi môi ấy khép lại."
+
+    y "Hử...?"
     show y_cg2_exp2
-    "Yuri's expression suddenly breaks."
-    y "Did..."
-    y "Did I just..."
-    "Yuri looks at me like she needs to confirm what just happened."
+
+    "Vẻ bình tĩnh trên khuôn mặt Yuri đột ngột biến mất."
+
+    y "Mình vừa..."
+
+    y "Có phải mình vừa..."
+
+    "Yuri chằm chằm nhìn tôi như muốn xác nhận lại sự kiện vừa rồi."
     show y_cg2_exp3
     show y_cg2_nochoc:
         alpha 0
         linear 0.5 alpha 1
     hide y_cg2_exp2
+
     y "U-Um..."
+
     y "[player]..."
-    mc "S-Sorry!"
-    mc "I guess I shouldn't have done that..."
+
+    mc "X-Xin lỗi cậu!"
+
+    mc "Mình lỡ tay chút thôi..."
     stop music
-    y "A-Ah..."
-    "Yuri starts to breathe heavily."
-    y "I..."
-    y "I can't..."
+    y "A-A..."
+
+    "Yuri bắt đầu thở dốc."
+
+    y "Mình..."
+
+    y "Mình không thể chịu được nữa rồi..."
     y "[player]..."
-    "Suddenly, Yuri forcefully grabs my arm and jerks me to my feet."
-    "My teacup gets knocked over."
+
+    "Yuri đột ngột nắm chặt cổ tay tôi rồi kéo tôi đứng dậy."
+
+    "Tách trà trước mặt tôi bị đẩy văng đi, đổ lênh láng cả ra sàn."
     scene bg closet
     show yuri 2t zorder 2 at t11
     with wipeleft
-    y "[player]..."
+
     play sound closet_close
     show dark zorder 100
     with wipeleft
-    y "My heart..."
-    y 2y6 "My heart won't stop pounding, [player]..."
-    y "I can't calm down."
-    y "I can't focus on anything anymore...!"
-    y "Can you feel it, [player]?"
-    "Yuri suddenly presses my hand against her chest."
+
+    y "Tim mình..."
+
+    y "[player]...Tim mình đập nhanh quá..."
+
+    y "Mình không thể nhịn được nữa."
+
+    y "Mình chẳng thể tập trung được vào việc gì...!"
+
+    y "Đó, cậu thấy không?"
+
+    "Yuri đột nhiên kéo tay tôi ép chặt vào ngực cậu ấy."
     play music hb
     show layer master at heartbeat
-    y 3t "Why is this happening to me?"
-    y "I feel like I'm losing my mind..."
-    y 3y4 "I can't make it stop."
-    y 3y6 "It even makes me not want to read..."
-    y "I just want..."
-    y 3s "...to look..."
-    y "...at you."
+
+    y 3t "Sao mình lại bị thế này chứ?"
+
+    y "Mình như bị mất trí rồi..."
+
+    y 3y4 "Mình không kiềm chế được nữa đâu."
+
+    y 3y6 "Kể cả đọc sách cũng không thể chặn lại..."
+
+    y "Cái ham muốn..."
+
+    y 3s "...được ngắm nhìn..."
+
+    y "...cậu."
     hide yuri
     show yuri eyes
     pause 3.0
@@ -580,9 +980,9 @@ label yuri_exclusive2_2_ch22:
     hide dark
     show monika 3l zorder 3 at f31
     with wipeleft
-    m "U-Um..."
-    m "It's...time to share poems..."
+    m "Ư-Ừm..."
 
+    m "Đến giờ...chia sẻ thơ rồi đó..."
 
 
 
@@ -611,14 +1011,22 @@ label yuri_exclusive2_2_ch23:
     scene bg corridor
     show yuri 2n at i11
     y "Um..."
-    y "Wait..."
-    y 2o "How did I..."
-    y 2y6 "...Sorry, I just had a really weird déjà vu..."
-    y "This hasn't happened before or anything...right?"
-    y 2t "My head has been a little fuzzy lately..."
-    y 3t "I hope it hasn't really been showing or anything!"
-    y "I would hate for you to think I'm weird just after we started spending time together..."
-    y "I mean..."
+
+    y "Khoan đã..."
+
+    y 2o "Sao mình lại..."
+
+    y 2y6 "...Xin lỗi cậu, hình như mình vừa gặp ảo giác... "
+
+    y "Chuyện vừa rồi...chưa hề xảy ra phải không?"
+
+    y 2t "Dạo này tâm trí mình không được ổn định lắm..."
+
+    y 3t "Hi vọng là không làm phiền cậu!"
+
+    y "Mình không muốn mới thân nhau được chút đã khiến cậu nghĩ mình có vấn đề..."
+
+    y "Bởi vì..."
     show bg corridor:
         xoffset 0
         parallel:
@@ -641,37 +1049,64 @@ label yuri_exclusive2_2_ch23:
             repeat
 
     play music t9
-    y "Everyone has a few unusual things about them."
-    y 1v "But expressing those things so soon after meeting someone is usually seen as inappropriate...or unlikable."
-    y "At least, that's what I've discovered."
-    y "When I was a bit younger, I think I would come on really strongly and get a little too intense..."
-    y "It made people not want to be around me."
-    y 2w "So...I started hating those things about myself."
-    y "My obsession with certain hobbies."
-    y "And the way I can't control myself when I get too excited about something."
-    y "So..."
-    y 1v "I eventually stopped trying to talk to people."
-    y "If nobody could ever like me for the things that matter most to me..."
-    y 1u "...Then it's just easier if I close myself off."
-    y 1h "But recently, something's been wrong."
-    y "I don't know what it is."
-    y 2y6 "But every time we come to the club, my heart starts to go crazy."
-    y "Like it's going to rip out of my chest."
-    y "It overwhelms me with energy and emotions that I can't let out."
-    y "It's been making me do weird things."
-    y 2t "I don't know why it's happening!"
+
+    y "Ai mà chẳng có đôi ba chỗ bất thường."
+
+    y 1v "Nhưng để người mới quen mình thấy được những chỗ bất thường ấy hẳn là không phải phép cho lắm."
+
+    y "Theo kinh nghiệm cá nhân của mình là vậy đấy."
+
+    y "Hồi còn nhỏ, mình thường ứng xử hơi thái quá một chút..."
+
+    y "Nên chẳng ai thèm chơi với mình cả."
+
+    y 2w "Vậy là...mình bắt đầu tự ghét bỏ bản thân luôn."
+
+    y "Cái kiểu bị ám ảnh bởi sở thích cá nhân."
+
+    y "Và còn cứ hứng chí lên là mất kiểm soát nữa chứ."
+
+    y "Thế nên..."
+
+    y 1v "Dần dần mình cũng chẳng còn thiết tha giao tiếp với ai nữa."
+
+    y "Vì nếu không ai tôn trọng nổi những điều mình yêu quý..."
+
+    y 1u "...Thì thà cứ tự thu mình lại còn hơn."
+
+    y 1h "Nhưng dạo gần đây cứ có gì đó sai sai ấy."
+
+    y "Mình cũng chẳng dám chắc lắm."
+
+    y 2y6 "Nhưng hôm nào đến câu lạc bộ, tim mình cũng bắt đầu đập như điên loạn."
+
+    y "Như kiểu nó muốn nhảy ra khỏi lồng ngực vậy."
+
+    y "Tâm hồn cứ chồng chất bao cảm xúc không thể giải phóng nổi."
+
+    y "Và rồi mình bắt đầu hành động rất bất thường."
+
+    y 2t "Chẳng hiểu nổi sao lại thế nữa!"
     stop music
     y 1t "[player]..."
-    y "Is it just me, or has Monika been acting a little off lately?"
-    y 1v "She's always been a sweetheart ever since I joined the club..."
-    y "But recently, I've been feeling something sharp whenever she's around."
-    y 2y4 "I'm not crazy, right?"
-    y 2y1 "Please tell me I'm not!"
-    y "I couldn't say anything before, because she's always listening!"
-    y 2y3 "But finally, we're alone..."
-    y "Can we just stay here for a while?"
-    y 1m "Yeah..."
-    y "..."
+
+    y "Cậu có thấy dạo này Monika hơi bị kì dị không?"
+
+    y 1v "Hồi mình mới vào câu lạc bộ, cậu ta hiền lắm..."
+
+    y "Nhưng dạo này cứ chạm mặt là mình lại cảm thấy không khí xung quanh cậu ta có ác ý."
+
+    y 2y4 "Đúng là vậy, phải không?"
+
+    y 2y1 "Mình không bị điên phải không?!"
+
+    y "Do Monika theo dõi sát sao quá nên mình không nói sớm hơn được!"
+
+    y 2y3 "Nhưng bây giờ chỉ còn hai chúng ta thôi..."
+
+    y "Nên cậu ở đây với mình một lúc được chứ?"
+
+    y 1m "Đúng..."
     play music hb
     show layer master at heartbeat
     show yuri as yuri_eyes zorder 4:
@@ -689,125 +1124,164 @@ label yuri_exclusive2_2_ch23:
     $ ad = 40.0
     $ ac = 1.0
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1s "I just want to stay here."
+
+    y 1s "Mình chỉ muốn được ở yên đây thôi."
     $ ac += 0
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Just the two of us."
+
+    y "Mình chỉ muốn được ở bên cậu thôi."
     $ ac += 0
     show monika 1 onlayer front at malpha(ac / ad)
-    y "We can stay here until the club ends."
+
+    y "Cùng đợi đến lúc hết giờ hoạt động câu lạc bộ nhé."
     $ ac += 0
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1m "And then we'll have the clubroom all to ourselves."
+
+    y 1m "Rồi cả căn phòng sẽ là của chúng ta."
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Nobody to interfere with our reading time."
+
+    y "Sẽ chẳng có ai cản trở chúng ta cùng đọc sách."
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1y4 "Nobody to make me feel like stabbing myself in the throat."
+
+    y 1y4 "Cũng chẳng còn kẻ khiến mình khó chịu tới mức muốn tự đâm thủng cổ họng."
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
     y 1q "Ahaha..."
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
-    y "That was a joke!"
+
+    y "Mình đùa đấy!"
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Just a joke."
+
+    y "Đùa thôi mà."
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1i "I do like knives, though..."
+
+    y 1i "Nhưng mình thích chơi dao thật đấy..."
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
-    y "It sounds strange, but you wouldn't understand if you've never seen how beautiful they can be."
+
+    y "Nghe có hơi lạ, nhưng nếu được chiêm ngưỡng tận mắt vẻ đẹp của chúng thì cậu sẽ hiểu ngay thôi."
     $ ac += 0.5
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1f "I have an idea."
+
+    y 1f "A, hay là..."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Why don't you come to my house sometime?"
+
+    y "...khi nào cậu rảnh thì ghé qua nhà mình được không?"
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1y6 "I can show you my collection."
+
+    y 1y6 "Để mình cho cậu xem những bé dao yêu quý mà mình đã dày công sưu tập."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y "I've gotten them all from various artisans."
+
+    y "Toàn là dao xịn nghệ nhân rèn cả đấy."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1a "I make sure to give them all their fair share of use."
+
+    y 1a "Và bé nào mình cũng sử dụng thường xuyên hết."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1m "I don't want them to get lonely or anything..."
+
+    y 1m "Vì mình không muốn ghẻ lạnh bất kì bé nào cả..."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1y6 "Nobody deserves to be lonely."
+
+    y 1y6 "Vì chẳng ai đáng bị ghẻ lạnh cả."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1y4 "Nobody."
+
+    y 1y4 "Chẳng một ai đáng bị phân biệt đối xử như vậy."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1c "And that's why I'm so happy you joined the Literature Club, [player]."
+
+    y 1c "Thế nên có thêm cậu trong Câu lạc bộ Văn học khiến mình rất vui, [player] ạ."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1a "Now we don't need to be lonely anymore."
+
+    y 1a "Giờ hai ta sẽ chẳng phải cô đơn nữa."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Because we have each other."
+
+    y "Vì hai ta đã có nhau rồi."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Every day."
+
+    y "Ngày nào ta cũng được ở bên nhau."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y "That's all we need."
+
+    y "Chỉ thế là đủ."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1y6 "You know what?"
+
+    y 1y6 "À đúng rồi..."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Let's quit the Literature Club."
+
+    y "Bỏ cái Câu lạc bộ Văn học này luôn đi."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y "There's no need for us to be around Monika's slimy tongue anymore."
+
+    y "Ở lại nghe con Monika cạnh khóe làm gì chứ."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1y4 "Not to mention that other pathetic child."
+
+    y 1y4 "Cả cái đứa nhóc con lếu láo kia nữa."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1s "We can walk home together every day after school."
+
+    y 1s "Rồi ta sẽ cùng nhau về nhà mỗi ngày sau giờ học."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y "And read together."
+
+    y "Đọc sách bên nhau."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1m "Eat together."
+
+    y 1m "Ăn cùng nhau."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Sleep together."
+
+    y "Ngủ cùng nhau."
     $ ac += 1
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1s "Doesn't that sound perfect?"
+
+    y 1s "Được vậy không phải tuyệt lắm sao?"
     $ ac += 2
     show monika 1 onlayer front at malpha(ac / ad)
-    y "It's everything we could ever want."
+
+    y "Còn cần gì hơn thế nữa chứ."
     $ ac += 2
     show monika 1 onlayer front at malpha(ac / ad)
-    y 1a "Isn't that why you joined the club in the first place?"
+
+    y 1a "Chẳng phải cậu vào cái câu lạc bộ này cũng chỉ vì thế thôi sao?"
     $ ac += 2
     show monika 1 onlayer front at malpha(ac / ad)
-    y "It's almost like it was fate."
+
+    y "Cứ như là định mệnh ấy nhỉ."
     $ ac += 2
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Fate that we would meet each other."
+
+    y "Chính định mệnh đã đưa ta đến bên nhau."
     $ ac += 2
     show monika 1 onlayer front at malpha(ac / ad)
-    y "And now we get the happy ending that I've patiently waited years for."
+
+    y "Và giây phút này chính là cái kết hạnh phúc mà mình đã mong ngóng suốt bao năm trời."
     $ ac += 2
     show monika 1 onlayer front at malpha(ac / ad)
-    y "Will you do that with me, [player]?"
+
+    y "Liệu cậu sẽ chấp nhận mình chứ, [player]?"
     $ ac += 2
     show monika 1 onlayer front at malpha(ac / ad)
     $ gtext = glitchtext(200)
-    y "Will{space=60}[gtext]{nw}"
+
+    y "Liệu cậu có{space=60}[gtext]{nw}"
     hide monika onlayer front
     window hide(None)
     $ poemsread = 0

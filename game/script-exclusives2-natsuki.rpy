@@ -68,194 +68,315 @@ image n_rects_ghost5:
 label natsuki_exclusive2_1:
     scene bg club_day
     with wipeleft_scene
-    n "Ugh...!"
-    "I hear Natsuki utter an exasperated sigh from within the closet."
-    "She seems to be annoyed by something."
-    "I approach her, in case she needs a hand."
+
+
+    "Tôi nghe như có tiếng thở dài hậm hực của Natsuki ở phía tủ để đồ."
+
+    "Không biết cậu ấy đang khó chịu vì chuyện gì nhỉ?"
+
+    "Tôi lại đó để xem liệu Natsuki có cần giúp gì không."
     play music t6 fadeout 1
     scene bg closet
     show natsuki 4r zorder 2 at t11
     with wipeleft_scene
     $ style.say_dialogue = style.normal
-    mc "You looking for something in there?"
+
+    mc "Cậu đang tìm gì à?"
     $ style.say_dialogue = style.edited
-    n 4x "fucking monikammmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm"
+
+    n 4x "con đĩ monikammmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm."
     $ style.say_dialogue = style.normal
-    $ _history_list[-1].what = "Freaking Monika..."
-    n "She never puts my stuff back in the right spot!"
-    n "What's the point in keeping your collection organized if someone else is just gonna mess it up?"
-    "Natsuki slides a bunch of stacked books and boxes across the shelf."
-    mc "Manga..."
-    n 2c "You read manga, right?"
+    $ _history_list[-1].what = "Monika khốn thật..."
+
+    n "Suốt ngày lấy đồ của tôi ra xong không để lại được đúng vị trí ban đầu!"
+
+    n "Sắp xếp ngăn nắp bộ sưu tập của mình còn có nghĩa lý gì nữa khi mà người khác cứ liên tục lục tung nó lên chứ?"
+
+    "Natsuki lôi mấy cái hộp và vài chồng sách trên giá ra."
+    mc "Sưu tập truyện tranh à..."
+
+    n 2c "Cậu cũng đọc truyện tranh đúng không?"
     mc "Ah--"
-    mc "...Sometimes..."
-    "Manga is one of those things where you can't admit you're really into it until you figure out where the other person stands."
-    mc "...How did you know, anyway?"
-    n 2k "I heard you bring it up at some point."
-    n "Besides, it's kind of written on your face."
-    "What's that supposed to mean...?"
-    mc "I-I see..."
-    "There's a lone volume of manga amidst a stack of various books on the side of one of the shelves."
-    "Curious, I pull it out of the stack."
-    n 1b "{i}There{/i} it is!"
-    "Natsuki snatches it out of my hand."
-    "She then turns to a box of manga and slips the volume right into the middle of the rest."
-    n 4d "Aah, much better!"
-    n "Seeing a box set with one book missing is probably the most irritating sight in the world."
-    mc "I know that feel..."
-    "I get a closer look at the box set she's admiring."
-    mc "Parfait Girls...?"
-    "It's a series I've never heard of in my life."
-    "That probably means it's either way out of my demographic, or it's simply terrible."
-    n 5g "If you're gonna judge, you can go do it through the glass on that door."
-    "She points to the classroom door."
-    mc "H-Hey, I wasn't judging anything...!"
-    mc "I didn't even say anything."
-    n 5c "It was the tone of your voice."
+
+    mc "...Thi thoảng thôi..."
+
+    "Có những thứ mà ta không nên nhận là mình thích nếu như chưa biết ý kiến đối phương ra sao. Truyện tranh là ví dụ tiêu biểu."
+
+    mc "...Làm sao mà cậu biết được?"
+
+    n 2k "Tôi vô tình nghe thấy cậu nhắc đến vài lần."
+
+    n "Với cả nhìn mặt cậu thôi cũng đủ đoán ra rồi."
+
+    "Rốt cuộc thế là sao. Có gì trên mặt tôi ư...?"
+
+    mc "R-Ra là vậy à..."
+
+    "Có một cuốn truyện tranh nằm lẻ loi giữa những chồng sách đủ thể loại ở góc tủ."
+
+    "Thấy tò mò nên tôi rút nó ra khỏi chồng sách."
+
+    n 1b "A, ra là ở {i}đây{i}!"
+
+    "Natsuki giật cuốn truyện khỏi tay tôi."
+
+    "Rồi quay sang cất nó vào cái hộp chứa đầy truyện cạnh đó."
+
+    n 4d "Aah, ngon rồi đấy!"
+
+    n "Đúng là chả có gì ức chế bằng nhìn bộ sưu tập truyện của mình thiếu mất một quyển nhỉ?"
+
+    mc "Chuẩn không cần chỉnh..."
+
+    "Tôi lại gần để nhìn rõ hơn bộ sưu tập mà cậu ấy ngưỡng mộ."
+    mc "Parfait Girls à...?"
+
+    "Tôi chưa nghe tên bộ truyện này bao giờ."
+
+    "Chắc hẳn là do nó không thuộc thể loại tôi thích đọc, hoặc đơn giản là do nó dở tệ."
+
+    n 5g "Nếu định đánh giá gì tôi thì cậu đi ra ngoài kia mà phán."
+
+    "Cậu ấy chỉ tay ra phía cửa phòng."
+
+    mc "N-Này, mình đâu có ý phán xét gì cậu...!"
+
+    mc "Tôi còn chưa hề hé răng cơ."
+
+    n 5c "Vấn đề ở cái giọng điệu của cậu đấy."
     $ style.say_dialogue = style.normal
-    n "But I'll tell you one thing, [player]."
-    n 4l "Consider this a lesson straight from the Literature Club:{nw}"
-    $ _history_list[-1].what = "Consider this a lesson straight from the Literature Club: Don't judge a book by its cover!"
+
+    n "Nghe đây này, [player]."
+
+    n 4l "Coi như đây là bài học đầu tiên mà Câu lạc bộ dạy cho cậu:{nw}"
+    $ _history_list[-1].what = "Coi như đây là bài học đầu tiên mà Câu lạc bộ dạy cho cậu: Đừng có đánh giá một cuốn sách qua bìa!"
     $ style.say_dialogue = style.edited
-    n "don't judge a bookkkkkkkkkkkkkkkkk kkkkk kk{space=20}k{space=40}k{space=120}k{space=160}k{space=200}k"
+
+    n "Đừng có đánh giá một cuốn sáchsssssssssss sssss ss{space=20}h{space=40}h{space=120}h{space=160}h{space=200}h"
     $ style.say_dialogue = style.normal
     $ _history_list.pop()
-    n "In fact--"
-    "Natsuki pulls out the first volume of Parfait Girls from the box."
-    n "I'm gonna show you exactly why!"
-    "She shoves the book right into my hands."
+
+    n "À mà--"
+
+    "Natsuki lấy ra từ trong hộp tập đầu tiên của bộ Parfait Girls."
+
+    n "Cậu cứ xem thử nội dung của nó đi là hiểu điều tôi vừa nói ngay!"
+
+    "Cậu ta dúi nó vào tay tôi."
     mc "Ah..."
-    "I stare at the cover."
-    "It features four girls in colorful attire striking animated feminine poses."
-    "It's...exceedingly \"moe\"."
-    n 4b "Don't just stand there!"
+
+    "Tôi nhìn chằm chằm vào bìa cuốn truyện."
+
+    "Trên đó là hình bốn cô gái mặc đồ sặc sỡ và tạo dáng kiểu nữ tính quá trớn."
+
+    "Nồng nặc mùi \"moe\"."
+
+    n 4b "Còn đứng trơ ra đấy nữa à!"
     mc "Uwa--"
     show natsuki zorder 1 at thide
     hide natsuki
-    "Natsuki grabs my arm and pulls me out of the closet."
-    "She then takes a seat against the wall, beneath the windowsills."
-    "She pats on the ground next to her, signaling me to sit there."
+
+    "Tôi bị Natsuki chộp lấy tay và kéo ra khỏi tủ để đồ."
+
+    "Rồi cậu ấy ngồi xuống và tựa lưng vào tường, chỗ ngay bên dưới cửa sổ."
+
+    "Sau đó vỗ vỗ xuống khoảng trống bên cạnh mình, ra hiệu cho tôi ngồi đó."
     show bg club_day
     show natsuki 2a zorder 2 at t11
     with wipeleft
-    mc "Wouldn't chairs be more comfortable...?"
-    "I take my seat."
-    n 2k "Chairs wouldn't work."
-    n "We can't read at the same time like that."
-    mc "Eh? Why's that?"
-    mc "Ah...I guess it's easier to be close together like this..."
+
+    mc "Sao không lấy ghế mà ngồi cho thoải mái...?"
+
+    "Hỏi vậy chứ tôi vẫn ngồi xuống cùng Natsuki."
+
+    n 2k "Không được."
+
+    n "Ngồi ghế thì sao mà đọc chung được."
+
+    mc "Eh? Tại sao lại thế?"
+
+    mc "À...Đúng là ngồi như này thì được gần nhau hơn nhỉ..."
     n 2o "--!"
-    n 5r "D-Don't just say that!"
-    n "You'll make me feel weird about it!"
-    "Natsuki crosses her arms and scootches an inch away from me."
-    mc "Sorry..."
+
+    n 5r "Đ-Đừng có nói ra!"
+
+    "Cậu làm cho tôi thấy ngại rồi đấy!"
+
+    "Natsuki khoanh tay lại và ngồi lùi ra xa tôi một chút."
+
+    mc "Xin lỗi..."
     show natsuki 5g
-    "I didn't exactly expect to be sitting this close to her, either..."
-    "Not that I can say it's a particularly bad thing."
-    "I open the book."
-    "It's only a few seconds before Natsuki once again inches closer, reclaiming the additional space while she hopes I won't notice."
-    "I can feel her peering over my shoulder, much more eager to begin reading than I am."
-    n 1k "Wow, how long has it been since I read the beginning...?"
-    mc "Hm?"
-    mc "You don't go back and flip through the older volumes every now and then?"
-    n 2k "Not really."
-    n "Maybe sometimes after I've already finished the series."
-    n 2c "Hey, are you paying attention?"
+
+    "Việc cậu ta để cho tôi ngồi cạnh đúng là chuyện không thể ngờ tới được..."
+
+    "Mà dù sao thì cũng chả gây hại gì cho tôi cả."
+
+    "Tôi mở trang đầu tiên."
+
+    "Ngay vài giây sau, Natsuki đã bắt đầu sáp lại gần hơn, cố trở lại khoảng cách sát sàn sạt khi nãy vì tưởng tôi đang không để ý."
+
+    "Còn có thể cảm nhận được cả ánh mắt cậu ấy đang nhìn qua vai mình, hẳn là còn háo hức muốn đọc còn hơn tôi nữa."
+
+    n 1k "Wow, chả thể nhớ nổi mình đọc tập một từ bao giờ...?"
+
+
+    mc "Cậu không có thói quen đọc lại sách cũ lúc rảnh hả?"
+
+    n 2k "Không."
+
+    n "Chắc phải đọc hết cả bộ xong tôi mới nghĩ tới chuyện đọc lại."
+
+    n 2c "Mà này, cậu có chú ý đọc không đấy hả?"
     mc "Uh..."
-    "I am, but nothing's really happened yet, so I can talk at the same time."
-    "It looks like it's about a bunch of friends in high school."
-    "Typical slice-of-life affair."
-    "I kind of grew out of these, since it's rare for the writing to be entertaining enough to make up for the lack of plot."
+
+    "Tôi vẫn đang đọc nhưng diễn biến truyện vẫn chưa có gì đặc sắc cả nên có thể nói chuyện cùng lúc cũng chả sao."
+
+    "Có vẻ là truyện về cuộc sống của một đám học sinh cao trung."
+
+    "Thể loại đời thường đây mà."
+
+    "Thể loại này thì tôi thấy nhàm chán quá rồi, chỉ có thêm hài hước vào để bù cho cốt truyện tẻ nhạt giống y xì nhau."
     $ persistent.clear[0] = True
     scene n_cg1_bg
     show n_cg1_base
     with dissolve_cg
-    mc "...Are you sure this isn't boring for you?"
-    n "It's not!"
-    mc "Even though you're just watching me read?"
-    n "Well...!"
-    n "I'm...fine with that."
-    mc "If you say so..."
-    mc "...I guess it's fun sharing something you like with someone else."
-    mc "I always get excited when I convince any of my friends to pick up a series I enjoy."
-    mc "You know what I mean?"
+
+    mc "...Cậu không thấy chán hả?"
+
+    n "Không hề!"
+
+    mc "Chỉ ngồi xem mình đọc truyện vậy thôi á?"
+
+    n "À thì...!"
+
+    n "Như vậy...cũng được rồi."
+
+    mc "Tùy cậu thôi..."
+
+    mc "...Chắc là được chia sẻ sở thích của mình với người khác cũng vui rồi nhỉ."
+
+    mc "Rủ được bạn bè đọc cùng những bộ mà mình đang đọc là mình cũng thấy mãn nguyện lắm."
+
+    mc "Ai cũng như vậy hết."
     n "...?"
     mc "Hm?"
-    mc "You don't?"
+
+    mc "Không đúng thế à?"
     show n_cg1_exp2 at cgfade
     n "Um..."
-    n "That's not..."
-    n "Well, I wouldn't really know."
-    mc "...What do you mean?"
-    mc "Don't you share your manga with your friends?"
+
+    m "Không phải..."
+
+    n "Tại, tôi cũng chẳng rõ cho lắm."
+
+    mc "...Ý cậu là sao?"
+
+    mc "Cậu chưa bao giờ đọc truyện tranh cùng bạn bè à?"
     hide n_cg1_exp2
     show n_cg1_exp3 at cgfade
-    n "Could you not rub it in?"
-    n "Jeez..."
-    mc "Ah... Sorry..."
+
+    n "Đừng có nhắc tới chuyện đó?"
+
+    n "Mồ..."
+
+    mc "Ah...Xin lỗi..."
     n "Hmph."
-    n "Like I could ever get my friends to read this..."
-    n "They just think manga is for kids."
-    n "I can't even bring it up without them being all like..."
-    n "'Eh? You still haven't grown out of that yet?'"
-    n "Makes me want to punch them in the face..."
-    mc "Urgh, I know those kinds of people..."
-    mc "Honestly, it takes a lot of effort to find friends who don't judge, much less friends who are also into it..."
-    mc "I'm already kind of a loser, so I guess I gravitated toward the other losers over time."
-    mc "But it's probably harder for someone like you..."
+
+    n "Sao mà tôi bảo bọn bạn đọc được..."
+
+    n "Chúng nó cho rằng chỉ trẻ con mới đọc truyện tranh thôi."
+
+    n "Tôi mà nhắc đến là bọn nó lại cứ kiểu..."
+
+    n "'Eh? Đúng là nhóc Natsuki vẫn còn chưa lớn.'"
+
+    n "Thật khiến cho tôi muốn đấm vào mặt mỗi đứa một cái cho bõ tức..."
+
+    mc "Urgh, xung quanh toàn loại người như vậy đấy..."
+
+    mc "Thành thật mà nói thì, phải mất rất nhiều công sức mới có thể tìm được những người bạn không cười chê phán xét chứ chưa nói gì đến có thích hay không..."
+
+    mc "Từ lâu mình cũng đã phải chấp nhận sống chung với chuyện đó, coi như bình thường rồi."
+
+    mc "Nhưng với tính cách như cậu thì chắc là khó hơn..."
     hide n_cg1_exp3
     n "Hm."
-    n "Yeah, that's pretty accurate."
-    "{i}...Wait, which part??{/i}"
+
+    n "Ừm, khá là chính xác đó."
+
+    "{i}...Hử, cậu ta bảo cái gì chính xác cơ??{/i}"
     $ style.say_dialogue = style.normal
-    n "I mean, I feel like I can't even keep it in my own room..."
+
+    n "Xung quanh toàn loại người kiểu ấy nên cất truyện trong phòng riêng còn chả được..."
 
     $ style.say_dialogue = style.edited
-    n "My dad would beat the shit out of me if he found this."
+
+    n "Bố tôi mà biết thì chết mất."
     $ style.say_dialogue = style.normal
-    $ _history_list[-1].what = "I don't even know what my dad would do if he found this."
-    n "At least it's safe here in the clubroom."
+    $ _history_list[-1].what = "Ông già tao mà biết chắc lão nện tao tơi bời mất."
+
+    n "Cũng may mà cất ở Câu lạc bộ thì sẽ được an toàn."
     show n_cg1_exp3 at cgfade
-    n "'Cept Monika's kind of a jerk about it..."
-    n "Ugh! I just can't win, can I?"
-    mc "Well, it paid off in the end, didn't it?"
-    mc "I mean, here I am, reading it."
-    n "Well, it's not like that solves any of my problems."
-    mc "Maybe..."
-    mc "But at least you're enjoying yourself, right?"
+
+    n "Mỗi một điểm trừ là phải nghe Monika phàn nàn..."
+
+    n "Ugh! Sao mọi người cứ như muốn dồn tôi vào đường cùng thế nhỉ?"
+
+    mc "Nhưng sau cùng thì vẫn ổn mà, phải không?"
+
+    mc "Mình đang ngồi ngay đây, đọc cuốn truyện cậu giới thiệu."
+
+    n "Thế thì có giải quyết được những vấn đề vừa nói đâu."
+
+    mc "Thì đúng là vậy..."
+
+    mc "Nhưng ít ra lúc này cậu đang vui vẻ là tốt rồi mà, không phải vậy sao?"
     hide n_cg1_exp3
     show n_cg1_exp2 at cgfade
     n "--"
     n "..."
-    n "...So?"
+
+    n "...Vậy ư?"
     mc "Ahaha."
     hide n_cg1_exp2
     show n_cg1_exp3 at cgfade
-    n "Jeez, that's enough!"
-    n "Are you gonna keep reading, or what?"
-    mc "Yeah, yeah..."
-    "I flip the page."
+
+    n "Jeez, tán chuyện đủ rồi đấy!"
+
+    n "Cậu có định đọc tiếp không hả?"
+
+    mc "Rồi, rồi..."
+
+    "Tôi lật sang trang tiếp theo."
     show black with dissolve_cg
-    "..."
-    "..."
-    "....."
-    "......."
-    "........."
-    "Time passes."
+
+
+
+
+
+
+    "Tôi đọc được một lúc rồi."
     hide n_cg1_exp3
     show n_cg1_exp4 behind black at cgfade
-    "Natsuki is strangely quiet now."
-    "I glance over at her."
+
+    "Natsuki im lặng một cách lạ thường."
+
+    "Tôi liếc sang bên cậu ấy."
     hide black with dissolve_cg
-    "It looks like she's started to fall asleep."
-    mc "Hey, Natsuki..."
+
+    "Hình như ngủ gật mất rồi thì phải."
+
+    mc "Ê, Natsuki..."
     hide n_cg1_exp4
     show n_cg1_exp5 at cgfade
-    n "Y-Yeah...?"
-    "Suddenly, Natsuki collapses straight into me."
+
+    n "H-Hả...?"
+
+    "Đột nhiên Natsuki ngã thẳng vào người tôi."
     play sound fall
     $ style.say_dialogue = style.normal
-    mc "H-Hey--"
+
+    mc "N-Này--"
     show n_cg1_exp5
     hide n_cg1_exp5
 
@@ -277,32 +398,46 @@ label natsuki_exclusive2_1:
     window auto
     scene bg club_day
     show monika 1r zorder 2 at t11
-    m "Oh jeez..."
-    m 1d "Natsuki, are you okay?"
+    m "Ôi trời ạ..."
+
+    m 1d "Natsuki, cậu có sao không vậy?"
     show monika zorder 2 at t21
     show natsuki 12b zorder 3 at f22
-    n "..."
+
     show natsuki zorder 2 at t22
     show monika zorder 3 at f21
-    m 1a "Here..."
+
+    m 1a "Nè..."
     show monika zorder 2 at t21
-    "Monika reaches into her bag and pulls out some kind of protein bar."
-    "She throws it in Natsuki's direction."
-    "Natsuki's eyes suddenly light up again."
-    "She snatches the bar from the floor and immediately tears off the wrapper."
+
+    "Monika lục cặp, lấy ra thứ trông có vẻ như là một thanh lương khô."
+
+    "Rồi ném nó về phía Natsuki."
+
+    "Đột nhiên, mắt Natsuki như sáng lên."
+
+    "Nhanh như chớp, cậu ấy nhặt thanh lương khô dưới sàn rồi vội vàng xé lớp vỏ bọc bên ngoài."
     show natsuki zorder 3 at f22
-    n 1s "I told you not to give mmph..."
+
+    n 1s "Tôi đã bảo cậu là đừng có đưa mmph..."
     show natsuki zorder 2 at t22
-    "She doesn't even finish her sentence before stuffing it into her mouth."
+
+    "Chưa nói hết câu, cậu ta đã nhồi luôn cả thanh vào miệng."
     show natsuki zorder 1 at thide
     hide natsuki
     show monika 3b zorder 2 at t11
-    m "Don't worry, [player]."
-    m "She's fine."
-    m "It just happens every now and then."
-    m 1a "That's why I always keep a snack in my bag for her."
-    m 5a "Anyway...!"
-    m "Why don't we all share poems now?"
+
+    m "Đừng lo, [player]."
+
+    m "Natsuki không sao đâu mà."
+
+    m "Thi thoảng chuyện này lại xảy ra."
+
+    m 1a "Thế nên trong cặp mình luôn có chút đồ ăn dành riêng cho cậu ấy."
+
+    m 5a "À mà...!"
+
+    m "Đến lúc chia sẻ thơ rồi nhỉ?"
 
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

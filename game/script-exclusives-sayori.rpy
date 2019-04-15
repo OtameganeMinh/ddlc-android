@@ -3,231 +3,409 @@ label sayori_exclusive_1:
     with wipeleft_scene
     if not renpy.music.get_playing(channel='music') == audio.t2:
         play music t2 fadeout 1
-    "Man..."
-    "It looks like no one wants to be bothered today."
-    "I slump down into the nearest desk."
-    "How am I supposed to occupy myself with something literature-related by myself like this?"
-    "I guess I could always read some of the book Yuri gave me..."
-    "...But I'm feeling a little too tired to read."
-    "I could probably fall asleep right now."
-    "I close my eyes and end up listening in on Sayori's conversation with Monika."
+
+    "Trời ạ..."
+
+    "Hình như mọi người đều đang bận làm việc của họ mất rồi."
+
+    "Không muốn làm phiền ai nên tôi đành ngồi thụp xuống cái bàn gần nhất."
+
+    "Biết làm việc gì có liên quan tới văn học bây giờ nhỉ?"
+
+    "Có lẽ cứ đọc sách mà Yuri đưa vậy..."
+
+    "...Mà mệt quá, chả cỏn hứng mà đọc nữa."
+
+    "Tôi muốn đánh một giấc ngay tại đây luôn."
+
+    "Khi mắt đang díp lại thì tôi vô tình nghe được cuộc trò chuyện của Sayori và Monika."
     show sayori 1g zorder 2 at t21
-    s "We're probably gonna seem really lame compared to all the other clubs, though..."
+
+    s "So với các câu lạc bộ khác thì chúng ta trông thật là nhàm chán hết mức..."
     show monika 2r zorder 3 at f22
+
     m "Hmm..."
-    m 2b "Well, we can't give up."
-    m "The festival is our chance to show everyone what literature is all about!"
-    m 2d "The problem is that the idea of a literature club sounds too dense and intellectual..."
-    m "But it's not like that at all, you know?"
-    m 2a "We just need a way of showing that to everyone..."
-    m "Something that speaks to their creative minds."
+
+    m 2b "Đó càng là lý do để cho bọn mình phấn đấu hơn nữa."
+
+    m "Buổi lễ hội hôm ấy chính là cơ hội ngàn vàng để chúng mình cho mọi người thấy văn học hay đến mức nào!"
+
+    m 2d "Vấn đề chính nằm ở chỗ khi nghe thấy cái tên Câu lạc bộ Văn Học thì mọi người đều nghĩ nó thật là ngớ ngẩn và khô khan..."
+
+    m "Nhưng mà chúng ta đều biết sự thực đâu phải như vậy."
+
+    m 2a "Phải tìm cách nào đó để truyền đạt được điều đó với bọn họ..."
+
+    m "Cách mà có thể khơi dậy sự sáng tạo trong mỗi người."
     show monika zorder 2 at t22
     show sayori zorder 3 at f21
+
     s 1i "Mmmmmmmmmmm....."
-    s "That doesn't solve the problem, though!"
+
+    s "Như vậy chả có giải quyết được vấn đề gì hết á!"
     show sayori zorder 2 at t21
     show monika zorder 3 at f22
-    m 2d "Eh? What do you mean?"
+
+    m 2d "Eh? Ý cậu là sao?"
     show monika zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1c "Even if we come up with the most fun thing ever..."
-    s "Nobody will come in the first place if it's a literature event."
-    s "So it's more important to figure out how to get people to show up in the first place, you know?"
-    s 1a "And after they come, we can do the thing to speak to their creative minds."
-    "...What's this?"
-    "Sayori is taking this really seriously."
-    "It's rare to hear her deliberating like this."
+
+    s 1c "Kể cả chúng ta có nghĩ ra được cách thực hiện vui đến mức nào đi chăng nữa..."
+
+    s "Thì cũng sẽ chẳng có ai đến tham quan một cái sự kiện văn học đâu."
+
+    s "Thế nên việc cần làm trước tiên là nghĩ cách để lôi kéo được mọi người đến đây đã, chuẩn chưa?"
+
+    s 1a "Khi đã chắc chắn là sẽ có người tham gia rồi thì lúc ấy mới tính đến chuyện khơi dậy sự sáng tạo của bọn họ."
+
+    "...Chuyện gì đang xảy ra thế này?"
+
+    "Sayori đang thực tâm làm việc một cách nghiêm túc."
+
+    "Rất hiếm khi nghe thấy cậu ấy nói ra được những lời chín chắn như thế này."
     show sayori zorder 2 at t21
     show monika zorder 3 at f22
-    m 2a "Huh, that's a good point..."
-    m "In that case, do you think food will do the trick?"
+
+    m 2a "Hừm, có lý đấy..."
+
+    m "Nếu vậy thì, cậu nghĩ liệu đồ ăn có giải quyết được vụ đó không?"
     show monika zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1n "W-What kind?!"
+
+    s 1n "M-Món nào?!"
     show sayori zorder 2 at t21
     show monika zorder 3 at f22
-    m 2b "Ah... Well, I guess we could--"
+
+    m 2b "À... Thì chúng ta có thể chuẩn bị--"
     show monika zorder 2 at t22
     show sayori 4r zorder 3 at f21
-    s "Cupcakes!"
+
+    s "Bánh nướng!"
     show sayori zorder 2 at t21
     show monika 1k zorder 3 at f22
-    m "Ahaha. Good thinking."
-    m 1a "Natsuki would love to do that."
+
+    m "Ahaha. Ý kiến hay."
+
+    m 1a "Natsuki chắc sẽ muốn làm chúng đấy."
     show monika zorder 2 at t22
     show sayori zorder 3 at f21
-    s 4x "Ah! You're right!"
-    s "Natsuki makes the best cupcakes!"
-    s "That works out perfectly~"
+
+    s 4x "Ah! Thế thì còn gì bằng!"
+
+    s "Bánh nướng của Natsuki ngon tuyệt cú mèo luôn!"
+
+    s "Quả là một ý kiến hoàn hảo~"
     show sayori zorder 2 at t21
     show monika zorder 3 at f22
-    m 1d "That wasn't why you suggested it...?"
+
+    m 1d "Chẳng phải đó là lý do cậu đề xuất món bánh nướng à...?"
     show monika zorder 2 at t22
     show sayori zorder 3 at f21
-    s 4q "Cupcakes speak to my creative tummy~"
+
+    s 4q "Đấy là bụng tớ nói chứ đâu phải tớ~"
     show sayori zorder 2 at t21
     show monika zorder 3 at f22
+
     m 1l "..."
-    m "Cupcakes it is, then."
+
+    m "Thôi được rồi, duyệt món bánh nướng."
     show monika zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1g "I'm hungry..."
+
+    s 1g "Tớ đói..."
     show sayori zorder 2 at t21
     show monika zorder 3 at f22
-    m 1a "Anyway, we still need to work out the details of the event itself..."
+
+    m 1a "Dù sao thì, chúng ta vẫn cần suy nghĩ đến nội dung của sự kiện nữa..."
     scene black
     with close_eyes
-    "I find myself smiling."
-    "In the end, Sayori is still her usual self."
-    "But therein lies the unexpected reason I admire her."
-    "Unlike me, who has trouble finding any motivation at all..."
-    "Sayori can put her mind to things and make them come to life."
-    "I suppose that's why I end up letting her get on my case about things."
-    "I can't help but wonder what it would be like to see the world through her eyes..."
+
+    "Tôi chợt nhận ra là mình đang cười."
+
+    "Cuối cùng thì Sayori vẫn cứ là Sayori mà thôi."
+
+    "Nhưng tôi phải công nhận là mình ngưỡng mộ cậu ấy."
+
+    "Không như tôi, một người không tìm thấy chút động lực nào cả..."
+
+    "Sayori có thể đặt toàn bộ tâm huyết của mình vào công việc."
+
+    "Tôi đoán đó là lý do mà tôi để cậu ấy gánh vác vụ này."
+
+    "Không biết thế giới qua con mắt của cậu ấy như thế nào nhỉ..."
     scene bg club_day
     show sayori 1b at face
     with open_eyes
+
     mc "Uwaa--!"
-    "I open my eyes to find Sayori's face filling my vision."
-    "I nearly fall out of my chair."
+
+    "Vừa mở mắt ra thì đã thấy cả khuôn mặt của Sayori ở ngay sát gần."
+
+    "Suýt nữa thì tôi ngã khỏi ghế."
     show sayori zorder 2 at t11
-    s 4q "Ehehe, sorry~"
-    s 4i "Wait!"
-    s 1j "Actually, I'm not sorry at all!"
-    s "It's your fault for sleeping like that!"
-    s "This isn't the napping club!"
-    mc "Does our school have a napping club...?"
-    s 1h "You're staying up late again, aren't you?"
-    s "Now that you're in a club, you're gonna have less time for anime, you know!"
-    s "You'll need to get used to it!"
-    mc "Don't say that so loud...!"
-    "I glance over my shoulder to see if Monika overheard."
-    s 1g "It's true, though..."
-    mc "Yeah..."
-    mc "I know, I know."
-    mc "You're always looking out for me, Sayori."
+
+    s 4q "Ehehe, xin lỗi nhé~!"
+
+    s 4i "Cơ mà!"
+
+    s 1j "Thật ra, tớ đâu có lỗi gì đâu nhỉ."
+
+    s "Do cậu ngủ gật đấy chứ!"
+
+    s "Đây không phải là câu lạc bộ ngủ ngày!"
+
+    mc "Trường ta có câu lạc bộ ngủ ngày á...?"
+
+    s 1h "Cậu lại thức khuya phải không?"
+
+    s "Giờ cậu đang là thành viên của câu lạc bộ rồi thì cậu phải giảm bớt thời gian xem anime đi chứ!"
+
+    s "Cố gắng làm quen với chuyện đó đi!"
+
+    mc "Đừng nói to thế...!"
+
+    "Tôi liếc nhìn ra sau để xem Monika có đang nghe không."
+
+    s 1g "Nhưng đấy là sự thật mà..."
+
+    mc "Ừ..."
+
+    mc "Tớ biết rồi, nói mãi."
+
+    mc "Cậu lúc nào cũng quan tâm đến tớ, Sayori."
+
     s 4q "Ehehe~"
-    s "It's what I do best!"
-    mc "...That's a problem!"
-    mc "What about you?"
-    mc "You look out for me better than you look out for yourself."
-    mc "You're still oversleeping every day, aren't you?"
-    s 1l "Eh?"
-    s "N-Not every day!"
-    mc "That's not very convincing..."
-    mc "How many days this past week have you gotten up on time?"
-    s 1m "That's..."
-    s 1o "...It's a secret!"
-    mc "I knew it..."
-    s 5a "C'monnnn!"
-    s "At least give me the benefit of the doubt..."
-    mc "I can't even do that."
-    mc "Look, Sayori, it's written all over you."
-    s 1b "Eh...?"
-    "Sayori glances around at herself."
-    s "How is it written all over me?"
-    mc "You were clearly in a rush this morning..."
-    mc "Look, your hair is sticking out all around here."
+
+    s "Đấy là việc tớ giỏi nhất."
+
+    mc "...Vấn đề nằm ở chỗ đó đấy!"
+
+    mc "Vậy còn bản thân cậu thì sao?"
+
+    mc "Cậu quan tâm đến tớ còn hơn cả bản thân cậu."
+
+    mc "Chẳng phải ngày nào cậu cũng thức dậy muộn sao?"
+
+    s 1l "Ế?"
+
+    s "Đ-Đâu phải ngày nào cũng vậy!"
+
+    mc "Nghe không được thuyết phục cho lắm nhỉ..."
+
+    mc "Thế nói xem tuần vừa rồi cậu dậy sớm được mấy ngày?"
+
+    s 1m "Chuyện đó..."
+
+    s 1o "...Đó là bí mật!"
+
+    mc "Tớ biết mà..."
+
+    s 5a "Thôi nàoooo!"
+
+    s "Nói có sách, mách có chứng chứ...."
+
+    mc "Đơn giản thôi."
+
+    mc "Bằng chứng hiện rõ rành rành trên mặt cậu kia kìa."
+
+    s 1b "Ế...?"
+
+    "Sayori ngây ra mất một lúc."
+
+    s "Cái gì trên mặt tớ cơ?"
+
+    mc "Sáng nay cậu chắc chắn rất là vội..."
+
+    mc "Thế nên mới có quả đầu bù xù như này, chuẩn không?"
     show sayori at h11
-    s 1e "Ah--"
-    "I run my fingertips down the side of Sayori's hair, trying to straighten it out."
-    mc "Man, you really need a brush for this..."
-    s 1y "My hair is just really hard to get right..."
-    mc "I won't fall for that."
-    mc "There's more than just your hair."
-    mc "Look, your bow isn't straight, either."
-    mc "And there's a toothpaste stain on your collar right here."
-    "I try to wipe off the stain with my finger."
+
+    s 1e "A--"
+
+    "Tôi dùng tay mình để vuốt thẳng tóc của Sayori."
+
+    mc "Trời ạ, phải có lược thì mới xử lí được..."
+
+    s 1y "Là do tóc tớ nó thế..."
+
+    mc "Cậu nghĩ nói thế là tớ tin à?"
+
+    mc "Mà không chỉ có tóc thôi đâu."
+
+    mc "Cái nơ của cậu đang lệch đây này."
+
+    mc "Lại còn có kem đánh răng dính trên cổ áo nữa chứ."
+
+    "Tôi cố lau sạch vết bẩn bằng ngón tay mình."
     show sayori at s11
-    s "B-But nobody would ever notice that..."
-    mc "Of course they would."
-    mc "Nobody's gonna tell you about it because they don't want to embarrass you."
-    mc "Fortunately, I really don't care about that."
-    s 5c "Hey, you meanie..."
-    mc "And you don't even keep your blazer buttoned up."
-    mc "Seriously, Sayori..."
-    mc "Why do you think you don't have a boyfriend yet?"
+
+    s "L-Làm gì có ai để ý mấy cái ấy đâu..."
+
+    mc "Tất nhiên là có chứ."
+
+    mc "Không ai nói với cậu vì họ không muốn làm cậu xấu hổ thôi."
+
+    mc "May là tớ chả quan tâm đến việc đó cho lắm."
+
+    s 5c "Nè, đồ xấu tính..."
+
+    mc "Cậu còn chưa cài hết khuy áo nữa kìa."
+
+    mc "Thật tình đấy, Sayori..."
+
+    mc "Cậu cứ thử nghĩ xem tại sao đến tận giờ mình vẫn chưa có bạn trai đi?"
     show sayori 1h zorder 2 at t11
-    s "Eh??"
-    s "That's {i}super{/i} mean!"
-    mc "Sorry, but you'll thank me later..."
-    "I start to button her blazer from the bottom."
-    mc "Once you see how much better it looks, you'll change your mind."
+
+    s "Ế??"
+
+    s "Cậu {i}thật là{i} quá quắt!"
+
+    mc "Xin lỗi, nhưng rồi một ngày nào đó cậu sẽ phải cảm ơn tớ..."
+
+    "Tôi bắt đầu cài lại hộ cho cậu ta mấy cái khuy áo."
+
+    mc "Cậu sẽ phải thay đổi suy nghĩ bướng bỉnh ấy khi ngắm lại mình trong gương đấy."
     $ persistent.clear[6] = True
     scene s_cg1
     with dissolve_cg
+
     s "Ehehe~"
-    s "This is so funny."
-    mc "What is?"
-    s "Well..."
-    s "I was just thinking how weird it is to have a friend who does these kinds of things."
-    mc "Eh?"
-    mc "D-Don't say that!"
-    mc "You'll make {i}me{/i} feel weird about it, stupid..."
-    s "It's okay, though."
-    s "I'm happy we're like this."
-    s "Aren't you?"
-    mc "Ah--"
-    mc "I-I guess..."
-    s "Hey, be careful..."
-    s "The button might come off!"
-    mc "Why is this one so hard to close...?"
-    "I struggle to fully close the button near her chest."
-    mc "Does this thing even fit you properly?"
+
+    s "Thật là buồn cười."
+
+    mc "Sao vậy?"
+
+    s "Thì là..."
+
+    s "Để một người bạn làm những việc như này trông thật là kì cục."
+
+    mc "Ế?"
+
+    mc "Đ-Đừng nói vậy chứ!"
+
+    mc "Giờ cậu cũng khiến cho cả {i}tớ{i} cảm thấy thật là kì cục đấy, đồ ngốc..."
+
+    s "Có sao đâu."
+
+    s "Chúng ta như này vui đấy chứ."
+
+    s "Phải không?"
+
+    mc "A--"
+
+    mc "C-Có lẽ..."
+
+    s "Này, cẩn thận chứ..."
+
+    s "Khuy áo đứt mất bây giờ!"
+
+    mc "Sao cái khuy này khó cài vậy nhỉ...?"
+
+    "Tôi phải phải loay hoay mãi mới cài xong chiếc khuy áo gần ngực của cậu ấy."
+
+    mc "Thứ này có thật sự vừa với cậu không vậy?"
+
     s "Ehehe~"
-    s "It did when I bought it."
-    mc "Sigh..."
-    mc "If you ever buttoned it, you would have noticed sooner that it doesn't fit you anymore."
-    mc "What are you smiling about?"
-    s "It means my boobs got bigger again!"
-    mc "D-Don't say that out loud!!"
+
+    s "Lúc tớ mới mua thì có đấy."
+
+    mc "Haizz..."
+
+    mc "Cậu phải mua cái khác nếu thấy nó chật rồi chứ."
+
+    mc "Có gì đáng cười lắm à?"
+
+    s "Vậy có nghĩa là ngực tớ lại to ra chứ sao!"
+
+    mc "Đ-Đừng có oang oang mấy chuyện tế nhị vậy chứ!!"
+
     s "Ehehe~"
-    mc "Anyway..."
-    mc "You look much better now, so..."
-    mc "Ah..."
-    "...Why does it feel strange to see Sayori's blazer buttoned up like that?"
-    s "But it's so stuffy..."
+
+    mc "Dù sao thì..."
+
+    mc "Trông cậu ổn hơn rồi đấy, vậy nên......"
+
+    mc "A..."
+
+    "...Sao mình lại có cảm giác kì lạ khi nhìn chiếc áo của Sayori cài khuy như vậy chứ?"
+
+    s "Nhưng tớ cảm thấy ngột ngạt quá...."
+
     s "Uuu..."
-    s "It's not worth it at all!"
-    "Sayori hastily unbuttons her blazer once more."
+
+    s "Không thể chịu nổi nữa!"
+
+    "Sayori lại vội vàng cởi hết khuy áo ra."
     scene bg club_day
     show sayori 1q zorder 2 at i11
     with dissolve_cg
-    s "Phew!"
-    s "That's so much better~"
-    "Sayori puts her arms out and twirls around."
-    s 1a "So if I keep it unbuttoned then I won't get a boyfriend, right?"
-    mc "What kind of logic is that?"
-    mc "And why are you saying that like it's a good thing?"
-    s "Because..."
-    s 4h "...If I had a boyfriend, then he wouldn't even let you do things like this!"
-    s 4y "And you take care of me better than anyone else would, anyway..."
-    s "So that's why I'm keeping it unbuttoned!"
-    mc "Stop saying all these embarrassing things!"
-    s 1b "Eh?"
-    s "I didn't say anything embarrassing..."
-    mc "Jeez..."
-    mc "Well anyway, just focus on trying to wake up a little earlier..."
-    s 1j "Only if you focus on going to bed earlier!"
-    mc "Fine, fine..."
-    mc "It's a deal."
+
+    s "Phù!"
+
+    s "Đỡ hơn rồi đấy~"
+
+    "Sayori duỗi thẳng hai tay và xoay người."
+
+    s 1a "Vậy nếu tớ cứ để khuy áo không cài như vậy thì sẽ không có bạn trai, đúng không?"
+
+    mc "Logic quái đản gì thế?"
+
+    mc "Và sao cậu lại nói như thể đấy là một điều tốt vậy?"
+
+    s "Bởi vì..."
+
+    s 4h "...Nếu tớ có bạn trai, anh ấy sẽ không để cho cậu làm những việc như thế này!"
+
+    s 4y "Và cậu chăm sóc tớ tốt hơn bất cứ ai khác, vậy nên là..."
+
+    s "Đấy chính là lý do tớ không cài khuy áo!"
+
+    mc "Đừng có nói mấy chuyện đáng xấu hổ như thế nữa!"
+
+    s 1b "Ế?"
+
+    s "Tớ đâu có nói gì đáng xấu hổ đâu..."
+
+    mc "Trời..."
+
+    mc "Dù sao thì, cứ cố gắng dậy sớm được đi đã..."
+
+    s 1j "Chỉ khi nào cậu thôi cái thói thức khuya đi!"
+
+    mc "Được rồi, được rồi..."
+
+    mc "Hứa đấy nhé."
+
     s 4q "Ehehe~"
-    s 4x "I guess we really are better at taking care of each other than we are at taking care of ourselves."
-    mc "Yeah, I guess so, huh..."
-    s 4y "So maybe you should come wake me up in the morning!"
-    mc "You're doing it again, Sayori..."
-    s 1h "Aw, but I was joking that time!"
-    mc "Man, it's impossible to tell with you sometimes."
+
+    s 4x "Có vẻ cả hai ta đều lo cho người kia hơn cả bản thân mình nhỉ."
+
+    mc "Ừm, chắc vậy..."
+
+    s 4y "Thế nên sáng mai cậu phải sang gọi tớ dậy!"
+
+    mc "Lại chứng nào tật nấy rồi, Sayori..."
+
+    s 1h "Aw, chỉ là đùa tôi mà!"
+
+    mc "Trời ạ, cậu lúc nào cũng nghiêm túc quá đó."
     show monika 3b behind sayori at l31
-    m "Okay, everyone!"
-    mc "Eh?"
-    "Monika suddenly calls out."
-    m "Why don't we share the poems we wrote now?"
+
+    m "Được rồi, mọi người!"
+
+    mc "Ế?"
+
+    "Đột nhiên, Monika cất lời."
+
+    m "Hãy cùng chia sẻ các bài thơ mà các cậu đã viết nào!"
     show sayori 4r at h11
+
     s "Yay~!"
-    s 4x "[player], I can't wait to read yours!"
-    mc "Yeah, same..."
-    "I fail to sound enthusiastic, but Sayori still trots away to retrieve her poem."
+
+    s 4x "[player], tớ rất nóng lòng được đọc bài thơ của cậu!"
+
+    mc "Ừ, tớ cũng vậy..."
+
+    "Câu trả lời của tôi nghe không được nhiệt tình cho lắm, nhưng Sayori vẫn hăng hái chạy đi lấy bài thơ của cậu ấy."
     show sayori behind monika at thide
     return
 
@@ -239,336 +417,582 @@ label sayori_exclusive_2:
     if not renpy.music.get_playing(channel='music') == audio.t2:
         play music t2
     s "[player], [player]!"
-    "Sayori suddenly comes up to me."
+
+    "Sayori đột nhiên đi đến chỗ tôi."
     show sayori 1x zorder 2 at t11
-    s "I'm gonna go get some supplies from another classroom."
-    s "Want to come with me?"
-    mc "Supplies?"
-    mc "What for?"
-    s 2a "Well, you know how the festival is coming up?"
-    s "Me and Monika were gonna make some posters and stuff."
-    s "So I need to go find some crayons, and markers, and glue sticks..."
-    mc "Ah, I see."
-    mc "Sure, I'll go with you."
+
+    s "Tớ định qua phòng học bên kia lấy chút đồ."
+
+    s "Muốn đi cùng không?"
+
+    mc "Đồ?"
+
+    mc "Để làm gì vậy?"
+
+    s 2a "Cậu biết là lễ hội sắp tới rồi còn gì?"
+
+    s "Tớ cùng Monika sẽ làm áp phích và vài thứ khác nữa."
+
+    s "Thế nên tớ cần đi tìm vài cây bút màu, và keo dán..."
+
+    mc "À, tớ hiểu rồi."
+
+    mc "Được thôi, tớ sẽ đi cùng cậu."
+
     s 4q "Yaay~"
-    s 4x "Okay Monika, we'll be back soon!"
+
+    s 4x "Vậy nhé Monika, bọn tớ sẽ sớm quay lại thôi!"
     show sayori zorder 2 at t22
     show monika 1a zorder 3 at f21
-    m "Ah, are you going with [player] to get the supplies?"
-    m "There's no need to trouble yourself."
-    m "I'd be happy to go with him."
+
+    m "Ah, cậu đi lấy đồ cùng với [player] đấy à?"
+
+    m "Cậu vất vả quá rồi."
+
+    m "Tớ đi cùng cậu ấy cũng được mà."
     show monika zorder 2 at t21
     show sayori 1h at s22
-    s "Aw, but I wanted to go!"
-    s "It's so much fun exploring empty classrooms and stuff!"
+
+    s "Aw, nhưng mà tớ muốn đi cơ!"
+
+    s "Khám phá đồ đạc trong các phòng học nghe thật là thú vị!"
     show monika zorder 3 at f21
-    m 2j "Hehe, okay, okay."
-    m 2a "It was just a suggestion."
-    m "See if you can find poster paper too, okay?"
+
+    m 2j "Hehe, được rồi, được rồi."
+
+    m 2a "Nhưng cậu vẫn phải đảm bảo làm tốt công việc đấy."
+
+    m "Cố gắng tìm được loại giấy làm áp phích nhé!"
     show monika zorder 2 at t21
     show sayori zorder 3 at f22
+
     s 1r "Okaay~!"
-    s 1a "Ready, [player]?"
-    mc "Yep, let's go."
+
+    s 1a "Sẵn sàng đi chưa, [player]?"
+
+    mc "Ừm, ta đi thôi."
     scene bg corridor
     show sayori 4a zorder 2 at t11
     with wipeleft_scene
-    "Sayori and I exit the clubroom."
-    "I follow behind as Sayori hums and skips around the hallway."
-    "Honestly..."
-    "It feels like I'm taking a kid to the mall or something."
-    "Sayori finds pleasure in the simplest things sometimes."
-    mc "Hey, Sayori..."
-    mc "What exactly are we doing for the festival, anyway?"
-    mc "I'm not sure how you would make an event out of literature..."
+
+    "Sayori và tôi rời khỏi phòng câu lạc bộ."
+
+    "Sayori vừa ngân nga vừa nhảy chân sáo khắp hành lang trong khi tôi bước theo sau."
+
+    "Thật là..."
+
+    "Cảm giác như tôi đang phải quản một con nhóc đi siêu thị vậy."
+
+    "Sayori đúng là có khả năng tìm ra niềm vui từ những gì nhỏ nhặt nhất."
+
+    mc "Nè, Sayori..."
+
+    mc "Chính xác thì chúng ta sẽ làm gì vào lễ hội vậy?"
+
+    mc "Tớ vẫn chưa mường tượng ra được chúng ta sẽ tổ chức như nào để cho liên quan tới văn học cả..."
+
     s 1q "Ehehe!"
-    s 1x "Me and Monika have it all planned out!"
-    s "Don't you worry~"
-    mc "Is that so...?"
-    s "Yup!"
-    s "We're gonna do a poetry performance!"
-    mc "A performance...?"
-    mc "Of what kind?"
-    s 1c "Well..."
-    s "Everyone is gonna take turns on stage..."
-    s 1x "And recite their favorite poems!"
-    mc "Ah..."
-    mc "That sounds..."
-    "...Kind of dull?"
+
+    s 1x "Tớ và Monika tính cả rồi!"
+
+    s "Cậu đừng lo~"
+
+    mc "Thật vậy sao...?"
+
+    s "Phải!"
+
+    s "Chúng ta sẽ làm một buổi trình diễn ngâm thơ!"
+
+    mc "Trình diễn ư...?"
+
+    mc "Như thế nào vậy?"
+
+    s 1c "À thì..."
+
+    s "Từng người sẽ lên sân khấu..."
+
+    s 1x "Và đọc bài thơ mình thích nhất!"
+
+    mc "A..."
+
+    mc "Nghe có vẻ..."
+
+    "...hơi ngớ ngẩn nhỉ?"
+
     s 1h "[player]!"
-    s "You're not thinking about it the right way at all!"
-    s "It's not just about reading poems..."
-    s 1x "It's about performing them!"
-    s "Like, you say the lines of the poem like..."
-    s 2j "{i}Between my feet...{/i}"
-    s "{i}The last remaining flower beckons to me.{/i}"
-    s 1c "{i}I twist the stem, freeing it from its clinging roots...{/i}"
-    s "{i}Caressing the final joyous moment between my fingers.{/i}"
-    s 3g "{i}But to what ends have I summoned this joy?{/i}"
-    s "{i}For now when I look in every direction...{/i}"
-    s 1j "{i}The once-prosperous field before me...{/i}"
+
+    s "Tại cậu chưa suy nghĩ đấy thôi!"
+
+    s "Không phải chỉ có mỗi đọc như máy..."
+
+    s 1x "Cái chính là phải đọc thật là diễn cảm!"
+
+    s "Giống như khi đọc tới dòng thơ này..."
+
+    s 2j "{i}Giữa đôi chân tôi...{/i}"
+
+    s "{i}Bông hoa yếu đuối buông lời mời gọi.{/i}"
+
+    s 1c "{i}Gọi tôi vặt nó khỏi rễ cằn mòn mỏi...{/i}"
+
+    s "{i}Để được vuốt ve những phút cuối cuộc đời.{/i}"
+
+    s 3g "{i}Nhưng hỡi ôi, cớ sao tôi lại thèm chút vui ấy thế?{/i}"
+
+    s "{i}Giờ đây, dù có nhìn xung quanh cặn kẽ...{/i}"
+
+    s 1j "{i}Cũng chỉ thấy một cánh đồng nứt nẻ...{/i}"
     show sayori at h11
-    s 4m "{i}Is but a barren wasteland!{/i}"
+
+    s 4m "{i}Mãi khô cằn, dù xưa rất tốt tươi!{/i}"
+
     s "..."
-    s 1r "Like that!!"
-    mc "Sayori..."
-    "How do I put this..."
-    mc "I'm sure it's just me, but it's impossible for me to take you seriously when you talk like that..."
+
+    s 1r "Đấy, nghe có hay không!!"
+
+    mc "Sayori này..."
+
+    "Phải nói thế nào bây giờ nhỉ..."
+
+    mc "Không biết có phải mỗi mình tớ thấy thế này không nhưng mà tớ thấy thật quái lạ khi cậu nghiêm túc..."
     show sayori 5c at s11
-    s "Ehhh?"
-    s "You meanie!"
-    s "I'm working super hard on this, you know!"
-    mc "Ah, I know, I know!"
-    mc "I just meant that it's a pretty unordinary contrast to your cute self."
+
+    s "ẾẾẾ?"
+
+    s "Đồ xấu tính!"
+
+    s "Tớ đã phải luyện tập rất chăm chỉ đấy, có biết không hả~!"
+
+    mc "A, biết rồi, biết rồi!"
+
+    mc "Ý tớ là nó trái ngược với tính cách dễ thương thường thấy ở cậu."
     show sayori 4s zorder 2 at t11
-    s "Ahaha! Don't say that, it's embarrassing!"
-    s 4y "But I guess that means I'm doing a good job~"
-    mc "Yeah, I guess so..."
+
+    s "Ahaha! Đừng nói thế chứ, xấu hổ chết mất!"
+
+    s 4y "Nhưng mà thế có nghĩa là tớ đang làm rất tốt đúng không~"
+
+    mc "Ừm, chắc là vậy..."
     show sayori at h11
-    s 4r "Aaah, I'm so excited!"
-    s "The festival is going to be so much fun~"
-    "Sayori spins herself around in the hallway again."
-    s 1x "Hey, [player], this classroom over here is empty!"
-    s "Let's begin the mission!"
+
+    s 4r "Aaa, mừng quá đi!"
+
+    s "Lễ hội sẽ rất là tuyệt vời cho mà xem~"
+
+    "Sayori lại chạy thêm vòng nữa ở hành lang."
+
+    s 1x "Này, [player], có một phòng học trống này!"
+
+    s "Bắt đầu nhiệm vụ thôi!"
     show sayori zorder 1 at thide
     hide sayori
-    mc "The mission, eh...?"
-    "It's been a long time since I've spent time with Sayori like this."
-    "But in the end, she hasn't changed one bit."
-    "She's nothing but a ball of sunshine, drawing happy vibes from the world around her."
-    "It's a pretty nostalgic feeling for me."
-    "As the years went by, I began to hole myself up in my room more and more."
-    "So going adventuring with Sayori brings about a special sort of feeling I forgot I had in me."
+
+    mc "Nhiệm vụ hử...?"
+
+    "Khá lâu tôi không dành thời gian chơi đùa với Sayori như thế này."
+
+    "Nhưng rốt cục thì cậu ấy vẫn chẳng thay đổi gì cả."
+
+    "Cậu ấy cứ như một quả bóng được bơm căng bằng ánh mặt trời vậy, thu hút mọi niềm vui xung quanh mình."
+
+    "Một cảm giác thật là hoài niệm."
+
+    "Năm tháng cứ trôi qua, tôi bắt đầu tự giam mình trong phòng ngày một nhiều hơn."
+
+    "Vậy nên lượn lờ một chút với Sayori gợi lại cảm giác đặc biệt nào đó mà tôi đã lỡ quên mất."
     scene bg class_day
     with wipeleft_scene
-    "The two of us enter the classroom."
-    "Sayori heads straight to the closet, and I follow."
+
+    "Cả hai đứa cùng bước vào phòng học."
+
+    "Sayori tiến thẳng đến tủ đồ, và tôi đi theo sau."
     show sayori 1b zorder 2 at t11
-    s "Let's see what we have in here..."
-    s 4x "...Crayons!!"
-    "Sayori pulls a box full of crayons off the shelf."
-    s "They're the best brand, too!"
-    s 1b "They're kind of dirty, though..."
-    "Sayori starts pulling various crayons out of the box, reading the color names."
-    mc "Alright, that's one down."
-    mc "Don't get distracted, we still need to find--"
-    s 1a "Wait, I'm looking for my favorite color..."
-    mc "Fine, fine..."
-    mc "Then at least move aside so I can look for the poster paper."
-    s 1b "Ah, I dropped one by accident--"
+
+    s "Để xem có gì trong nào..."
+
+    s 4x "...Bút màu này!!"
+
+    "Sayori lấy từ kệ ra một hộp đầy bút màu."
+
+    s "Lại còn là loại tốt nhất nữa chứ!"
+
+    s 1b "Chỉ bị cái là hơi bẩn thôi..."
+
+    "Sayori bắt đầu lấy ra khỏi hộp đủ loại bút màu và đọc tên từng màu."
+
+    mc "Ngon rồi, vậy là xong một việc."
+
+    mc "Đừng vội mừng, chúng ta vẫn cần phải tìm--"
+
+    s 1a "Khoan tí đã, tớ muốn tìm cái màu tớ thích..."
+
+    mc "Rồi, rồi..."
+
+    mc "Nhưng chí ít cũng phải đứng gọn sang một bên cho tớ tìm giấy làm áp phích chứ."
+
+    s 1b "A, đánh rơi một cái rồi--"
     play sound "sfx/smack.ogg"
     show white zorder 4:
         alpha 0.6
         linear 0.25 alpha 0.0
     show sayori 2p at h11
-    "{i}Smack!{/i}"
+
+    "{i}Bốp!{/i}"
     hide white
+
     s "Kya--!"
-    "Sayori bends over and smacks her forehead right into the shelf."
-    "She falls to the floor, and the crayons spill all over her lap."
+
+    "Sayori cúi người xuống và đập đầu vào cái kệ."
+
+    "Cậu ấy ngã xuống nền nhà, mấy cây bút màu rơi hết cả lên đùi."
     show sayori 4p at s11
+
     s "Owowowowow..."
-    mc "You okay?"
-    s "My forehead..."
-    "Sayori clutches her forehead."
-    mc "Jeez, Sayori..."
-    mc "That's just like you, isn't it?"
-    mc "C'mon, let me see."
-    "Since Sayori is sitting on the floor, I grab her by the waist and pull her out of the closet."
-    mc "You have to move your hands, Sayori..."
-    s 4g "But it hurts..."
-    mc "Just do it for a second."
+
+    mc "Không sao chứ?"
+
+    s "Trán tớ..."
+
+    "Sayori lấy tay xoa trán."
+
+    mc "Trời ạ, Sayori..."
+
+    mc "Vẫn chưa sửa được cái tính hậu đậu..."
+
+    mc "Lại đây, để tớ xem cho nào."
+
+    "Vì Sayori đang ngồi dưới sàn, tôi ôm eo cậu ấy để kéo ra khỏi tủ đồ."
+
+    mc "Bỏ tay ra coi nào, Sayori..."
+
+    s 4g "Nhưng mà đau quá..."
+
+    mc "Chỉ một giây thôi."
     $ persistent.clear[7] = True
     scene s_cg2_base1
     show s_cg2_exp2
     with dissolve_cg
-    "Sayori slowly releases her hands from her forehead."
-    "I gently brush her bangs to the side."
+
+    "Sayori từ từ bỏ tay ra khỏi trán."
+
+    "Tôi nhẹ nhàng vuốt tóc mái của cậu ấy sang một bên."
     show s_cg2_exp1 at cgfade
     show s_cg2_exp3 at cgfade
-    s "Ow--!"
-    mc "Sorry..."
-    "There's a huge red mark on the center of her forehead."
-    "A bump is starting to form, as well."
-    mc "Man, that's gonna swell up."
-    mc "I should find you some ice..."
+
+    s "Au--!"
+
+    mc "Xin lỗi..."
+
+    "Có một vết đỏ ngay giữa trán cậu ấy."
+
+    "Chỗ đó đang bắt đầu sưng to dần lên."
+
+    mc "Trời ạ, trông tệ quá đi mất."
+
+    mc "Để tớ đi tìm ít đá..."
     hide s_cg2_exp3
     hide s_cg2_exp1
+
     s "[player]..."
-    mc "Where would I even find ice around this time...?"
-    mc "Ah, I guess a cold drink would do..."
-    s "You don't have to--!"
+
+    mc "Cơ mà kiếm đá ở chỗ quái nào được nhỉ...?"
+
+    mc "À, một chai nước lạnh chắc cũng ổn..."
+
+    s "Cậu không cần phải--!"
     show s_cg2_exp2 at cgfade
     hide s_cg2_exp2
-    s "I'm fine with--looking like a unicorn--"
-    "Even wincing from the pain, Sayori makes a silly joke."
-    mc "Ahaha, what are you saying?"
-    mc "I'll be right back, okay?"
-    s "O-Okay..."
+
+    s "Thành--con kì lân thì cũng đâu có sao--"
+
+    "Trông mặt nhăn nhó vì đau vậy mà Sayori vẫn đùa cợt được."
+
+    mc "Ahaha, nói vớ nói vẩn."
+
+    mc "Tớ sẽ quay lại ngay."
+
+    s "Ư-ừ..."
     stop music fadeout 1.0
     scene bg corridor with wipeleft_scene
-    "I pat Sayori on the shoulder and run out into the hallway."
-    "I locate the nearest vending machine."
-    mc "What should I get...?"
-    "It doesn't really matter, since it will be used as an ice pack, rather than to drink."
-    "But I know Sayori likes apple juice, so I purchase that one."
-    "In just a moment, I'm already returning to the classroom where I left Sayori."
+
+    "Tôi vỗ vai Sayori rồi chạy ra ngoài hành lang."
+
+    "Và hướng đến cái máy bán nước gần nhất."
+
+    mc "Mình nên mua gì nhỉ...?"
+
+    "Mà thôi chả quan trọng, vì nó sẽ được dùng để chườm chứ không phải để uống."
+
+    "Nhưng tôi nhớ là Sayori thích nước ép táo thế nên đã chọn nó."
+
+    "Một lát sau, tôi đã quay trở lại phòng học nơi Sayori đang chờ."
     scene s_cg2_base1
     show s_cg2_exp2
     with wipeleft_scene
     play music t9
-    "She has one palm on her forehead and is using the other hand to clumsily scoop crayons back into the box."
-    s "At least they were already in the wrong spots before I spilled them..."
-    mc "Sayori, here."
+
+    "Cậu ấy để một tay lên trán trong khi tay kia đang vụng về nhặt lại những chiếc bút màu vào hộp."
+
+    s "Ít nhất là trước khi tớ làm đổ thì chúng nó cũng bị xếp lộn xộn sẵn rồi..."
+
+    mc "Sayori, cầm lấy này."
     show s_cg2_base2 behind s_cg2_exp2 at cgfade
-    "I hand Sayori the bottle of apple juice."
+
+    "Tôi đưa cho Sayori lon nước ép táo."
     show s_cg2_exp2 at cgfade
     hide s_cg2_exp2
-    s "It's nice and cold..."
-    "Sayori opens the cap and starts drinking from it."
-    mc "Sayori, what are you doing?!"
-    mc "It's for your forehead, idiot!"
+
+    s "Mát thật..."
+
+    "Sayori mở nắp chai và bắt đầu uống nước."
+
+    mc "Sayori, làm cái gì thế hả?!"
+
+    mc "Để chườm trán cậu đã chứ, đồ ngốc này!"
     show s_cg2_exp3 at cgfade
-    s "Ah--"
-    s "Sorry, I forgot~"
+
+    s "A--"
+
+    s "Xin lỗi, tớ quên mất~"
+
     s "Ahahaha!"
-    mc "How hard did you hit your head...?"
-    "Sayori places the bottle against the bump on her head."
+
+    mc "Cậu bị đập đầu mạnh đến cỡ nào vậy...?"
+
+    "Sayori chườm cái chai lên vết sưng trên đầu cậu ấy."
     show s_cg2_exp1 at cgfade
-    s "It stings..."
-    mc "Just bear with it, it'll feel better soon."
-    mc "Looks like you cleaned up most of the crayons, so that's good."
+
+    s "Nhức quá..."
+
+    mc "Cố chịu một chút đi, rồi sẽ thấy đỡ sớm thôi."
+
+    mc "Có vẻ như cậu đã dọn hết đống bút màu rồi, tốt lắm."
     hide s_cg2_exp1
     hide s_cg2_exp3
-    s "Hey, [player]..."
-    s "This kind of reminds you of growing up, doesn't it...?"
-    mc "Eh? What do you mean?"
-    s "You know how we used to play outside all the time..."
-    s "I would always try to keep up with you."
-    s "You were kind of oblivious in some ways..."
-    s "Like I usually fell behind or had trouble climbing on the things you did..."
-    s "But sometimes when I tried to do things I couldn't, I would get myself hurt."
-    s "I'd fall and scrape myself, or get a bump..."
-    s "And I would start crying really hard."
+
+    s "Này, [player]..."
+
+    s "Mấy chuyện này có gợi lại cho cậu về hồi trước không...?"
+
+    mc "Ế? Ý cậu là sao?"
+
+    s "Cái thời chúng ta vẫn còn chơi với nhau suốt ấy..."
+
+    s "Tớ lúc nào cũng cố đuổi theo cậu."
+
+    s "Chắc cậu quên hết mấy chuyện đó rồi..."
+
+    s "Như là vụ tớ thường bị ngã hay mắc kẹt mỗi lần trèo lên những thứ mà cậu đã leo..."
+
+    s "Mỗi lần cố làm những việc mình không thể làm được như thế là tớ lại tự khiến mình bị thương."
+
+    s "Nhẹ thì xây xát, nặng hơn thì bầm tím..."
+
+    s "Và rồi kết cục là tớ lại gào khóc thật to."
     show s_cg2_exp3 at cgfade
+
     s "Ahaha!"
-    s "And you would rush over as quick as you could."
+
+    s "Rồi cậu lại đến bên tớ nhanh hết mức có thể."
     hide s_cg2_exp3
-    s "You would try really hard to get me to stop crying."
-    s "It was almost like you blamed yourself and were afraid of getting in trouble if someone found out..."
-    s "Even though it really wasn't your fault at all, you know?"
-    mc "Did I really do that...?"
-    s "Yeah...you don't remember?"
-    mc "Come to think of it, maybe I do remember a bit..."
-    mc "I guess I was always so focused on my games that I didn't pay enough attention to you."
-    mc "So in a way, it was my fault."
-    mc "Kind of like this time, too..."
-    mc "If I wasn't rushing you out of the closet, you probably wouldn't have hit your head."
+
+    s "Để dỗ dành cho tớ nín."
+
+    s "Giống như là cậu đang đổ tội cho chính bản thân hoặc lo sợ mình sẽ gặp rắc rối nếu ai đó biết được..."
+
+    s "Mặc dù thật sự là đấy có phải lỗi của cậu đâu?"
+
+    mc "Tớ thật sự đã làm vậy sao...?"
+
+    s "Đúng vậy... Cậu không hề nhớ sao?"
+
+    mc "Nghĩ kĩ thì, có lẽ là tớ có nhớ một chút..."
+
+    mc "Hình như là tớ đã quá tập trung vào mấy trò chơi mà không để ý tới cậu."
+
+    mc "Tóm lại thì, đó là vẫn là lỗi của tớ."
+
+    mc "Cũng giống như vừa nãy vậy..."
+
+    mc "Nếu tớ không vội vã giục cậu đi ra khỏi tủ thì chắc cậu cũng đã không bị đập đầu như thế."
+
     s "[player]..."
-    s "I don't think you realize it, but you're always thinking about other people."
-    s "Even after all these years..."
-    s "You're rushing to help me, even though I'm just being clumsy."
+
+    s "Cậu lúc nào cũng suy nghĩ cho người khác như vậy."
+
+    s "Kể cả là sau ngần ấy năm..."
+
+    s "Cậu vẫn chạy đến để giúp tớ, mặc dù lỗi là do tớ hậu đậu."
     show s_cg2_exp3 at cgfade
-    s "You're really a sweetheart..."
-    mc "D-Don't call me that!"
-    mc "And I don't really do this kind of thing all the time..."
-    mc "I guess when it comes to you, it just feels natural."
-    mc "Before I even know it, I'm treating you like that."
-    mc "I guess that's what happens when you've been friends for so long."
+
+    s "Cậu thật sự rất là đáng yêu đấy..."
+
+    mc "Đ-Đừng có mà gọi tớ như thế!"
+
+    mc "Và tớ cũng không thể làm những việc thế này suốt đâu..."
+
+    mc "Có lẽ với cậu thì nó trở thành thói quen rồi"
+
+    mc "Trước khi tớ nhận ra thì, tớ đã luôn quan tâm tới cậu như vậy."
+
+    mc "Tớ đoán rằng bởi vì chúng ta đã là bạn từ lâu nên chuyện đó cũng là điều bình thường thôi."
     hide s_cg2_exp3
-    s "Really...?"
-    s "Maybe you're right..."
+
+    s "Thật ư...?"
+
+    s "Có lẽ cậu nói đúng..."
+
     s "[player]..."
-    s "I'm so glad that nothing's changed between us."
-    s "Do you think it'll be like this forever?"
-    mc "Forever...?"
-    "If I'm honest to myself..."
-    "There's no telling where we'll each end up for college, or after that."
-    "So it wouldn't be fair for me to make any promises."
-    "But..."
-    mc "Well, I hope so."
-    mc "It's been this long already, right?"
-    mc "I can't imagine you ever changing, so my hopes are up."
-    s "I'm so happy..."
-    "Sayori has a whimsical expression in her eyes."
-    "We remain silent for a moment."
-    "She's so silly and clumsy on the outside that when I see her deep in thought like this..."
-    "It makes me not want to disturb her."
-    s "I guess we should go back..."
-    s "I don't want to worry Monika, you know?"
-    mc "Good luck with that."
-    mc "She's gonna see your forehead either way."
-    s "Not if I hide it under my bangs~"
+
+    s "Thật may là tình bạn của chúng ta vẫn luôn như vậy, không có gì thay đổi."
+
+    s "Cậu nghĩ mọi chuyện có được như này mãi mãi không?"
+
+    mc "Mãi mãi sao...?"
+
+    "Thành thật mà nói..."
+
+    "Ai mà biết được bọn này sẽ như nào khi lên đến đại học, cả về sau đấy nữa."
+
+    "Thế nên là chả thể hứa trước được điều gì."
+
+    "Nhưng..."
+
+    mc "Tớ cũng mong là như vậy."
+
+    mc "Nó đã lâu được đến mức này rồi cơ mà?"
+
+    mc "Tớ nghĩ là cậu sẽ không bao giờ thay đổi, vậy nên tớ hi vọng là thế."
+
+    s "Vui quá đi mất..."
+
+    "Trong ánh mắt của Sayori có chút gì đó kì quặc."
+
+    "Cả hai im lặng trong chốc lát."
+
+    "Mỗi khi cậu ấy bận tâm suy nghĩ về việc gì đó thì trông cậu ấy có vẻ ngơ ngơ ngẩn ngẩn..."
+
+    "Tôi không muốn làm phiền cậu ấy."
+
+    s "Mau quay lại đi thôi..."
+
+    s "Tớ không muốn làm Monika lo lắng."
+
+    mc "Thế thì chúc cậu may mắn."
+
+    mc "Sớm hay muộn cậu ấy cũng sẽ để ý đến cái trán đó thôi."
+
+    s "Nếu tớ giấu sau tóc mái thì sẽ không sao đâu~"
     play music t8 fadeout 1.0
     scene bg class_day
     show sayori 1a zorder 2 at i11
     with dissolve_cg
-    "Sayori hops to her feet."
+
+    "Sayori đột nhiên đứng phắt dậy."
     show sayori 4p at s11
+
     s "A-Aaahh--!"
-    "She clutches her forehead again."
-    mc "Don't stand up so fast after hurting yourself!"
+
+    "Cậu ấy lại ôm trán mình lần nữa."
+
+    mc "Đừng đứng lên nhanh như vậy sau khi vừa bị đau chứ!"
+
     s "Uuuu..."
-    mc "Well, I guess it's too late now..."
-    mc "Anyway, let's go."
+
+    mc "Chà, có mắng cậu thì cũng đã muộn mất rồi..."
+
+    mc "Thôi đi mau đi."
     scene bg corridor
     with wipeleft_scene
-    "I follow Sayori out of the classroom."
-    "Sayori plays with her bangs to try to hide the bump, but without much success."
-    "In a moment, we make it back to the clubroom."
+
+    "Tôi theo sau Sayori ra khỏi phòng học."
+
+    "Sayori cố che vết sưng bằng tóc mái của mình, nhưng có vẻ vẫn không được ổn cho lắm."
+
+    "Trong thoáng chốc, chúng tôi đã về đến phòng câu lạc bộ."
     scene bg club_day
     show sayori 1a zorder 2 at t21
     show monika 1b zorder 2 at t22
     with wipeleft_scene
     show monika zorder 3 at f22
-    m "Ah, you're back!"
-    m "Good timing, I was just about ready to start with sharing our poems."
-    m 1d "Eh? Sayori, your forehead..."
+
+    m "A, các cậu quay lại rồi!"
+
+    m "Đúng lúc lắm, vừa kịp tới giờ chia sẻ thơ."
+
+    m 1d "Ế? Sayori, trán của cậu..."
     show monika zorder 2 at t22
-    mc "She's fine, don't worry about--"
+
+    mc "Cậu ấy không sao đâu, đừng lo--"
     show sayori 4r zorder 3 at f21
-    s "I was playing with the crayons and smacked my forehead into the shelf!"
+
+    s "Tớ nghịch mấy cây bút màu và bị đập trán vào kệ tủ!"
     show sayori zorder 2 at t21
+
     mc "..."
     show monika 3m zorder 3 at f22
+
     m "..."
-    m 3l "...Well, anyway!"
-    m 1a "Were you able to find everything we needed?"
+
+    m 3l "...Ừm, cơ mà..."
+
+    m 1a "Cậu đã tìm được đủ những thứ chúng ta cần chưa?"
     show monika zorder 2 at t22
     show sayori 1x zorder 3 at f21
-    s "Uh-huh! I have it right--"
-    s 1n "...Eh?"
-    "Sayori frantically glances around herself."
+
+    s "Uh-huh! Có ngay đây--"
+
+    s 1n "...Ế?"
+
+    "Sayori ngó nhìn xung quanh mình."
     show sayori 4m zorder 3 at hf21
-    s "I...forgot all of the stuff!!"
+
+    s "Tớ...để quên đồ rồi!!"
     show sayori zorder 2 at t21
-    mc "Calm down, Sayori."
-    mc "I have it all right here."
-    mc "I found the poster paper, too."
+
+    mc "Bình tĩnh nào, Sayori."
+
+    mc "Tớ cầm theo đủ hết đây rồi."
+
+    mc "Tớ tìm thấy cả giấy làm áp phích nữa."
     show sayori 4b
     show monika 5a zorder 3 at f22
+
     m "Ahaha!"
-    m "Sounds like you ended up doing all the work, [player]."
+
+    m "Cuối cùng cậu lại phải gánh vác toàn bộ công việc nhỉ, [player]."
     show monika zorder 2 at t22
-    mc "Ah, well, Sayori--"
-    "I fail to come up with an excuse for Sayori."
+
+    mc "À, thì, Sayori có--"
+
+    "Tôi không tìm ra được cái lý do nào để biện hộ cho Sayori."
     show sayori 1q zorder 3 at f21
-    s "I made it an adventure!"
+
+    s "Tớ đã có công biến nó thành một chuyến phiêu lưu!"
     show sayori 1a zorder 2 at t21
-    mc "...Yeah, that."
+
+    mc "...Đúng vậy đó."
     show monika 1j zorder 3 at f22
-    m "Ahaha, okay, okay."
-    m 1a "In any case, good work!"
-    m "I'll start working on the posters tonight."
+
+    m "Ahaha, được rồi, được rồi."
+
+    m 1a "Hai cậu làm tốt lắm!"
+
+    m "Tối nay tớ sẽ bắt đầu làm áp phích."
     show monika zorder 2 at t22
     show sayori 4x zorder 3 at f21
-    s "Me too!"
+
+    s "Tớ cũng vậy!"
     show monika zorder 2 at t11
     show sayori behind monika at thide
     hide sayori
-    m 4b "...Okay, everyone!"
-    m "Are you ready to share your poems?"
-    mc "Guess I should grab mine..."
-    "After making sure the crayon box is closed tightly, I return to my seat."
+
+    m 4b "...Được rồi, mọi người!"
+
+    m "Các cậu chuẩn bị xong bài thơ của mình chưa nào?"
+
+    mc "Mình cũng nên lấy bài thơ của mình ra thôi..."
+
+    "Sau khi chắc chắn rằng hộp bút màu đã được đóng cẩn thận, tôi quay lại chỗ ngồi của mình."
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

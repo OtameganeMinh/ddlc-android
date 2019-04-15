@@ -460,7 +460,7 @@ init -501 screen navigation():
             textbutton _("Tùy chỉnh") action [ShowMenu("preferences"), SensitiveIf(renpy.get_screen("preferences") == None)]
 
             #Added by Megane
-            if persistent.playthrough >= 0:
+            if persistent.playthrough >= 1:
                 textbutton _("Nhân vật") action [ShowMenu("characters"), SensitiveIf(renpy.get_screen("characters") == None)]
 
 
@@ -909,7 +909,7 @@ init -1 style slot_button_text:
 
 #Added by Megane
 init -501 screen characters() tag menu:
-    use game_menu(_("Files"), scroll ="viewport"):
+    use game_menu(_("Tập tin"), scroll ="viewport"):
         vbox:
             style_prefix "navigation"
             xoffset 50
@@ -1525,7 +1525,7 @@ init -501 screen skip_indicator():
         has hbox:
             spacing 6
 
-        text _("Skipping")
+        text _("Đang tua")
 
         text "▸" at delayed_blink(0.0, 1.0) style "skip_triangle"
         text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"

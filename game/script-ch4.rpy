@@ -5,275 +5,506 @@ label ch4_main:
 
     play music t6
 
-    "It's already Sunday."
+
+    "Hôm nay đã là chủ nhật rồi."
     if ch4_scene == "natsuki":
-        "I've been getting increasingly anxious about Natsuki's upcoming visit."
-        "I keep telling myself there's no reason to be nervous, but it doesn't help much."
-        "I wonder if she'll act any different when it's just the two of us?"
-        "Meanwhile, she's been texting me a lot."
-        "We sent each other one after exchanging numbers to double-check, but it turned into conversation."
-        "She's almost a different personality on the phone, using tons of emoji and cute language."
-        "She also really likes complaining about things, but I kind of saw that one coming."
-        "But putting Natsuki aside..."
+
+        "Cứ nghĩ tới việc Natsuki tới nhà khiến tôi càng cảm thấy lo lắng hơn."
+
+        "Tôi tự nhủ với mình rằng không có gì phải lo lắng cả, nhưng mà chả hiệu quả tí nào."
+
+        "Tôi không biết cậu ta sẽ cư xử ra sao khi chỉ có hai người với nhau?"
+
+        "Tới hôm đó tới giờ, cậu ấy nhắn tôi không biết bao nhiêu tin."
+
+        "Ngay sau khi trao đổi số, bọn tôi gửi cho nhau một tin để kiểm tra. Không ngờ là việc đó lại khơi mào cuộc trò chuyện."
+
+        "Cậu ta cứ như là một người khác khi nhắn tin vậy, sử dụng rất nhiều emoji và từ ngữ rất dễ thương."
+
+        "Nhưng mà lại rất hay phàn nàn, điều này là hiển nhiên với Natsuki rồi."
+
+        "Cơ mà tạm để chuyện về Natsuki sang một bên đã..."
     else:
-        "I've been getting increasingly anxious about Yuri's upcoming visit."
-        "I keep telling myself there's no reason to be nervous, but it doesn't help much."
-        "Yuri is clearly an introvert and also an intimate person in general."
-        "There's no doubt that she'll open up a little bit when it's just the two of us."
-        "Meanwhile, we've even been texting occasionally."
-        "She was extremely apprehensive at first, but it wasn't long before I was already learning more about her."
-        "But putting Yuri aside..."
-    "I haven't heard a thing from Sayori since she left club early the other day."
-    "It's not like we text each other all the time or anything..."
-    "But I've been worried about her in the back of my mind."
-    "Between what Sayori said, and what Monika said..."
-    "Is it really okay for me to put Sayori's feelings aside when she might need me?"
+
+        "Cứ nghĩ tới việc Yuri tới nhà khiến tôi càng cảm thấy lo lắng hơn."
+
+        "Tôi vẫn tự nhủ với mình là không có gì phải lo lắng cả, nhưng mà chả hiệu quả tí nào."
+
+        "Yuri là một người sống nội tâm và cũng rất dễ gần."
+
+        "Tôi cá rằng khi chỉ có hai người thì cậu ấy sẽ thoải mái giao tiếp với tôi hơn."
+
+        "Chúng tôi vẫn thỉnh thoảng nhắn tin cho nhau."
+
+        "Ban đầu cậu ấy rất ngại ngùng, nhưng rồi cũng quen dần và để cho tôi có thể hiểu hơn về cậu ấy."
+
+        "Cơ mà tạm để chuyện về Yuri sang một bên đã..."
+
+    "Tôi vẫn chưa nghe tin gì từ Sayori kể từ lúc cậu ấy rời câu lạc bộ vào hôm đó."
+
+    "Không có tin nhắn nào như mọi ngày..."
+
+    "Tất nhiên tôi không ép buộc cậu ấy ngày nào cũng nhắn tin với tôi nhưng tôi thực sự lo lắng."
+
+    "Về những điều mà Sayori và Monika đã nói..."
+
+    "Liệu rằng tôi có sai lầm không khi cứ để Sayori như vậy, có thể cậu ấy đang thực sự cần tôi cho dù cố tỏ ra trưởng thành?"
 
     stop music fadeout 2.0
     scene bg house
     with wipeleft_scene
-    "I decide to visit Sayori before [ch4_name] comes over."
-    "Rather than asking, I simply tell her \"I'm coming over\", much like we've done in the past."
-    "Once I reach Sayori's house, I knock on the door before entering it myself."
-    "Again, we used to play so often that we've made it a habit of simply entering each other's houses like we were family."
+
+    "Tôi quyết định sẽ đi thăm Sayori trước khi [ch4_name] đến."
+
+    "Không cần Sayori trả lời, tôi chỉ nhắn \"Tớ sắp sang đây.\" và qua nhà cậu ấy luôn, như tôi vẫn hay làm."
+
+    "Đến nhà Sayori, tôi gõ cửa báo hiệu rồi tự mình mở cửa bước vào."
+
+    "Từ xưa đã vậy rồi, chúng tôi có thói quen vào nhà nhau mà không cần xin phép, coi nhau như thành viên trong một gia đình vậy."
     scene black with wipeleft
-    "The house is quiet."
-    "Sayori isn't anywhere on the first floor, so I assume she's up in her room."
-    "It's already strange of her not to run down and greet me."
-    "I head up to her bedroom, where I finally find her."
+
+    "Căn nhà thật yên tĩnh."
+
+    "Tầng một không có ai, tôi đoán cậu ấy đang ở trong phòng của mình."
+
+    "Thật là lạ khi cậu ấy không chạy xuống và chào đón tôi như mọi khi."
+
+    "Tôi lên phòng ngủ của Sayori và cuối cùng cũng được gặp cậu ấy."
     scene bg sayori_bedroom with wipeleft
     mc "Sayori?"
+
     play music t10
     show sayori 1ba zorder 2 at t11
-    s "Hi [player]~"
+
+    s "Chào, [player]~"
     show sayori 1by
-    "I sit down in her room."
-    "Sayori forces a smile, but it's easy to tell that she's different."
-    "There's a minute of silence between us."
-    s "You haven't come over like this in a long time, have you?"
-    mc "Ah... I guess you're right."
-    mc "It has been a long time."
-    mc "Not much has really changed, has it?"
-    "Sayori's room is as messy as it's always been."
-    "I also recognize the same stuffed animals and wall decorations that she's had for years now."
+
+    "Tôi ngồi xuống."
+
+    "Sayori gượng cười, khác hẳn cậu ấy mọi khi."
+
+    "Cả hai đều ngập ngừng, không nói nên lời."
+
+    s "Lần cuối cậu vào phòng tớ... Đã lâu lắm rồi nhỉ?"
+
+    mc "Ah... Cậu nói phải."
+
+    mc "Từ khá lâu rồi đó."
+
+    mc "Mọi thứ vẫn như hồi xưa nhỉ?"
+
+    "Phòng của Sayori lúc nào cũng bừa bộn cả."
+
+    "Tôi nhận ra vẫn những con thú bông ấy và mấy đồ trang trí treo tường ở vị trí của nó suốt bao năm rồi."
     s 2bl "Ehehe~"
-    s "If you came over more often, it wouldn't be such a mess."
-    mc "That's because I end up cleaning it for you..."
-    s 1bb "How come you suddenly wanted to come over today?"
-    s "Aren't you supposed to see [ch4_name] today?"
-    mc "Yeah, but..."
-    mc "...Wait, how did you know that?"
-    "Sayori had already left by the time we decided that last meeting."
-    s 1ba "Monika told me."
-    s "It's only natural for her to keep me informed about the festival preparations, right?"
-    mc "Ah, that's true..."
-    mc "But what about you?"
-    mc "Aren't you going to be helping Monika today?"
-    s 4bb "Of course!"
-    s "But I'm just helping her online."
-    s "We didn't plan to meet up or anything."
-    mc "Ah, so it's just me and [ch4_name], then..."
+
+    s "Nếu cậu mà đến đây thường xuyên hơn, thì căn phòng đã không bừa bộn như này."
+
+    mc "Tớ toàn phải dọn cho cậu mỗi khi đến đây..."
+
+    s 1bb "Sao hôm nay đột nhiên cậu lại muốn đến đây vậy?"
+
+    s "Chẳng phải cậu đã hẹn gặp [ch4_name] vào hôm nay sao?"
+
+    mc "Ừm, nhưng..."
+
+    mc "...Khoan đã, sao cậu biết được chuyện đó?"
+
+    "Sayori đã bỏ đi trước khi khi các thành viên trong câu lạc bộ bàn về lễ hội."
+
+    s 1ba "Monika đã nói với tớ."
+
+    s "Chả phải cậu ấy là người sắp xếp mọi thứ liên quan đến việc chuẩn bị cho lễ hội à?"
+
+    mc "À, phải rồi..."
+
+    mc "Nhưng còn cậu thì sao?"
+
+    mc "Chẳng phải hôm nay cậu sẽ giúp Monika à?"
+
+    s 4bb "Tất nhiên rồi!"
+
+    s "Nhưng tớ chỉ giúp cậu ấy qua mạng thôi."
+
+    s "Bọn tớ không cần phải gặp mặt nhau."
+
+    mc "Ah, vậy chỉ có tớ và [ch4_name] thôi sao..."
     s 1ba "Yep~"
-    "There's more silence between us."
+
+    "Cuộc đối thoại lại một lần nữa chìm vào im lặng."
     show sayori 1bk
-    "Sayori stares in a random direction."
-    "Everything about her behavior is really uncharacteristic."
-    "I finally get to the point."
-    mc "I just...wanted to see how you were doing."
-    mc "After you left on Friday."
-    mc "When something's wrong, you can't hide it from me!"
-    mc "I know you too well."
-    mc "So..."
-    "Sayori smiles, shaking her head."
-    s 1bd "That's no good, [player]."
-    mc "Eh?"
-    s "Why can't it just be like it's always been?"
-    s 1by "This is all my fault."
-    s "If I didn't get so weak and accidentally express my feelings..."
-    s 1bk "If I didn't make that stupid mistake..."
-    s "Then you wouldn't have been worried about me at all."
-    s "You wouldn't have come here."
-    s 1bd "You wouldn't have even been thinking about me right now."
-    s "But this...is just my punishment, isn't it?"
-    s "I'm getting punished for being so selfish."
-    s "I think that's why the world decided to have you come over today."
-    s "It just wants to torture me."
+
+    "Sayori nhìn vào khoảng không vô định."
+
+    "Hành động và biểu cảm không hề giống cậu ấy chút nào."
+
+    "Tôi phải nói ra vấn đề chính thôi."
+
+    mc "Chỉ là...tớ muốn tới hỏi thăm cậu."
+
+    mc "Sau khi cậu bỏ về vào hôm thứ sáu."
+
+    mc "Chắc chắn là có chuyện gì không ổn, cậu đừng có mà giấu tớ!"
+
+    mc "Tớ rất hiểu cậu mà."
+
+    mc "Vậy nên..."
+
+    "Sayori mỉm cười và lắc đầu."
+
+    s 1bd "Thế là không tốt đâu, [player]."
+
+
+    s "Tại sao mọi chuyện không như mọi khi được vậy?"
+
+    s 1by "Tất cả là lỗi tại tớ."
+
+    s "Nếu tớ không yếu đuối đến vậy và để cảm xúc tiêu cực của mình bộc lộ ra ngoài..."
+
+    s 1bk "Thật là một sai lầm ngu xuẩn..."
+
+    s "Tớ đã khiến cho cậu phải lo lắng đến mức này."
+
+    s "Cậu lẽ ra không phải đến cái chỗ này."
+
+    s 1bd "Cậu lẽ ra không phải vướng bận về tớ trong đầu khi còn đang phải chuẩn bị làm việc cùng người khác."
+
+    s "Đây...chắc là hình phạt của tớ?"
+
+    s "Sự trừng phạt đích đáng dành cho kẻ ích kỉ."
+
+    s "Việc cậu đến đây hôm nay nhất định là như vậy."
+
+    s "Là để tớ phải hứng chịu hậu quả."
     s 4bq "Ehehe~"
     mc "Sayori!"
     show sayori 4bb
-    "I grab Sayori by the shoulders."
-    mc "What on Earth are you saying?!"
-    mc "Are you listening to yourself right now?"
-    mc "I know something happened to you."
-    mc "There's no other explanation for you to be like this."
-    mc "So tell me, already...!"
-    mc "Until I know, I won't be able to stop thinking about it!"
+
+    "Tôi đặt hai tay lên vai Sayori."
+
+    mc "Cậu đang lảm nhảm cái quái gì thế?!"
+
+    mc "Cậu có nghĩ gì trước khi thốt ra những lời đấy không?"
+
+    mc "Tớ biết là có chuyện gì không ổn đã xảy ra."
+
+    mc "Nhưng chẳng có lí do gì khiến cho cậu phải như thế cả."
+
+    mc "Vậy nên hãy kể cho tớ biết đó là chuyện gì mau lên...!"
+
+    mc "Tớ sẽ không thôi chừng nào còn chưa biết!"
     s 4bl "Ah..."
     s "Ahaha..."
-    "Sayori gives me an empty smile."
-    s 4by "You really put me in a trap, [player]."
-    s "But..."
-    s 1ba "You're wrong."
-    s "Nothing happened to me."
-    s "I've always been like this."
-    s "You're just seeing it for the first time."
-    mc "Seeing what?"
-    mc "What are you talking about, Sayori?"
+
+    "Sayori nở một nụ cười trống rỗng."
+
+    s 4by "Cậu thực sự đẩy tớ vào đường cùng rồi đó, [player]."
+
+    s "Nhưng mà này..."
+
+    s 1ba "Cậu sai rồi."
+
+    s "Chẳng có chuyện gì xảy ra với tớ cả."
+
+    s "Tớ vẫn luôn như thế."
+
+    s "Chỉ là với cậu thì mới lần đầu được thấy."
+
+    mc "Thấy cái gì?"
+
+    mc "Cậu đang nói cái gì vậy hả, Sayori?"
     s 1bq "Ehehe~"
-    s 1ba "You're really just going to make me say it, aren't you, [player]?"
-    s "I guess I have no choice this time."
-    s 1bc "The thing is..."
-    s "I've had really bad depression my whole life."
-    s 1bb "Did you know that?"
-    s "Why do you think I'm late to school every day?"
-    s "Because most days, I can't even find a reason to get out of bed."
-    s 1by "What reason is there to do anything when I fully know how worthless I am?"
-    s "Why go to school?"
-    s "Why eat?"
-    s "Why make friends?"
-    s "Why make other people put their energy and caring to waste by having them spend it on me?"
-    s "That's what it feels like."
-    s "And that's why I just want to make everyone happy..."
-    s "Without anyone worrying about me."
+
+    s 1ba "Cuối cùng cậu đã khiến tớ phải nói ra điều này, [player] à."
+
+    s "Chắc là tớ không còn lựa chọn nào khác nữa rồi."
+
+    s 1bc "Chuyện là..."
+
+    s "Thực sự là cả cái cuộc đời này của tớ tràn ngập sự thất vọng."
+
+    s 1bb "Cậu có biết không?"
+
+    s "Thử nghĩ xem tại sao ngày nào tớ cũng đi học muộn?"
+
+    s "Bởi vì tớ chả tìm được một lí do gì để ra khỏi giường cả."
+
+    s 1by "Cố gắng cũng làm sao mà thay đổi nổi cái thứ thất bại vô dụng này, mọi thứ đều vô ích?"
+
+    s "Tới trường để làm gì?"
+
+    s "Ăn uống để làm gì?"
+
+    s "Có bạn bè cũng để làm gì?"
+
+    s "Mọi người đừng có mà tốn năng lượng để quan tâm tới cái thứ như tớ chứ?"
+
+    s "Đó là cảm nhận của tớ đấy."
+
+    s "Và đó là lý do tại sao tớ chỉ muốn mọi người vui vẻ..."
+
+    s "Để không ai phải lo lắng về tớ."
     mc "..."
-    "I'm in shock."
-    "I can't even figure out how to respond."
-    "How is it possible that Sayori kept this from me the entire time that I've known her?"
-    "Did she really want so badly for me to just not think about her?"
-    mc "...Why, Sayori?"
-    s 1bg "Eh...?"
-    mc "Why is it that you've never told me about this?"
-    mc "It almost feels like I've been betrayed as your close friend."
-    mc "Because if I knew, I would have done everything I could to support you!"
-    mc "Even if there's only so much that I could do..."
-    mc "I would have tried a little bit harder to make every day a little better for you."
-    mc "That's why I'm your friend!"
-    mc "All you had to do was tell me!"
-    s 1bk "You don't understand at all, [player]."
-    s "Why do you think I didn't tell you?"
-    s 1bd "Because if I told you, then you would have to waste effort caring about me instead of doing important things."
-    s "I don't want to be cared about."
-    s "It's bittersweet, when people try to care about me."
-    s 1ba "It feels nice sometimes."
-    s "But it also feels like a bat being swung against my head."
+
+    "Tôi bị sốc bởi những lời của cậu ấy."
+
+    "Tôi thậm chí còn không biết phải làm sao để đáp lại."
+
+    "Làm sao mà lại có chuyện như thế được cơ chứ, tôi chơi thân với Sayori từ lâu rồi kia mà?"
+
+    "Cậu ấy thực sự không muốn mình quan tâm tới cậu ấy ư?"
+
+    mc "...Tại sao vậy hả, Sayori?"
+
+    s 1bg "Hử...?"
+
+    mc "Tại sao cậu không bao giờ nói với tớ về điều đó?"
+
+    mc "Cảm giác giống như tớ bị một người bạn thân phản bội vậy."
+
+    mc "Bởi vì nếu tớ biết, tớ sẽ làm mọi thứ để giúp đỡ cậu!"
+
+    mc "Dù cho có thế nào đi chăng nữa...."
+
+    mc "Tớ có thể cố gắng để làm cho ngày nào của cậu cũng là một ngày vui."
+
+    mc "Chúng ta là bạn thân cơ mà!"
+
+    mc "Tất cả những gì cậu cần làm chỉ đơn giản là nói với tớ!"
+
+    s 1bk "Cậu chẳng hiểu gì cả, [player]."
+
+    s "Cậu nghĩ tại sao tớ lại không bảo cậu?"
+
+    s 1bd "Bởi vì sự nỗ lực của cậu với tớ sẽ chỉ là vô ích thôi, thay vì thế cậu có thể làm những thứ quan trọng hơn."
+
+    s "Tớ không muốn được ai chăm sóc hết."
+
+    s "Bản thân không ra gì, còn muốn kéo theo người khác khiến họ vất vả."
+
+    s 1ba "Cảm xúc những lúc như vậy lẫn lộn lắm, tuy là có chút hạnh phúc."
+
+    s "Nhưng cũng khiến đầu tớ đau như búa bổ."
     s 4bq "Ahaha~"
-    s 4ba "That's why I wanted so badly for you to make friends with everyone else..."
-    s "Helping everyone be happy together is the best thing for me."
-    s 1bb "But then, I discovered something else, too."
-    s "Seeing you make friends and get closer with everyone in the club..."
-    s 1bk "It feels like a spear going through my heart."
-    s "So, that's why."
-    s "That's why I decided the world just wants to torture me."
-    s 1by "Every path leads to nothing but hurt."
+
+    s 4ba "Vì thế tớ thật lòng luôn muốn cậu kết bạn với những người khác..."
+
+    s "Tớ chỉ muốn giúp mọi người vui vẻ bên nhau mà thôi."
+
+    s 1bb "Nhưng mà, về sau tớ cũng khám phá ra nhiều điều khác."
+
+    s "Nhìn thấy cậu kết bạn và ngày càng thân thiết với mọi người trong câu lạc bộ..."
+
+    s 1bk "Cảm giác đau đớn như bị giáo đâm qua tim tớ."
+
+    s "Đó là lí do tại sao."
+
+    s "Lí do tại sao tớ nghĩ ông trời chỉ muốn tra tấn tớ thôi."
+
+    s "Con đường nào tớ chọn cũng đầy đau đớn cả."
     s "Ahaha~"
-    mc "You're right that I don't understand..."
-    mc "I don't understand your feelings at all, Sayori."
-    mc "But I don't need to understand."
-    mc "Whatever it takes for me to help you stop hurting..."
-    mc "That's what I'll do."
-    s 1bd "No, [player]."
-    s "There's nothing."
-    s "Nothing at all."
-    s "The only thing that could have helped is if everything could be like it always was."
-    s 1bk "But I was selfish."
-    s "I finally showed you what a horrible person I am."
-    "Tears streak down Sayori's face."
-    s 1bv "I made you join the literature club because I was selfish."
-    s "And I was punished by my heart hurting in a way that I couldn't understand."
-    s "And now you came here and I made you hurt, too."
-    s 1bt "I'm just weak and selfish."
-    s "That's all I am."
-    s "And that's why I'm going to accept these punishments."
-    s 1bv "Because I deserve every last one...!"
-    "Without thinking, I once again grab Sayori's shoulders."
-    "This time, I pull her into a tight embrace."
+
+    mc "Cậu đã đúng khi bảo là tớ chả hiểu cái gì cả..."
+
+    mc "Tớ không hiểu được cảm xúc của cậu, Sayori."
+
+    mc "Nhưng tớ cũng không cần phải hiểu."
+
+    mc "Cho dù có phải trả bất cứ giá nào, tớ muốn giúp cậu không bị tổn thương..."
+
+    mc "Đó là những gì tớ sẽ làm."
+
+    s 1bd "Không, [player]."
+
+    s "Sẽ chẳng có gì."
+
+    s "Chẳng có gì cả."
+
+    s "Điều duy nhất giúp được tớ là cứ để mọi chuyện diễn ra bình thường như bao ngày."
+
+    s 1bk "Nhưng tớ lại quá ích kỉ."
+
+    s "Tớ đã khiến cho cậu phát hiện ra con người thật tệ hại của tớ."
+
+    "Dòng nước mắt chảy dài trên khuôn mặt Sayori."
+
+    s 1bv "Tớ bắt cậu tham gia câu lạc bộ văn học cũng là vì bản tính ích kỉ."
+
+    s "Và con tim đau đớn này đã bị trừng trị theo cách mà tớ không thể hiểu được."
+
+    s "Và giờ thì tới cậu, tớ cũng làm cậu tổn thương theo."
+
+    s 1bt "Tớ thật yếu đuối và ích kỉ."
+
+    s "Đó là con người thật sự của tớ đấy."
+
+    s "Và đó là lý do tại sao tớ chấp nhận hình phạt này."
+
+    s 1bv "Bởi vì tớ xứng đáng nhận nó...!"
+
+    "Không suy nghĩ gì thêm, tôi vòng tay qua vai Sayori."
+
+    "Tôi ôm chặt cậu ấy vào lòng."
     scene black with dissolve_cg
     s "A-Ah--"
     s "[player]..."
     mc "Sayori."
-    mc "I don't care if you feel selfish."
-    mc "I'm really happy that you convinced me to join the club."
-    mc "Seeing you every day makes it worthwhile enough."
-    mc "If I make friends with everyone else, then that's just a bonus."
-    mc "But please never underestimate how much I care about you."
-    mc "I wouldn't have it any other way."
+
+    mc "Tớ không quan tâm cậu cảm thấy tồi tệ như nào."
+
+    mc "Việc cậu thuyết phục tớ gia nhập câu lạc bộ cũng giúp tớ hạnh phúc mà."
+
+    mc "Được bên cạnh cậu nhiều hơn và nhìn cậu vui vẻ mỗi ngày."
+
+    mc "Việc kết bạn với những người khác chỉ là phụ."
+
+    mc "Làm ơn đừng bao giờ quên rằng tớ quan tâm tới cậu đến nhường nào."
+
+    "Tớ cũng không bao giờ thay đổi suy nghĩ đó đâu."
     s "[player]..."
-    "Sayori isn't hugging me back."
-    "Despite my arms being wrapped around her, Sayori's arms remain at her sides."
-    "She starts sobbing next to my ear."
-    s "No..."
-    s "Don't do this...to me..."
-    s "Please don't do this..."
+
+    "Sayori không ôm lại tôi."
+
+    "Mặc dù tôi đang ôm cậu ấy, nhưng đôi tay của Sayori vẫn không nhúc nhích."
+
+    "Tiếng nấc của cậu ấy thổn thức bên tai tôi."
+
+    s "Không..."
+
+    s "Đừng làm vậy...với tớ..."
+
+    s "Xin cậu đó..."
     s "[player]..."
-    s "I..."
-    "Sayori barely manages to speak between her sobs."
-    "I don't know if I'm doing the right thing."
-    "But all I want is for her to know that I care."
-    mc "If you have it in you to call yourself selfish, then you have to let me be selfish too."
-    mc "No matter what it takes, I'll figure out what needs to change."
-    mc "I'll make these feelings go away."
-    mc "And if there's anything that you need me to do..."
-    mc "Then you'd better tell me."
-    mc "I'll get mad if you don't."
+
+    s "Tớ..."
+
+    "Sayori nghẹn ngào nói trong tiếng khóc nức nở."
+
+    "Tôi không biết những việc tôi làm như này có đúng không."
+
+    "Nhưng tôi muốn cậu ấy hiểu được sự quan tâm của tôi."
+
+    mc "Nếu cậu cứ một mực cho rằng mình ích kỉ, vậy thì tớ cũng ích kỉ luôn đấy."
+
+    mc "Tớ sẽ tìm cách thay đổi chuyện này, bằng bất cứ giá nào đi chăng nữa."
+
+    mc "Tớ sẽ giúp cậu xua tan đi cảm giác đó."
+
+    mc "Bất cứ việc gì cậu cần tớ làm..."
+
+    mc "Đừng ngại ngần nói ra."
+
+    mc "Nếu cậu không làm vậy, tớ sẽ bực lắm đấy."
     s "..."
-    s "I...don't know..."
-    s "I don't know..."
-    s "I don't know."
-    "Gently, Sayori finally puts her arms around me in return."
-    s "I don't know anything."
-    s "It's all really scary..."
-    s "I don't understand any of my feelings, [player]..."
-    s "The only time I'm not feeling nothing is when I'm feeling pain."
-    s "But..."
-    s "Your hugs are so warm..."
-    s "...And that's really scary, too."
+
+    s "Tớ...không biết nữa..."
+
+    s "Tớ không biết..."
+
+    s "Tớ không biết..."
+
+    "Cuối cùng Sayori cũng ôm lại tôi, hai tay vòng qua người tôi, nhẹ nhàng."
+
+    s "Tớ không biết gì cả."
+
+    s "Tất cả mọi thứ đều thật đáng sợ..."
+
+    s "Tớ không thể hiểu nổi cảm xúc của chính mình nữa, [player]..."
+
+    s "Chỉ có những lúc tớ đau khổ thì tớ mới không thấy cảm xúc gì."
+
+    s "Nhưng..."
+
+    s "Cái ôm của cậu ấm áp quá..."
+
+    s "...Và nó cũng thật đáng sợ nữa."
     scene bg sayori_bedroom
     show sayori 1bv zorder 2 at i11
     with dissolve_cg
-    "Sayori lets me go."
-    "As she does so, I let her go as well."
-    mc "The festival is tomorrow."
-    s 1bk "Yeah..."
-    mc "It's going to be fun, right?"
-    s "Yeah."
-    mc "How would you like for me to spend it all with you?"
+
+    "Sayori buông tôi ra."
+
+    "Tôi cũng bỏ tay khỏi người của cậu ấy."
+
+    mc "Ngày mai là lễ hội rồi."
+
+    s 1bk "Ừm..."
+
+    mc "Sẽ vui lắm đấy, nhỉ?"
+
+    s "Ừm."
+
+    mc "Hãy để tớ dành cả ngày hôm đó bên cạnh cậu nhé?"
     s 1bh "U-Um..."
     s "Ah--"
-    mc "It's what I want."
-    mc "I promise."
-    s 1bk "I..."
-    s "I think that would be nice, then..."
-    mc "Yeah."
-    "Sayori wipes her eyes."
-    "If I could spend the whole day here, I would."
-    mc "Of all days, this has to be the one where I have other plans..."
-    mc "Maybe I should cancel--"
-    s 1bh "No, don't--!"
-    s 1bg "Please don't..."
-    s "If you did that...then I really wouldn't forgive you."
-    mc "But..."
-    mc "It's almost time for [ch4_name] to meet me at my house..."
-    mc "At the very least, do you want to come along and help out?"
-    mc "It would be fun."
-    "To my surprise, Sayori shakes her head."
-    s 1bd "I'm sorry."
-    s "I don't know if that would be very good for me today."
-    s "You understand, right?"
+
+    mc "Vậy quyết định thế nhé."
+
+    mc "Tớ hứa đấy."
+
+    s 1bk "Tớ..."
+
+    s "Mong rằng mọi chuyện sẽ tốt đẹp..."
+
+    mc "Ừm."
+
+    "Sayori lấy tay lau nước mắt."
+
+    "Nếu được thì tôi định ở lại đây cả ngày luôn."
+
+    "Khỉ thật, tại sao mình lại có kế hoạch vào hôm nay cơ chứ..."
+
+    mc "Có lẽ tớ nên hủy--"
+
+    s 1bh "Không, đừng--!"
+
+    s 1bg "Đừng làm vậy..."
+
+    s "Nếu cậu làm như thế...tớ sẽ không tha thứ cho cậu đâu."
+
+    mc "Nhưng..."
+
+    mc "Dù sao [ch4_name] cũng sắp sửa đến nhà tớ mất rồi..."
+
+    mc "Cậu đến nhà tớ làm cùng luôn nhé?"
+
+    mc "Tớ nghĩ là sẽ vui lắm."
+
+    "Thật bất ngờ, Sayori lắc đầu."
+
+    s 1bd "Tớ xin lỗi."
+
+    s "Tớ không muốn làm gì hôm nay nữa."
+
+    s "Cậu hiểu điều đó mà?"
     mc "Ah..."
-    mc "It's...kind of hard for me to fully understand."
-    mc "But I'm trying my hardest."
-    s "It's okay."
-    s "Don't worry too much about it."
-    s 4ba "I'll see you tomorrow, okay?"
-    mc "...Alright."
-    mc "I look forward to it."
+
+    mc "Thực sự...tớ không hiểu câu nói của cậu lắm."
+
+    mc "Nhưng dù sao thì tớ sẽ cố gắng làm việc để buổi lễ ngày mai sẽ thật tuyệt vời với cậu."
+
+    s "Vậy là ổn rồi."
+
+    s "Cậu không cần phải lo lắng quá nhiều đâu."
+
+    s 4ba "Tớ sẽ gặp lại cậu vào ngày mai."
+
+    mc "...Được thôi."
+
+    mc "Tớ rất mong đợi đến lúc đó."
     scene bg residential_day with wipeleft_scene
-    "I say goodbye to Sayori and exit her house."
-    "On the way home, I find myself still feeling uneasy."
-    "But it's hard for me to keep thinking about it when [ch4_name] is about to come over, too..."
-    "I think Sayori is right."
-    "I shouldn't be worrying too much, and we're definitely going to have a great time tomorrow."
-    "I should just focus on what's ahead of me!"
+
+    "Tôi nói lời tạm biệt với Sayori và rời khỏi nhà cậu ấy."
+
+    "Trên đường về nhà, tôi vẫn cảm thấy có chút không thoải mái."
+
+    "Nhưng tôi không thể bận tâm về nó mãi khi mà [ch4_name] sắp sửa đến rồi..."
+
+    "Chắc là Sayori nói đúng."
+
+    "Tôi không nên suy nghĩ quá nhiều mà nên tập trung để ngày mai sẽ là một ngày tuyệt vời."
+
+    "Hãy làm tốt những việc cần làm trước mắt đã!"
     call expression "ch4_exclusive_" + ch4_scene
     call ch4_end
 
@@ -283,932 +514,1678 @@ label ch4_main:
 label ch4_exclusive_natsuki:
     play music t6 fadeout 2.0
     scene bg house with wipeleft_scene
-    "I spend only a few minutes back at home anxiously awaiting Natsuki's arrival."
-    "Before I know it, she texts me to let me know she's outside the front door."
-    "Without delay, I open the front door to let her in."
+
+    "Tôi chỉ phải đợi Natsuki có vài phút thôi."
+
+    "Khi tôi còn đang mải suy nghĩ lơ mơ thì đã nhận được tin nhắn của cậu ấy bảo rằng đang ở ngoài cửa rồi."
+
+    "Không chần chừ, tôi mở của cho cậu ấy vào."
     show natsuki 2bj zorder 2 at t11
     mc "..."
-    n "'Sup?"
-    mc "...Hey."
-    "I don't know what I was expecting, but seeing Natsuki in something other than her school uniform totally threw me off."
-    "Seeing her in such cute clothes makes the uniform seem totally unfitting in comparison."
-    n 4bc "Jeez, don't make it feel so awkward already!"
-    n "It's gonna be a long afternoon, so don't be weird just because you're not used to seeing me outside of school."
-    n "Anyway, I'm coming in."
+
+    n "Chào."
+
+    mc "...Chào cậu."
+
+    "Tôi không biết tôi đang mong chờ điều gì, nhưng lần đầu nhìn thấy Natsuki trong thường phục khiến tôi khá ngạc nhiên."
+
+    "Thật là một bộ trang phục dễ thương, trái ngược hoàn toàn với bộ đồng phục thường ngày."
+
+    n 4bc "Xì, chưa gì cậu đã làm tôi thấy ngại rồi!"
+
+    n "Chúng ta phải làm việc lâu đấy, đây là lần đầu cậu nhìn thấy tôi ngoài trường nhưng hãy cứ như thường ngày đi xem nào."
+
+    n "Mà kệ cậu, tôi vào đây."
     scene bg kitchen
     show natsuki 1bj zorder 2 at t11
     with wipeleft
-    mc "I see you brought a lot of stuff..."
-    "Natsuki is carrying a large bag that is probably full of baking supplies."
-    n 2bj "Well, I didn't want to come all this way to find out that your kitchen isn't equipped for the job."
-    n "You bought everything I asked you to, right?"
-    mc "Yeah, I did."
-    "Yesterday, Natsuki asked me to buy a bunch of ingredients if I didn't already have them at home."
-    n 2bl "Good!"
-    n "Glad I could count on you to do your part."
-    mc "Well...of course."
-    "I'm surprised to hear Natsuki suddenly say that, rather than something snarky like she usually does."
-    "Could it be that she is a little different outside of school after all?"
-    mc "Anyway, let's go to the kitchen..."
-    n 2by "What, you're not even gonna offer to take this heavy bag from me?"
-    n "Where's your hospitality, [player]?"
-    mc "Come on..."
-    mc "Since when did I need to be a gentleman?"
-    "I grab the bag Natsuki holds out to me."
+
+    mc "Cậu mang nhiều thứ thế..."
+
+    "Natsuki vác theo một cái túi lớn chứa đủ loại dụng cụ làm bánh."
+
+    n 2bj "Ừ thì tại tôi nghĩ chắc chắn là bếp nhà cậu không hề có tí dụng cụ làm bánh nào cả mà."
+
+    n "Cậu đã mua đủ những thứ tôi bảo chưa?"
+
+    mc "Ừm, xong cả rồi."
+
+    "Hôm qua, Natsuki đã yêu cầu tôi những nguyên liệu cần thiết nếu bếp nhà tôi không có."
+
+    n 2bl "Tốt!"
+
+    n "Thật mừng là cậu hoàn thành xuất sắc công việc được giao."
+
+    mc "Ừm...Không vấn đề gì."
+
+    "Tôi rất bất ngờ, Natsuki khen ngợi tôi thay vì nói những lời châm chọc thường ngày."
+
+    "Chắc là khi ra ngoài cậu ấy cư xử khác với lúc ở trong trường?"
+
+    mc "Nhà bếp thẳng tiến nào..."
+
+    n 2by "Khoan đã, cậu định cứ để tôi phải vác cái bọc nặng trĩu này á?"
+
+    n "Tính ga-lăng của cậu vứt đâu mất rồi hả, [player]?"
+
+    mc "Gì cơ..."
+
+    mc "Tớ đâu phải là một quý ông mà cần cái đó?"
+
+    "Natsuki đưa cái túi sang cho tôi đỡ lấy."
     mc "Ghk--"
-    mc "This is ridiculously heavy--!"
+
+    mc "Nặng vãi chưởng--!"
     n 4bz "Ahaha!"
-    n "I carried that all the way here."
-    n 4bl "Are you impressed?"
-    mc "I see now..."
-    mc "Yeah, I am impressed, Natsuki."
-    mc "It seems like I always underestimate you."
+
+    n "Tôi đã mang nó từ tận nhà đến đây đấy."
+
+    n 4bl "Cậu thấy tôi có giỏi không?"
+
+    mc "Ừ giỏi..."
+
+    mc "Rất là ấn tượng đấy, Natsuki à."
+
+    mc "Có vẻ đúng là tớ đã luôn đánh giá thấp cậu rồi."
     n 4by "Ehehe~"
-    n "It's because I'm so small, isn't it?"
-    n 4ba "You jerk."
-    "Natsuki hits a fist into my chest."
-    mc "Hey, hey."
-    mc "Your size has nothing to do with it."
-    mc "Do you really hate being small that much?"
-    n 1bk "Eh?"
-    n "Um..."
-    n 1bc "It's not like I hate it..."
-    n "I mean, sometimes I like proving people wrong when they only think I'm worth my size."
-    n 1ba "It's fun when I get to be small and also better than other people."
-    n "But..."
-    n 5bw "...Jeez, never mind!"
-    n "What are you making me say?"
-    n 5bq "Don't think you can make me talk about weird things just because we're not at school!"
-    n "Are we getting started, or what? There's a lot of stuff I gotta teach you."
+
+    n "Là do cậu nghĩ tôi lùn có phải không?"
+
+    n 4ba "Đồ khốn."
+
+    "Natsuki đấm vào ngực tôi một cái."
+
+    mc "Này, này."
+
+    mc "Chiều cao của cậu thì có liên quan quái gì đến việc đó."
+
+    mc "Cậu thực sự ghét cái chiều cao khiêm tốn của mình thế à?"
+    n 1bk "Hả?"
+    n "Ừ thì..."
+
+    n 1bc "Tôi không có ghét nó..."
+
+    n "Chỉ là, tôi muốn mọi người đừng có nghĩ rằng nhỏ con thì không làm được việc gì."
+
+    n 1ba "Nhỏ bé mà vẫn làm được hơn người khác cảm giác tuyệt lắm."
+
+    n "Nhưng mà chỗ đó..."
+
+    n 5bw "...Mà thôi, không có gì đâu!"
+
+    n "Tại sao cậu lại bắt tôi nói ra những điều ấy hả?"
+
+    n 5bq "Đừng có tưởng cậu có thể làm cho tôi nói mấy điều kì quặc chỉ vì chúng ta đang không ở trường nhé!"
+
+    n "Bắt đầu làm việc được chưa đây? Có nhiều thứ tôi cần phải dạy cho cậu lắm đấy."
     mc "Ahaha."
-    n 5bn "What??"
-    mc "That's a little bit more like you."
-    mc "You're more fun when you just speak your mind like that."
-    n 1bm "H-Hey!"
-    n "Now you {i}are{/i} treating me like a kid!"
-    n "I was just trying to be a little nicer to you, you know."
-    n 1br "And just because I don't have a mature and sexy figure like Yuri doesn't mean you should treat me like--"
+
+    n 5bn "Cậu cười cái gì chứ??"
+
+    mc "Thế mới giống cậu thường ngày chứ."
+
+    mc "Trông cậu rất vui vẻ những lúc nói thẳng thắn suy nghĩ trong đầu như vậy."
+
+    n 1bm "N-Này!"
+
+    n "Cậu {i}đang{/i} đối xử với tôi như là một đứa trẻ con đấy à!"
+
+    n "Tôi đã cố gắng tử tế với cậu một chút rồi đấy có biết không."
+
+    n 1br "Chỉ vì tôi không có cơ thể trưởng thành và quyến rũ như Yuri mà cậu tự cho mình cái quyền coi tôi như trẻ c--"
     n 1bo "A-Ah--"
-    "Natsuki catches her words, and her face turns red."
-    mc "Natsuki..."
-    n 1bp "Forget it!"
-    n "I didn't say anything!"
-    mc "I should apologize."
-    n 1bh "Eh?"
-    mc "I appreciate that you were trying to be nicer."
-    mc "I should have been a little more considerate, too."
-    mc "But also..."
-    mc "If that's what you're thinking, then you should know that there are tons of guys who are into body types like yours."
+
+    "Natsuki nói lắp bắp, mặt cậu ấy đỏ ửng lên."
+    mc "Natsuki à..."
+
+    n 1bp "Quên chuyện vừa rồi đi!"
+
+    n "Tôi không có nói gì hết nữa."
+
+    mc "Tớ xin lỗi."
+
+    n 1bh "Hả?"
+
+    mc "Tớ rất cảm kích việc cậu đã cố cư xử một cách tử tế."
+
+    mc "Đáng lẽ ra tớ cũng nên tỏ ra tử tế một chút."
+
+    mc "Nhưng về vấn đề kia..."
+
+    mc "Về vấn đề cậu đang lo lắng, hãy nhớ rằng rằng ngoài kia có hàng triệu người cũng có thân hình như cậu."
     n 1bq "Ah..."
-    n "How would...you know that, anyway?"
-    mc "Just trust me on this one."
+
+    n "Làm sao mà cậu...dám khẳng định chắc nịch như thế được?"
+
+    mc "Cứ tin tớ lần này đi."
+
     n "..."
-    n 5bx "...Gross."
-    mc "Hey!"
-    mc "Was that to me?"
-    n 5bw "Who else?"
-    mc "Man..."
-    mc "Let's just get started already."
+
+    n 5bx "...Kinh tởm."
+
+    mc "Này!"
+
+    mc "Vừa rồi là nói tớ đấy hả?"
+
+    n 5bw "Thì còn có ai ở đây nữa à?"
+
+    mc "Trời ạ..."
+
+    mc "Chúng ta nên bắt đầu vào việc đi thì hơn."
     n 2bl "Ahaha!"
-    n "You get all sour when a girl calls you gross."
-    n 2bd "I finally found your weakness, [player]."
-    "Natsuki smiles deviously."
-    mc "Please spare me..."
-    "Well, if Natsuki decides to dish out more insults like that, there's no way I'm not fighting back."
-    "But she's satisfied enough for now, finally starting to pull things out of her bag so we can get started."
+
+    n "Cậu có vẻ khó chịu khi một đứa con gái bảo cậu là đồ kinh tởm nhỉ."
+
+    n 2bd "Cuối cùng cũng tìm ra được điểm yếu của cậu rồi, [player]."
+
+    "Natsuki cười khúc khích."
+
+    mc "Tha cho tớ đi..."
+
+    "Tôi cứ kệ cho Natsuki thích châm chọc tôi thế nào cũng được, sao mà cản nổi cậu ta."
+
+    "Ít nhất thì việc đó cũng khiến cho cậu ta vui vẻ hơn, những thứ trong túi được lấy ra và chúng tôi bắt đầu công việc."
 
     scene bg kitchen
     with wipeleft_scene
-    "Before long, the whole kitchen is a mess."
-    "Spoons, dirty bowls, flour, spilled fluid, and plastic bags are strewn about every countertop."
-    "The mixer isn't big enough to make all the batter at once, so we've had to do it several times."
-    "Meanwhile, Natsuki is babysitting all of my movements to make sure I don't mess up her precious baking."
+
+    "Trong chớp mắt, cả cái phòng bếp trở thành một mớ hỗn độn."
+
+    "Thìa, đĩa bát bẩn, bột mì, nước tràn và túi ni lông rải rác khắp mọi ngóc ngách căn phòng."
+
+    "Cái máy trộn không đủ lớn để làm một lúc hết chỗ bột trong một lần được, vì vậy chúng tôi phải chia nhỏ ra trộn nhiều lần."
+
+    "Natsuki luôn quan sát tỉ mỉ những gì tôi làm để chắc chắn rằng tôi không phá hỏng món bánh nướng của cậu ấy."
     show natsuki 2bk zorder 2 at t11
-    n "[player], where did you put the food coloring?"
-    n "The batter's going in the oven soon, so I need to fill the trays."
-    mc "I think it's still in the bag next to the table."
-    mc "What are you using it for?"
-    n 4bl "To color the batter, of course!"
-    n 4bj "I'm making each tray a different color."
-    n "That way, even if the flavors aren't different, everyone can still pick their favorite."
-    mc "Ah, that's a cute idea."
-    mc "Are we doing anything like that with the icing?"
-    n 4bk "Do you want to?"
+
+    n "[player], cậu để lọ phẩm màu ở đâu vậy?"
+
+    n "Bột sắp được rồi, đưa tôi cái khay để bỏ nó vào."
+
+    mc "Hình như phẩm màu ở trong cái túi để cạnh bàn ấy."
+
+    mc "Nó dùng để làm gì thế?"
+
+    n 4bl "Để tạo màu cho bánh chứ còn gì nữa!"
+
+    n 4bj "Tôi sẽ làm mỗi khay một màu bánh khác nhau."
+
+    n "Bằng cách này thì mặc dù hương vị không khác nhau là mấy, nhưng vẫn tạo cảm giác mọi người đang tự chọn bánh họ thích."
+
+    mc "Ah, ý tưởng dễ thương đấy."
+
+    mc "Vậy chúng ta có làm tương tự với kem không?"
+
+    n 4bk "Cậu thích thế à?"
     mc "Ah..."
-    mc "You're asking me?"
-    mc "I don't really have a preference, so..."
-    n 1bm "Come on..."
-    n "You're not putting any heart into this at all!"
-    n "Can't you at least try to have fun?"
-    mc "I'm having fun..."
-    "I'm not really sure what Natsuki is trying to get out of me."
-    "Meanwhile, I see her separate the batter into smaller bowls and put a few drops of food coloring into each."
-    mc "Ah, that does look pretty cool."
-    n 2bj "See?"
-    n "It's not like baking is just about following instructions."
-    n "The presentation is where you get to be creative and have the most fun."
-    n "It's a million times more worth it in the end if just looking at it makes everyone's eyes lighten up."
-    mc "Like the ones you made on my first day, huh?"
-    "I recall Natsuki proudly presenting her cat-shaped cupcakes, and Sayori and Monika's delighted expressions."
-    "I wonder if I can make Natsuki proud like that, too."
-    mc "Yeah..."
-    mc "Maybe I will use the food coloring, then."
-    n "Sounds like you're starting to understand."
-    n "Just make sure you completely finish mixing the icing before you mess with the food coloring."
-    mc "Yeah, it's getting there."
-    "We were using the electric mixer for the batter, so I got stuck with a whisk and a huge bowl for the icing."
-    n 4bc "Eh?"
-    n "The icing's still all lumpy!"
-    n "Are you even trying?"
-    mc "Well, yeah..."
-    mc "It'll just take a little longer."
-    n 4bg "Jeez, I'll be here all night if you do it like that."
-    n "Here, look."
-    "Natsuki grabs the whisk from me and uses her other hand to tilt the bowl back."
-    n 4be "You really need to...beat...the crap out of it!"
-    "After a few seconds, the consistency of the icing has already improved."
-    n 4ba "See?"
-    "As if to emphasize, Natsuki sticks a finger in the icing and pops it in her mouth."
-    "I reluctantly start to do the same."
-    n 1bh "Hey!"
-    "Natsuki suddenly grabs my wrist."
-    n 4bh "I don't want {i}your{/i} gross fingers in my icing."
-    mc "Your icing, eh?"
-    mc "Are you forgetting who did all the work?"
-    "I start to fight back, trying to inch my finger toward the bowl."
-    n 4by "Don't make me beat the crap out of you next!"
-    mc "I'd like to see you try!"
-    "I push harder, just enough for my finger to reach the icing."
-    "I triumphantly scoop some with my finger just as Natsuki tugs with all her might."
+
+    mc "Cậu đang hỏi tớ đấy à?"
+
+    mc "Tớ thực sự không biết nữa, vậy nên..."
+
+    n 1bm "Thôi nào..."
+
+    n "Cậu vẫn chưa đặt cả tấm lòng của mình vào việc này!"
+
+    n "Cứ coi như việc này rất vui vẻ đi, đừng căng thẳng."
+
+    mc "Tớ đang vui đây mà..."
+
+    "Tôi không biết rằng Natsuki đang muốn gì ở tôi nữa."
+
+    "Trong khi nói chuyện, tôi xem cậu ấy đặt bột vào những chiếc bát nhỏ và nhỏ vài giọt màu thực phẩm vào từng bát."
+
+    mc "Ah, trông thật tuyệt."
+
+    n 2bj "Thấy chưa?"
+
+    n "Nướng bánh không chỉ là cứ làm theo sách hướng dẫn đâu."
+
+    n "Công đoạn trình bày là phần để cậu tha hồ sáng tạo và cũng là phần vui nhất."
+
+    n "Được nhìn thấy ánh mắt thèm thuồng của những người sẽ ăn chúng là một phần thưởng cực kì giá trị đối với tôi."
+
+    mc "Giống như mấy chiếc cậu làm vào ngày tớ vào hội đó hả?"
+
+    "Tôi nhớ lại cái cách cậu ấy tự hào giới thiệu những chiếc bánh nướng hình mèo, cùng với nét mặt hân hoan của Sayori và Monika."
+
+    "Tôi tự hỏi liệu tôi cũng có thể làm Natsuki tự hào như thế không?"
+
+    mc "Ừm..."
+
+    mc "Vậy thì tớ cũng sẽ lên màu cho kem."
+
+    n "Cuối cùng cậu cũng hoàn toàn nhập cuộc."
+
+    n "Nhưng nhớ là phải làm kĩ càng phần trộn kem trước khi dùng phẩm màu nhé."
+
+    mc "Ừm, tớ hiểu rồi."
+
+    "Cái máy trộn đang bị dùng để trộn bột, vì vậy tôi phải trộn cái bát kem to đùng bằng cây đánh trứng cầm tay."
+
+    n 4bc "Hử?"
+
+    n "Phần kem vẫn chưa được đều!"
+
+    n "Cậu phải ráng sức lên đi chứ?"
+
+    mc "À, ừm..."
+
+    mc "Tớ sẽ làm thêm một lúc nữa."
+
+    n 4bg "Xì, tôi sẽ phải ở đây cả đêm mất thôi nếu cậu chỉ làm được có vậy."
+
+    n "Nhìn đây này."
+
+    "Natsuki giật lấy cây đánh trứng và dùng tay còn lại của cậu ấy hơi nghiêng bát kem."
+
+    n 4be "Cậu cần...phải đánh...thật lực vào!"
+
+    "Chỉ mất có vài giây thôi, phần kem đã được đánh đều và quyện vào nhau."
+
+    n 4ba "Đấy thấy không?"
+
+    "Natsuki dùng một ngón tay quệt nhẹ ít kem trong bát và nếm thử như để kiểm tra."
+
+    "Thấy thế, tôi cũng làm theo."
+
+    n 1bh "Này!"
+
+    "Natsuki ngay tức khắc nắm lấy cổ tay tôi."
+
+    n 4bh "Tôi không muốn có ngón tay ghê tởm của {i}cậu{/i} ở trong bát kem của tôi đâu."
+
+    mc "Kem của cậu á?"
+
+    mc "Ai mới là người làm kem từ đầu tới giờ?"
+
+    "Tôi đáp trả lại và cố gắng đưa ngón tay vào trong bát."
+
+    n 4by "Đừng có để tôi phải đánh cậu như đánh kem đấy!"
+
+    mc "Có giỏi thì cậu thử làm thế đi!"
+
+    "Tôi đẩy mạnh hơn đủ để ngón tay có thể chạm tới phần kem trong bát."
+
+    "Ngay đúng lúc tôi đang đắc thắng vì đã lấy được chút kem và định bỏ trốn thì Natsuki kéo giật tôi lại."
     mc "Ah--!"
-    "The force of Natsuki pulling me causes me to stumble, making her stumble in turn."
-    n 1bx "Gross!"
-    n "You got it on my face!"
-    mc "Whose fault is that?!"
-    "There's a big glob of icing on Natsuki's cheek."
+
+    "Lực kéo của Natsuki làm tôi mất thăng bằng và ngã nhưng vô tình cũng khiến cậu ấy ngã theo tôi."
+
+    n 1bx "Đồ kinh tởm!"
+
+    n "Câụ làm kem dính trên mặt tôi rồi này!"
+
+    mc "Cậu nghĩ đó lỗi của ai hả?!"
+
+    "Một cục kem dính trên má của Natsuki."
     n 1bw "Nnn--"
-    "She tries to reach it with her tongue, but it's too far away."
-    n 1br "Jeez..."
-    n "You know what?"
-    n 4bd "Take this!"
-    "Natsuki instead wipes it off with her finger before shoving her finger toward my own face."
-    mc "You wish--!"
-    "I'm faster."
-    "I grab her wrist with my hand before it reaches my face."
-    "Natsuki tries to use her other hand to fight back, but I grab that one as well."
+
+    "Cậu ta cố gắng liếm chỗ kem nó bằng lưỡi của mình, nhưng chúng lại quá xa."
+
+    n 1br "Mồ..."
+
+    n "Cho cậu biết mặt."
+
+    n 4bd "Nhận lấy này!"
+
+    "Natsuki đành dùng tay quệt chỗ kem trên má nhưng sau đó cậu ta đưa tay hướng về phía mặt tôi."
+
+    mc "Còn lâu--!"
+
+    "Tôi nhanh hơn rồi."
+
+    "Tôi nắm lấy cổ tay cậu ấy trước khi bị bôi kem lên mặt."
+
+    "Natsuki cố cả tay còn lại để chống trả, nhưng tôi cũng bắt được nó."
     $ persistent.clear[4] = True
     scene n_cg3_base
     show n_cg3_exp1
     show n_cg3_cake
     with dissolve_cg
-    n "Ahahaha! Stop!"
-    mc "Not until you apologize for calling me gross!"
-    n "Fine, fine!"
-    n "I'm sorry for calling you gross."
-    n "You know I don't mean it."
-    n "It's just fun seeing you react to it."
-    n "...You do that to me all the time, you know!"
-    n "Saying dumb things just to get a reaction out of me."
-    n "You really shouldn't tease girls like that."
-    mc "Is that so?"
-    mc "In that case, I probably shouldn't do this, either..."
+
+    n "Ahahaha! Dừng lại đi!"
+
+    mc "Chỉ khi nào cậu xin lỗi vì đã gọi tớ là đồ kinh tởm!"
+
+    n "Được rồi, được rồi!"
+
+    n "Tôi xin lỗi vì đã gọi cậu là đồ kinh tởm."
+
+    n "Cậu biết là tôi không có ý đó thật mà."
+
+    n "Chỉ là do phản ứng của cậu trông rất thú vị."
+
+    n "...Cậu cũng làm thế với tôi suốt rồi còn gì!"
+
+    n "Lúc nào cũng khiến tôi nói ra những thứ kì quặc."
+
+    n "Cậu không nên trêu chọc con gái như thế đâu."
+
+    mc "Thật vậy hả?"
+
+    mc "Vậy thì, có lẽ tớ cũng không nên làm thế này..."
     show n_cg3_cake at cgfade
     hide n_cg3_cake
-    "I take Natsuki's finger and put it in my mouth, licking off the icing."
+
+    "Tôi đưa tay Natsuki lại gần và liếm chỗ kem dính trên ngón tay cậu ta."
     show n_cg3_exp1 at cgfade
     show n_cg3_exp2 at cgfade
     hide n_cg3_exp1
-    n "W-W-What--?"
-    n "D-Did you seriously just--"
+
+    n "C-C-Cái gì--?"
+
+    n "C-Cậu vừa--"
     n "A-Ah--"
-    "Natsuki is so surprised that she can't even figure out how to get mad at me."
-    "Her face is entirely red."
+
+    "Natsuki trông rất ngạc nhiên, cậu ấy có vẻ bối rối thay vì nổi cáu trước hành động của tôi."
+
+    "Mặt cậu ấy đỏ ửng lên."
     hide n_cg3_exp2
     n "[player]..."
-    n "You really shouldn't do that kind of thing to girls...unless you really like them..."
-    n "You know that...right?"
+
+    n "Cậu đúng là không nên làm điều đó với con gái...trừ khi cậu thực sự thích họ..."
+
+    n "Cậu biết điều đó mà...phải không?"
     mc "..."
-    "What kind of question is she asking me, just like that?"
-    "How did the mood turn to this so quickly?"
-    mc "I..."
-    "Natsuki gazes at me in silence."
-    "I notice her shallow breaths."
-    "Why am I starting to feel dizzy...?"
-    n "Eh?!"
+
+    "Cậu ấy đang hỏi cái gì vậy?"
+
+    "Sao tự nhiên bầu không khí thay đổi nhanh thế?"
+
+    mc "Tớ..."
+
+    "Natsuki im lặng nhìn tôi."
+
+    "Tôi có thể nghe thấy cả tiếng thở hổn hển của cậu ấy."
+
+    "Sao tự nhiên tôi lại cảm thấy hơi chóng mặt thế nhỉ...?"
+    n "Á?!"
     scene bg kitchen with dissolve_cg
-    "Out of nowhere, the fire alarm starts going off."
-    "Natsuki rushes over to the oven."
-    mc "Is something burning?"
-    mc "I thought you didn't put the cupcakes in yet."
-    show natsuki 1bw zorder 2 at t11
-    n "{i}*Cough*{/i}"
-    n "No wonder..."
-    n 1bb "You left a dirty tray in here, dummy!"
-    n "How could you make a mistake like that?"
-    mc "You should have checked before turning the oven on!"
-    n 1bs "Don't blame me for your mistakes!"
-    n "Jeez..."
-    "Natsuki uses an oven mitt to grab the blackened tray out of the oven."
-    "She sets it on top of the stove."
-    "In another moment, the fire alarm stops."
-    n 1bq "Anyway..."
-    n "I'm...putting them in the oven now."
-    mc "Yeah..."
-    "The tension from the moment before still lingers over our heads."
-    "But the moment has already been lost."
-    "I watch as Natsuki slides the cupcake trays into the oven."
-    "Then, I reluctantly pick up the whisk and continue with the icing, like nothing ever happened."
+
+    "Bất ngờ, chuông báo cháy kêu lên."
+
+    "Natsuki chạy vội đến chỗ lò nướng."
+
+    mc "Có gì bị cháy à?"
+
+    mc "Tớ tưởng cậu còn chưa cho bánh nướng vào lò."
+
+
+    n "{i}*Ho*{/i}"
+
+    n "Hèn gì..."
+
+    n 1bb "Sao cậu lại bỏ khay không có gì vào đây, đồ ngốc này!"
+
+    n "Sai lầm ngớ ngẩn như thế mà cũng mắc thì tài thật. Ai mà chả biết phải xếp bánh lên khay rồi mới cho vào lò."
+
+    mc "Là tại cậu không kiểm tra trước khi bật lò lên đấy chứ!"
+
+    n 1bs "Đừng đổ lỗi của cậu lên đầu tôi!"
+    n "Trời..."
+
+    "Natsuki sử dụng đôi găng tay lót để lấy cái khay ra khỏi lò."
+
+    "Cậu ấy đặt nó lên trên bếp."
+
+    "Đồng hồ báo cháy cũng ngừng kêu."
+
+    n 1bq "Bây giờ..."
+
+    n "Tôi...sẽ đặt bánh vào lò nướng."
+
+    mc "Ừm..."
+
+    "Sự căng thẳng của khoảnh khắc trước đấy vẫn còn đọng lại trong đầu chúng tôi."
+
+    "Nhưng khoảnh khắc đó đã tan biến mất rồi."
+
+    "Tôi nhìn Natsuki đưa khay bánh nướng vào lò."
+
+    "Sau đó, tôi nhặt cây đánh trứng lên và tiếp tục trộn kem như chưa hề có chuyện gì xảy ra."
 
     scene bg kitchen
     show natsuki 4bz zorder 2 at t11
     with wipeleft_scene
-    n "Ahh, that smells so good!"
-    "The cupcakes are ready to be pulled out of the oven."
-    "As soon as Natsuki opens the oven door, a blast of sweet-smelling warm air fills the room."
-    n 4bl "Look at how cute they all look!"
-    "She proudly shows off the different-colored cupcakes in each of the trays."
-    mc "They'll look even better once we add the icing."
-    n 2ba "Not like you need to tell {i}me{/i} that!"
-    n "I brought decorating stuff, so I hope you can get creative."
-    n "Here, scoop the icing into these bags."
-    "Natsuki hands me some plastic bags."
-    n 2bj "I have these nozzles that will make it look nice and fluffy."
-    n "This one can even make flowers!"
-    n "We probably won't be using it this time, though."
-    mc "What's this one for?"
-    "I pick up one of the nozzles that has a much thinner tip than the others."
-    n 4bk "That one's really thin, so you can use it to make stripes or other patterns."
-    n "But you can also use it to write stuff on a cake."
-    n "Like, 'happy birthday!' or whatever."
-    mc "Huh, I see..."
-    mc "That gives me an idea, actually."
-    n "Eh?"
-    mc "Well, it's a literature event, right?"
-    mc "We could make it more literature-themed by writing a different word on each of the cupcakes."
-    mc "It would be fun to see people choose their cupcake based on a word they like."
+
+    n "Ahh, mùi thơm quá!"
+
+    "Những chiếc bánh nướng đã sẵn sàng để ra lò."
+
+    "Ngay khi Natsuki vừa mở lò lấy bánh, một hương thơm ngọt ngào, ấm áp tràn ngập căn phòng."
+
+    n 4bl "Trông chúng dễ thương quá đi mất thôi!"
+
+    "Cậu ấy tự hào khoe với tôi những chiếc bánh đủ màu trên từng khay."
+
+    mc "Trông chúng sẽ ngon lành hơn nữa khi chúng ta thêm kem vào."
+
+    n 2ba "Không cần cậu phải chuyện đó nói thì {i}tôi{/i} cũng biết!"
+
+    n "Tôi đã mang theo cả đồ để trang trí rồi đây, cố gắng làm cho sáng tạo nhé."
+
+    n "Đây, hãy múc một ít kem vào mấy cái túi này."
+
+    "Natsuki đưa cho tôi vài chiếc túi bơm kem."
+
+    n 2bj "Những chiếc túi bơm kem này sẽ làm cho lớp kem phủ trên bánh trở nên đẹp và mềm mại hơn là quệt thẳng vào."
+
+    n "Có thể gắn vòi hình bông hoa nữa này!"
+
+    n "Nhưng lúc này chúng ta chưa cần phải sử dụng cái đó."
+
+    mc "Vậy còn cái này để làm gì?"
+
+    "Tôi cầm lấy một cái túi bơm kem có vòi nhỏ hơn."
+
+    n 4bk "Cái vòi nhỏ để có thể vẽ những họa tiết trang trí."
+
+    n "Cậu cũng thể sử dụng nó để viết chữ lên bánh."
+
+    n "Như là 'Chúc mừng sinh nhật!' hoặc gì đó."
+
+    mc "Huh, tớ hiểu rồi..."
+
+    mc "Tớ vừa nảy ra một ý tưởng với cái này."
+    n "Hử?"
+
+    mc "Sự kiện của chúng ta làm về văn học, đúng không?"
+
+    mc "Chúng ta có thể làm bánh có chút không khí 'văn chương' bằng cách viết những từ khác nhau trên mỗi chiếc bánh."
+
+    mc "Sẽ rất thú vị khi mọi người chọn bánh nướng dựa trên những từ mà họ thích."
     n 1bq "Uu..."
     mc "Hm?"
-    n "I was kind of expecting you to say something really stupid..."
-    n 1bs "But that's actually...a really cute idea, so..."
+
+    n "Tôi cứ nghĩ cậu sắp sửa thốt ra những ý tưởng ngu ngốc..."
+
+    n 1bs "Nhưng nó lại...thực sự rất là dễ thương đấy, vậy nên..."
     mc "Ahaha."
-    mc "Maybe I'm getting it from you."
-    n 5bh "W-What's that supposed to mean?"
-    n "I'm not cute!"
-    mc "Come on..."
-    mc "We're not at school, nobody's judging."
-    mc "You can't dress and act like this and not expect me to think you're cute."
-    n 5bs "W-Well..."
-    "Natsuki's voice trails off."
-    n "Same with you..."
-    mc "Eh?"
-    mc "Did you say something?"
-    n 1bw "N-No, nothing!"
-    n "Let's just do the icing!"
-    "Natsuki picks up the pace and fastens a nozzle onto each of the bags."
-    n 1bh "There's a lot to do, so we shouldn't be wasting time!"
-    n "Here, I'll show you how to do it."
-    "Without giving me a chance to think about before, Natsuki quickly moves on."
-    "She shows me how to apply the icing, and then we each get to work."
+
+    mc "Chắc tại tớ bị ảnh hưởng từ cậu."
+
+    n 5bh "C-Cậu nói thế là ý gì hả?"
+
+    n "Tôi không có dễ thương!"
+
+    mc "Thôi nào..."
+
+    mc "Chúng ta đâu có ở trường, sẽ không có ai đánh giá gì đâu."
+
+    mc "Với cái cách cậu cư xử và mặc bộ quần áo như này mà cậu muốn tớ không nghĩ cậu dễ thương được à."
+
+    n 5bs "Ừ-ừ thì..."
+
+    "Giọng của Natsuki nhỏ dần."
+
+    n "Tôi cũng nghĩ cậu như thế..."
+    mc "Hả?"
+
+    mc "Cậu vừa nói?"
+
+    n 1bw "K-Không, không có gì đâu!"
+
+    n "Mau trang trí cho bánh thôi!"
+
+    "Natsuki nhanh chóng thắt những vòi bơm vào mỗi túi."
+
+    n 1bh "Sẽ có nhiều việc để làm đấy, chúng ta không được lãng phí thời gian đâu!"
+
+    n "Đây, tôi sẽ chỉ cho cậu cách."
+
+    "Không cho tôi có cơ hội để nói về chuyện vừa rồi, Natsuki nhanh chóng chuyển về công việc ngay."
+
+    "Cậu ấy chỉ cho tôi cách phủ kem và sau đó cả hai đều chăm chú làm việc."
 
     scene bg kitchen with wipeleft_scene
-    "When we're finally finished, Natsuki puts them all side by side to admire our work."
+
+    "Sau khi hoàn thành, Natsuki đặt tất cả bánh cạnh nhau để chúng tôi có thể chiêm ngưỡng thành quả của mình."
     show natsuki 4bl zorder 2 at t11
-    n "Look at how pretty they are together!"
-    mc "Yeah, they are, aren't they?"
-    n 1bm "Uu... I wish I could have one now!"
-    mc "Well, there's no reason you can't, right?"
-    mc "I don't see any harm in that."
-    n 1bc "Well, yeah, but..."
-    n "My dad's making dinner tonight, so I really need to save my appetite."
+
+    n "Chúng thật dễ thương quá đi mất thôi!"
+
+    mc "Ừm, chúng thật là dễ thương."
+
+    n 1bm "Uu...Tôi thèm ăn luôn một cái quá!"
+
+    mc "Ừm, thì cậu cứ ăn đi."
+
+    mc "Có một cái chẳng sao đâu mà."
+
+    n 1bc "Ừm, nhưng mà..."
+
+    n "Tôi còn phải để bụng để ăn cơm bố tôi nấu tối nay nữa."
     mc "Ahaha."
-    mc "Sayori's the exact opposite in that regard."
-    mc "If she was here, we'd probably be down ten cupcakes already."
-    mc "And she would still eat dinner."
-    n 4bg "Come on, that's just unhealthy!"
-    n 4bs "Besides, when my dad cooks, I need to eat as much of it as I can..."
-    n 4bq "...Well, anyway!"
-    n 4bc "I was hoping we would have time for manga, but I need to be home for dinner..."
-    mc "Ah, already?"
-    mc "That's a shame."
-    n 1bg "It's your fault for working so slowly!"
-    n "You should have thought about that."
-    n "It's not like you'll always have this chance."
-    mc "Man..."
-    "As usual, Natsuki places the blame on me."
-    n 2bk "You can bring the cupcakes tomorrow, right?"
-    n "If you and Sayori each carry some, then you can probably do it in one trip."
-    mc "Yeah, I can do that."
-    mc "And don't worry, I won't let her eat any."
+
+    mc "Sayori thì lại hoàn toàn trái ngược."
+
+    mc "Nếu cậu ấy mà ở đây, thì phải hơn chục cái sẽ bị thủ tiêu trong chớp mắt."
+
+    mc "Và cậu ấy sẽ bỏ luôn bữa tối."
+
+    n 4bg "Nhưng mà, như thế không tốt cho sức khỏe đâu!"
+
+    n 4bs "Với cả, tôi phải ăn nhiều nhất mình có thể để không phụ công sức bố tôi nấu..."
+
+    n 4bq "...Dù sao thì."
+
+    n 4bc "Tôi đã mong là chúng ta vẫn còn thời gian để cùng đọc manga, nhưng đến giờ tôi phải về rồi..."
+
+    mc "Ồ, cậu về sớm vậy?"
+
+    mc "Chán nhỉ."
+
+    n 1bg "Tại cậu làm việc quá lề mề đấy!"
+
+    n "Cậu nên xem xét lại bản thân đi."
+
+    n "Không phải lúc nào cũng có được cơ hội như này đâu."
+
+    mc "Trời ạ..."
+
+    "Như thường lệ, Natsuki lại đổ lỗi cho tôi."
+
+    n 2bk "Ngày mai cậu đem theo bánh nướng đến trường luôn nhé?"
+
+    n "Nếu cậu và Sayori chia nhau mang đi thì chỉ cần một chuyến là mang được cả thảy rồi."
+
+    mc "Ừm, cứ như vậy đi."
+
+    mc "Và đừng lo, tớ sẽ không để cậu ấy ăn vụng đâu."
     n 2ba "Ahaha."
-    n "I wish she would listen to me the way she listens to you."
-    mc "Ah..."
-    mc "Yeah."
+
+    n "Ước gì cậu ấy cũng nghe lời tôi như nghe lời cậu nhỉ."
+
+    mc "À..."
+
+    mc "Ừm."
     show natsuki zorder 1 at thide
     hide natsuki
-    "I again think back to the conversation I had with Sayori earlier today."
-    "I felt so helpless."
-    "Sayori always does listen to me, but at that point it felt like she couldn't listen to me at all."
+
+    "Tôi nghĩ lại cuộc trò chuyện của tôi và Sayori trước đó."
+
+    "Tôi cảm thấy thật vô vọng."
+
+    "Sayori bình thường luôn nghe lời tôi, nhưng vào lúc đó cậu ấy chẳng chịu nghe gì cả, cứ như là một người nào khác."
     show natsuki 4bl zorder 2 at t11
-    n "Okay, I'm all packed up."
-    n "Good work today!"
-    mc "You too."
-    mc "I'll walk you out...I guess."
+
+    n "Okay, tôi đã thu dọn xong rồi đây."
+
+    n "Hôm nay cậu làm việc tốt lắm!"
+
+    mc "Cậu cũng vậy."
+
+    mc "Để tôi tiễn cậu một đoạn..."
 
     scene bg house with wipeleft_scene
-    "Just like that, Natsuki is already about to leave."
-    "It feels like the afternoon went by in a flash."
-    "More than that..."
-    "Did I even take the opportunity to get closer to her, like I wanted?"
+
+    "Vậy là Natsuki đã sẵn sàng chuẩn bị ra về."
+
+    "Cảm giác buổi chiều hôm nay trôi đi thật nhanh chóng."
+
+    "Hơn nữa..."
+
+    "Có phải tôi đã có được cơ hội để có thể gần gũi hơn với cậu ấy như tôi muốn không nhỉ?"
     show natsuki 1bh zorder 2 at t11
-    n "Well..."
-    n "I guess I'll be off, then..."
-    n 1bq "Thanks for all the help and everything..."
-    n "I'll see you tomorrow."
-    mc "Wait, Natsuki."
-    n 1bh "Eh?"
-    mc "What you said before...about not always having this chance."
-    mc "It doesn't have to be that way at all!"
-    mc "I had fun today."
-    mc "You showed me how fun baking can be, like you wanted."
-    mc "But aside from that..."
-    mc "You can come over anytime, okay?"
-    mc "I think that if possible, I'd like to spend more time like this."
-    mc "If you want to read manga, or go out somewhere--"
+
+    n "À, ừm..."
+
+    n "Tôi nghĩ tôi sẽ về, và..."
+
+    n 1bq "Cảm ơn cậu vì đã giúp đỡ và mọi thứ..."
+
+    n "Hẹn gặp lại cậu vào ngày mai."
+
+    mc "Đợi đã, Natsuki."
+
+
+    mc "Những lời mà cậu nói vào lúc trước...về việc không có nhiều cơ hội như thế này ấy."
+
+    mc "Sẽ không chỉ có vậy thôi chứ?"
+
+    mc "Hôm nay vui lắm."
+
+    mc "Cậu đã chỉ cho tớ thấy làm bánh vui đến thế nào!"
+
+    "Vậy nên là..."
+
+    mc "Cậu có thể đến đây vào bất cứ khi nào cậu muốn."
+
+    mc "Chúng ta sẽ có thêm nhiều cơ hội vui vẻ với nhau giống như chiều hôm nay."
+
+    mc "Có thể là cả đọc manga nữa, hay đi đâu đó--"
     n 1bm "Um--"
-    n "Do you...really mean that?"
-    "Natsuki looks at me tensely, like she's trying to hide her expression."
-    mc "Yeah."
-    mc "I want to spend more time with you."
+
+    n "Cậu...thực sự có ý đó hả?"
+
+    "Ánh mắt Natsuki tràn đầy căng thẳng, cứ như cậu ấy đang cố gắng giấu đi biểu cảm của mình."
+
+    mc "Ừm."
+
+    mc "Tớ muốn dành nhiều thời gian bên cậu hơn."
     n 1bq "[player]..."
-    n "I thought you only cared about getting this done..."
+
+    n "Tôi cứ nghĩ cậu chỉ quan tâm đến hoàn thành công việc thôi..."
     n 1br "Uu..."
-    n 1bn "I'm sorry I had to leave so early today."
-    n "I really didn't want to!"
-    n "I would really...stay here longer if I could."
-    n "I feel the same way as you, so..."
+
+    n 1bn "Tôi xin lỗi, tôi phải về sớm hôm nay."
+
+    n "Tôi thực sự không muốn như thế!"
+
+    n "Thật sự tôi cũng muốn...ở lại đây lâu nhất có thể."
+
+    n "Tôi cũng cảm thấy như cậu vậy, vì thế nên..."
     stop music fadeout 2.0
     show natsuki 1bi at face with dissolve
-    "Natsuki suddenly gets closer to me."
-    mc "Wait, Natsuki--"
-    "Standing inches from me, Natsuki looks up at me."
-    "I feel her fingers gently clutch at the sides of my shirt, as if holding onto me."
-    "Her rose-colored cheeks and matching eyes fill my vision, along with her slightly-parted lips."
-    "What is happening...?"
-    "My head starts to go dizzy as I feel her soft breaths against me."
-    n 1bh "I've felt it..."
-    n "For a while now..."
-    n 1bo "--!!"
+
+    "Natsuki bất chợt lại gần tôi."
+
+    mc "Khoan đã, Natsuki--"
+
+    "Chỉ đứng cách nhau có một bước chân, Natsuki ngước lên nhìn tôi."
+
+    "Tôi có thể cảm thấy những ngón tay của cậu ấy nhẹ nhàng nắm lấy vạt áo tôi, cứ như đang giữ tôi lại vậy."
+
+    "Tôi không thể rời mắt khỏi khuôn mặt dễ thương kia, hai má hồng rực, ánh mắt lấp lánh, cặp môi hơi khẽ mở."
+
+    "Chuyện gì đang diễn ra thế này...?"
+
+    "Cảm nhận được hơi thở nhẹ nhàng ấy, đầu óc tôi bắt đầu trở nên choáng váng."
+
+    n 1bh "Tôi cũng cảm thấy..."
+
+    n "Từ lâu rồi..."
+
     show natsuki zorder 2 at t11
-    "Natsuki suddenly jumps back."
+
+    "Natsuki đột nhiên lùi lại."
     n "S-Sayori?!"
-    mc "Eh?!"
+    mc "Hể?!"
     show natsuki zorder 2 at t22
     show sayori 1bl zorder 3 at f21
     s "Ah..."
-    s "H-Hi, [player]..."
+
+    s "C-Chào cậu, [player]..."
     mc "Sayori--!"
-    mc "Just now, we weren't--"
+
+    mc "Vừa nãy, chúng tớ chỉ--"
     s 1bq "Ehehe~"
-    s "It's okay, [player]."
-    s 1ba "I just stopped by to say hi~"
+
+    s "Không sao đâu, [player]."
+
+    s 1ba "Tớ chỉ định ghé qua chào cậu thôi~"
     show sayori zorder 2 at t21
     show natsuki zorder 3 at f22
     n 5bq "A-Ah..."
-    n "Well..."
-    n 5bw "Y-You should have come a little earlier!"
-    n "I'm already on my way out, so..."
+
+    n "Thì..."
+
+    n 5bw "L-Lẽ ra cậu nên tới đây sớm hơn một chút!"
+
+    n "Tại tớ đang chuẩn bị về nhà mất rồi, và..."
     show natsuki zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1bh "Aw, really?"
-    s "That's too bad..."
+
+    s 1bh "Aw, vậy sao?"
+
+    s "Thế thì buồn nhỉ..."
     show sayori zorder 2 at t21
     show natsuki zorder 3 at f22
-    n 2bq "Yeah, well..."
-    n "I'll still see you at the festival tomorrow, so it's fine."
-    n 2bb "Just don't eat any cupcakes before then!"
-    n "Anyway, later!"
+
+    n 2bq "À, ừm..."
+
+    n "Tớ sẽ lại gặp cậu vào lễ hội ngày mai mà, không sao đâu."
+
+    n 2bb "Đừng có mà ăn vụng bánh nướng đấy nhé!"
+
+    n "Hẹn gặp lại cậu sau!"
     show natsuki at lhide
     hide natsuki
-    "Clearly flustered, Natsuki hurries off, and Sayori waves goodbye."
+
+    "Natsuki bối rối chạy thật nhanh đi trong khi Sayori đứng sau vẫy tay chào tạm biệt."
     return
 
 label ch4_exclusive_yuri:
     play music t6 fadeout 2.0
     scene bg house with wipeleft_scene
-    "As I approach my house, I see something that makes me feel a moment of panic."
+
+    "Ngay khi vừa bước đến cửa nhà thì tôi đã phải giật mình vì một chuyện không lường trước."
     mc "Yuri--?"
     show yuri 2bq zorder 2 at t11
     y "Ah..."
-    y "Thank goodness..."
-    mc "You're a little early..."
-    mc "I'm sorry I wasn't home yet!"
-    mc "Were you waiting for a long time?"
-    y 1bf "No, I just got here."
-    y 1bh "But I started to get really nervous when nobody answered the doorbell..."
-    mc "You always could have texted me."
-    mc "If I had known, I would have reassured you and hurried more on my way home."
-    y 2bv "Ah...I suppose that's true..."
-    y "I didn't think of that...for some reason."
-    "It should be common sense to do that, but I decide to ignore it."
-    mc "Anyway...let's go inside."
-    mc "I see you brought a lot of stuff with you."
-    y 1ba "That's right."
-    y "And did you manage to find everything I asked you to buy as well?"
-    mc "Yeah, pretty much."
-    mc "At least, I hope I got everything right."
-    y "I'm sure it will be fine."
+
+    y "Ơn trời..."
+
+    mc "Cậu đến....hơi sớm quá nhỉ..."
+
+    mc "Mình xin lỗi, mình có việc phải ra ngoài!"
+
+    mc "Bắt cậu đợi ở ngoài thế này. Cậu đến đã lâu chưa?"
+
+    y 1bf "Không sao đâu, mình chỉ vừa mới đến thôi."
+
+    y 1bh "Chỉ là có hơi lo lăng một chút khi bấm chuông mà không thấy ai mở cửa..."
+
+    mc "Cậu có thể nhắn tin cho tớ mà."
+
+    mc "Nếu biết vậy thì tớ đã chạy về nhà thật nhanh rồi."
+
+    y 2bv "Ah...ừ nhỉ..."
+
+    y "Mình lỡ quên mất nó...vì một vài lí do."
+
+    "Sao cậu ấy lại quên cái điều hiển nhiên vậy chứ, nhưng mà kệ đi, tôi quyết định không hỏi."
+
+    mc "Chúng ta mau...vào trong đi."
+
+    mc "Cậu mang nhiều đồ thế?"
+
+    y 1ba "Ừm, cần nhiều mà."
+
+    y "Cậu có tìm mua đủ những thứ những mình bảo không?"
+
+    mc "Hy vọng là đủ rồi."
+
+    mc "Có nhiều đồ cần mua quá nên tớ cũng không chắc lắm."
+
+    y "Mình nghĩ là sẽ ổn thôi, nếu thiếu thì chúng ta tìm cách xoay sở."
     scene bg bedroom with wipeleft
-    "I take Yuri to my room."
-    "The first thing she does is glance around curiously, which makes me feel anxious."
+
+    "Tôi dẫn Yuri lên phòng mình."
+
+    "Ánh mắt tò mò của cậu ấy nhìn ngắm khắp căn phòng khiến tôi thấy hơi căng thẳng."
     show yuri 2bm zorder 2 at t11
-    y "It's so clean..."
+
+    y "Phòng cậu sạch sẽ quá..."
     mc "Ahaha..."
-    mc "I cleaned it before you came over, so..."
-    y 2ba "That's very considerate of you to do."
-    mc "Ah, no..."
-    mc "I would be really embarrassed for my room to be a mess while you were here."
+
+    mc "Tớ đã dọn dẹp trước khi cậu đến đây mà..."
+
+    y 2ba "Cậu chu đáo thật đấy."
+
+    mc "Ah, không có gì..."
+
+    mc "Sẽ rất là đáng xấu hổ nếu cậu đến đây mà thấy phòng của tớ như bãi chiến trường."
     y 1ba "Hmm..."
-    y "Well, I do enjoy cleaning..."
-    y "I would have gladly helped you clean."
+
+    y "Ừm, mình rất thích dọn dẹp mà..."
+
+    y "Mình sẽ sẵn lòng giúp cậu dọn nếu trường hợp kia xảy ra."
     mc "Ah--"
-    mc "That would be even more embarrassing!"
+
+    mc "Như vậy tớ còn thấy xấu hổ hơn!"
     show yuri 1be
-    mc "Wait, don't look in there--!"
-    "I snatch Yuri's wrist, which was in the process of opening a desk drawer of mine."
-    y 3bn "A-Ah..."
-    y "I'm sorry...!"
-    y 4bb "I wasn't thinking for some reason..."
-    y "I was just spacing out!"
-    mc "It's fine, it's fine..."
-    "I let go of Yuri's wrist."
+
+    mc "Khoan đã, đừng mở nó--!"
+
+    "Tôi nhanh chóng giữ được cổ tay của Yuri trước khi cậu ấy kịp mở ngăn kéo bàn học của tôi."
+
+
+    y "Mình xin lỗi...!"
+
+    y 4bb "Mình không nghĩ trước khi làm..."
+
+    y "Mình hay lơ đãng như vậy!"
+
+    mc "Không, không sao đâu..."
+
+    "Tôi buông tay Yuri ra."
     show yuri 1bl
-    "She puts both of her hands firmly in her lap, as if making sure she's keeping track of them."
-    mc "So, um..."
-    mc "Should we...get started?"
+
+    "Cậu ấy đặt hai tay lên đùi, như thể đang cố kiềm chế bản thân để tránh làm tôi phật lòng."
+
+    mc "Vậy, ừm..."
+
+    mc "Chúng ta...vào việc thôi nhỉ?"
     y 2bu "Ah..."
-    y "Yes..."
-    y 2bf "Um, I have a few things planned that you can help with..."
-    y "Decorations and other atmospheric enhancements."
-    mc "Atmospheric enhancements...?"
-    y 1ba "You know..."
-    y "Mood lighting, aromatherapy candles..."
-    mc "Oh, wow."
-    mc "I didn't know you planned on taking it that far."
-    y 1bc "Of course."
-    y "I want to help take our guests to a faraway place."
-    y 1ba "Although many will stop by just out of curiosity..."
-    y 1bj "And for...cupcakes, I guess..."
-    y 1ba "I'm determined to provide an experience that will leave them wanting more."
-    mc "That's great."
-    mc "It's easy to forget that you're a pretty intense person."
+
+    y "Phải rồi..."
+
+    y 2bf "Um, mình đã chuẩn bị vài thứ để cậu có thể làm..."
+
+    y "Đồ trang trí và mấy thứ khác để tạo không khí."
+
+    mc "Tạo không khí...?"
+
+    y 1ba "Cậu biết đấy..."
+
+    y "Đèn mờ, nến thơm..."
+
+    mc "À, là mấy cái đó."
+
+    mc "Tớ không ngờ cậu chuẩn bị kĩ càng đến vậy."
+
+    y 1bc "Tất nhiên rồi."
+
+    y "Mình muốn những vị khách đặt chân vào cậu lạc bộ chúng ta sẽ có cảm giác như sang thế giới khác luôn."
+
+    y 1ba "Chắc là nhiều người sẽ vào chỉ vì tò mò..."
+
+    y 1bj "Và vì cả...bánh nướng nữa, mình nghĩ vậy..."
+
+    y 1ba "Nhưng mình vẫn muốn cho họ những trải nghiệm tuyệt vời khiến họ muốn ở lại lâu hơn."
+
+    mc "Nghe thật tuyệt vời."
+
+    mc "Thi thoảng tớ quên mất rằng cậu là người rất mãnh liệt."
     y 1bt "Ah--"
-    y 2bt "Intense...?"
-    mc "I guess that's the best way to put it."
-    y "Is that...a bad thing?"
-    mc "No, not at all."
-    mc "It's something that I like about you, actually."
-    y 3bu "I-Is that so...?"
-    y "That makes me feel relieved..."
-    y "And kind of happy..."
-    mc "Yeah, no need to be so anxious."
-    mc "You can relax a little."
-    y 3bl "Relax..."
-    y 1bf "I brought some things for relaxation."
-    y "I was going to use them during the poetry event..."
-    mc "Oh yeah? Like what?"
-    y "Let's see..."
-    "Yuri rummages through her bag."
-    "She pulls out a few candles and a wooden cylinder-shaped object."
-    y "I did some shopping on the way here, so I happen to have these in my bag."
-    y "I planned to cover the windows in black paper and use the candles to light the room."
-    y 1ba "I think that would be amazing, don't you?"
-    mc "Yeah, that would be really neat."
-    mc "What's that wooden thing, though?"
-    y 1bf "Oh, this?"
-    y "It's a diffuser for essential oils."
-    y "How familiar are you with aromatherapy?"
-    mc "Not familiar at all..."
-    y 1ba "Ah, is that so?"
-    y "It's one of my favorite contributors to a positive atmosphere."
-    y "Depending on the oils or herbs you choose, you can change the mood of the air itself."
-    y "You can even feel it permeate through your body."
-    y 3bm "Relaxation, positive energy, romance, reflection..."
-    y "It's almost like magic."
+
+    y 2bt "Mãnh liệt...?"
+
+    mc "Tớ nghĩ rằng từ đấy rất hợp miêu tả cậu."
+
+    y "Nghe có vẻ...xấu?"
+
+    mc "Không, không phải thế."
+
+    mc "Đó thực sự là điều mà tớ thích ở cậu."
+
+    y 3bu "C-Có thật thế không..."
+
+    y "Nghe cậu nói vậy làm mình thấy nhẹ nhõm lắm..."
+
+    y "Và có chút hạnh phúc nữa..."
+
+    mc "Ừm, cậu không cần phải quá lo lắng đâu."
+
+    mc "Cứ thư giãn như đang ở chính nhà mình thôi."
+
+    y 3bl "Thư giãn..."
+
+    y 1bf "Mình có mua một vài thứ để giúp mọi người thư giãn đấy."
+
+    y "Mình định dùng chúng để hỗ trợ giúp cho việc ngâm thơ đỡ căng thẳng..."
+
+    mc "Vậy sao? Nó là gì vậy?"
+
+    y "Để mình xem nào..."
+
+    "Yuri lục trong túi của cậu ấy."
+
+    "Cậu ấy lấy ra một vài cây nến và một vật gì đó hình trụ được làm bằng gỗ."
+
+    y "Tiện đường mình đến đây mình có ghé qua cửa hàng để mua mấy thứ này."
+
+    y "Mình dự định bọc cửa sổ lại bằng giấy đen để chỉ có ánh sáng của nến có thể thắp sáng căn phòng."
+
+    y 1ba "Cậu thấy thế có hay không?"
+
+    mc "Ừm, tớ cũng nghĩ nó khá tuyệt đó."
+
+    mc "Vậy còn vật làm bằng gỗ kia để làm gì?"
+
+    y 1bf "Ồ, cái này hả?"
+
+    y "Nó là máy dùng để khuếch tán mùi hương của tinh dầu."
+
+    y "Cậu có biết nhiều về xông hương liệu không?"
+
+    mc "Tớ không rõ lắm..."
+
+    y 1ba "À, vậy sao?"
+
+    y "Đó là một trong những sở thích của mình để góp phần tạo nên bầu không khí."
+
+    y "Tùy theo loại dầu hoặc thảo dược mà cậu chọn, cậu có thể thay đổi không khí căn phòng."
+
+    y "Cậu còn có thể cảm thấy như nó thấm qua cơ thể của mình vậy."
+
+    y 3bm "Thư giãn, năng lượng tích cực, lãng mạn, sự phản chiếu..."
+
+    y "Tất cả cứ như ma thuật vậy."
     show yuri 3ba
-    "Yuri takes the cylinder and pushes a switch on the bottom."
-    "In just a moment, a thin ray of vapor begins to spout through a small hole on the top."
-    mc "Wow, that smells wonderful."
-    mc "What kind of mood is that one for?"
-    y 1ba "This is a Jasmine essential oil."
-    y "It smells a little sweet and flowery, right?"
-    mc "Yeah, that's a good way to describe it."
-    y 1bb "I chose Jasmine for the event because it provides more than relaxation."
-    y "Jasmine enhances your emotions and helps you feel them flow through your body."
-    y 1bu "You feel warmer, and your heart pounds more heavily."
-    y 1ba "Don't you think that will be perfect for sharing our poems?"
-    mc "It does sound suitable..."
-    mc "But you seem to know a lot about this, so I'll trust your opinion with anything."
+
+    "Yuri bấm nút phía bên dưới cái máy hình trụ kia."
+
+    "Trong chớp mắt, một luồng hơi phun qua cái lỗ nhỏ ở phía trên."
+
+    mc "Wow, mùi thơm quá."
+
+    mc "Loại này dùng để tạo không khí gì vậy?"
+
+    y 1ba "Đây là tinh dầu hoa nhài."
+
+    y "Hương thơm thật ngọt ngào và tự nhiên phải không?"
+
+    mc "Ừm, cậu miêu tả mùi hương của nó rất đúng."
+
+    y 1bb "Mình chọn hoa nhài cho sự kiện lần này bởi nó có thể khiến cho ta có cảm giác thật dễ chịu."
+
+    y "Hương hoa nhài sẽ giúp cậu thăng hoa cảm xúc."
+
+    y 1bu "Cơ thể ta sẽ thấy ấm áp hơn, tim đập nhanh hơn."
+
+    y 1ba "Thật là phù hợp cho việc ngâm thơ."
+
+    mc "Nghe cũng có vẻ hợp lý..."
+
+    mc "Có vẻ cậu là chuyên gia trong vụ này rồi vì vậy tớ sẽ tin tưởng giao toàn bộ cho cậu quyết định."
     show yuri 1bc
-    "Yuri smiles gently, clearly enjoying herself."
-    "She again reaches into her bag and pulls out several spools of thin ribbon."
+
+    "Yuri mỉm cười dịu dàng, trông như đang hoàn toàn tận hưởng mùi hương."
+
+    "Cậu ấy lại tiếp tục lấy ra trong cặp một vài tập giấy mỏng."
     show yuri 1ba
-    mc "What are those for?"
-    y 1bf "Well..."
-    y "Did you purchase the origami paper I asked you to get?"
-    mc "Yeah, I have it over here..."
-    y "We won't be using the paper for folding origami."
-    y "What I'd like to do is write a different word on each paper."
-    y "We'll need about a hundred of them."
-    mc "Oh yeah?"
-    mc "What will those be used for?"
-    y 2bf "Well, I'm going to cut pieces of ribbon to hang from the doorway of the classroom."
-    y "Then, we can fasten the paper onto the ribbons to create a doorway curtain."
-    y 2bm "Wouldn't that be beautiful?"
-    y "It would also catch the eye of those passing by the room..."
-    y 2ba "It may attract some to peek inside."
-    mc "That's really creative!"
-    mc "I had no idea you'd be so good at this, Yuri."
-    y 4ba "Is...that so?"
-    y "Well, I suppose I do get a little intense...as you'd put it."
-    y 3bu "Uhuhu."
-    "Yuri giggles with red cheeks."
-    "Is it just me, or is she more relaxed when it's just the two of us?"
-    "Or maybe it's the excitement she feels from sharing something that she enjoys."
-    y 1ba "Here's a marker, [player]."
-    y "You can write any characters you want."
-    y "I'll help you once I finish cutting the ribbons."
-    mc "Ah, alright."
-    "Sitting on the floor together, the two of us get to work."
-    "I carefully draw a different character on each paper, doing my best to manage my bad handwriting."
-    "Yuri unravels a long strand of red ribbon to her desired length."
-    "Then, she reaches into her bag once more and pulls out a pocket knife."
-    mc "Eh...?"
-    "The knife is strangely beautiful."
-    "The silver handle has an intricate pattern of waves etched into it."
-    "The blade itself is gently tinted blue."
-    mc "That's no ordinary pocket knife..."
-    mc "It looks really fancy."
+
+    mc "Chúng để làm gì vậy?"
+
+    y 1bf "À ừm..."
+
+    y "Cậu đã mua loại giấy gấp origami mà mình bảo chưa?"
+
+    mc "Ừ, tớ đã mua nó rồi đây..."
+
+    y "Chúng ta sẽ không dùng chúng để gấp origami."
+
+    y "Mình muốn viết những từ ngữ khác nhau lên trên những mẩu giấy đó."
+
+    y "Chúng ta sẽ cần đến khoảng một trăm mẩu giấy."
+
+    mc "Vậy sao?"
+
+    mc "Thế chúng dùng để làm gì?"
+
+    y 2bf "Mình sẽ cắt và nối chúng thành một dải ruy băng và sau đó treo trên cửa lớp."
+
+    y "Sau đó chúng ta có thể dùng giấy buộc vào dải ruy băng để tạo thành một cái rèm cửa."
+
+    y 2bm "Vậy chẳng phải thật đẹp sao?"
+
+    y "Nó sẽ thu hút được những ánh mắt của những người đi ngang qua..."
+
+    y 2ba "Để họ có hứng thú ghé vào một chút."
+
+    mc "Ý tưởng đó thực sự rất sáng tạo!"
+
+    mc "Cậu thật là tuyệt vời đó Yuri."
+
+    y 4ba "Thật...vậy sao?"
+
+    y "Ừm, mình cứ lo là...mình lại làm mọi thứ hơi bị quá đáng."
+    y 3bu "Fufufu."
+
+    "Yuri cười khúc khích với gò má đỏ ửng."
+
+    "Trông có vẻ cậu ấy thoải mái hơn khi chỉ có hai đứa bọn tôi?"
+
+    "Hay cũng có thể do sự phấn khích khi làm việc mà cậu ấy thích."
+
+    y 1ba "Cậu cầm lấy bút dạ này, [player]."
+
+    y "Hãy cứ viết những gì mà cậu thích."
+
+    y "Mình sẽ giúp cậu ngay sau khi mình cắt xong chỗ ruy băng này."
+
+    mc "Ah, được thôi."
+
+    "Ngồi trên sàn cùng nhau, cả hai đều cố gắng làm việc chăm chỉ."
+
+    "Tôi cẩn thận viết các kí tự lên giấy, tôi phải tỉ mỉ hết sức vì chữ viết của tôi không đẹp cho lắm."
+
+    "Yuri thì đang chia cuộn ruy băng ra từng đoạn nhỏ hơn."
+
+    "Sau đó, cậu ấy lấy từ trong cặp ra một con dao bỏ túi."
+
+    mc "Ồ...?"
+
+    "Con dao đó có một vẻ đẹp thật lạ."
+
+    "Tay cầm bằng bạc với họa tiết lượn sóng được khắc trên đó."
+
+    "Lưỡi dao có màu xanh nhạt."
+
+    mc "Chắc hẳn đó không phải con dao bình thường..."
+
+    mc "Nó trông thật đặc biệt."
     y 4bb "A-Ah..."
-    y "Well..."
-    "Embarrassed, Yuri looks away."
-    mc "What is it?"
-    y "You're going to think it's weird..."
-    mc "Yuri, whatever it is, I have no reason to judge."
-    mc "To each their own, you know?"
-    y "If you promise you won't be weirded out..."
-    mc "Yeah, I promise."
-    y 2bi "Alright..."
-    y "The thing is, I'm kind of into knives..."
-    y "They're just...so pretty..."
-    y 2bv "I-I can't help it!"
-    y "I don't know what it is..."
-    y "The combination of craftsmanship and feeling of danger, maybe..."
-    y 4bb "Uu, what am I saying...?"
-    y "Please don't think I'm weird for this..."
+
+    y "Ừm..."
+
+    "Cảm thấy xấu hổ, Yuri liền nhìn đi chỗ khác."
+
+    mc "Sao vậy?"
+
+    y "Cậu nghĩ nó kì dị à..."
+
+    mc "Yuri, mình đâu có đánh giá gì."
+
+    mc "Mỗi người có một suy nghĩ khác nhau cơ mà?"
+
+    y "Vậy hãy hứa với mình rằng cậu vẫn đối xử với mình như bình thường..."
+
+    mc "Ừm, tớ hứa."
+
+    y 2bi "Vậy thì..."
+
+    y "Chả là, mình khá thích dao..."
+
+    y "Mình bị...thu hút bởi vẻ đẹp của chúng..."
+
+    y 2bv "M-Mình không thể kiềm chế được!"
+
+    y "Mình cũng không rõ nó là tại sao nữa..."
+
+    y "Kết hợp giữa sự nguy hiểm và khéo léo, như vậy đấy..."
+
+    y 4bb "Uu, mình đang nói cái gì thế này...?"
+
+    y "Đừng nghĩ mình là đứa lập dị nhé..."
     mc "Ahaha."
-    y "You're laughing at me..."
-    mc "No, I'm not laughing at you."
-    mc "It's just funny how nervous you got about sharing."
-    mc "It's...well, it's an interesting thing to be into, I guess."
-    mc "But I think it kind of suits you."
-    y 2bt "Suits me...?"
-    mc "Yeah... It's kind of intense. Ahaha."
-    mc "Besides, it's a really cool-looking knife, I can't deny that."
-    y 2bu "It is, isn't it...?"
-    "Yuri relaxes her expression once again."
-    y 1ba "Would you like to hold it?"
-    mc "Sure, I'll check it out."
-    "Yuri carefully hands me the knife, with the handle facing me."
-    "I take it and turn it around in my hands."
-    "It feels heavy, and extremely solid."
-    "Where do you even get a knife like this...?"
-    "Curious of its sharpness, I feel the point of the knife with my index finger."
+
+    y "Cậu đang cười mình đấy kìa..."
+
+    mc "Không, tớ đâu có cười cậu."
+
+    mc "Chỉ là trông cậu khá ngộ khi vừa nói vừa lo lắng như vậy."
+
+    mc "Tớ nghĩ, ừ thì...đó cũng là một sở thích thú vị đấy."
+
+    mc "Và có vẻ nó phù hợp với cậu."
+
+    y 2bt "Phù hợp với mình...?"
+
+    mc "Ừm...trông rất mạnh mẽ đấy. Ahaha."
+
+    mc "Không thể phủ nhận rằng hình dáng con dao này rất là ngầu."
+
+    y 2bu "Thật không...?"
+
+    "Yuri cuối cùng cũng bớt căng thẳng hơn."
+
+    y 1ba "Cậu có muốn cầm thử không?"
+
+    mc "Tất nhiên rồi, đưa tớ xem thử."
+
+    "Yuri cẩn thận đưa cho tôi con dao, chuôi cầm chĩa về hướng tôi."
+
+    "Tôi cầm lấy và ngắm nhìn con dao trên tay mình."
+
+    "Con dao có vẻ nặng và cực kỳ chắc chắn."
+
+    "Cậu mua ở đâu được con dao như này vậy...?"
+
+    "Tò mò muốn biết độ sắc của nó như nào, tôi đã thử đưa ngón tay lên mũi dao."
     mc "Ow--!"
     y 3bn "[player]--!!"
-    y "Why did you do that?!"
-    mc "I didn't expect it to be that sharp...!"
-    mc "I barely touched it at all."
-    y "I-It's my fault!"
-    y 3bo "I should have warned you..."
-    y "This knife is extremely sharp..."
-    y "It can cut through skin like it's paper."
-    y 2bv "Oh no..."
-    "A small drop of blood trickles down the side of my finger."
-    "Yuri takes my hand and gives the wound a closer look."
+
+    y "Sao cậu lại làm thế?!"
+
+    mc "Tớ không ngờ nó lại sắc như vậy...!"
+
+    mc "Tớ còn gần như là chưa chạm tới nó."
+
+    y "L-Là lỗi của mình!"
+
+    y 3bo "Mình nên cảnh báo với cậu trước..."
+
+    y "Rằng con dao này cực kỳ sắc..."
+
+    y "Nó có thể cắt da thịt như cắt giấy vậy."
+
+    y 2bv "Ôi trời ạ..."
+
+    "Một giọt máu chảy ra từ đầu ngón tay tôi."
+
+    "Yuri cầm lấy tay tôi và nhìn kĩ vết thương."
     y 2bt "Ah..."
-    "She stares at it and noticeably fidgets."
-    mc "If you're squeamish, I'll go wash it off now--"
+
+    "Cậu ấy nhìn nó chằm chằm, vẻ mặt hơi khó chịu."
+
+    mc "Không có gì nghiêm trọng đâu mà, tớ sẽ đi rửa ngay bây giờ--"
     mc "A-Ah!"
-    "Without warning, Yuri puts my finger in her mouth and licks the wound."
-    "I feel her tongue curl around my finger."
-    "Startled, I instinctively pull my hand back."
+
+    "Yuri bất ngờ đưa ngon tay tôi vào miệng cậu ấy và liếm vết thương."
+
+    "Tôi có thể cảm thấy lưỡi của cậu ấy cuộn quanh ngón tay tôi."
+
+    "Giật mình, tôi rút lại ngón tay của mình."
     y "O-Oh..."
-    y 3bo "P-Please forgive me!"
-    y "I wasn't thinking!"
-    y 4bc "I..."
-    "Yuri lowers her head, her face burning up."
+
+    y 3bo "X-Xin lỗi!"
+
+    y "Mình lại làm mà không suy nghĩ!"
+
+    y 4bc "Mình..."
+
+    "Yuri cúi mặt xuống, mặt cậu ấy đỏ bừng lên."
     mc "Yuri..."
-    y "That's the most embarrassing thing I've ever done..."
-    y "How could I do something like that??"
-    y "I'm sorry, I'm sorry..."
+
+    y "Đó là việc đáng xấu hổ nhất mà mình từng làm..."
+
+    y "Sao mình có thể làm việc như vậy chứ??"
+
+    y "Mình xin lỗi, mình xin lỗi..."
     mc "Ah..."
-    "Sure, it was a little weird, and it took me by surprise..."
-    "But I guess she was just trying to help, right...?"
-    mc "Yuri, I think you're overreacting a little..."
+
+    "Hành động đó có chút kì lạ và làm tôi khá bất ngờ..."
+
+    "Nhưng chắc rằng cậu ấy chỉ đang muốn cố gắng giúp đỡ tôi thôi nhỉ...?"
+
+    mc "Yuri, tớ nghĩ cậu không cần phản ứng thái quá thế đâu..."
     y "Uuuh..."
-    "She doesn't lift her head."
-    "What if she doesn't recover from this for the rest of the afternoon?"
-    mc "Alright, you know what..."
-    "This might be a stupid thing to do, but I do it anyway."
-    "I take Yuri's hand and lick her index finger in return."
+
+    "Cậu ấy vẫn không chịu ngẩng đầu lên."
+
+    "Nếu cậu ấy mà cứ thế này mãi thì sao xong việc trong chiều nay được?"
+
+    mc "Thôi nào ổn rồi mà..."
+
+    "Chắc đây là việc cực kì ngu ngốc nhưng dù sao tôi cũng phải làm thôi."
+
+    "Tôi cầm tay Yuri lên và liếm ngón trỏ của cậu ấy."
     show yuri 3bn at h11
     y "[player]--!!"
-    y "D-Did you really just do that?"
-    mc "N-Now we're even..."
+
+    y "C-Cậu vừa....?"
+
+    mc "G-Giờ thì hòa rồi nhé..."
     y 3bv "..."
-    "Yuri just looks at me like I did something wrong."
+
+    "Yuri nhìn tôi với vẻ mặt hơi nghiêm trọng."
     mc "Ahaha..."
-    mc "I knew that would be a bad idea..."
-    "If not for the sweet aroma of the Jasmine oil, the air would be extremely heavy right now."
-    y 1bu "You're so weird, [player]."
-    "Yuri giggles shyly."
-    mc "Eh...?"
-    "Yuri calling {i}me{/i} weird?"
-    "I have no response to that..."
-    y 1bf "Where do you keep your bandages?"
-    mc "Ah..."
-    mc "I don't think I need one, actually."
-    mc "It was a tiny cut."
-    mc "Look, it already stopped bleeding."
-    y 1ba "I see..."
-    y "That's relieving."
-    "The tension is quickly lifted."
-    "We each resume our respective activities."
-    "I watch Yuri's knife cut through the ribbon like it's nothing but air."
-    "Meanwhile, I continue to make progress on the paper."
+
+    mc "Đó đúng là ý tưởng tồi tệ mà..."
+
+    "Nếu không có hương thơm ngọt ngào từ tinh dầu hoa nhài thì chắc hẳn bầu không khí hiện giờ sẽ căng lắm."
+
+    y 1bu "Cậu kì quặc thật đấy, [player]."
+
+    "Yuri cười tủm tỉm."
+
+    mc "Hử...?"
+
+    "Yuri bảo {i}mình{/i} kì lạ sao?"
+
+    "Tôi không thể đưa ra lời biện hộ nào cho bản thân sau hành động vừa rồi..."
+
+    y 1bf "Cậu để băng gạc ở đâu nhỉ?"
+
+    mc "À..."
+
+    mc "Tớ nghĩ là không cần dùng tới nó đâu."
+
+    mc "Chỉ là một vết cắt nhỏ thôi mà."
+
+    mc "Nhìn này, máu cũng đông lại rồi mà."
+
+    y 1ba "Ừm..."
+
+    y "Thật là nhẹ nhõm."
+
+    "Có vẻ sự căng thẳng đang dần tan biến."
+
+    "Chúng tôi lại tiếp tục quay trở lại công việc."
+
+    "Tôi xem Yuri dùng con dao cắt những dải ruy băng như cắt không khí vậy."
+
+    "Tôi lại tiếp tục loay hoay với đống giấy."
 
     scene bg bedroom with wipeleft_scene
-    "After we finish attaching the paper to the ribbons, we lay them all out side by side."
-    "It looks better than I expected and will be very effective as a door curtain."
-    mc "It looks great."
-    mc "Good thinking coming up with this, Yuri."
+
+    "Sau khi gắn giấy với ruy băng xong xuôi, hai đứa đặt tất cả ở cạnh nhau."
+
+    "Nó đẹp hơn cả tôi mong đợi, dùng làm rèm cửa đúng là rất được."
+
+    mc "Trông thật tuyệt."
+
+    mc "Cậu quả là sáng suốt khi nghĩ ra ý tưởng tuyệt vời này, Yuri."
     show yuri 1bq zorder 2 at t11
-    y "Ah, thanks..."
-    y "It's just something I saw online, really."
-    y 1ba "Are you ready to move onto the next task?"
-    mc "Yeah, let's do it."
-    mc "What do you have in mind?"
-    y "I'd like to create a banner."
-    y "That's why I asked you to buy the paint tablets."
-    mc "Ah, that's right."
-    "One of the items Yuri had asked me to buy was a kit of watercolor paint tablets."
-    y 1bf "We'll need about six cups of water to put each of the tablets in."
-    y "Do you mind fetching those for us?"
-    mc "Of course not."
-    mc "Six cups of water..."
-    mc "I'll be right back in a minute."
-    y 1ba "Thank you very much."
-    y 2bf "Oh, and just a little bit of water is okay."
-    y "If you fill the cups too much, it will be too diluted."
+
+    y "Ah, cảm ơn cậu..."
+
+    y "Chỉ là mấy thứ mình học trên mạng thôi, không phải gì to tát đâu mà."
+
+    y 1ba "Chúng ta bắt tay vào việc tiếp nhé?"
+
+    mc "Ừm, cùng làm thôi nào."
+
+    mc "Cậu đã nghĩ được gì chưa?"
+
+    y "Mình định sẽ làm một biểu ngữ."
+
+    y "Vì thế nên mình mới bảo cậu mua bảng màu vẽ."
+
+    mc "À, đúng rồi."
+
+    "Một trong những món đồ mà Yuri đã yêu cầu tôi mua đó là bộ vẽ màu nước."
+
+    y 1bf "Chúng ta sẽ cần sáu ly nước để chuẩn bị màu vẽ."
+
+    y "Cậu chuẩn bị giúp mình nhé?"
+
+    mc "Có ngay đây."
+
+    mc "Sáu ly nước..."
+
+    mc "Tớ sẽ quay lại ngay, chỉ mất 1 phút thôi."
+
+    y 1ba "Cảm ơn cậu."
+
+    y 2bf "À mà chỉ cần một chút nước là được rồi nhé."
+
+    y "Nếu cậu đổ nhiều quá, màu sẽ bị loãng đấy."
 
     scene bg bedroom with wipeleft_scene
-    "Taking Yuri's advice, I decide to use small plastic bathroom cups rather than full-sized glasses."
-    "I put them on a plate to catch any paint that drips, then bring it back into my room."
+
+    "Nghe lời Yuri, tôi sử dụng loại cốc nhỏ bằng nhựa thay vì dùng hẳn cốc to."
+
+    "Tôi để chúng lên đĩa để tránh làm rớt màu ra ngoài, rồi mang chúng quay trở lại phòng."
     mc "Yuri?"
     show yuri 1bd zorder 2 at t11
-    y "Yes?"
-    "I come in to see Yuri quickly unrolling her sleeve, pulling it back over her arm."
-    mc "Ah, nothing..."
-    mc "Your face is a little red."
-    mc "Is it too hot in here, or anything?"
+
+    y "Ơi?"
+
+    "Tôi vào trong phòng đúng lúc nhìn thấy Yuri đang sắn tay áo lên."
+
+    mc "À, không có gì đâu..."
+
+    mc "Mặt cậu có vẻ hơi đỏ nhỉ?"
+
+    mc "Chắc tại trong phòng nóng quá hả?"
     y 3bq "Ah--"
-    y "No, not at all!"
-    y "There's nothing wrong, so..."
-    y "Let's mix the paint."
-    "Yuri hurriedly dismisses me and takes it upon herself to unwrap the tablets, dropping them into the cups."
-    y 1ba "So..."
-    y "I thought we would do something simple that would look very nice."
-    y "I'd like to paint a gradient across the banner..."
-    y "Starting with the colors for a sunrise, then daytime, then sunset and nighttime."
-    y "Once it dries, I'll write an inspirational quote across the banner."
-    y "We can hang it on the wall behind the podium at the front of the classroom."
-    mc "Ah, neat."
-    mc "What are you going to write?"
-    y 2bm "Well..."
-    y "...It will be more fun to surprise you."
-    "Yuri smiles at me."
-    mc "If you say so..."
+
+    y "Không, không phải thế!"
+
+    y "Không sao cả đâu, nên..."
+
+    y "Chúng ta cùng trộn màu đi."
+
+    "Yuri cắt đứt cuộc hội thoại để đi bóc vỏ những viên màu, rồi thả chúng vào trong mấy cái ly."
+
+    y 1ba "Vậy..."
+
+    y "Mình nghĩ chúng ta lên làm gì đó trông đơn giản nhưng đẹp."
+
+    y "Mình muốn tô nền cả tấm biểu ngữ này..."
+
+    y "Đoạn đầu sẽ dùng màu bình minh, kế đó là ban ngày, tiếp đến là hoàng hôn và cuối cùng là đêm."
+
+    y "Sau khi màu khô, mình sẽ viết một vài lời trích dẫn giúp tạo cảm hứng lên biểu ngữ."
+
+    y "Chúng ta có thể treo nó trên bức tường phía sau bục giảng của phòng học."
+
+    mc "Ah, nghe ổn đấy."
+
+    mc "Cậu định sẽ viết gì?"
+
+    y 2bm "Ừm..."
+
+    y "...Mình sẽ không nói trước để giữ sự bất ngờ."
+
+    "Yuri mỉm cười với tôi."
+
+    mc "Nếu cậu đã nói vậy..."
     show yuri zorder 1 at thide
     hide yuri
-    "After rolling out the banner, Yuri and I kneel on opposite sides so we don't get in the way of each other."
-    "Yuri uses a brush and adds a few dots of different colors across the banner to serve as a color guide when we paint."
-    mc "This kind of reminds me of elementary school..."
-    "Painting on a banner with watercolors feels a lot like the art class projects we had back then."
-    "It's relaxing."
+
+    "Sau khi trải tấm biểu ngữ ra, Yuri và tôi quỳ xuống ở hướng đối diện nhau để không làm cản trở công việc của người kia."
+
+    "Yuri sử dụng một cây cọ và chấm một vài chấm màu khác nhau trên tấm biểu ngữ để đánh dấu chỗ cần tô màu trước khi bắt đầu tô."
+
+    mc "Làm tớ nhớ lại hồi tiểu học quá đi..."
+
+    "Vẽ biểu ngữ với màu nước làm tôi cảm thấy rất giống mấy bài tập mĩ thuật hồi xưa."
+
+    "Quả thật là thoải mái."
     show yuri 2bt zorder 2 at t11
-    y "Ah..."
-    y "I'm sorry if this feels too childish...!"
-    mc "No, I didn't mean that at all."
-    mc "It's kind of fun, you know?"
-    y 1bs "...Yeah."
-    y "It is fun."
-    y "I'm glad you feel that way, too."
-    "Yuri stops painting for a moment, thinking to herself."
-    y 2bl "For me..."
-    y "I don't need to go out and do crazy things to have fun."
-    y "In fact, I usually don't even want to."
-    y 2bf "I just like when I can spend time with one other person..."
-    y "Even if it's something simple, like reading - it doesn't even matter if we don't talk much."
-    y 2ba "Just having a friend next to me makes things feel a little bit nicer."
-    y "I think that's all it takes for me to be happy."
-    mc "Is that so...?"
-    "Even if Yuri and I are quite different, I can understand where she's coming from."
-    "I feel that way about things like anime and games, where simply sharing the experience with someone can make me happy."
-    mc "I think I feel the same way."
-    "Yuri smiles gently."
-    y 1bm "I knew you'd understand..."
-    "Yuri leans over the banner to grab an unused paintbrush."
-    "But I move at the same time, causing my head to bump into hers."
+    y "A..."
+
+    y "Mình xin lỗi nếu cậu cảm thấy việc này quá trẻ con nhé...!"
+
+    mc "Không, ý tớ không phải vậy."
+
+    mc "Tớ thấy nó vui mà, kiểu vậy."
+
+    y 1bs "...Ừm."
+
+    y "Đúng là vui thật."
+
+    y "Mình rất vui khi cậu cũng cảm thấy thế."
+
+    "Yuri dừng vẽ lại một lúc, như đang suy ngẫm về chuyện nào đó."
+
+    y 2bl "Đối với mình..."
+
+    y "Mình không thích ra ngoài và làm những điều điên khùng để có thể vui vẻ."
+
+    y "Không thích một tí nào cả."
+
+    y 2bf "Mình chỉ thích những lúc mà mình có thể dành thời gian bên ai đó..."
+
+    y "Mặc dù chúng chỉ là việc gì đó nhỏ nhặt, như đọc sách vậy - không cần phải nói chuyện nhiều."
+
+    y 2ba "Chỉ cần có một người bạn luôn bên mình là đủ khiến cho mọi thứ trở nên tốt đẹp hơn."
+
+    y "Mình nghĩ chỉ cần thế là đủ để mình hạnh phúc rồi."
+
+    mc "Thật vậy sao...?"
+
+    "Mặc dù Yuri và tôi khá là khác nhau, nhưng tôi có thể hiểu được cậu ấy đang nghĩ những gì."
+
+    "Tôi cũng chung suy nghĩ như vậy khi nói về anime và game, đơn giản là có người để xem hay chơi cùng là hạnh phúc rồi."
+
+    mc "Cậu giống tớ thật đấy."
+
+    "Yuri cười nhẹ nhàng."
+
+    y 1bm "Mình biết là cậu sẽ hiểu mà..."
+
+    "Yuri nghiêng mình qua tấm biểu ngữ để lấy một cây cọ chưa được sử dụng."
+
+    "Nhưng đúng lúc tôi cũng định làm thế, vậy là đầu chúng tôi vô tình va vào nhau."
     y 3bn "Kya--!"
-    mc "S-Sorry!"
-    "Yuri reels back, and I quickly lift my hands in surprise."
-    mc "Are you hurt?"
-    y 2bv "N-No, I'm not hurt."
-    y "It just startled me...that's all."
-    y "Sorry, I should have asked you to get it for me..."
-    mc "It's not your fault."
-    mc "Ah, your face..."
-    "There are droplets of paint on Yuri's face and neck."
-    y 2bt "Is there something on my face?"
-    mc "Yeah, I accidentally got paint on you..."
-    mc "Sorry, it's totally my fault!"
-    mc "I'll get a towel right away."
+
+    mc "T-Tớ xin lỗi!"
+
+    "Yuri co người lại, tôi thì nhanh chóng đưa tay lên."
+
+    mc "Cậu có đau không?"
+
+    y 2bv "K-Không, mình không sao."
+
+    y "Chỉ hơi giật mình một chút thôi... Không có gì đâu."
+
+    y "Xin lỗi, đáng lẽ ra mình nên nhờ cậu lấy nó hộ mình..."
+
+    mc "Không phải lỗi của cậu mà."
+
+    mc "A... Mặt cậu..."
+
+    "Có vài giọt màu trên mặt và cổ của Yuri."
+
+    y 2bt "Có gì đó trên mặt mình sao?"
+
+    mc "Ừm, lỡ để màu bắn lên cậu rồi..."
+
+    mc "Xin lỗi, là tại của tớ!"
+
+    mc "Mình sẽ đi lấy khăn ngay."
     show yuri zorder 1 at thide
     hide yuri
-    "I rush out and fetch a small towel, then I dampen it with hot water."
-    "I return to my room and kneel back down in front of her."
+
+    "Tôi vội vã lấy ra một chiếc khăn nhỏ, sau đó làm ẩm nó với nước nóng."
+
+    "Tôi trở lại phòng và quỳ xuống trước mặt cậu ấy."
     $ persistent.clear[5] = True
     scene y_cg3_base with dissolve_cg
-    mc "Here..."
-    "I pat down Yuri's face and neck with the towel."
+
+    mc "Đây..."
+
+    "Tôi dùng khăn lau nhẹ mặt và cổ của Yuri."
     show y_cg3_exp1 at cgfade
     y "Ah--"
-    mc "Is something wrong?"
-    y "It's hot...I just didn't expect it."
-    mc "Sorry..."
-    mc "I didn't want to use cold water."
-    "Having finished, I start to retract my hand."
-    "But Yuri suddenly holds my wrist."
+
+    mc "Có chuyện gì vậy?"
+
+    y "Hơi nóng quá ấy mà."
+
+    mc "Xin lỗi..."
+
+    mc "Tớ không muốn dùng nước lạnh."
+
+    "Sau khi lau xong, tôi rút tay mình lại."
+
+    "Nhưng Yuri đột nhiên giữ cỗ tay tôi lại."
     hide y_cg3_exp1
-    y "Wait--"
-    mc "Eh?"
+
+    y "Chờ đã--"
+
+    mc "Ế?"
     show y_cg3_exp1 at cgfade
-    y "Just...for a little longer."
-    y "It feels really nice..."
-    mc "Ah..."
-    "I keep my hand still against Yuri's neck."
+
+    y "Chỉ...một chút nữa được không."
+
+    y "Cảm giác đó thật tuyệt..."
+    mc "A..."
+
+    "Tay tôi vẫn đang ở cạnh cổ Yuri."
     hide y_cg3_exp1
-    "She looks into my eyes."
-    "It's an intense expression that I recognize from when she reads her books..."
-    "Almost as if she's lost in a daze, enveloped by her own thoughts."
-    "She breathes gently, half through slightly-parted lips."
-    "What is happening...?"
-    "Is it the aroma of the Jasmine oil giving me this dizzy feeling?"
-    "Yuri's gentle fingers, wrapped around my wrist, send a tingling sensation through my arm."
-    "And suddenly, her face seems to be much closer to mine than it was just a moment ago..."
+
+    "Cậu ấy nhìn thẳng vào mắt tôi."
+
+    "Biểu cảm mạnh mẽ giống y như lúc tôi chứng kiến Yuri đọc sách."
+
+    "Gần như thể cậu ấy thoát ly khỏi thực tại, đắm chìm trong cảm xúc."
+
+    "Đôi môi kia hơi khẽ mở, tôi cảm nhận được hơi thở nhẹ nhàng."
+
+    "Chuyện gì đang diễn ra vậy...?"
+
+    "Có phải cảm giác chóng mặt này là tại hương thơm của dầu hoa Nhài không nhỉ?"
+
+    "Những ngón tay của Yuri nhẹ nhàng cuộn quanh cổ tay tôi, cảm giác rạo rực truyền thẳng lên cả cánh tay."
+
+    "Và đột ngột, mặt của cả hai hình như đang tiến sát lại gần nhau..."
     y "Ah..."
-    "Yuri slowly pulls away."
-    y "Sorry..."
-    y "I've been feeling a little light-headed today."
-    y "I didn't mean to space out..."
-    mc "I-It's fine..."
+
+    "Yuri từ từ lùi xa dần ra."
+
+    y "Xin lỗi..."
+
+    y "Chắc là hôm nay mình hơi mệt."
+
+    y "Mình không cố ý tỏ ra lơ đễnh đâu..."
+
+    mc "K-Không sao đâu mà..."
     scene bedroom with dissolve_cg
-    "The moment is over as soon as it began."
-    "Yuri picks up her brush again."
-    "But her movements seem clumsier, like she's unable to focus."
-    "I remain silent, forced to ignore the event that just transpired."
-    "I hesitantly retrieve my own brush and continue following Yuri's example."
+
+    "Khoảnh khắc đó kết thúc nhanh như khi nó bắt đầu vậy."
+
+    "Yuri lại nhặt chiếc cọ vẽ lên."
+
+    "Nhưng cử động của cậu ấy có phần hơi vụng về, như thể đang không tập trung vậy."
+
+    "Tôi vẫn im lặng, buộc phải hành xử như chưa có chuyện gì xảy ra."
+
+    "Tôi nhặt lấy cây cọ của mình và tiếp tục làm theo Yuri."
 
     scene bedroom with wipeleft_scene
-    mc "That should do it..."
-    "I finish filling the night sky with white dots that looks like stars."
-    "Looking at the banner as a whole, it's very pretty and natural-looking."
+
+    mc "Vậy là xong rồi..."
+
+    "Tôi đã hoàn thành bầu trời đêm với những đốm trắng là những ngôi sao sáng."
+
+    "Nhìn tổng thể tấm biểu ngữ, trông nó thật đẹp và toát lên vẻ tự nhiên."
     show yuri 1ba zorder 2 at t11
-    y "I think it came out better than I expected."
-    y "I'm really happy with the results."
-    mc "Yeah, me too."
-    mc "Are you going to add the lettering now?"
-    y 1bf "Ah, not yet..."
-    y "It needs to dry first."
-    mc "That's true, but won't that take a while?"
-    y 2bh "Well..."
-    y "Perhaps it would be best to leave it here, then have you bring it in the morning."
-    y 2bf "I can do the lettering in the classroom before our event starts."
-    y "Is that okay?"
-    mc "That's totally fine."
-    y 1ba "Wonderful."
-    y "In that case..."
-    y "I don't think there's anything more for us to do here."
-    mc "Phew."
+
+    y "Mình nghĩ là tốt hơn những gì mình mong đợi đấy."
+
+    y "Mình thực sự rất hài lòng với kết quả này."
+
+    mc "Ừm, tớ cũng vậy."
+
+    mc "Bây giờ cậu sẽ viết chữ lên đó à?"
+
+    y 1bf "Ah, chưa đâu..."
+
+    y "Phải đợi màu khô trước đã chứ."
+
+    mc "Ừ nhỉ, có lẽ phải mất một lúc đấy nhỉ."
+
+    y 2bh "Ừm..."
+
+    y "Có lẽ tốt hơn hết là để nó ở đây, sáng mai cậu sẽ đem nó theo."
+
+    y 2bf "Mình có thể hoàn thành việc viết chữ trước khi sự kiện bắt đầu."
+
+    y "Thế có được không?"
+
+    mc "Ổn mà."
+
+    y 1ba "Vậy thì tuyệt vời."
+
+    y "Còn bây giờ thì..."
+
+    y "Mình nghĩ chắc là không còn gì để chúng ta làm nữa rồi."
+
+    mc "Phù."
     y 1bc "Ahaha."
-    y "You say that like you're glad it's over."
-    y 1ba "Was I wrong to assume that you were at least enjoying yourself a little bit?"
-    mc "Ah, no, it's not that."
-    mc "I'm just glad that we managed to get everything done."
-    y 2ba "I see."
-    y "I am, too."
-    y "I was a little concerned about time..."
-    y "I need to start making dinner soon."
-    mc "Ah..."
-    mc "So you don't have any time left?"
-    "I was secretly hoping we would have extra time after finishing the work..."
-    y 2bl "Well..."
+
+    y "Nghe như thể cậu mong nó kết thúc ấy."
+
+    y 1ba "Không biết là cậu có thấy thoải mái khi làm việc không?"
+
+    mc "À, không, không phải vậy."
+
+    mc "Tớ vui vì công việc hoàn thành ổn thoả mà."
+
+    y 2ba "À ra vậy."
+
+    y "Mình cũng thế."
+
+    y "Tại mình có hơi lo lắng về thời gian..."
+
+    y "Mình cần về sớm để chuẩn bị cho bữa tối."
+    mc "À..."
+
+    mc "Vậy cậu phải về bây giờ à?"
+
+    "Tôi đã hy vọng rằng hai đứa có chút thời gian rảnh sau khi xong việc..."
+
+    y 2bl "Ừm..."
     y "..."
-    "Yuri thinks to herself."
-    y 3bv "I-I think it would be too irresponsible of me to wait much longer..."
-    y "I'm sorry!"
-    y "I was hoping there would be more time as well..."
-    mc "It's probably my fault."
-    mc "Sorry for being such a slow worker."
-    y 1bt "No, it's not your fault at all."
-    y "And...the important thing is that we got everything done, right?"
-    mc "Yeah..."
-    y 1bu "So..."
-    y "I shouldn't be disappointed...or anything."
-    "Gathering all her things, Yuri seems to look a little downcast."
-    "I understand why."
-    "It sounded like she rarely gets the opportunity to spend time with friends in a relaxed environment."
-    "But that doesn't mean this is the last time it can happen..."
+
+    "Yuri lại ngẫm nghĩ một lúc."
+
+    y 3bv "M-Mình không thể để mặc công việc ở nhà được..."
+
+    y "Mình xin lỗi!"
+
+    y "Mình ước gì chúng ta có thêm chút thời gian..."
+
+    mc "Đó không phải lỗi của cậu."
+
+    mc "Là do tớ làm chậm quá."
+
+    y 1bt "Không, cậu không phải nhận lỗi đâu."
+
+    y "Quan trọng nhất là...mọi việc đã hoàn thành, phải vậy không?"
+
+    mc "Ừm..."
+
+    y 1bu "Vậy nên..."
+
+    y "Mình không cảm thấy thất vọng...hay gì đâu nhé."
+
+    "Trong khi gói ghém đồ đạc của mình, trông Yuri có vẻ hơi chán nản."
+
+    "Tôi hiểu lí do vì sao."
+
+    "Có vẻ như rất hiếm khi cậu ấy có thời gian thoải mái bên bạn bè."
+
+    "Nhưng đây có phải là lần cuối đâu nào..."
 
     scene bg house with wipeleft_scene
-    "Once Yuri packs up, I walk her out the front door."
+
+    "Thu dọn đồ đạc xong, tôi tiễn cậu ấy ra cửa trước."
     show yuri 1ba zorder 2 at t11
-    y "Thank you very much for having me today."
-    mc "No problem, I'm glad I was able to help."
-    mc "Just let me know if there's anything else you need me to bring tomorrow."
-    y "I will."
-    y 1bu "Well, then..."
-    "Yuri fidgets."
-    y 2bu "I guess...I'll see you tomorrow."
-    mc "Wait--"
+
+    y "Cảm ơn cậu vì đã chấp nhận giúp mình."
+
+    mc "Không có gì, giúp được cậu mình cũng thấy rất vui mà."
+
+    mc "Nếu ngày mai cậu cần tớ mang đến trường cái gì nữa thì cứ bảo nhé."
+
+    y "Mình sẽ nhớ bảo cậu."
+
+    y 1bu "Ừm, vậy..."
+
+    "Yuri trông có vẻ bồn chồn."
+
+    y 2bu "Mình nghĩ là...mình sẽ gặp lại cậu vào ngày mai."
+
+    mc "Khoan đã--"
     show yuri 2bt
-    "I kind of say that without thinking."
-    mc "About today..."
-    mc "It's fine that we didn't have as much time as we wanted."
-    mc "Because we can do this again."
-    mc "Whenever you want, you can come over, or we can go out somewhere--"
-    mc "Ah, I forgot you don't like going out much--"
+
+    "Tôi nói mà không suy nghĩ."
+
+    mc "Về chuyện ngày hôm nay..."
+
+    mc "Cậu đừng bận tâm về chuyện chúng ta không có nhiều thời gian."
+
+    mc "Sẽ còn những dịp khác nữa cơ mà."
+
+    mc "Cậu có thể đến đây bất cứ khi nào cậu muốn, thậm chí chúng ta có thể đi đâu đó--"
+
+    mc "À, mình quên mất là cậu không thích ra ngoài cho lắm--"
     show yuri 2bs
-    "As I stumble over my words, Yuri simply smiles bashfully."
-    mc "Anyway..."
-    mc "You know what I'm trying to say, so..."
-    y 1bs "You're very thoughtful, [player]."
-    "Yuri takes a step closer to me, then briefly squeezes my hand."
+
+    "Khi tôi vẫn còn đang ấp úng, Yuri chỉ mỉm cười bẽn lẽn."
+
+    mc "Cơ mà..."
+
+    mc "Chắc cậu hiểu ý tớ mà, cho nên..."
+
+    y 1bs "Cậu chu đáo thật đấy, [player]."
+
+    "Yuri tiến lại gần và nắm chặt lấy tay tôi."
     show yuri 2bs at face(y=600) with dissolve
     stop music fadeout 2.0
-    y "I kind of like that about you..."
-    mc "Well..."
-    "How am I supposed to respond to that?"
-    "But I don't even get a chance to, as Yuri suddenly pulls back."
+
+    y "Mình rất thích điều đó ở cậu..."
+
+    mc "Ừm..."
+
+    "Tôi phải trả lời thế nào đây?"
+
+    "Khi tôi còn đang bận suy nghĩ thì Yuri đột ngột lùi lại."
     show yuri 3bn zorder 2 at t11
     y "S-Sayori--?"
-    mc "Eh?!"
+    mc "Ế?!"
     show sayori 1bl zorder 3 at f21
     show yuri zorder 2 at t22
     s "Ah..."
-    s "H-Hi, [player]..."
+
+    s "C-Chào cậu, [player]..."
     mc "Sayori--!"
-    mc "Just now, we weren't--"
+
+    mc "Vừa nãy, chúng tớ chỉ--"
     s 1bq "Ehehe~"
-    s "It's okay, [player]."
-    s 1ba "I just stopped by to say hi~"
+
+    s "Không sao đâu, [player]."
+
+    s 1ba "Tớ chỉ định ghé qua chào cậu thôi~"
     show sayori zorder 2 at t21
     show yuri zorder 3 at f22
     y 3bq "U-Um..."
-    y "Well, it's nice to see you..."
-    y 3bv "I'm sorry, but I'm already on my way to leave!"
+
+    y "Ừm, rất vui được gặp cậu..."
+
+    y 3bv "Nhưng tớ xin lỗi, tới lúc tớ phải về mất rồi!"
     show yuri zorder 2 at t22
     show sayori zorder 3 at f21
-    s 1bh "Aw, really?"
-    s "That's too bad..."
+
+    s 1bh "Aw, thật vậy sao?"
+
+    s "Thế thì buồn nhỉ..."
     show sayori zorder 2 at t21
     show yuri zorder 3 at f22
-    y 2bt "I'm sorry..."
-    y "But we'll all be together at the festival tomorrow, so..."
-    y "So that's fine, right?"
+
+    y 2bt "Tớ xin lỗi..."
+
+    y "Nhưng chúng ta sẽ gặp nhau tại lễ hội ngày mai, vậy nên..."
+
+    y "Mọi chuyện vẫn ổn thôi, phải không?"
     show yuri zorder 2 at t22
     show sayori zorder 3 at f21
-    s 4bq "Of course!"
-    "Sayori beams."
+
+    s 4bq "Tất nhiên rồi!"
+
+    "Sayori tươi cười."
     show sayori 4ba
     show sayori zorder 2 at t21
     show yuri zorder 3 at f22
-    y 4bc "Y-Yeah, so..."
-    y "I'll see you tomorrow!"
+
+    y 4bc "Ư-Ừm, vậy..."
+
+    y "Hẹn gặp lại cậu vào ngày mai!"
     show yuri at lhide
     hide yuri
-    "Clearly embarrassed, Yuri hurries off."
-    "Sayori waves goodbye after her."
+
+    "Yuri vội vàng rời đi với vẻ mặt xấu hổ."
+
+    "Sayori vẫy tay chào tạm biệt cậu ấy."
     return
 
 
@@ -1216,80 +2193,140 @@ label ch4_exclusive_yuri:
 label ch4_end:
     play music t10 fadeout 2.0
     show sayori 1ba zorder 2 at t11
-    mc "Sayori--"
-    mc "I thought you didn't want to come over today!"
-    s 2bl "Ahaha, well..."
-    s "I tried staying in my room..."
-    s "But my imagination was being really mean to me..."
-    s 1by "So I had to come here and see it for myself."
-    mc "See what?"
-    mc "What are you talking about?"
-    s "You know..."
-    s "How much fun you were having with [ch4_name]."
-    s "And how close you got to her."
-    s 1bt "It makes me...really happy..."
-    s "That you've made such good friends."
-    s "That's all that matters to me."
-    "Tears start to fall down Sayori's face."
-    s 4bv "That's all that matters to me--!"
-    s "Why am I feeling this way, [player]?"
-    s "I'm supposed to be happy for you."
-    s 4bw "Why does it feel like my heart is splitting in half?"
-    s "It hurts so much..."
-    s "Everything hurts so much..."
-    s "This would be so much better if I could just disappear!"
-    mc "Sayori, don't say that!"
-    s 1bw "It's true, [player]!"
-    s "If I wasn't here, then you wouldn't have to waste your sympathy on me!"
-    s "You wouldn't have to put up with me being selfish!"
-    s 1bv "Monika was right..."
-    s "I should just..."
+
+
+    mc "Tớ tưởng cậu bảo là không muốn sang nhà tớ!"
+
+    s 2bl "Ahaha, ừm..."
+
+    s "Tớ đã cố ngồi yên trong phòng mình..."
+
+    s "Nhưng trí tưởng tượng bắt đầu hành hạ tớ..."
+
+    s 1by "Vì vậy nên tớ đã đến đây để tự mình chứng kiến nó."
+
+    mc "Chứng kiến cái gì cơ?"
+
+    mc "Cậu đang nói về cái gì vậy?"
+
+    s "Cậu biết mà..."
+
+    s "Việc cậu đã vui vẻ như nào ở bên cạnh [ch4_name]."
+
+    s "Và ngày càng thân thiết với cậu ta."
+
+    s 1bt "Nó thực sự làm tớ...rất hạnh phúc..."
+
+    s "Cậu đã có được những người bạn tốt."
+
+    s "Đó là tất cả những gì tớ muốn."
+
+    "Những giọt nước mắt bắt đầu lăn trên má Sayori."
+
+    s 4bv "Đó là tất cả những gì tớ muốn--!"
+
+    s "Tại sao tớ lại có cảm giác này chứ, [player]?"
+
+    s "Lẽ ra tớ nên cảm thấy vui cho cậu."
+
+    s 4bw "Tại sao tớ lại cảm thấy như con tim mình bị xé làm đôi vậy?"
+
+    s "Nó đau lắm..."
+
+    s "Đau lắm..."
+
+    s "Tớ biến mất thì có phải hay hơn không!"
+
+    mc "Sayori, đừng nói vậy!"
+
+    s 1bw "Đó là sự thật, [player] à!"
+
+    s "Nếu tớ không ở đây, cậu đã không phải phung phí lòng thương hại của mình với tớ!"
+
+    s "Cậu sẽ không phải chịu đựng với sự ích kỷ của tớ!"
+
+    s 1bv "Monika nói đúng..."
+
+    s "Tớ chỉ nên..."
     mc "Monika...?"
-    mc "Monika was right about what?"
+
+    mc "Monika đã nói đúng về cái gì cơ?"
     s "..."
     mc "Sayori..."
-    mc "What I said before is true."
-    mc "I'm not going to let this continue."
-    mc "Caring about you like this isn't the burden your mind is making it out to be."
-    mc "It's something that makes me happy."
-    mc "It's something that I wouldn't trade for anything else."
-    mc "So, even if it takes an entire lifetime..."
-    mc "I'm going to be by your side until you don't feel any more pain."
-    s 1bk "B-But..."
-    "Sayori looks away."
-    "I put a hand on her shoulder to reassure her."
-    s "I'm scared, [player]..."
-    s "I'm really scared..."
-    mc "What are you scared of, Sayori?"
-    s "I'm scared that..."
-    s "That I might like you more than you like me..."
+
+    mc "Những gì tớ nói lúc trước đều là thật lòng."
+
+    mc "Tớ sẽ không để chuyện này tiếp diễn."
+
+    mc "Quan tâm tới cậu không phải là gánh nặng."
+
+    mc "Ngược lại, tớ còn thấy rất vui vì được làm điều đó."
+
+    mc "Tớ sẽ không bao giờ đánh đổi nó với bất kì thứ gì khác."
+
+    mc "Kể cả có phải dành trọn cuộc đời mình..."
+
+    mc "Tớ cũng sẽ ở bên cậu cho đến khi cậu không còn cảm thấy đau đớn nữa."
+
+    s 1bk "N-Nhưng..."
+
+    "Sayori nhìn đi chỗ khác."
+
+    "Tôi đặt tay lên vai của Sayori để trấn an cậu ấy."
+
+    s "Tớ sợ lắm, [player]..."
+
+    s "Tớ thực sự đã rất sợ..."
+
+    mc "Cậu sợ vì chuyện gì, Sayori?"
+
+    s "Tớ sợ rằng..."
+
+    s "Rằng tớ thích cậu nhiều hơn cả cậu thích tớ..."
     mc "Sayori...?"
-    s 1bu "It's true, isn't it?"
-    s "I was weak and started to like you too much..."
-    s "I did this to myself."
+
+    s 1bu "Điều đó đúng mà, phải vậy không?"
+
+    s "Tớ đã quá yếu đuối và bắt đầu thích cậu quá nhiều..."
+
+    s "Tớ đã tự ép mình làm vậy."
     s "[player]..."
-    s 4bw "I like you so much that I want to die!"
-    s "That's how I feel!"
-    s 2bv "And...and..."
-    mc "That's enough, Sayori..."
-    mc "I don't want you to hurt anymore."
-    "I slide my hand down Sayori's arm and squeeze her hand in my own."
-    mc "Do you remember how I said I always know what's best for you?"
-    mc "Do you still believe me?"
-    "Wordlessly, Sayori nods."
-    mc "Even if you don't understand all of your own feelings..."
-    mc "I know what you need the most right now."
-    mc "And that's what I'm going to give to you."
+
+    s 4bw "Tớ thích cậu nhiều đến nỗi như muốn chết đi!"
+
+    s "Đó là những gì tớ cảm thấy!"
+
+    s 2bv "Và...và..."
+
+    mc "Vậy là đủ rồi, Sayori..."
+
+    mc "Tớ không muốn cậu phải đau khổ thêm một chút nào nữa."
+
+    "Tôi nắm lấy tay Sayori."
+
+    mc "Cậu có nhớ tớ đã từng bảo rằng tớ sẽ luôn dành những điều tốt nhất cho cậu không?"
+
+    mc "Cậu vẫn sẽ tin tớ chứ?"
+
+    "Sayori không nói gì, chỉ khẽ gật đầu."
+
+    mc "Cho dù tớ không hiểu hết mọi cảm xúc của cậu..."
+
+    mc "Nhưng tớ biết thứ mà cậu đang cần nhất."
+
+    mc "Và tớ sẽ dành nó cho cậu ngay bây giờ."
     show black zorder 4 with dissolve_cg
 
     menu:
         mc "Sayori..."
-        "I love you.":
+        "Tớ yêu cậu.":
+
 
             $ sayori_confess = True
             hide black with dissolve_cg
             call ch4_end_yes
-        "You'll always be my dearest friend.":
+        "Cậu sẽ luôn là người bạn thân nhất của tớ.":
+
             $ sayori_confess = False
             hide black with dissolve_cg
             call ch4_end_no
@@ -1297,150 +2334,266 @@ label ch4_end:
     return
 
 label ch4_end_yes:
-    mc "I love you."
-    s 1bv "Eh--?"
-    mc "Those are my true feelings."
-    mc "So...there's no way you could like me more than I like you."
-    mc "I should have realized it sooner."
-    mc "But spending time with everyone at the club..."
-    mc "Making new friends..."
-    mc "And having fun with you every day..."
-    mc "It helped me realize that you are truly the most important person to me."
-    mc "That's why I'll accept any of your burdens."
-    mc "As long as we continue like this every day..."
-    mc "With you by my side..."
-    mc "Then I know we'll both be happy."
+
+    mc "Tớ yêu cậu."
+
+    s 1bv "Ế--?"
+
+    mc "Vừa rồi là cảm xúc từ tận đáy lòng tớ."
+
+    mc "Vì vậy...không có chuyện cậu thích tớ hơn tớ thích cậu được đâu."
+
+    mc "Tớ nên nhận ra điều này sớm hơn."
+
+    mc "Nhưng việc dành thời gian với mọi người trong câu lạc bộ..."
+
+    mc "Có những người bạn mới..."
+
+    mc "Và vui vẻ với cậu mọi ngày..."
+
+    mc "Những điều đó càng giúp tớ nhận ra cậu quan trọng tới nhường nào."
+
+    mc "Đó là lý do vì sao tớ sẵn sàng chấp nhận những gánh nặng của cậu."
+
+    mc "Miễn là chúng ta cứ tiếp tục như thế này mỗi ngày..."
+
+    mc "Cùng với cậu luôn bên cạnh tớ..."
+
+    mc "Tớ tin rằng chúng ta sẽ hạnh phúc."
     s "[player]..."
     $ persistent.clear[8] = True
     scene s_cg3 with dissolve_cg
-    "Suddenly, Sayori wraps her arms tightly around me."
+
+    "Đột nhiên Sayori ôm chặt lấy tôi."
     s "[player]..."
-    s "Is this...really okay?"
-    mc "Yeah."
-    "I hold Sayori in my arms and pull her closer."
-    mc "You'll never have to let go of me again."
-    s "I love you, [player]..."
-    s "I want to be with you forever."
-    mc "Me too."
+
+    s "Như vậy...có thực sự ổn không?"
+
+    mc "Không sao đâu."
+
+    "Tôi cũng ôm lại cậu ấy chặt hơn."
+
+    mc "Cậu sẽ không bao giờ phải rời xa tớ nữa đâu."
+
+    s "Tớ yêu cậu, [player]..."
+
+    s "Tớ muốn ở bên cậu mãi mãi."
+
+    mc "Tớ cũng vậy."
     s "..."
-    "I feel Sayori's grip around me weaken a little bit."
-    s "What is this...?"
+
+    "Tôi cảm thấy có vẻ như Sayori thả lỏng tay hơn một chút."
+
+    s "Chuyện gì thế này...?"
     mc "Sayori...?"
-    s "I'm supposed to be happy right now..."
-    s "I always thought this would be the happiest moment for me."
-    s "But why...?"
-    s "Even now..."
-    s "Why won't the rainclouds go away?"
-    s "They're not going away at all, [player]..."
-    mc "It's okay, Sayori..."
-    mc "It might take some time for things to get better again."
-    mc "But no matter how long it takes, I'll be there every step of the way."
-    mc "That's all that matters right now."
-    s "O-Okay..."
-    s "I...trust you..."
+
+    s "Lẽ ra tớ phải cảm thấy hạnh phúc chứ nhỉ..."
+
+    s "Tớ luôn nghĩ đây sẽ là khoảnh khắc hạnh phúc nhất đời mình."
+
+    s "Nhưng tại sao..."
+
+    s "Kể cả bây giờ..."
+
+    s "Tại sao những đám mây đen vẫn chưa tan biến?"
+
+    s "Chúng vẫn còn hiện hữu trong tớ, [player]..."
+
+    mc "Sẽ ổn thôi, Sayori..."
+
+    mc "Có thể sẽ mất chút thời gian để mọi thứ tươi đẹp trở lại."
+
+    mc "Nhưng cho dù có mất bao nhiêu thời gian đi chăng nữa, tớ vẫn sẽ ở đây."
+
+    mc "Cậu chỉ cần quan tâm đến điều đó thôi."
+
+    s "Ừ-Ừm..."
+
+    s "Tớ...tin cậu..."
     scene bg house
     show sayori 1bv zorder 2 at i11
     with dissolve_cg
-    "Sayori and I slowly release each other."
-    mc "So..."
-    mc "I guess that makes the festival tomorrow...our first date, huh?"
+
+    "Sayori và tôi từ từ buông tay ra."
+
+    mc "Vậy..."
+
+    mc "Vậy lễ hội ngày mai...sẽ là buổi hẹn hò đầu tiên của chúng ta nhỉ?"
     s 1by "Ehehe..."
-    s "What are you saying?"
-    s "I don't want to think about those things, you know?"
-    s "I want everything to be the same as it always has been."
-    s "Even if we really are...a couple."
-    s 1bk "I don't know if I could handle anything more right now..."
-    s "It's really new and scary to me."
-    mc "I understand."
-    mc "We'll go at whatever pace suits you best."
-    s 1bd "Hey, [player]..."
-    "Sayori gazes at me once again, smiling sadly."
-    s 4bd "Even if I get really, really sad..."
-    s "This is the best thing for me...right?"
-    mc "Eh...?"
-    "I don't really understand what Sayori means by that."
-    mc "Are you saying that this is making you feel sad, Sayori?"
-    s 4bk "I-I don't know..."
-    s "I don't understand what I'm feeling."
-    s "It felt like a bunch of thorns when you told me you love me..."
-    s 4bd "But that's why I want to trust you."
-    s "You know what's best for me..."
-    mc "...Yeah."
-    mc "I do."
-    mc "That's my promise."
+
+    s "Cậu đang nói gì vậy?"
+
+    s "Tớ không muốn nghĩ về mấy chuyện đó đâu."
+
+    s "Tớ muốn mọi thứ cứ như bình thường thế này là được rồi."
+
+    s "Kể cả khi chúng ta...là một cặp."
+
+    s 1bk "Tớ cũng chẳng biết phải cư xử làm sao cho đúng nữa..."
+
+    s "Chuyện này thật mới mẻ và có phần hơi đáng sợ."
+
+    mc "Tớ hiểu rồi."
+
+    mc "Chúng ta sẽ tiến triển từ từ để cậu cảm thấy thoải mái nhất."
+
+    s 1bd "Nè, [player]..."
+
+    "Sayori ngước mắt lên nhìn tôi một lần nữa và nở một nụ cười đượm buồn."
+
+    s 4bd "Kể cả nếu như tớ thực sự, thực sự buồn..."
+
+    s "Thì đây là điều tốt nhất cho tớ...đúng không?"
+    mc "Ế...?"
+
+    "Tôi thực sự không hiểu được hết ý của Sayori trong câu nói đó."
+
+    mc "Cậu đang nói điều đó làm cậu buồn sao, Sayori?"
+
+    s 4bk "T-Tớ không biết nữa..."
+
+    s "Tớ không thể hiểu nổi cảm xúc của mình nữa."
+
+    s "Lời thổ lộ của cậu như chùm gai quấn quanh trái tim tớ vậy..."
+
+    s 4bd "Nhưng đó cũng là lí do vì sao tớ muốn tin tưởng cậu..."
+
+    s "Cậu biết điều gì tốt nhất cho tớ mà..."
+
+    mc "...Ừm."
+
+    mc "Đúng vậy."
+
+    mc "Tớ hứa đấy."
     show sayori zorder 1 at thide
     hide sayori
-    "I say that, but in reality, I've never felt more uncertain when it comes to Sayori."
-    "I know that I love her, and she loves me."
-    "But I'm having as much trouble understanding Sayori's feelings as she is."
-    "Even though I can comfort her..."
-    "I keep wondering if I should be doing something more, or something different."
-    "I know these thoughts will continue to plague me until things are back to the way they were."
-    "Is that what Sayori meant by not wanting anything to change?"
-    "I don't know."
-    "But I know that I'll give it everything I've got."
-    "Sayori is the most important person to me."
-    "And I'll do whatever it takes to have a happy future with her."
+
+    "Nói như vậy nhưng thật ra tôi chưa bao giờ cảm thấy chắc chắn khi nhắc đến Sayori cả."
+
+    "Tôi biết tôi yêu cậu ấy, và cậu ấy cũng yêu tôi."
+
+    "Nhưng đôi lúc tôi cũng không thể hiểu nổi cảm xúc của Sayori như chính cậu ấy vậy."
+
+    "Mặc dù vậy tôi vẫn phải làm thế chỉ để có thể an ủi cậu ấy..."
+
+    "Tôi vẫn luôn tự hỏi rằng liệu mình có nên làm gì đó nhiều hơn thế nữa không."
+
+    "Tôi biết những ý nghĩ ấy sẽ tiếp tục đeo bám tôi cho đến khi mọi chuyện trở lại bình thường."
+
+    "Liệu đó có phải ý Sayori muốn nói khi bảo rằng muốn mọi việc vẫn như cũ?"
+
+    "Tôi cũng không biết nữa."
+
+    "Nhưng tôi biết rằng tôi nhất định sẽ cố gắng hết sức mình."
+
+    "Sayori rất quan trọng đối với tôi."
+
+    "Và tôi sẽ trả bất cứ giá nào để có được một tương lai hạnh phúc bên cậu ấy."
     return
 
 
 label ch4_end_no:
-    mc "You'll always be my dearest friend."
-    mc "What you need most is for things to be like they've always been."
-    mc "Monika told me the truth..."
-    mc "She told me how much happier you seemed after I joined the club."
-    mc "I know you're struggling with some really difficult feelings right now."
-    mc "But..."
-    mc "Please trust me that I know what's best...and what will make you happy in the end."
-    mc "I promise I'll help get things back to the way they were."
-    s 1bt "I..."
-    s "I...see..."
-    "Sayori forces a smile through an incredibly pained expression."
+
+    mc "Cậu sẽ luôn là người bạn thân nhất của tớ."
+
+    mc "Điều cậu cần là mọi thứ diễn ra bình thường như mọi khi."
+
+    mc "Monika đã kể cho tớ rằng..."
+
+    mc "Rằng cậu đã rất hạnh phúc khi tớ gia nhập câu lạc bộ."
+
+    mc "Tớ biết hiện giờ cậu đang rất chật vật với mớ cảm xúc hỗn độn."
+
+    mc "Nhưng..."
+
+    mc "Hãy tin tớ rằng tớ biết điều gì là tốt nhất dành cho cậu...và tớ muốn cậu luôn vui vẻ."
+
+    mc "Tớ hứa tớ sẽ đưa mọi thứ trở lại như bình thường."
+
+    s 1bt "Tớ..."
+
+    s "Tớ...hiểu rồi..."
+
+    "Sayori cố gắng để gượng cười với những biểu cảm đau khổ trên khuôn mặt."
     s "Ahaha..."
-    s "Is this what it feels like...to get stabbed in the chest?"
-    s "I should write a poem about this..."
+
+    s "Cảm giác này có phải giống như...bị ai đó đâm vào ngực không nhỉ?"
+
+    s "Tớ phải viết một bài thơ về nó mới được..."
     mc "Sayori--"
-    s "It's okay."
-    s "This is just my punishment...remember?"
-    s "For being so selfish..."
-    s "So please..."
-    s "Please don't worry about these stupid feelings."
-    s "I know you're right."
-    s "I knew this whole time that there's no happiness down that path."
-    s "That's why I came here..."
-    s "Just so I could get the answer I needed to hear."
-    s "And the other thing..."
-    s "You're also right that I just want it to go back to the way it was."
-    s "I realize that now."
-    s "You really do know me better than anyone, [player]."
-    s 4bv "I'll trust you with anything..."
-    s "Anything at all..."
-    s "So..."
+
+    s "Tớ ổn mà."
+
+    s "Đây chỉ là hình phạt dành cho tớ...cậu nhớ chứ?"
+
+    s "Vì tớ quá ích kỉ..."
+
+    s "Vì vậy, hãy làm ơn..."
+
+    s "Làm ơn đừng quan tâm đến mớ cảm xúc ngu ngốc này."
+
+    s "Tớ biết là cậu đúng."
+
+    s "Tớ đã biết từ lâu rằng con đường này chỉ dẫn đến đau khổ."
+
+    s "Đó là lý do vì sao tớ lại đến đây..."
+
+    s "Chỉ để nghe được câu trả lời mà tớ cần nghe."
+
+    s "Và một điều nữa..."
+
+    s "Cậu cũng đúng khi nói tớ chỉ muốn mọi thứ trở lại như nó đã từng."
+
+    s "Giờ thì tớ hiểu rồi."
+
+    s "Cậu thực sự hiểu tớ hơn ai hết, [player]..."
+
+    s 4bv "Tớ sẽ luôn tin tưởng cậu vô điều kiện..."
+
+    s "Tất cả mọi thứ..."
+
+    s "Vậy nên..."
     show sayori zorder 1 at thide
     hide sayori
-    "Sayori's smile finally breaks."
-    "All of a sudden, she turns around and drops to her knees."
+
+    "Nụ cười trên môi Sayori cuối cùng cũng đã tắt."
+
+    "Đột nhiên cậu ấy quay lại rồi ngã khuỵu xuống."
     s "{i}AAAAAaaaaAAAAAAAAHH!!!!{/i}"
-    "Clutching her head with both hands, she screams as loudly as she can."
-    "I'm so shocked that I don't know how to react."
+
+    "Hai tay ôm chặt lấy đầu, cậu ấy gào to hết mức có thể."
+
+    "Tôi cảm thấy rất sốc, không biết phải phản ứng ra sao nữa."
     show sayori 4bt zorder 2 at t11
-    s "..."
+
     show sayori at lhide
     hide sayori
-    "Sayori looks over her shoulder and flashes me one more weak smile before turning around and running off."
+
+    "Sayori quay đầu lại nhìn liếc qua tôi với nụ cười yếu ớt trước khi cậu ấy chạy biến đi mất."
     mc "Sayori!"
     "..."
-    "I'm left helplessly standing in the front of my house."
-    "Why am I feeling so horrible about this?"
-    "There's nothing more that I could have done."
-    "The most I can do is support Sayori through her feelings and help her on the path that's right."
-    "But I'm having as much trouble understanding Sayori's feelings as she is."
-    "Even though I can comfort her..."
-    "I keep wondering if I should be doing something more, or something different."
-    "I know these thoughts will continue to plague me until things are back to the way they were."
-    "I'm going to give it everything I've got."
-    "Sayori will always be my dearest friend."
-    "And I'll do whatever it takes to put a smile on her face every day."
+
+    "Tôi đứng bất lực trước nhà của mình."
+
+    "Tại sao điều đó làm tôi cảm thấy thật tồi tệ?"
+
+    "Tôi không thể làm gì hơn được nữa."
+
+    "Điều tốt nhất tôi có thể làm là giúp Sayori vượt qua những cảm xúc của mình và đưa cậu ấy trở lại con đường đúng đắn."
+
+    "Nhưng đôi lúc tôi cũng không thể hiểu nổi cảm xúc của Sayori như chính cậu ấy vậy."
+
+    "Mặc dù vậy tôi vẫn phải làm thế chỉ để có thể an ủi cậu ấy..."
+
+    "Tôi vẫn luôn tự hỏi mình rằng có nên làm gì đó nhiều hơn thế nữa không."
+
+    "Tôi biết ý nghĩ này sẽ tiếp tục đeo bám tôi cho đến khi mọi chuyện trở lại bình thường."
+
+    "Tôi sẽ cố gắng hết sức mình."
+
+    "Sayori sẽ luôn là người bạn thân nhất của tôi."
+
+    "Và tôi sẽ trả bất cứ giá nào để có thể đem về nụ cười cho cậu ấy."
 
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc

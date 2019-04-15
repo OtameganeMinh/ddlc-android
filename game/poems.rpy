@@ -9,114 +9,115 @@ init python:
 
     poem_y1 = Poem(
     author = "yuri",
-    title = "Ghost Under the Light",
+    title = "Bóng Ma Dưới Ánh Đèn",
     text = """\
-The tendrils of my hair illuminate beneath the amber glow.
-Bathing.
-It must be this one.
-The last remaining streetlight to have withstood the test of time.
-the last yet to be replaced by the sickening blue-green hue of the future.
-I bathe. Calm; breathing air of the present but living in the past.
-The light flickers.
-I flicker back."""
+Ánh vàng xuộm như nhuộm tóc ta đầy rối ren.
+Đắm chìm.
+Chẳng cần tìm thêm nữa.
+Đơn côi ánh đèn đường sáng vượt thử thách thời gian.
+độc một mình chọi lại cái tương lai bại hoại sắc lục-lam.
+Chìm vào tĩnh mịch, dầu thân ở hiện tại mà hồn treo nơi quá khứ cheo leo.
+Ánh đèn ấy chập chờn.
+Ta cũng chập chờn theo."""
     )
 
     poem_y2 = Poem(
     author = "yuri",
-    title = "The Raccoon",
+    title = "Chú Chồn Con",
     text = """\
-It happened in the dead of night while I was slicing bread for a guilty snack.
-My attention was caught by the scuttering of a raccoon outside my window.
-That was, I believe, the first time I noticed my strange tendencies as an unordinary human.
-I gave the raccoon a piece of bread, my subconscious well aware of the consequences.
-Well aware that a raccoon that is fed will always come back for more.
-The enticing beauty of my cutting knife was the symptom.
-The bread, my hungry curiosity.
-The raccoon, an urge.
+Giữa bóng đêm cô tịch u huyền, ta liền cắt chút bánh mì ăn vụng.
+Bỗng nghe đâu phía bên ngoài cửa sổ, là tiếng chân của một chú chồn con.
+Đấy là lúc ta nhận ra mình hẳn là một kẻ chẳng bình thường.
+Ta nhường chú chồn chút bánh mì, dù lòng biết sẽ chẳng tốt đẹp chi.
+Dù lòng biết rõ khi quen vị, nó sẽ lại đến tìm mình tiếp.
+Lưỡi dao bóng loáng như đang dẫn dụ, cũng chính là dấu hiệu đầu tiên.
+Ổ bánh mì là chút tò mò riêng.
+Chú chồn ấy chính là niềm thôi thúc.
 
-The moon increments its phase and reflects that much more light off of my cutting knife.
-The very same light that glistens in the eyes of my raccoon friend.
-I slice the bread, fresh and soft. The raccoon becomes excited.
-Or perhaps I'm merely projecting my emotions onto the newly-satisfied animal.
+Ánh trăng cứ sáng soi vằng vặc, lưỡi dao lại càng rạo rực lên.
+Lấp lánh như đôi mắt tròn vành vạnh của người bạn chồn con vui vẻ.
+Cắt một lát bánh mì tươi mềm mại, và chú hứng thú chẳng chút ngại ngần.
+Hoặc thế thật, hoặc tại ta ích kỷ áp ý nghĩ lên con thú ngây ngô.
 
-The raccoon has taken to following me.
-You could say that we've gotten quite used to each other.
-The raccoon becomes hungry more and more frequently, so my bread is always handy.
-Every time I brandish my cutting knife, the raccoon shows me its excitement.
-A rush of blood. Classic Pavlovian conditioning. I slice the bread.
-And I feed myself again."""
+Chú chồn đã ưa bên ta lắm rồi.
+Hẳn cũng đến mức quen nhau kha khá.
+Và dần dần chú hay đói nhiều đến lạ, may luôn có ổ bánh mì của ta.
+Dao cứ nâng là chú ta nổi hứng.
+Một nhịp đập hối hả. Một phản xạ đã thành quen. Một miếng bánh ta lại cắt.
+Lại tự dọn cho mình một bữa ăn."""
     )
 
     poem_y3 = Poem(
     author = "yuri",
-    title = "Beach",
+    title = "Biển",
     text = """\
-A marvel millions of years in the making.
-Where the womb of Earth chaotically meets the surface.
-Under a clear blue sky, an expanse of bliss--
-But beneath gray rolling clouds, an endless enigma.
-The easiest world to get lost in
-Is one where everything can be found.
+Sáng thế là hàng triệu năm tuyệt diệu.
+Đất lòng đất mặt hòa hỗn loạn vào nhau.
+Dưới trời xanh trong khoảng bình yên trải rộng.
+Nhưng sau đám u vân là ngàn dặm hư không.
+Chốn người đời rất thường hay lạc lối
+Là cái thế giới đủ đầy mọi thứ rồi.
 
-One can only build a sand castle where the sand is wet.
-But where the sand is wet, the tide comes.
-Will it gently lick at your foundations until you give in?
-Or will a sudden wave send you crashing down in the blink of an eye?
-Either way, the outcome is the same.
-Yet we still build sand castles.
+Cát phải ẩm mới xây được lâu đài.
+Nhưng cát muốn ẩm thì phải nhờ đến sóng.
+Con sóng nhẹ vờn đến khi người chịu trận?
+Hay hải triều cuồng nộ đạp đổ người trong nháy mắt?
+Dù cố tới cùng tận mấy thì sau cùng vẫn vậy.
+Mà tay chúng ta, lâu đài cát cứ xây.
 
-I stand where the foam wraps around my ankles.
-Where my toes squish into the sand.
-The salty air is therapeutic.
-The breeze is gentle, yet powerful.
-I sink my toes into the ultimate boundary line, tempted by the foamy tendrils.
-Turn back, and I abandon my peace to erode at the shore.
-Drift forward, and I return to Earth forevermore."""
+Đứng nơi bọt nước quấn theo đôi mắt cá.
+Từng ngón chân ta, nơi bờ cát in sâu.
+Mùi muối đặc ngầu ngỡ đâu liều thuốc bổ.
+Làn gió vừa âu sầu man mác, vừa dữ dội ào ạt.
+Nghe sóng gọi mời, ta bước lên lằn ranh giới đất trời.
+Quay lại sẽ là rũ bỏ yên bình 
+để cùng bờ xói mòn đi khe khẽ.
+Còn trôi tới trước, có Đất Mẹ chờ ta."""
     )
 
     poem_y3b = Poem(
     author = "yuri",
-    title = "Ghost Under the Light pt. 2",
+    title = "Bóng Ma Dưới Ánh Đèn 2",
     text = """\
-The tendrils of my hair illuminate beneath the amber glow.
-Bathing.
-In the distance, a blue-green light flickers.
-A lone figure crosses its path - a silhouette obstructing the eerie glow.
-My heart pounds. The silhouette grows. Closer. Closer.
-I open my umbrella, casting a shadow to shield me from visibility.
-But I am too late.
-He steps into the streetlight. I gasp and drop my umbrella.
-The light flickers. My heart pounds. He raises his arm.
+Ánh vàng xuộm như nhuộm tóc ta đầy rối ren.
+Chìm đắm.
+Chợt thấy trong ánh lục-lam phía đằng kia xa lắm.
+Lẻ loi một hình bóng đứng chắn ánh ma quang.
+Tim ta rộn ràng. Bóng kẻ ấy cứ dần dần tiến sát.
+Ta giương ô, che đi chỗ mình ngồi.
+Nhưng đã quá muộn rồi.
+Hắn bước đến phía trước ánh đèn đường. Ta hoảng lắm, ô trên tay rơi xuống.
+Ánh đèn chập chờn. Tim ta vang rộn. Hắn vung tay.
 
-Time stops.
+Dòng thời gian ngừng chảy.
 
-The only indication of movement is the amber light flickering against his outstretched arm.
-The flickering light is in rhythm with the pounding of my heart.
-Teasing me for succumbing to this forbidden emotion.
-Have you ever heard of a ghost feeling warmth before?
-Giving up on understanding, I laugh.
-Understanding is overrated.
-I touch his hand. The flickering stops.
-Ghosts are blue-green. My heart is amber."""
+Thứ duy nhất còn động đậy là ánh sáng vàng đang nhấp nháy trên cánh tay kẻ ấy.
+Thứ ánh sáng cứ chạy theo từng nhịp tim ta.
+Giễu cợt kẻ non nớt trót bất tuân lời cấm đoán hời hợt.
+Ngươi có biết vong linh dầu đã chết vẫn thèm chút hơi ấm yêu thương?
+Ta cười gượng, và thôi cố hiểu.
+Đừng lầm lẫn thấu hiểu với cao siêu.
+Ta chạm vào tay hắn. Ánh chập chờn im bặt.
+Qủy ma thì lục-lam. Còn tim ta vàng ấm."""
     )
 
     poem_y22 = Poem(
     author = "yuri",
     yuri_2 = True,
-    title = "Wheel",
+    title = "Guồng Quay",
     text = """\
-A rotating wheel. Turning an axle. Grinding. Bolthead. Linear gearbox. Falling sky. Seven holy stakes. \
-A docked ship. A portal to another world. A thin rope tied to a thick rope. A torn harness. Parabolic gearbox. \
-Expanding universe. Time controlled by slipping cogwheels. Existence of God. Swimming with open water in all directions. \
-Drowning. A prayer written in blood. A prayer written in time-devouring snakes with human eyes. \
-A thread connecting all living human eyes. A kaleidoscope of holy stakes. Exponential gearbox. \
-A sky of exploding stars. God disproving the existence of God. A wheel rotating in six dimensions. \
-Forty gears and a ticking clock. A clock that ticks one second for every rotation of the planet. \
-A clock that ticks forty times every time it ticks every second time. A bolthead of holy stakes tied to \
-the existence of a docked ship to another world. A kaleidoscope of blood written in clocks. A time-devouring \
-prayer connecting a sky of forty gears and open human eyes in all directions. Breathing gearbox. Breathing bolthead. \
-Breathing ship. Breathing portal. Breathing snakes. Breathing God. Breathing blood. Breathing holy stakes. \
-Breathing human eyes. Breathing time. Breathing prayer. Breathing sky. Breathing wheel."""
+Bánh guồng ấy quay. Kéo theo một trục. Tì lên. Đinh ốc. Bộ máy thẳng tắp. Trời sập. Thất trụ kình thiên. \
+Thuyền neo lặng lẽ. Cổng xuyên không. Dây to dây bé. Sợi nịt đứt. Bộ máy cong oằn. Vũ trụ lớn dần. \
+Thời gian chảy qua những bánh răng. Chúa có thật. Bơi trong thanh thủy ngập bốn phương.\
+Ngạt nước. Dùng máu viết ra lời nguyện ước. Hay dùng lũ rắn mắt người nuốt thời gian. \
+Một sợi chỉ nối chung mọi mắt người. Bao trụ cột trong ống kính vạn hoa. Bộ máy nảy nở như cấp số nhân. \
+Ngàn vì sao trên trời bỗng nổ tung. Chúa dạy rằng chính ngài không có thật. Guồng quay giữa sáu bầu trời mặt đất. \
+Đồng hồ tích tắc bốn chục bánh răng. Một tích tắc mỗi một vòng Trái đất. Bốn chục tích tắc mỗi một phút giây. \
+Đinh ốc trụ trời neo con thuyền thế giới. Vạn huyết kính viết trên những đồng hồ. \
+Nguyện nuốt thời gian với tứ thập thiên luân khai sáng mắt người tứ phương. Tồn tại một bộ máy. Tồn tại đầu đinh ốc. \
+Tồn tại con thuyền ấy. Tồn tại cổng xuyên không. Tồn tại lũ rắn độc. Tồn tại Chúa và Thần. Tồn tại huyết thâm tâm. \
+Tồn tại ngàn trụ chống. Ngàn con mắt người sống. Thời gian trôi theo dòng. \
+Nguyện ước ở trong lòng. Bầu trời đậm nhớ mong. Guồng quay đều nhịp thở."""
     )
 
     poem_y23 = Poem(
@@ -176,409 +177,432 @@ unreleased tension experienced by my entire body. Her Third Eye is drawing me cl
 
     poem_n1 = Poem(
     author = "natsuki",
-    title = "Eagles Can Fly",
+    title = "Đại Bàng Vẫn Bay",
     text = """\
-Monkeys can climb
-Crickets can leap
-Horses can race
-Owls can seek
-Cheetahs can run
-Eagles can fly
-People can try
-But that's about it."""
+Dù gì khỉ vẫn leo
+Dù gì dế vẫn nhảy
+Dù gì cú vẫn soi
+Dù gì ngựa vẫn chạy
+Dù gì báo vẫn lướt
+Và đại bàng vẫn bay
+Dù người cố gắng thay
+Thì sau cùng vẫn vậy."""
     )
 
     poem_n2 = Poem(
     author = "natsuki",
-    title = "Amy Likes Spiders",
+    title = "Amy Khoái Nhện",
     text = """\
-You know what I heard about Amy?
-Amy likes spiders.
-Icky, wriggly, hairy, ugly spiders!
-That's why I'm not friends with her.
+Mấy cậu nghe đồn về Amy chưa?
+Nhỏ đó ưa lũ nhện ghê tởm lợm.
+Lũ lông lá, xù xì nhìn đã ớn!
+Nên tớ cạch mặt nghỉ chơi nhỏ luôn.
 
-Amy has a cute singing voice.
-I heard her singing my favorite love song.
-Every time she sang the chorus, my heart would pound to the rhythm of the words.
-But she likes spiders.
-That's why I'm not friends with her.
+Nhỏ Amy có tài hát thật hay.
+Lâu rồi ấy, nhỏ ca bản trữ tình
+Tớ nghe thích đến nỗi tim thình thịch.
+Nhưng nhỏ lại khoái lũ nhện ghê tởm.
+Nên tớ cạch mặt nghỉ chơi nhỏ luôn.
 
-One time, I hurt my leg really bad.
-Amy helped me up and took me to the nurse.
-I tried not to let her touch me.
-She likes spiders, so her hands are probably gross.
-That's why I'm not friends with her.
+Có lần tớ ngã đau chân rất nặng
+Amy đỡ dậy định dìu đi bác sĩ.
+Nhưng rồi tớ hất tay nhỏ ấy đi.
+Kẻ thích nhện tay đâu sạch sẽ gì.
+Cạch mặt nghỉ chơi nhỏ là tốt nhất.
 
-Amy has a lot of friends.
-I always see her talking to people.
-She probably talks about spiders.
-What if her friends start to like spiders too?
-That's why I'm not friends with her.
+Amy cũng có đông bè bạn lắm
+Lúc nào cũng rất thân mật xã giao.
+Hẳn nhỏ cũng khoe nhiều về bọn nhện.
+Chơi với nhỏ, khoái nhện luôn thì chết...
+Tốt nhất nên cạch cái mặt nhỏ đi.
 
-It doesn't matter if she has other hobbies.
-It doesn't matter if she keeps it private.
-It doesn't matter if it doesn't hurt anyone.
+Dù sở thích khác nhỏ cũng có nhiều.
+Dù nhỏ có che đậy kín bao nhiêu.
+Dù nhỏ chẳng làm hại gì ai khác.
 
-It's gross.
-She's gross.
-The world is better off without spider lovers.
+Thì vẫn kinh đến nỗi không yêu nổi.
+Nhỏ tởm lợm và dị hợm quá đỗi.
+Lũ thích nhện đang làm bẩn thế giới.
 
-And I'm gonna tell everyone."""
+Tớ phải kể hết cho mọi người thôi."""
     )
 
     poem_n2b = Poem(
     author = "natsuki",
-    title = "T3BlbiBZb3VyIFRoaXJkIEV5ZQ==",
+    title = "VGFtIE5ow6NuIG3hu58gdG8==",
     text = """\
-SSBjYW4gZmVlbCB0aGUgdGVuZGVybmVz
-cyBvZiBoZXIgc2tpbiB0aHJvdWdoIHRo
-ZSBrbmlmZSwgYXMgaWYgaXQgd2VyZSBh
-biBleHRlbnNpb24gb2YgbXkgc2Vuc2Ug
-b2YgdG91Y2guIE15IGJvZHkgbmVhcmx5
-IGNvbnZ1bHNlcy4gVGhlcmUncyBzb21l
-dGhpbmcgaW5jcmVkaWJseSBmYWludCwg
-ZGVlcCBkb3duLCB0aGF0IHNjcmVhbXMg
-dG8gcmVzaXN0IHRoaXMgdW5jb250cm9s
-bGFibGUgcGxlYXN1cmUuIEJ1dCBJIGNh
-biBhbHJlYWR5IHRlbGwgdGhhdCBJJ20g
-YmVpbmcgcHVzaGVkIG92ZXIgdGhlIGVk
-Z2UuIEkgY2FuJ3QuLi5JIGNhbid0IHN0
-b3AgbXlzZWxmLg=="""
+Q29uIGRhbyB0csOqbiB0YXkgdGEgY+
+G6o20gbmjhuq1uIMSRxrDhu6NjIHThu6tu
+ZyB0aOG7myBkYSB0aOG7i3QgbeG7g
+W0gbeG6oWkgdHJvbmcgbmfGsOG7n
+Wkg4bqjLCB5IG5oxrAgbsOzIG1hbmcgd
+GhlbyBt4buZdCBwaOG6p24geMO6Yy
+BnacOhYyBj4bunYSB0YSB24bqteS4g
+VGEgc3VuZyBzxrDhu5tuZyB04bubaS
+Bt4bupYyB0b8OgbiB0aMOibiBzdcO9d
+CBsw6puIGPGoW4gY28gZ2nhuq10LiBU4bur
+IHPDonUgdHJvbmcgdMOibSBo4buTbiB0YSBua
+MawIGPDsyBjaMO6dCBnw6wgcuG6pXQgbeG7
+nSBuaOG6oXQgxJFhbmcgY+G7kSBow6l0IGz
+Dqm4gdGjhuq10IHRvIG5oxrAgbXXhu5FuIG
+PhuqNuIHRhIGPhuqNtIG5o4bqtbiB0aeG6v3
+AgdGjhu6kga2hvw6FpIGPhuqNtIG1hIG3hu4
+sgbsOgeS4gTmjGsG5nIHRhIMSRw6MgxJFpI
+HF1w6EgZ2nhu5tpIGjhuqFuIHLhu5NpLiBUY
+SBraMO0bmcuLi5LaMO0bmcgdGjhu4
+Mgbmfhu6tuZyBs4bqhaSBu4buvYS4=="""
     )
 
     poem_n3 = Poem(
     author = "natsuki",
-    title = "I'll Be Your Beach",
+    title = "Xin Làm Đại Dương",
     text = """\
-Your mind is so full of troubles and fears
-That diminished your wonder over the years
-But today I have a special place
-A beach for us to go.
+Bủa vây tâm hồn anh bao lo sợ
+Khiến anh héo mòn theo tháng năm qua
+Nhìn kìa anh, có một nơi rực rỡ
+Một đại dương rộng mở đón đôi ta.
 
-A shore reaching beyond your sight
-A sea that sparkles with brilliant light
-The walls in your mind will melt away
-Before the sunny glow.
+Cát trắng phau trải rộng tới thật xa
+Mặt biển kia lấp lánh sắc hài hòa
+Băng giá trong lòng anh dần tan vỡ
+Dưới nắng vàng mãi sáng chẳng phai nhòa.
 
-I'll be the beach that washes your worries away
-I'll be the beach that you daydream about each day
-I'll be the beach that makes your heart leap
-In a way you thought had left you long ago.
+Xin làm biển, để gột những u sầu
+Làm đại dương anh mơ mãi ngày sau
+Đại dương ấy cứ nhẹ rung thắm thiết
+Tim đập lại dù ngỡ chết từ lâu.
 
-Let's bury your heavy thoughts in a pile of sand
-Bathe in sunbeams and hold my hand
-Wash your insecurities in the salty sea
-And let me see you shine.
+Vùi trong cát, bao sầu muộn đã chôn
+Vui tắm mình trong ánh nắng hoàng hôn
+Nắm tay nhé, ta mau cùng xuống biển
+Gột rửa mình tới lấp lánh tâm hồn.
 
-Let's leave your memories in a footprint trail
-Set you free in my windy sail
-And remember the reasons you're wonderful
-When you press your lips to mine.
+Bỏ kí ức lại sau bước chân buồn
+Thuyền tự do sẽ lại sải rộng buồm
+Anh nhớ nhé, anh tuyệt vời lắm đấy
+Khi anh đến bên em trao nụ hôn.
 
-I'll be the beach that washes your worries away
-I'll be the beach that you daydream about each day
-I'll be the beach that makes your heart leap
-In a way you thought had left you long ago.
+Xin làm biển, để gột những u sầu
+Làm đại dương anh mơ mãi ngày sau
+Đại dương ấy cứ nhẹ rung thắm thiết
+Tim đập lại dù ngỡ chết từ lâu.
 
-But if you let me by your side
-Your own beach, your own escape
-You'll learn to love yourself again."""
+Xin để em được gần bên anh nhé
+Xin coi em như là lối thoát riêng
+Coi em là một bãi biển lặng yên
+Để anh học cách yêu mình lần nữa."""
     )
 
     poem_n3b = Poem(
     author = "natsuki",
-    title = "Because You",
+    title = "Vì Anh",
     text = """\
-Tomorrow will be brighter with me around
-But when today is dim, I can only look down.
-My looking is a little more forward
-Because you look at me.
+Vẫn biết mai đời sẽ sáng hơn
+Mà khi u tối sao vẫn hờn
+Nhưng anh vẫn giục em tiếp bước
+Bằng ánh nhìn chan chứa yêu thương.
 
-When I want to say something, I say it with a shout!
-But my truest feelings can never come out.
-My words are a little less empty
-Because you listen to me.
+Tỏ lòng chân thật sao khó quá
+Dù có la hét hay kêu ca
+Thì anh vẫn muốn nghe em kể
+Chuyện của ngày nay và hôm qua.
 
-When something is above me, I reach for the stars.
-But when I feel small, I don't get very far.
-My standing is a little bit taller
-Because you sit with me.
+Muốn vươn tay hái một vì sao
+Mà thấp bé quá, với thế nào?
+Nở một nụ cười, anh ngồi đó
+Nâng đỡ em lên cao thật cao.
 
-I believe in myself with all of my heart.
-But what do I do when it's torn all apart?
-My faith is a little bit stronger
-Because you trusted me.
+Dẫu cho tan tác cả niềm tin
+Mà mình luôn mãi giữ trong tim
+Thì em vẫn có anh thấu hiểu
+Lòng như sóng vỗ chẳng lặng im.
 
-My pen always puts my feelings to the test.
-I'm not a good writer, but my best is my best.
-My poems are a little bit dearer
-Because you think of me.
+Ngòi bút vẫn vương chút cô liêu
+Văn em không giỏi, sót sai nhiều
+Nhưng nếu anh nhớ em nhiều thế
+Thì xin gửi thơ chút tình yêu.
 
-Because you, because you, because you."""
+Vì anh, vì anh, và vì anh."""
     )
 
     poem_n23 = Poem(
     author = "natsuki",
     title = "",
     text = """\
-I don't know how else to bring this up. But there's been something I've been worried about. \
-Yuri has been acting kind of strange lately. You've only been here a few days, so you may \
-not know what I mean. But she's not normally like this. She's always been quiet and polite \
-and attentive...things like that.
+Tôi cũng chẳng biết nói thế nào nữa, nhưng có chuyện này tôi lo lắm.\
+Dạo này Yuri cư xử kì dị quá. Cậu mới vào được mấy ngày nên chắc là chưa biết,\
+chứ bình thường cô ấy kiệm lời, lịch sự và chuyên tâm lắm, hoàn toàn khác bây giờ luôn ấy.
 
-Okay... This is really embarrassing, but I'm forcing myself to suck it up. The truth is, I'm REALLY \
-worried about her. But if I try talking to her, she'll just get mad at me again. I don't \
-know what to do. I think you're the only person that she'll listen to. I don't know why. \
-But please try to do something. Maybe you can convince her to talk to a therapist.
+Chậc... Quê quá, cơ mà phải cố chịu thôi. Nói thật là tôi đang RẤT RẤT RẤT lo cho cô ấy.\
+Nhưng mà tôi cứ cố bắt chuyện là cô ấy lại nổi đóa lên. Tôi hết cách mất rồi.\
+Giờ chắc chỉ có cậu nói là cô ấy nghe thôi. Vì sao lại thế thì tôi chịu,\
+nhưng xin cậu hãy khuyên cô ấy vài câu để cô ấy chịu đi khám tâm lí.
 
-I've always wanted to try being better friends with Yuri, and it really hurts me to see \
-this happening. I know I'm going to hate myself later for admitting that, but right now \
-I don't care. I just feel so helpless. So please see if you can do something to help. \
-I don't want anything bad to happen to her. I'll make you cupcakes if I have to. Just please \
-try to do something.
+Tôi cũng muốn thân với Yuri hơn, nên thấy cô ấy thế này tôi đau lòng lắm.\
+Đấy, nói ra rồi, tí nữa chắc lại hối hận ngay thôi, nhưng ngay lúc này thì \
+tôi không quan tâm. Tôi thấy mình vô dụng quá. Xin cậu, giúp tôi nhé. \
+Tôi không muốn bạn mình gặp chuyện gì không hay. Nên xin cậu hãy giúp tôi.\
+Nếu cậu thèm bánh cứ bảo tôi một tiếng.
 
-As for Monika... I don't know why, but she's been really dismissive about this. It's like she just wants us \
-to ignore it. So I'm mad at her right now, and that's why I'm coming to you about this. \
-DON'T LET HER KNOW I WROTE THIS!!!! Just pretend like I gave you a really good poem, okay? \
-I'm counting on you. Thanks for reading."""
+Còn Monika nữa... Chẳng hiếu sao mà tôi thấy cô ta bàng quan lắm. Như kiểu cô ta \
+muốn mọi người lờ Yuri đi vậy. Tôi đang cay cô ta lắm nên mới đành phải tìm cậu.\
+VÀ ĐỪNG ĐỂ CÔ TA BIẾT TÔI VIẾT CÁI NÀY ĐẤY!!! Cứ vờ như cậu vừa đọc thơ xong nhé?\
+Nhờ cậu cả đấy. Cảm ơn đã đọc thư của tôi."""
     )
 
     poem_s1 = Poem(
     author = "sayori",
-    title = "Dear Sunshine",
+    title = "Thân Gửi Nắng Mai",
     text = """\
-The way you glow through my blinds in the morning
-It makes me feel like you missed me.
-Kissing my forehead to help me out of bed.
-Making me rub the sleepy from my eyes.
+Nắng sớm anh rọi xuyên qua rèm mỏng
+Có phải rằng anh đang nhớ em không?
+Đặt lên trán em một nụ hôn nồng
+Để em ráng dụi mắt chào ngày mới.
 
-Are you asking me to come out and play?
-Are you trusting me to wish away a rainy day?
-I look above. The sky is blue.
-It's a secret, but I trust you too.
+Có phải anh muốn rủ em cùng chơi?
+Có phải anh luôn tin em là nắng?
+Ngẩng nhìn lên, nói với trời xanh thắm:
+Em cũng vậy, nhưng là bí mật nha.
 
-If it wasn't for you, I could sleep forever.
-But I'm not mad.
+Em thức dậy là vì anh cả đấy.
+Nói vậy thôi, em không giận đâu mà.
 
-I want breakfast."""
+Thèm ăn sáng quá.
+"""
     )
 
     poem_s2 = Poem(
     author = "sayori",
-    title = "Bottles",
+    title = "Những Cái Chai Hạnh Phúc",
     text = """\
-I pop off my scalp like the lid of a cookie jar.
-It's the secret place where I keep all my dreams.
-Little balls of sunshine, all rubbing together like a bundle of kittens.
-I reach inside with my thumb and forefinger and pluck one out.
-It's warm and tingly.
-But there's no time to waste! I put it in a bottle to keep it safe.
-And I put the bottle on the shelf with all of the other bottles.
-Happy thoughts, happy thoughts, happy thoughts in bottles, all in a row.
+Bật mở hộp sọ như nắp lọ bánh quy
+Ước mơ gì tôi đều ghi trong đó.
+Ánh dương vo tròn thành từng viên nho nhỏ
+Xúm xít vào trông tựa lũ mèo con.
+Tôi bèn thò tay vào trong gắp một.
+Thật ấm áp, hơi tê tê nhồn nhộn.
+Rồi nhanh tay đút tọt nó vào chai.
+Xếp lên kệ thành một dàn dài .
+Hạnh phúc, hạnh phúc, hạnh phúc đựng trong những cái chai.
 
-My collection makes me lots of friends.
-Each bottle a starlight to make amends.
-Sometimes my friend feels a certain way.
-Down comes a bottle to save the day.
+Nhờ chúng nên tôi có nhiều bạn lắm.
+Mỗi chai tựa như một ánh sao vui.
+Cứ mỗi lần thấy bè bạn lầm lùi
+Tôi lại mở nắp một chai an ủi.
 
-Night after night, more dreams.
-Friend after friend, more bottles.
-Deeper and deeper my fingers go.
-Like exploring a dark cave, discovering the secrets hiding in the nooks and crannies.
-Digging and digging.
-Scraping and scraping.
+Cứ mỗi đêm lại thêm bao mơ về
+Từng người bạn cần từng chai hạnh phúc.
+Tôi đào ngày một sâu như lùng sục
+Đi tìm bí mật từng góc động hoang.
+Ngón tay đào đào đào.
+Đất bay soạt soạt soạt.
 
-I blow dust off my bottle caps.
-It doesn't feel like time elapsed.
-My empty shelf could use some more.
-My friends look through my locked front door.
+Thổi sạch từng nắp chai bám bụi.
+Ngỡ rằng thời gian chẳng hề trôi.
+Kệ chai đã vơi đi nhiều rồi.
+Bạn bè nhìn tôi bên kia cửa.
 
-Finally, all done. I open up, and in come my friends.
-In they come, in such a hurry. Do they want my bottles that much?
-I frantically pull them from the shelf, one after the other.
-Holding them out to each and every friend.
-Each and every bottle.
-But every time I let one go, it shatters against the tile between my feet.
-Happy thoughts, happy thoughts, happy thoughts in shards, all over the floor.
+Cuối cùng việc cũng đã xong rồi. Mở rộng cửa, tôi đón chào bè bạn.
+Họ lũ lượt xông vào như trẩy hội. Họ cần vậy sao, hạnh phúc từ tôi?
+Tôi vội lôi hết chai trên kệ xuống.
+Đưa từng chai cho từng người bạn một
+Toàn bộ hạnh phúc tôi gom góp được.
+Nhưng chúng cứ rơi mỗi lần tay buông.
+Hạnh phúc, hạnh phúc, hạnh phúc vỡ tan trên mặt sàn.
 
-They were supposed to be for my friends, my friends who aren't smiling.
-They're all shouting, pleading. Something.
-But all I hear is echo, echo, echo, echo, echo
-Inside my head."""
+Tôi giữ chúng vì muốn bạn tôi vui. Tôi dành chúng để thấy bạn tôi cười.
+Mang máng đâu đây, họ thiết tha hò gọi.
+Nhưng giờ trong tôi chỉ còn nghe mỗi
+Âm vang, âm vang, âm vang, âm vang, âm vang."""
     )
 
     poem_s3 = Poem(
     author = "sayori",
     title = "%",
     text = """\
-Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of
-Get.
-Out.
-Of.
-My.
-Head.\n\n\n
-Get out of my head before I do what I know is best for you.
-Get out of my head before I listen to everything she said to me.
-Get out of my head before I show you how much I love you.
-Get out of my head before I finish writing this poem.\n\n\n\n\n\n\n
-But a poem is never actually finished.
-It just stops moving."""
+Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà.  Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi nữa mà. Đừng ám tôi
+ĐỪNG.
+CÓ
+ÁM.
+TÔI.
+NỮA.\n\n\n
+Ngưng ám tôi, đừng để vì anh mà tôi phải làm vậy.
+Ngưng ám tôi, đừng để tôi nghe lời cô ta xúi quẩy.
+Ngưng ám tôi, đừng để anh hiểu tôi yêu anh biết mấy.
+Ngưng ám tôi, đừng để tôi viết hết bài thơ này.\n\n\n\n\n\n\n
+Văn thơ chẳng bao giờ trọn vẹn cả.
+Hết là do gục ngã ở đấy thôi."""
     )
 
     poem_m1 = Poem(
     author = "monika",
-    title = "Hole in Wall",
+    title = "Cái Lỗ Trên Tường",
     text = """\
-It couldn't have been me.
-See, the direction the spackle protrudes.
-A noisy neighbor? An angry boyfriend? I'll never know. I wasn't home.
-I peer inside for a clue.
-No! I can't see. I reel, blind, like a film left out in the sun.
-But it's too late. My retinas.
-Already scorched with a permanent copy of the meaningless image.
-It's just a little hole. It wasn't too bright.
-It was too deep.
-Stretching forever into everything.
-A hole of infinite choices.
-I realize now, that I wasn't looking in.
-I was looking out.
-And he, on the other side, was looking in."""
+Có phải tại tôi đâu cơ chứ.
+Sao trên tường kia, một cái lỗ thừ ngự.
+Tại ông hàng xóm ồn ào hay anh bạn trai giận dữ?
+Vắng nhà nên tôi biết đâu cơ sự.
+Muốn tìm hiểu rõ, tôi đưa mắt nhìn thử.
+Không! Chói quá. Người tôi rụt mạnh như tấm phim gặp nắng.
+Nhưng chẳng kịp. Hình ảnh vô nghĩa ấy
+Đã in vào võng mạc tôi chết lặng.
+Cái lỗ xíu xiu chẳng phải gì sáng lắm
+Mà lại thật sâu thẳm và tối tăm.
+Trong ấy là vô hạn những khả năng
+Kéo dài mãi vào không gian bất tận.
+Lúc ấy tôi mới nhận ra rằng, 
+chẳng phải là tôi đang nhìn vào trong.
+Mà là tôi đang nhìn ra sự thật.
+Và từ bên ấy, anh mới đang nhìn vào."""
     )
 
     poem_m21 = Poem(
     author = "monika",
-    title = "Hole in Wall",
+    title = "Cái Lỗ Trên Tường",
     text = """\
-But he wasn't looking at me.
-Confused, I frantically glance at my surroundings.
-But my burned eyes can no longer see color.
-Are there others in this room? Are they talking?
-Or are they simply poems on flat sheets of paper,
-The sound of frantic scrawling playing tricks on my ears?
-The room begins to crinkle.
-Closing in on me.
-The air I breathe dissipates before it reaches my lungs.
-I panic. There must be a way out.
-It's right there. He's right there.
+Nhưng anh chẳng hề chú ý gì tới tôi.
+Ráo riết nhìn quanh, tôi loạn vì bối rối.
+Tôi chẳng thể thấy sắc màu qua mắt chói.
+Có người khác ở đây? Có phải ai vừa nói?
+Hay chỉ là mấy vần thơ trên mặt giấy,
+Cùng tiếng bút viết ngoáy đang lừa dối tai tôi?
+Căn phòng này dần nhàu nát đi rồi.
+Ép vào tôi, đánh tan từng chút không khí chưa tới phổi.
+Tôi hoảng loạn, hẳn phải có đường thoát ở đâu đấy.
+Tìm thấy rồi. Anh ấy ở ngay đây.
 
-Swallowing my fears, I brandish my pen."""
+Nuốt sợ hãi vào lòng, tôi giương cao cây bút."""
     )
 
     poem_m2 = Poem(
     author = "monika",
-    title = "Save Me",
+    title = "Xin Lưu Em Lại",
     text = """\
-The colors, they won't stop.
-Bright, beautiful colors
-Flashing, expanding, piercing
-Red, green, blue
-An endless
-cacophany
-Of meaningless
-noise
+Muôn màu sắc ấy 
+không ngừng chếnh choáng.
+Ngời sáng và tươi đẹp biết bao
+Chói lọi, hung hãn, dào dạt 
+tựa thét gào
+Đỏ, lục cùng lam 
+lao xao chen chúc
+Ngàn tiếng động
+lẫn vào nhau lục đục
+Một hợp âm
+vô nghĩa 
+vọng không dừng
 
 
-The noise, it won't stop.
-Violent, grating waveforms
-Squeaking, screeching, piercing
-Sine, cosine, tangent
-    Like playing a chalkboard on a turntable
-        Like playing a vinyl on a pizza crust
-An endless
-poem
-Of meaningless\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-Load Me
+Hợp âm ấy kêu không ngừng không nghỉ.
+Ầm ĩ như ngàn sóng cuộn trào
+Hò hét, rú rít 
+ồn ào và xôn xao
+Sin, Cos, cùng Tan 
+rơi vào hỗn loạn
+    Chói tai như máy đĩa mài mặt bảng
+        Lạnh người như đĩa nhạc xát bột nhào
+Bài thơ
+Dù vô tận
+Nhưng chẳng mang chút nào ý nghĩa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+Gọi Em Về Đi
     """
     )
 
     poem_m22 = Poem(
     author = "monika",
-    title = "Save Me",
+    title = "Xin Lưu Em Lại",
     text = """\
-The colors, they won't
-Bright, bea t ful c l rs
-Flash ng, exp nd ng, piercing
-Red, green, blue
-An  ndless
-CACOPHANY
-Of meaningless
-noise
+Muôn màu sắc ấy 
+không ngừng 
+Ngời sáng và tư i đẹ iết ao
+Chó lọi, h ng hãn, dào dạt 
+tựa thét gào
+Đỏ, lục cùng lam 
+lao xao chen chúc
+Ngàn tiến độ g
+lẫn vào nhau lục đục
+MỘT HỢP ÂM
+vô nghĩa 
+vọng không dừng
 
 
-The noise, it won't STOP.
-Viol nt, grating w vef rms
-Sq e king, screech ng, piercing
-SINE, COSINE, TANGENT
-    Like play ng a ch lkboard on a t rntable
-        Like playing a KNIFE on a BREATHING RIBCAGE
- n  ndl ss
-p  m
-Of m  n ngl ss\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-Delete Her
+Hợp âm ấy kêu KHÔNG NGỪNG KHÔNG NGHỈ.
+Ầ  ĩ như ngàn só g uộn trào
+ò ét, rú rí  
+ồn ào và xôn xao
+SIN, COS, cùng TAN 
+rơi vào hỗn loạn
+    Chói  ai như áy đĩa  ài mặt  ảng
+       Lạnh người như DAO ĐÂM NGỰC THỞ RỘN RÀNG
+ ài t ơ
+ ù  ô  ận
+Nhưng   ẳng man   hút nào ý   hĩa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+Xóa Cô Ta Đi
     """
     )
 
     poem_m3 = Poem(
     author = "monika",
-    title = "The Lady who Knows Everything",
+    title = "Quý Cô Biết Mọi Điều",
     text = """\
-An old tale tells of a lady who wanders Earth.
-The Lady who Knows Everything.
-A beautiful lady who has found every answer,
-All meaning,
-All purpose,
-And all that was ever sought.
+Chuyện xưa có kể về một người lữ hiệp
+Mang cái tên Quý Cô Biết Mọi Điều.
+Một mĩ nữ đã thấu tường mọi chuyện,
+Mọi nghĩa lý,
+Mọi mục tiêu,
+Và mọi thứ bao nhiêu người tìm kiếm.
 
-And here I am,
-
-
-              a feather
+Còn tôi đây,
 
 
-Lost adrift the sky, victim of the currents of the wind.
+              một lông vũ nhỏ nhoi.
 
-Day after day, I search.
-I search with little hope, knowing legends don't exist.
-But when all else has failed me,
-When all others have turned away,
-The legend is all that remains - the last dim star glimmering in the twilit sky.
 
-Until one day, the wind ceases to blow.
-I fall.
-And I fall and fall, and fall even more.
-Gentle as a feather.
-A dry quill, expressionless.
+Theo gió mà trôi, thân lạc lối giữa trời xanh biếc.
 
-But a hand catches me between the thumb and forefinger.
-The hand of a beautiful lady.
-I look at her eyes and find no end to her gaze.
+Ngày qua ngày, vẫn ráo riết đi tìm.
+Dù chút hi vọng còn le lói trong tim, tâm vẫn hiểu đó chỉ là truyền thuyết.
+Nhưng khi mọi thứ đã chìm vào lặng im,
+Mọi người đều đã quay đầu ly biệt,
+Thì truyền thuyết ấy vẫn một mình bất diệt - như ánh sao đơn côi rên xiết dưới ánh bình minh thanh khiết vô ngần.
 
-The Lady who Knows Everything knows what I am thinking.
-Before I can speak, she responds in a hollow voice.
-"I have found every answer, all of which amount to nothing.
-There is no meaning.
-There is no purpose.
-And we seek only the impossible.
-I am not your legend.
-Your legend does not exist."
+Đến một ngày, tới gió rồi cũng tắt.
+Tôi rơi.
+Rơi hoài rơi mãi, rơi không ngừng lại.
+Nhẹ nhàng và im lặng.
+Lông vũ cảm xúc cứ mãi khô héo dần.
 
-And with a breath, she blows me back afloat, and I pick up a gust of wind."""
+Bất chợt có ai đưa tay giữ tôi lại.
+Cánh tay mĩ nữ với những ngón búp măng.
+Đôi mắt cô tựa đại dương sâu thẳm, và ánh nhìn cô muôn dặm xa xăm.
+
+Tôi nghĩ gì, Quý Cô Biết Mọi Điều đều biết.
+Nhưng tôi chưa kịp lên tiếng, cô đã cất giọng trống rỗng và mỏi mệt.
+"Dù ta đã thấu tường mọi chuyện, nhưng cũng chẳng ích lợi gì hết.
+Chẳng hề có những nghĩa lý minh triết.
+Chẳng tồn tại những mục tiêu cao đẹp.
+Chúng ta chỉ phí công tìm kiếm những điều không thể.
+Ta đơn giản chỉ là câu chuyện kể.
+Chẳng hề có đâu, truyền thuyết ngươi mong chờ."
+
+Rồi cô lấy hơi thổi, và tôi vút lên đón một làn gió mới."""
     )
 
     poem_m4 = Poem(
     author = "monika",
-    title = "Happy End",
+    title = "Kết Thúc Có Hậu",
     text = """\
-Pen in hand, I find my strength.
-The courage endowed upon me by my one and only love.
-Together, let us dismantle this crumbling world
-And write a novel of our own fantasies.
+Bút trên tay, thêm kiên cường lý trí.
+Lửa chân tình cháy mãi không ngừng nghỉ, 
+thắp lên trong tim dũng khí ngút ngàn.
+Cùng xóa đi thế giới sắp nát tan
+Rồi viết nên ngàn giấc mơ tuyệt mỹ.
 
-With a flick of her pen, the lost finds her way.
-In a world of infinite choices, behold this special day.
+Nét bút dẫn kẻ lạc lối quay về
+Để chiêm ngưỡng một ngày vui đặc biệt.
+Dẫu định mệnh có muôn vàn ngã rẽ
 
-After all,
-Not all good times must come to an end."""
+Cũng chẳng thể
+Chấm dứt hạnh phúc này."""
     )
 
 image paper = "images/bg/poem.jpg"
