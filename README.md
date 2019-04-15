@@ -10,7 +10,7 @@
 ![Screenshot](https://i.imgur.com/BKg4kM5.jpg)
 
 ## Bug chưa thể sửa
-- Ở arc 2, sau đoạn zoom vào 2 lựa chọn Natsuki và Yuri, save game sẽ bị lỗi cho đến hết arc 2.
+- Ở arc 2, sau đoạn zoom vào 2 lựa chọn Natsuki và Yuri, sẽ bị lỗi không thể lưu game cho đến hết arc 2.
 - Có thể là có nữa nhưng chưa tìm ra
 
 ## Lỗi engine (không phải do bản port)
